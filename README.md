@@ -28,7 +28,7 @@ Producto: GigMap
 <br><br>
 <strong>Integrantes</strong>  
 <br><br>
-Bejarano Martinez, Alvaro Leandro (u2023)
+Bejarano Martinez, Alvaro Leandro (u202311640)
 <br><br>
 Collantes Carrillo, Diego Mateo (u202311823)
 <br><br>
