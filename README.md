@@ -3552,6 +3552,18 @@ A lo largo de las diferentes etapas de su experiencia, se examinan las acciones 
 
 ## 3.4. Impact Mapping
 
+**Fans de la Música:**
+
+<p align="center">
+<img src="assets/images/impact_mapping/Impact-Mapping-Fan.png" alt="impact mapping fan" style="width: 700px">
+</p>
+
+**Artistas emergentes y bandas independientes:**
+
+<p align="center">
+<img src="assets/images/impact_mapping/Impact-Mapping-Artista.png" alt="impact mapping Artista" style="width: 700px">
+</p>
+
 # CAPÍTULO IV: Product Design
 
 El product design es el proceso mediante el cual se define la apariencia, estructura y funcionamiento del producto. En esta etapa se busca crear una solución que combine una buena experiencia de usuario con una implementación técnica eficiente. Su propósito es asegurar que el diseño cumpla con los objetivos del proyecto, facilitando la interacción entre el usuario y la aplicación de manera clara, funcional y atractiva.
