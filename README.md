@@ -3664,10 +3664,49 @@ El diagrama de contenedores detalla los elementos internos de GigMap. La aplicac
 
 ### 4.9.1. Class Diagrams
 
-### 4.9.2. Class Dictionary
+**Registro y Autenticación:**
+
+![team member profile photo](assets/images/c4/C4-Clase-RegistroAuth.png)
+
+**Notificaciones:**
+
+![team member profile photo](assets/images/c4/C4-Clase-Notificaciones.png)
+
+**Eventos Relacionados:**
+
+![team member profile photo](assets/images/c4/C4-Clase-RelatedEvents.png)
+
+**Comunidades:**
+
+![team member profile photo](assets/images/c4/C4-Clase-Comunidades.png)
+
+**Conciertos:**
+
+![team member profile photo](assets/images/c4/C4-Clase-Concerts.png)
+
+
 
 ## 4.10. Database Design
 
+**Registro y Autenticación:**
+
+![team member profile photo](assets/images/c4/ERD-RegistroAuth.png)
+
+**Notificaciones:**
+
+![team member profile photo](assets/images/c4/ERD-Notificaciones.png)
+
+**Eventos Relacionados:**
+
+![team member profile photo](assets/images/c4/ERD-RelatedEvents.png)
+
+**Comunidades:**
+
+![team member profile photo](assets/images/c4/ERD-Comunidades.png)
+
+**Conciertos:**
+
+![team member profile photo](assets/images/c4/ERD-Conciertos.png)
 ### 4.10.1. Relational/Non-Relational Database Diagram
 
 # CAPÍTULO V: Product Implementation
