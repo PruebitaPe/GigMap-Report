@@ -950,19 +950,7 @@ Finalmente, destacó que una herramienta como GigMap podría ayudar a superar la
 
 **Resumen:**
 
-El entrevistado, Diego Zúñiga, es un artista emergente de 20 años que vive en el distrito de Comas. Su nombre artístico es Dekay, y su propuesta musical combina elementos de indie pop y rock alternativo. Tiene aproximadamente 5 años de experiencia, en los que ha compuesto música y se ha presentado en vivo.
-
-Promociona sus lanzamientos y conciertos principalmente mediante redes sociales como Instagram y TikTok, donde dice que se encuentra la mayor parte de su público. Además, sube su música a Spotify y YouTube. Si bien realiza toda la gestión de forma independiente, ocasionalmente cuenta con el apoyo de amigos para diseño y difusión. Aún no cuenta con un mánager.
-
-Comenta que la difusión local es difícil, ya que la información suele quedarse en su círculo más cercano. Ha utilizado herramientas como Facebook Events y Eventbrite, pero opina que no son efectivas para conectar con personas interesadas en descubrir música nueva. Considera que las aplicaciones actuales están saturadas y que es muy difícil destacar entre tanto contenido, especialmente para artistas emergentes.
-
-La propuesta de GigMap le pareció muy interesante, particularmente la idea de que los usuarios puedan encontrar eventos musicales en un mapa interactivo local. Considera que esto facilitaría mucho la visibilidad de los conciertos sin tener que depender de múltiples aplicaciones.
-
-Le interesaría poder crear un perfil artístico dentro de la app, así como gestionar fechas de conciertos y publicar eventos. Además, valoraría mucho tener estadísticas sobre asistentes, una posible integración con Spotify, e incluso información sobre la cantidad de oyentes interesados en su estilo musical. Como aspectos de personalización, mencionó que le gustaría poder editar su perfil con fotos, logo, biografía, enlaces a redes y playlists propias.
-
-Diego cree que GigMap le permitiría ampliar y consolidar su audiencia, especialmente fuera de su red actual. También considera que sería un excelente canal para crear comunidad, compartir contenido exclusivo y mantener el vínculo con sus seguidores a través de notificaciones y recordatorios de conciertos.
-
-Finalmente, recomendaría una aplicación como GigMap a otros artistas emergentes, ya que considera necesario tener un espacio centrado en la música independiente y en vivo, y no perder visibilidad en redes sociales donde el contenido musical suele pasar desapercibido.
+Leo Nova es un artista independiente de indie pop con influencias electrónicas que gestiona su carrera por su cuenta y promociona sus eventos principalmente en Instagram, TikTok y Spotify. Aunque estas plataformas le ayudan, considera que existe una gran dificultad para lograr visibilidad local y conectar con el público adecuado, ya que las herramientas actuales no están pensadas para artistas emergentes. Frente a esto, valora muy positivamente la idea de GigMap, ya que un mapa de eventos musicales permitiría descubrir conciertos cercanos, mejorar su exposición y facilitar la conexión con nuevas audiencias; además, destaca como clave contar con perfiles personalizables, notificaciones a usuarios cercanos, estadísticas y herramientas de interacción con seguidores, viendo la app como una solución útil para crecer sin grandes presupuestos.
 
 #### Entrevista #3
 
@@ -972,7 +960,7 @@ Finalmente, recomendaría una aplicación como GigMap a otros artistas emergente
 - **Inicio de entrevista:** 00:00:08
 
 <p align="center">
-	![team member profile photo](assets/images/interviews/artist3.jpeg)
+	 <img src="assets/images/interviews/artist3.png" alt="artist3" width="700">
 </p>
 
 **Resumen:*En la entrevista, Diego Santos, conocido como Le Saint, artista independiente peruano con 10 años de trayectoria, comparte los desafíos que enfrenta para promocionar su propuesta musical de nicho, que fusiona reggae y reggaetón con instrumentos peruanos y requiere un público con gusto exquisito. Se muestra insatisfecho con las plataformas actuales, ya que no brindan las herramientas necesarias para un crecimiento real de artistas emergentes. Por ello, expresa gran entusiasmo por GigMap, a la que considera una solución disruptiva al integrar un mapa musical local. Propone funcionalidades como la gestión eficiente de perfiles y fechas de conciertos, análisis estratégicos de datos sobre satisfacción del público y retorno de inversión para elegir ciudades viables, y una experiencia personalizada que permita a los seguidores pedir comida y servicios directamente desde la app durante los shows. Finalmente, Le Saint afirma que recomendaría la plataforma a otros músicos y valora la creación de una comunidad para interactuar de forma cercana con sus seguidores.*
