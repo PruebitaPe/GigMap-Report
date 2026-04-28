@@ -2682,6 +2682,18 @@ La capacidad de reconocer responsabilidades éticas y profesionales en situacion
 
 ## 3.4. Impact Mapping
 
+**Fans de la Música:**
+
+<p align="center">
+<img src="assets/images/impact_mapping/Impact-Mapping-Fan.png" alt="impact mapping fan" style="width: 700px">
+</p>
+
+**Artistas emergentes y bandas independientes:**
+
+<p align="center">
+<img src="assets/images/impact_mapping/Impact-Mapping-Artista.png" alt="impact mapping Artista" style="width: 700px">
+</p>
+
 # CAPÍTULO IV: Product Design
 
 ## 4.1. Style Guidelines
