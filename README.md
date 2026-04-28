@@ -914,7 +914,7 @@ Sus géneros musicales favoritos incluyen salsa, reguetón y K-pop, y muestra mu
 Afirma que una aplicación como GigMap le parecería sumamente útil, ya que facilitaría el descubrimiento de eventos sin tener que buscarlos manualmente en diversas redes. Está especialmente interesada en funcionalidades como mapa de eventos cercanos, notificaciones de próximos conciertos, filtros por género musical y alertas sobre fechas próximas según ubicación. Además, valoraría mucho una función que le permita compartir eventos con sus amigos dentro de la misma app para poder asistir acompañada.
 
 
-URL del vídeo de las Entrevistas de segmento objetivo #1 publicado en OneDrive: `https://upcedupe-my.sharepoint.com/:v:/g/personal/u202310358_upc_edu_pe/IQBvnjbC5qzIT5-5ywJQZEy-AeuNDp_LmMA3_PNbVtGuneo?e=gYmKpf`
+URL del vídeo de las Entrevistas de segmento objetivo #2 publicado en OneDrive: `https://upcedupe-my.sharepoint.com/:v:/g/personal/u202310358_upc_edu_pe/IQBvnjbC5qzIT5-5ywJQZEy-AeuNDp_LmMA3_PNbVtGuneo?e=gYmKpf`
 
 ### Segmento objetivo #2: Artistas emergentes y bandas independientes
 
