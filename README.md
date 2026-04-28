@@ -201,7 +201,7 @@ URL de repositorio del reporte del proyecto: `https://github.com/PruebitaPe/GigM
   - [2.4. Ubiquitous Language](#24-ubiquitous-language)
 - [Capítulo III: Requirements Specification](#capítulo-iii-requirements-specification)
   - [3.1. To-Be Scenario Mapping](#31-to-be-scenario-mapping)
-  - [3.2. ](#32-user-stories)
+  - [3.2. User Stories](#32-user-stories)
   - [3.3. Product Backlog](#33-product-backlog)
   - [3.4. Impact Mapping](#34-impact-mapping)
 - [Capítulo IV: Product Design](#capítulo-iv-product-design)
