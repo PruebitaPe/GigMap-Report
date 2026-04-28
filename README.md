@@ -3555,13 +3555,13 @@ A lo largo de las diferentes etapas de su experiencia, se examinan las acciones 
 **Fans de la Música:**
 
 <p align="center">
-<img src="assets/images/impact_mapping/Impact-Mapping-Fan.png" alt="impact mapping fan" style="width: 700px">
+<img src="assets/impact_mapping/Impact-Mapping-Fan.png" alt="impact mapping fan" style="width: 700px">
 </p>
 
 **Artistas emergentes y bandas independientes:**
 
 <p align="center">
-<img src="assets/images/impact_mapping/Impact-Mapping-Artista.png" alt="impact mapping Artista" style="width: 700px">
+<img src="assets/impact_mapping/Impact-Mapping-Artista.png" alt="impact mapping Artista" style="width: 700px">
 </p>
 
 # CAPÍTULO IV: Product Design
