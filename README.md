@@ -3162,6 +3162,57 @@ Pasos para desplegar el backend en Render
 
 ### 5.2.4. Acuerdo de Servicio - SaaS
 
+**1. Aceptación de los términos**
+
+Al descargar, instalar o utilizar la aplicación móvil, el usuario declara haber leído, entendido y aceptado estos términos y condiciones en su totalidad. En caso de no estar de acuerdo, deberá abstenerse de utilizar la aplicación y proceder a su desinstalación.
+
+**2. Uso del servicio**
+
+El usuario se compromete a utilizar la aplicación exclusivamente para fines personales e informativos relacionados con la consulta de conciertos en Lima Metropolitana. Queda prohibido:
+- Utilizar la aplicación con fines ilícitos o fraudulentos
+- Interferir con el funcionamiento normal de la aplicación
+- Intentar acceder a información o funcionalidades no autorizadas
+
+**3. Registro y veracidad de la información**
+
+En caso de que la aplicación requiera registro, el usuario se obliga a proporcionar información veraz, completa y actualizada. El usuario es responsable de la confidencialidad de sus credenciales y de todas las actividades realizadas desde su cuenta.
+
+**4. Uso de la ubicación**
+
+La aplicación podrá solicitar acceso a la ubicación del dispositivo móvil del usuario para ofrecer recomendaciones de conciertos cercanos dentro de Lima Metropolitana.
+El usuario otorga su consentimiento expreso para dicho acceso y podrá revocarlo en cualquier momento desde la configuración del dispositivo. La desactivación de la ubicación puede afectar la funcionalidad del servicio.
+
+**5. Tratamiento de datos personales**
+
+El tratamiento de los datos personales se realiza conforme a la Ley N.º 29733 – Ley de Protección de Datos Personales y su reglamento en el Perú. Los datos recopilados serán utilizados únicamente para:
+- Personalizar la experiencia del usuario
+- Mejorar el servicio ofrecido
+- Gestionar el acceso y uso de la aplicación
+El usuario puede ejercer sus derechos de acceso, rectificación, cancelación y oposición (ARCO) conforme a la normativa vigente.
+
+**6. Disponibilidad del servicio**
+
+La aplicación se proporciona “tal cual” y “según disponibilidad”. No se garantiza que el servicio funcione de manera ininterrumpida o libre de errores. La empresa podrá realizar actualizaciones, mantenimientos o modificaciones sin previo aviso.
+
+**7. Propiedad intelectual**
+
+Todos los elementos de la aplicación, incluyendo diseño, código, logotipos y contenido, son propiedad de sus titulares y están protegidos por la legislación peruana sobre propiedad intelectual. Queda prohibida su reproducción o uso no autorizado.
+
+**8. Limitación de responsabilidad**
+
+La aplicación actúa únicamente como un medio informativo sobre conciertos en Lima Metropolitana. No se responsabiliza por:
+- Cambios de fecha, lugar o cancelaciones de eventos
+- Disponibilidad o venta de entradas
+- Información proporcionada por terceros
+
+**9. Modificaciones de los términos**
+
+La empresa se reserva el derecho de modificar estos términos en cualquier momento. Las actualizaciones serán notificadas dentro de la aplicación o mediante otros medios disponibles.
+
+**10. Legislación aplicable y jurisdicción**
+
+Los presentes términos se rigen por las leyes de la República del Perú. Cualquier controversia será sometida a la jurisdicción de los tribunales competentes de Lima Metropolitana.
+
 ### 5.2.5. Implemented Native-Mobile Application Evidence
 
 ### 5.2.6. Implemented RESTful API and/or Serverless Backend Evidence
