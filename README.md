@@ -3175,9 +3175,8 @@ Para el caso del Landing Page, se hizo el deployment a través de GitHub Pages, 
 <p align="center">
   <img src="assets/images/landing-page/landing5.png" alt="landingpage5" width="700">
 </p>
-### 5.2.3. Implemented Frontend-Web Application Evidence
 
-### 5.2.4. Acuerdo de Servicio - SaaS
+### 5.2.3. Acuerdo de Servicio - SaaS
 
 **1. Aceptación de los términos**
 
@@ -3230,12 +3229,16 @@ La empresa se reserva el derecho de modificar estos términos en cualquier momen
 
 Los presentes términos se rigen por las leyes de la República del Perú. Cualquier controversia será sometida a la jurisdicción de los tribunales competentes de Lima Metropolitana.
 
-### 5.2.5. Implemented Native-Mobile Application Evidence
+### 5.2.4. Implemented Native-Mobile Application Evidence
 
-### 5.2.6. Implemented RESTful API and/or Serverless Backend Evidence
+### 5.2.5. Implemented RESTful API and/or Serverless Backend Evidence
 
-### 5.2.7. RESTful API documentation
+<p align="center">
+  <img src="assets/images/restful-api/restful-api.png" alt="restfulapi" width="700">
+</p>
 
-### 5.2.8. Team Collaboration Insights
+### 5.2.6. RESTful API documentation
+
+### 5.2.7. Team Collaboration Insights
 
 ## 5.3. Video About-the-Product
