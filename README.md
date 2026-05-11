@@ -4864,6 +4864,13 @@ Los presentes términos se rigen por las leyes de la República del Perú. Cualq
 ## 6.1.2. Core Integration Tests. ### TODOS (DaDevel)
 ## 6.1.3. Core Behavior-Driven Development ### Min 10 (Añaña)
 
+# CAPITULO VII: DevOps Practices
+
+## 7.1. Continuous Integration
+## 7.2. Continuous Delivery
+## 7.3. Continuous deployment
+
+
 # Conclusiones 
 
 El desarrollo del proyecto GigMap permitió evidenciar una problemática real en la forma en que los usuarios acceden a conciertos en vivo, especialmente aquellos de menor escala. Se identificó que la falta de información centralizada y en tiempo real limita el descubrimiento de eventos y reduce la participación del público. Esto demuestra la necesidad de soluciones tecnológicas enfocadas en la inmediatez y personalización.
