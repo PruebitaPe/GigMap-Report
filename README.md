@@ -4868,7 +4868,7 @@ Los presentes términos se rigen por las leyes de la República del Perú. Cualq
 
 ## 7.1. Continuous Integration
 
-## 7.1 Tools and Practices
+### 7.1.1 Tools and Practices
 
 En el ámbito del desarrollo y pruebas de software, es importante contar con herramientas y prácticas que permitan asegurar la calidad del producto, validar el correcto funcionamiento de las funcionalidades y mantener un proceso de desarrollo más ordenado. En nuestro proyecto, se emplean herramientas orientadas a pruebas unitarias, pruebas de integración, pruebas de interfaz y validación del comportamiento esperado de la aplicación.
 
@@ -4880,6 +4880,16 @@ Además, se consideran prácticas como el Desarrollo Orientado por Pruebas (TDD)
 | Mockito | Herramienta de simulación para pruebas (TDD) | Permite crear objetos simulados o mocks para reemplazar dependencias reales durante las pruebas. | Ayuda a probar servicios o componentes sin depender de bases de datos, APIs externas u otros módulos reales. |
 | Selenium | Herramienta para pruebas funcionales y end-to-end | Permite automatizar acciones del usuario en una interfaz, como hacer clic, escribir texto, navegar entre pantallas o validar resultados visibles. | Sirve para comprobar que los flujos principales de la aplicación funcionen correctamente desde la perspectiva del usuario. |
 | Jetpack Compose UI Testing | Herramienta para pruebas de interfaz en Android | Es una herramienta de pruebas para aplicaciones Android desarrolladas con Jetpack Compose. Permite buscar elementos de la interfaz, verificar textos y simular acciones del usuario. | Permite validar que las pantallas, botones, formularios y navegación de la aplicación funcionen correctamente. |
+
+### 7.1.2. Build & Test Suite Pipeline Components
+
+<p align="center">
+  <img src="assets/images/restful-api/ss1.png" alt="img1" width="700">
+</p>
+
+<p align="center">
+  <img src="assets/images/restful-api/ss2.png" alt="img2" width="700">
+</p>
 
 ## 7.2. Continuous Delivery
 ## 7.3. Continuous deployment
