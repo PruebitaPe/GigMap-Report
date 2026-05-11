@@ -4845,7 +4845,106 @@ Los presentes términos se rigen por las leyes de la República del Perú. Cualq
 
 ## 6.1.3. Core Behavior-Driven Development
 
-# Conclusiones
+# CAPITULO VII: DevOps Practices
+
+## 7.1. Continuous Integration
+
+### 7.1.1 Tools and Practices
+
+En el ámbito del desarrollo y pruebas de software, es importante contar con herramientas y prácticas que permitan asegurar la calidad del producto, validar el correcto funcionamiento de las funcionalidades y mantener un proceso de desarrollo más ordenado. En nuestro proyecto, se emplean herramientas orientadas a pruebas unitarias, pruebas de integración, pruebas de interfaz y validación del comportamiento esperado de la aplicación.
+
+Además, se consideran prácticas como el Desarrollo Orientado por Pruebas (TDD) y el Desarrollo Orientado por Comportamiento (BDD), ya que ayudan a comprobar que las funcionalidades cumplan con los requerimientos del usuario y que los componentes del sistema funcionen correctamente antes de ser integrados completamente.
+
+| Herramienta | Tipo | Descripción | Propósito |
+|---|---|---|---|
+| JUnit | Herramienta para pruebas unitarias (TDD) | Es un framework de pruebas para Java y Kotlin que permite validar el comportamiento de métodos, clases y componentes de forma aislada. | Permite comprobar que la lógica principal de la aplicación funcione correctamente mediante pruebas automatizadas. |
+| Mockito | Herramienta de simulación para pruebas (TDD) | Permite crear objetos simulados o mocks para reemplazar dependencias reales durante las pruebas. | Ayuda a probar servicios o componentes sin depender de bases de datos, APIs externas u otros módulos reales. |
+| Selenium | Herramienta para pruebas funcionales y end-to-end | Permite automatizar acciones del usuario en una interfaz, como hacer clic, escribir texto, navegar entre pantallas o validar resultados visibles. | Sirve para comprobar que los flujos principales de la aplicación funcionen correctamente desde la perspectiva del usuario. |
+| Jetpack Compose UI Testing | Herramienta para pruebas de interfaz en Android | Es una herramienta de pruebas para aplicaciones Android desarrolladas con Jetpack Compose. Permite buscar elementos de la interfaz, verificar textos y simular acciones del usuario. | Permite validar que las pantallas, botones, formularios y navegación de la aplicación funcionen correctamente. |
+
+### 7.1.2. Build & Test Suite Pipeline Components
+
+<p align="center">
+  <img src="assets/images/restful-api/ss1.png" alt="img1" width="700">
+</p>
+
+<p align="center">
+  <img src="assets/images/restful-api/ss2.png" alt="img2" width="700">
+</p>
+
+## 7.2. Continuous Delivery
+
+## 7.3. Continuous Deployment
+
+El objetivo del Continuous Deployment en GigMap es automatizar el flujo de entrega de software, de modo que cada cambio validado en el repositorio se propague a los entornos de producción de forma confiable y sin intervención manual.
+
+### 7.3.1. Tools and Practices
+
+### Herramientas
+
+| Herramienta | Uso en GigMap |
+|---|---|
+| **GitHub** | Aloja los repositorios del proyecto y actúa como punto de activación para los despliegues automáticos. Además, mediante GitHub Pages se despliega la Landing Page del proyecto. |
+| **Render** | Plataforma de despliegue para el backend (Spring Boot). Detecta cambios en el repositorio y ejecuta el build y despliegue de forma automática. |
+| **Supabase** | Servicio en la nube utilizado para alojar y gestionar la base de datos del proyecto, proporcionando acceso remoto, backups y panel de administración. |
+| **Firebase** | Se utiliza Firebase Cloud Messaging para la gestión de notificaciones push en la aplicación móvil. |
+| **Docker** | Se utiliza un `Dockerfile` para empaquetar el backend con todas sus dependencias, garantizando que el entorno de ejecución en Render sea idéntico al de desarrollo. |
+| **Android Studio** | Herramienta de compilación y distribución de la aplicación móvil desarrollada con Jetpack Compose. La instalación se realiza directamente en dispositivos Android mediante conexión USB. |
+| **Postman** | Permite validar los endpoints de la API REST tras cada despliegue, verificando que las respuestas del servidor sean correctas. |
+
+### Prácticas
+
+- **Feature Branching:** Cada nueva funcionalidad se desarrolla en una rama independiente. Una vez completada y revisada, se fusiona a la rama principal mediante Pull Request, lo que activa el pipeline de despliegue.
+
+- **Despliegue activado por commit:** Render y GitHub Pages están configurados para detectar automáticamente cada nuevo commit en la rama principal del repositorio. Al recibir un cambio, inician el proceso de build y despliegue sin necesidad de acción manual por parte del equipo.
+
+- **Rollback manual asistido:** En caso de detectar un fallo en producción, Render permite revertir rápidamente al último despliegue exitoso desde su panel de control, minimizando el tiempo de inactividad del servicio.
+
+### 7.3.2. Production Deployment Pipeline Components
+
+### Pipeline de la Base de Datos (Supabase)
+
+- **Provisión del servicio:** La base de datos se encuentra alojada en Supabase y es accesible de forma remota por el backend a través de la cadena de conexión configurada en las variables de entorno.
+
+- **Migraciones gestionadas por Spring Boot:** Al desplegar una nueva versión del backend, Spring Boot aplica automáticamente las migraciones pendientes sobre el esquema de la base de datos, manteniendo la estructura sincronizada con el modelo de datos definido en el código.
+
+- **Backups y recuperación:** Supabase genera copias de seguridad periódicas de la base de datos, permitiendo restaurar el estado anterior en caso de que una migración o cambio genere inconsistencias.
+
+- **Monitoreo del estado:** Desde el panel de Supabase se pueden supervisar métricas de uso, conexiones activas y rendimiento de consultas, lo que facilita la detección temprana de problemas.
+
+### Pipeline del Backend — Spring Boot (Render)
+
+- **Detección del cambio:** Render detecta un nuevo commit en la rama principal del repositorio del backend en GitHub.
+
+- **Construcción de la imagen Docker:** A partir del `Dockerfile` configurado en el repositorio, Render construye la imagen del backend incluyendo todas las dependencias necesarias.
+
+- **Inyección de variables de entorno:** Render aplica las variables de entorno configuradas en el servicio (`DB_URL`, `PORT`, claves de Firebase, etc.) antes de iniciar la aplicación.
+
+- **Despliegue en producción:** La nueva versión del backend se despliega automáticamente y queda accesible en la URL pública asignada por Render.
+
+- **Monitoreo post-despliegue:** Render supervisa el estado del servicio tras el despliegue. Si la aplicación no responde correctamente o presenta errores de inicio, se notifica al equipo y se puede revertir al deploy anterior.
+
+### Pipeline de la Landing Page (GitHub Pages)
+
+- **Detección del cambio:** Al realizar un push en la rama configurada para GitHub Pages, el servicio detecta los cambios automáticamente.
+
+- **Compilación y publicación:** GitHub Pages genera y publica los archivos estáticos de la Landing Page, haciéndolos disponibles en la URL del proyecto.
+
+- **Distribución global:** El contenido se sirve a través de la CDN de GitHub, asegurando tiempos de carga rápidos para los usuarios.
+
+- **Verificación:** El equipo accede a la URL generada para confirmar que la Landing Page se visualiza y funciona correctamente.
+
+### Pipeline de la Aplicación Móvil (Android Studio)
+
+- **Verificación de dependencias:** Se confirma que el backend esté desplegado y accesible desde una URL externa, que las rutas de la API estén correctamente configuradas en el proyecto móvil, y que Firebase esté integrado para el servicio de notificaciones push.
+
+- **Compilación del proyecto:** Desde Android Studio se compila el proyecto desarrollado con Jetpack Compose, generando el APK de la aplicación.
+
+- **Instalación en dispositivo:** Se conecta un dispositivo Android con el modo desarrollador y depuración USB habilitados, y se ejecuta la instalación directamente desde Android Studio.
+
+- **Validación funcional:** Se abre la aplicación en el dispositivo y se verifica que las funcionalidades principales operen correctamente, incluyendo la comunicación con el backend en Render y la recepción de notificaciones a través de Firebase.
+
+# Conclusiones 
 
 El desarrollo del proyecto GigMap permitió evidenciar una problemática real en la forma en que los usuarios acceden a conciertos en vivo, especialmente aquellos de menor escala. Se identificó que la falta de información centralizada y en tiempo real limita el descubrimiento de eventos y reduce la participación del público. Esto demuestra la necesidad de soluciones tecnológicas enfocadas en la inmediatez y personalización.
 Mediante el uso del enfoque Lean UX y el análisis de entrevistas, se logró validar las principales necesidades tanto de los fans como de los artistas emergentes. Ambos segmentos coinciden en la dificultad de difusión y acceso a eventos, lo que respalda la propuesta de valor de GigMap. Este proceso permitió tomar decisiones más informadas y centradas en el usuario.
