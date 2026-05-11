@@ -4855,6 +4855,15 @@ Los presentes términos se rigen por las leyes de la República del Perú. Cualq
 | **URL Youtube:**<br>  `https://youtu.be/4ypL066T7xk`  |
 | **Descripción:**<br>En el video se presenta una demostración del producto dirigida a los visitantes de nuestra landing page, donde se explican las principales funcionalidades de Gigmap. |
 
+
+
+# CAPITULO VI: Product Verification & Validation
+
+## 6.1 Testing suites & validation
+## 6.1.1. Core Entities Unit Tests. ### Min 4 (Lore)
+## 6.1.2. Core Integration Tests. ### TODOS (DaDevel)
+## 6.1.3. Core Behavior-Driven Development ### Min 10 (Añaña)
+
 # Conclusiones 
 
 El desarrollo del proyecto GigMap permitió evidenciar una problemática real en la forma en que los usuarios acceden a conciertos en vivo, especialmente aquellos de menor escala. Se identificó que la falta de información centralizada y en tiempo real limita el descubrimiento de eventos y reduce la participación del público. Esto demuestra la necesidad de soluciones tecnológicas enfocadas en la inmediatez y personalización.
