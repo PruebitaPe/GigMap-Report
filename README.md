@@ -4860,13 +4860,27 @@ Los presentes términos se rigen por las leyes de la República del Perú. Cualq
 # CAPITULO VI: Product Verification & Validation
 
 ## 6.1 Testing suites & validation
-## 6.1.1. Core Entities Unit Tests. ### Min 4 (Lore)
-## 6.1.2. Core Integration Tests. ### TODOS (DaDevel)
-## 6.1.3. Core Behavior-Driven Development ### Min 10 (Añaña)
+## 6.1.1. Core Entities Unit Tests.
+## 6.1.2. Core Integration Tests.
+## 6.1.3. Core Behavior-Driven Development
 
 # CAPITULO VII: DevOps Practices
 
 ## 7.1. Continuous Integration
+
+## 7.1 Tools and Practices
+
+En el ámbito del desarrollo y pruebas de software, es importante contar con herramientas y prácticas que permitan asegurar la calidad del producto, validar el correcto funcionamiento de las funcionalidades y mantener un proceso de desarrollo más ordenado. En nuestro proyecto, se emplean herramientas orientadas a pruebas unitarias, pruebas de integración, pruebas de interfaz y validación del comportamiento esperado de la aplicación.
+
+Además, se consideran prácticas como el Desarrollo Orientado por Pruebas (TDD) y el Desarrollo Orientado por Comportamiento (BDD), ya que ayudan a comprobar que las funcionalidades cumplan con los requerimientos del usuario y que los componentes del sistema funcionen correctamente antes de ser integrados completamente.
+
+| Herramienta | Tipo | Descripción | Propósito |
+|---|---|---|---|
+| JUnit | Herramienta para pruebas unitarias (TDD) | Es un framework de pruebas para Java y Kotlin que permite validar el comportamiento de métodos, clases y componentes de forma aislada. | Permite comprobar que la lógica principal de la aplicación funcione correctamente mediante pruebas automatizadas. |
+| Mockito | Herramienta de simulación para pruebas (TDD) | Permite crear objetos simulados o mocks para reemplazar dependencias reales durante las pruebas. | Ayuda a probar servicios o componentes sin depender de bases de datos, APIs externas u otros módulos reales. |
+| Selenium | Herramienta para pruebas funcionales y end-to-end | Permite automatizar acciones del usuario en una interfaz, como hacer clic, escribir texto, navegar entre pantallas o validar resultados visibles. | Sirve para comprobar que los flujos principales de la aplicación funcionen correctamente desde la perspectiva del usuario. |
+| Jetpack Compose UI Testing | Herramienta para pruebas de interfaz en Android | Es una herramienta de pruebas para aplicaciones Android desarrolladas con Jetpack Compose. Permite buscar elementos de la interfaz, verificar textos y simular acciones del usuario. | Permite validar que las pantallas, botones, formularios y navegación de la aplicación funcionen correctamente. |
+
 ## 7.2. Continuous Delivery
 ## 7.3. Continuous deployment
 
