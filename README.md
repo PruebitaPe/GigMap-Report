@@ -42,6 +42,7 @@ Zegarra Lopez, Renato Sebastian Rubber (u202311558)
 <br>
 
 **Abril, 2026**
+
 </h3>
 </div>
 
@@ -164,14 +165,17 @@ Zegarra Lopez, Renato Sebastian Rubber (u202311558)
 </div>
 
 ## Project Report Collaboration Insights
+
 URL de repositorio del reporte del proyecto: `https://github.com/StayBitsV2/GigMap-Report.git`
 
 **TB1 (26/04/2026):**
+
 <p align="center">
   <img src="assets/project.png" alt="fan2" width="700">
 </p>
 
 ## **Contenido**
+
 - [Part I: As-Is Software Project](#part-i-as-is-software-project)
 - [CAPÍTULO I: Introducción](#capítulo-i-introducción)
   - [1.1. Startup Profile](#11-startup-profile)
@@ -258,6 +262,7 @@ URL de repositorio del reporte del proyecto: `https://github.com/StayBitsV2/GigM
   - [5.3. Video About-the-Product](#53-video-about-the-product)
 
 ## **Student Outcome**
+
 ABET – EAC - Student Outcome 4: <br>
 La capacidad de reconocer responsabilidades éticas y profesionales en situaciones de ingeniería y hacer juicios informados, que deben considerar el impacto de las soluciones de ingeniería en contextos globales, económicos, ambientales y sociales.
 
@@ -310,7 +315,7 @@ La capacidad de reconocer responsabilidades éticas y profesionales en situacion
   </tbody>
 </table>
 
-# Part I: As-Is Software Project 
+# Part I: As-Is Software Project
 
 # CAPÍTULO I: Introducción
 
@@ -323,14 +328,15 @@ StayBits es una startup creativa y tecnológica dedicada a transformar la manera
 Nuestra misión es conectar a las personas con la música en vivo mediante tecnología innovadora, facilitando el descubrimiento de eventos y fortaleciendo la relación entre artistas y fans. Y la vision que tenemos es ser la plataforma líder a nivel global en el descubrimiento de música en vivo, impulsando comunidades musicales y dando visibilidad a artistas de todo tipo de estilos.
 
 ### 1.1.2. Perfiles de integrantes del equipo
-| Estudiante | Descripción |
-|------------|-------------|
-| ![team member profile photo](assets/images/profiles/alvaro_bejarano.jpeg) **Bejarano Martinez, Alvaro Leandro (u202311640)** | Mi nombre es Alvaro Leandro Bejarano Martínez, estudiante de la carrera Ingeniería de Software y me destaco por mi perseverancia, organización y capacidad para trabajar en equipo. Me esfuerzo por mantener un ambiente estructurado dentro del grupo, donde cada miembro se sienta valorado y sus ideas sean escuchadas y respetadas. Mi compromiso es fomentar la colaboración efectiva, asegurando que cada contribución se integre de manera ordenada y alineada con los objetivos comunes del equipo. |
-| ![team member profile photo](assets/images/profiles/diego_collantes.png) **Collantes Carrillo, Diego Mateo (u202311823)** | Mi nombre es Diego Collantes. Tengo 20 años. Soy estudiante de sexto ciclo en la Universidad Peruana de Ciencias Aplicadas (UPC). Disfruto de leer, redactar y escuchar música en mi tiempo libre. Elegí esta carrera, ya que me interesó todo el proceso que hay detrás de cada aplicación o programa que usamos en nuestro día a día. Personalmente, espero ampliar mis conocimientos en este ámbito a lo largo de este curso. Además, estoy comprometido a contribuir en todo lo que sea posible con el equipo y a desempeñarme de manera adecuada. |
-| ![team member profile photo](assets/images/profiles/ariana_lizarbe.png) **Lizarbe Alvarez, Ariana Nickole (u202311704)** | Mi nombre es Ariana Lizarbe, tengo 20 años y estoy cursando el sexto ciclo de la carrera de ingeniería de software en la Universidad Peruana de Ciencias Aplicadas. En mi tiempo libre fuera de la universidad, procuro mejorar mis habilidades blandas, como la empatía o inteligencia emocional. También, me esfuerzo en adquirir conocimientos que pueden ayudarme a desarrollarme como futura profesional, como distintos lenguajes de programación. A su vez, disfruto de escuchar música, podcasts, leer y ver series de televisión. Me comprometo a colaborar de manera activa y responsable en la creación de esta startup, aportando mis habilidades en pensamiento crítico, trabajo en equipo y adaptabilidad para alcanzar un trabajo de calidad sobresaliente. |
-| ![team member profile photo](assets/images/profiles/antuanete_ortiz.png) **Ortiz Cardenas, Johanna Antuanete (u202310358)** | Mi nombre es Johanna Antuanete Ortiz Cárdenas, tengo 20 años y me encuentro en el sexto ciclo de la carrera de Ingeniería de Software. Me considero una persona proactiva y responsable, siempre buscando que mis trabajos sean de la mejor calidad posible. Me apasiona investigar sobre tecnología, lo que me permite estar al tanto de las últimas novedades y tendencias. En mi tiempo libre, disfruto jugar videojuegos, escuchar música y leer cómics. En el presente proyecto grupal, me comprometo a colaborar de manera activa, aportando ideas y siendo puntual con los entregables para garantizar resultados sobresalientes. |
-| ![team member profile photo](assets/images/profiles/loreley_sarmiento.jpg) **Sarmiento Medina, Loreley (u202310005)** |  Mi nombre es Loreley Sarmiento, tengo 20 años y actualmente curso la carrera de Ingeniería de Software. Me considero una persona responsable, organizada y con buena disposición para el trabajo en equipo, ya que valoro la comunicación y la colaboración como elementos clave para lograr buenos resultados. Me interesa seguir aprendiendo constantemente y asumir nuevos retos que me permitan fortalecer mis habilidades.En este proyecto, busco participar de manera activa, apoyar a mis compañeros, aportar ideas que contribuyan al desarrollo del equipo y cumplir con las tareas asignadas dentro de los plazos establecidos, con el objetivo de alcanzar un resultado de calidad. |
-| ![team member profile photo](assets/images/profiles/renato_zegarra.png) **Zegarra Lopez, Renato Sebastian Rubber (u202311558)** | Mi nombre es Renato Zegarra, tengo 20 años y actualmente estoy cursando la carrera de Ingeniería de Software en la Universidad Peruana de Ciencias Aplicadas. Fuera de mis estudios, disfruto explorar mis intereses en música, videojuegos y tecnología, siempre buscando nuevas formas de integrar estas pasiones en mi vida cotidiana. Me comprometo a colaborar de manera activa y responsable en la elaboración de este documento y en la concreción de la idea propuesta, aportando mis habilidades en análisis, creatividad y adaptabilidad. Estoy convencido de que con esfuerzo y trabajo en equipo, podemos alcanzar resultados innovadores y de alta calidad. |
+
+| Estudiante                                                                                                                      | Descripción                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                |
+| ------------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| ![team member profile photo](assets/images/profiles/alvaro_bejarano.jpeg) **Bejarano Martinez, Alvaro Leandro (u202311640)**    | Mi nombre es Alvaro Leandro Bejarano Martínez, estudiante de la carrera Ingeniería de Software y me destaco por mi perseverancia, organización y capacidad para trabajar en equipo. Me esfuerzo por mantener un ambiente estructurado dentro del grupo, donde cada miembro se sienta valorado y sus ideas sean escuchadas y respetadas. Mi compromiso es fomentar la colaboración efectiva, asegurando que cada contribución se integre de manera ordenada y alineada con los objetivos comunes del equipo.                                                                                                                                                                                                                                                                |
+| ![team member profile photo](assets/images/profiles/diego_collantes.png) **Collantes Carrillo, Diego Mateo (u202311823)**       | Mi nombre es Diego Collantes. Tengo 20 años. Soy estudiante de sexto ciclo en la Universidad Peruana de Ciencias Aplicadas (UPC). Disfruto de leer, redactar y escuchar música en mi tiempo libre. Elegí esta carrera, ya que me interesó todo el proceso que hay detrás de cada aplicación o programa que usamos en nuestro día a día. Personalmente, espero ampliar mis conocimientos en este ámbito a lo largo de este curso. Además, estoy comprometido a contribuir en todo lo que sea posible con el equipo y a desempeñarme de manera adecuada.                                                                                                                                                                                                                     |
+| ![team member profile photo](assets/images/profiles/ariana_lizarbe.png) **Lizarbe Alvarez, Ariana Nickole (u202311704)**        | Mi nombre es Ariana Lizarbe, tengo 20 años y estoy cursando el sexto ciclo de la carrera de ingeniería de software en la Universidad Peruana de Ciencias Aplicadas. En mi tiempo libre fuera de la universidad, procuro mejorar mis habilidades blandas, como la empatía o inteligencia emocional. También, me esfuerzo en adquirir conocimientos que pueden ayudarme a desarrollarme como futura profesional, como distintos lenguajes de programación. A su vez, disfruto de escuchar música, podcasts, leer y ver series de televisión. Me comprometo a colaborar de manera activa y responsable en la creación de esta startup, aportando mis habilidades en pensamiento crítico, trabajo en equipo y adaptabilidad para alcanzar un trabajo de calidad sobresaliente. |
+| ![team member profile photo](assets/images/profiles/antuanete_ortiz.png) **Ortiz Cardenas, Johanna Antuanete (u202310358)**     | Mi nombre es Johanna Antuanete Ortiz Cárdenas, tengo 20 años y me encuentro en el sexto ciclo de la carrera de Ingeniería de Software. Me considero una persona proactiva y responsable, siempre buscando que mis trabajos sean de la mejor calidad posible. Me apasiona investigar sobre tecnología, lo que me permite estar al tanto de las últimas novedades y tendencias. En mi tiempo libre, disfruto jugar videojuegos, escuchar música y leer cómics. En el presente proyecto grupal, me comprometo a colaborar de manera activa, aportando ideas y siendo puntual con los entregables para garantizar resultados sobresalientes.                                                                                                                                   |
+| ![team member profile photo](assets/images/profiles/loreley_sarmiento.jpg) **Sarmiento Medina, Loreley (u202310005)**           | Mi nombre es Loreley Sarmiento, tengo 20 años y actualmente curso la carrera de Ingeniería de Software. Me considero una persona responsable, organizada y con buena disposición para el trabajo en equipo, ya que valoro la comunicación y la colaboración como elementos clave para lograr buenos resultados. Me interesa seguir aprendiendo constantemente y asumir nuevos retos que me permitan fortalecer mis habilidades.En este proyecto, busco participar de manera activa, apoyar a mis compañeros, aportar ideas que contribuyan al desarrollo del equipo y cumplir con las tareas asignadas dentro de los plazos establecidos, con el objetivo de alcanzar un resultado de calidad.                                                                             |
+| ![team member profile photo](assets/images/profiles/renato_zegarra.png) **Zegarra Lopez, Renato Sebastian Rubber (u202311558)** | Mi nombre es Renato Zegarra, tengo 20 años y actualmente estoy cursando la carrera de Ingeniería de Software en la Universidad Peruana de Ciencias Aplicadas. Fuera de mis estudios, disfruto explorar mis intereses en música, videojuegos y tecnología, siempre buscando nuevas formas de integrar estas pasiones en mi vida cotidiana. Me comprometo a colaborar de manera activa y responsable en la elaboración de este documento y en la concreción de la idea propuesta, aportando mis habilidades en análisis, creatividad y adaptabilidad. Estoy convencido de que con esfuerzo y trabajo en equipo, podemos alcanzar resultados innovadores y de alta calidad.                                                                                                   |
 
 ## 1.2. Solution Profile
 
@@ -351,14 +357,9 @@ Esta problemática surge especialmente justo cuando las personas están dispuest
 
 **Where**:
 
-Ocurre en diversos entornos:
-	- En la rutina diaria de los usuarios
- 	- Al viajar o buscar actividades fuera de la zona habitual
-  	- En barrios con oferta musical pero escasa visibilidad digital
-	- En ciudades donde los medios tradicionales no alcanzan al público digital o joven
- 
- La UNESCO (2022) advierte que los marcos e infraestructuras digitales son claves para ampliar el acceso y la participación cultural.
- 
+Ocurre en diversos entornos: - En la rutina diaria de los usuarios - Al viajar o buscar actividades fuera de la zona habitual - En barrios con oferta musical pero escasa visibilidad digital - En ciudades donde los medios tradicionales no alcanzan al público digital o joven
+
+La UNESCO (2022) advierte que los marcos e infraestructuras digitales son claves para ampliar el acceso y la participación cultural.
 
 **Why**:
 
@@ -366,10 +367,8 @@ Porque asistir a conciertos en vivo genera valor cultural, emocional y social. N
 
 **Who**:
 
-Las personas más afectadas son:
-	- Fans de música en vivo, tanto jóvenes como adultos, que buscan conciertos interesantes cerca de su ubicación pero carecen de información centralizada y actualizada.
-	- Artistas emergentes y bandas independientes, que enfrentan enormes barreras para lograr visibilidad y difusión en un entorno competitivo.
- 
+Las personas más afectadas son: - Fans de música en vivo, tanto jóvenes como adultos, que buscan conciertos interesantes cerca de su ubicación pero carecen de información centralizada y actualizada. - Artistas emergentes y bandas independientes, que enfrentan enormes barreras para lograr visibilidad y difusión en un entorno competitivo.
+
 La literatura sobre industrias culturales documenta desigualdades estructurales que dificultan a los independientes alcanzar audiencias sin mediación tecnológica (Hesmondhalgh, 2019).
 
 **How**:
@@ -378,11 +377,7 @@ GigMap resuelve esta necesidad mediante una aplicación móvil que centraliza, p
 
 **How much:**
 
-Si no se interviene:
-	- Artistas pierden oportunidades para darse a conocer, generar ingresos y construir una base de seguidores.
-	- La asistencia a conciertos disminuye, afectando la economía de espacios culturales, bares y promotores locales.
-	- La vida cultural urbana se empobrece al invisibilizar propuestas valiosas.
-	- Hay frustración entre los fans que desean experiencias auténticas y no encuentran cómo acceder a ellas.
+Si no se interviene: - Artistas pierden oportunidades para darse a conocer, generar ingresos y construir una base de seguidores. - La asistencia a conciertos disminuye, afectando la economía de espacios culturales, bares y promotores locales. - La vida cultural urbana se empobrece al invisibilizar propuestas valiosas. - Hay frustración entre los fans que desean experiencias auténticas y no encuentran cómo acceder a ellas.
 
 En cambio, una solución como GigMap tiene un alto potencial de impacto positivo, ya que puede fomentar la cultura local, promover el descubrimiento musical y apoyar el ecosistema artístico independiente, directamente conectando al público con la música en vivo.
 
@@ -400,7 +395,7 @@ Creemos que los usuarios de GigMap son principalmente jóvenes y adultos que dis
 
 **Assumptions Worksheet**
 
-**¿Quién es el usuario?** 
+**¿Quién es el usuario?**
 
 - Personas que disfrutan de la música en vivo y buscan nuevas experiencias culturales.
 - Artistas emergentes que desean difundir su música y conectar con la comunidad.
@@ -450,7 +445,7 @@ Accesibilidad y usabilidad
 
 - Interfaz intuitiva, moderna y clara.
 - Optimizada para smartphones y tablets, incluso en condiciones de conectividad limitada.
-  
+
 Conexión con comunidad y expertos
 
 - Espacios para recomendaciones de expertos y experiencias compartidas por otros usuarios.
@@ -484,7 +479,6 @@ Conexión con comunidad y expertos
 - Sección para artistas con herramientas de promoción y análisis de audiencia.
 - Recomendaciones basadas en ubicación y gustos musicales previos.
 - Experiencia de uso fluida, confiable y centrada en el usuario.
-
 
 #### 1.2.3.3. Lean UX Hypothesis Statements
 
@@ -554,62 +548,54 @@ Creemos que, si GigMap destaca a artistas emergentes y facilita su participació
   </tr>
 </table>
 
-
 ## 1.3. Segmentos objetivo
 
 **Fans de la música (jóvenes y adultos jóvenes):**
 
-De acuerdo con Duche Pérez y Andía Gonzales (2019), el 54 % de los estudiantes universitarios asiste a conciertos “de vez en cuando” (1 o 2 veces al año). Este dato respalda el comportamiento cultural de este segmento universitario 
+De acuerdo con Duche Pérez y Andía Gonzales (2019), el 54 % de los estudiantes universitarios asiste a conciertos “de vez en cuando” (1 o 2 veces al año). Este dato respalda el comportamiento cultural de este segmento universitario
 
 - Edad estimada: 16 a 35 años
 
 - Ubicación: Principalmente en zonas urbanas con oferta cultural como Lima.
 
 - Características demográficas y de comportamiento:
-  
-	- Incorporan la música como parte del día a día.
-	- Consumen contenido en aplicaciones como Spotify, Apple Music.
-	- Siguen a artistas en redes sociales como Instagram, TikTok o X.
-	- Comparten sus preferencias musicales con amigos y buscan experiencias reales significativas.
+  - Incorporan la música como parte del día a día.
+  - Consumen contenido en aplicaciones como Spotify, Apple Music.
+  - Siguen a artistas en redes sociales como Instagram, TikTok o X.
+  - Comparten sus preferencias musicales con amigos y buscan experiencias reales significativas.
 
 - Necesidades principales:
+  - Descubrir conciertos cercanos en tiempo real.
+  - Recibir notificaciones sobre giras o presentaciones.
+  - Compartir su asistencia en redes.
+  - Encontrar fácilmente eventos pequeños o independientes poco promocionados.
 
-	- Descubrir conciertos cercanos en tiempo real.
-	- Recibir notificaciones sobre giras o presentaciones.
-	- Compartir su asistencia en redes.
-	- Encontrar fácilmente eventos pequeños o independientes poco promocionados.
-
-
-**Artistas emergentes y bandas independientes:** 
+**Artistas emergentes y bandas independientes:**
 
 Según Chartmetric (2024), de los artistas añadidos en 2023, el 99.9 % terminó el año en las categorías “Undiscovered” o “Developing”, mientras que solo una minúscula proporción logró avanzar a niveles más altos como Mid-Level o Mainstream
 
 Crecimiento económico del sector independiente:
-El mercado global de artistas independientes alcanzó un valor estimado de USD 160.6 mil millones en 2025, y se espera que crezca a USD 219.93 mil millones para 2030, expandiéndose a una tasa anual compuesta del 6.49% 
+El mercado global de artistas independientes alcanzó un valor estimado de USD 160.6 mil millones en 2025, y se espera que crezca a USD 219.93 mil millones para 2030, expandiéndose a una tasa anual compuesta del 6.49%
 
 - Edad estimada: 18 a 40 años
-  
 - Ubicación: Zonas urbanas o semiurbanas con escena cultural dinámica, como Lima.
 
 - Características demográficas y de comportamiento:
-
-	- Generalmente son músicos autogestionados o integrantes de bandas independientes que no cuentan con el respaldo de grandes disqueras.
-	- Utilizan redes sociales y aplicaciones como principales canales de promoción, interacción con su audiencia y difusión de eventos.
-	- Buscan herramientas tecnológicas que les ofrezcan mayor visibilidad, autonomía en la gestión de sus actividades y una comunicación directa con sus seguidores.
+  - Generalmente son músicos autogestionados o integrantes de bandas independientes que no cuentan con el respaldo de grandes disqueras.
+  - Utilizan redes sociales y aplicaciones como principales canales de promoción, interacción con su audiencia y difusión de eventos.
+  - Buscan herramientas tecnológicas que les ofrezcan mayor visibilidad, autonomía en la gestión de sus actividades y una comunicación directa con sus seguidores.
 
 - Necesidades principales:
-
-	- Promocionar conciertos y aumentar su visibilidad en el ámbito local.
-	- Construir y fidelizar su audiencia.
-	- Disponer de herramientas simples de geolocalización y organización de calendario.
-	- Medir y analizar la asistencia a sus presentaciones para mejorar su estrategia.
+  - Promocionar conciertos y aumentar su visibilidad en el ámbito local.
+  - Construir y fidelizar su audiencia.
+  - Disponer de herramientas simples de geolocalización y organización de calendario.
+  - Medir y analizar la asistencia a sus presentaciones para mejorar su estrategia.
 
 # CAPÍTULO II: Requirements Elicitation & Analysis
 
 ## 2.1. Competidores
 
 ### 2.1.1. Análisis competitivo
-
 
 <table border="2" style="text-align: center;">
 	<tbody>
@@ -750,7 +736,6 @@ El mercado global de artistas independientes alcanzó un valor estimado de USD 1
 
 ### 2.1.2. Estrategias y tácticas frente a competidores
 
-
 **- Enfoque en el descubrimiento de música en vivo diversa**
 
 Estrategia: Diferenciarse de otras aplicaciones generalistas facilitando el acceso a una variedad de eventos musicales sin importar su escala
@@ -762,7 +747,6 @@ Táctica: Mostrar de forma equitativa tanto conciertos masivos como presentacion
 Estrategia: Facilitar el descubrimiento espontáneo de conciertos cercanos al usuario
 
 Táctica: Implementar un mapa interactivo que muestre eventos activos cerca del usuario con filtros por género, horario y tipo de artista
-
 
 **- Alianzas con agentes locales**
 
@@ -782,11 +766,9 @@ Estrategia: Aumentar la retención y lealtad de los usuarios frente a otras apli
 
 Táctica: Ofrecer funciones como seguimiento de giras, alertas personalizadas, y programas de recompensas por asistir a eventos frecuentes o apoyar a artistas locales
 
-
 ## 2.2. Entrevistas
 
 ### 2.2.1. Diseño de entrevistas
-
 
 **Segmento objetivo #1: Fans de la música (16 a 35 años)**
 
@@ -803,7 +785,7 @@ Comportamiento digital y uso de apps:
 - ¿Sueles seguir a tus artistas favoritos por redes sociales?
 - ¿Usas apps como Spotify, Instagram u otras para encontrar conciertos?
 
- Expectativas y opinión sobre Gigmap:
+Expectativas y opinión sobre Gigmap:
 
 - ¿Has tenido problemas para enterarte de conciertos cercanos a ti?
 - Si tuvieras una app que te muestre conciertos en vivo cerca, ¿la usarías? ¿por qué?
@@ -838,10 +820,7 @@ Opinión y expectativas sobre GigMap:
 - ¿Recomendarías una app como GigMap a otros artistas emergentes? ¿Por qué sí o por qué no?
 - ¿Te gustaría poder crear una comunidad dentro de la app para interactuar con tus seguidores (ejemplo: compartir contenido exclusivo, enviar notificaciones)?
 
-
 ### 2.2.2. Registro de entrevistas
-
-
 
 URL del vídeo de las Entrevistas de segmento objetivo #1 publicado en OneDrive: `https://upcedupe-my.sharepoint.com/:v:/g/personal/u202310358_upc_edu_pe/IQBW9wdnSZYNQYOjTGEedNlgARvD3iSL6EAlvV4QNFBtbIY?e=Wp7N6F`
 
@@ -910,7 +889,6 @@ Sus géneros musicales favoritos incluyen salsa, reguetón y K-pop, y muestra mu
 
 Afirma que una aplicación como GigMap le parecería sumamente útil, ya que facilitaría el descubrimiento de eventos sin tener que buscarlos manualmente en diversas redes. Está especialmente interesada en funcionalidades como mapa de eventos cercanos, notificaciones de próximos conciertos, filtros por género musical y alertas sobre fechas próximas según ubicación. Además, valoraría mucho una función que le permita compartir eventos con sus amigos dentro de la misma app para poder asistir acompañada.
 
-
 URL del vídeo de las Entrevistas de segmento objetivo #2 publicado en OneDrive: `https://upcedupe-my.sharepoint.com/:v:/g/personal/u202310358_upc_edu_pe/IQBvnjbC5qzIT5-5ywJQZEy-AeuNDp_LmMA3_PNbVtGuneo?e=gYmKpf`
 
 ### Segmento objetivo #2: Artistas emergentes y bandas independientes
@@ -937,6 +915,7 @@ Asimismo, mencionó que esta forma de difusión resulta insuficiente para crecer
 En cuanto a la propuesta de GigMap, Mathias mostró interés en la funcionalidad de comunidad dentro de la aplicación. Considera que la posibilidad de comunicarse directamente con sus seguidores en un espacio más personalizado sería un gran valor diferencial, ya que permitiría generar una conexión más cercana y auténtica con su público.
 
 Finalmente, destacó que una herramienta como GigMap podría ayudar a superar las limitaciones actuales de las redes sociales, brindando nuevas formas de interacción y mayor alcance para artistas independientes como él.
+
 #### Entrevista #2
 
 - **Nombre completo:** Diego Zúñiga
@@ -954,20 +933,18 @@ Leo Nova es un artista independiente de indie pop con influencias electrónicas 
 
 #### Entrevista #3
 
-- **Nombre completo:*Diego Andres Santos Espinoza* 
+- \**Nombre completo:*Diego Andres Santos Espinoza\*
 - **Edad:** 27 años
-- **Distrito:*San MIguel* 
+- \**Distrito:*San MIguel\*
 - **Inicio de entrevista:** 00:00:08
 
 <p align="center">
 	 <img src="assets/images/interviews/artist3.jpg" alt="artist3" width="700">
 </p>
 
-**Resumen:*En la entrevista, Diego Santos, conocido como Le Saint, artista independiente peruano con 10 años de trayectoria, comparte los desafíos que enfrenta para promocionar su propuesta musical de nicho, que fusiona reggae y reggaetón con instrumentos peruanos y requiere un público con gusto exquisito. Se muestra insatisfecho con las plataformas actuales, ya que no brindan las herramientas necesarias para un crecimiento real de artistas emergentes. Por ello, expresa gran entusiasmo por GigMap, a la que considera una solución disruptiva al integrar un mapa musical local. Propone funcionalidades como la gestión eficiente de perfiles y fechas de conciertos, análisis estratégicos de datos sobre satisfacción del público y retorno de inversión para elegir ciudades viables, y una experiencia personalizada que permita a los seguidores pedir comida y servicios directamente desde la app durante los shows. Finalmente, Le Saint afirma que recomendaría la plataforma a otros músicos y valora la creación de una comunidad para interactuar de forma cercana con sus seguidores.*
-
+\**Resumen:*En la entrevista, Diego Santos, conocido como Le Saint, artista independiente peruano con 10 años de trayectoria, comparte los desafíos que enfrenta para promocionar su propuesta musical de nicho, que fusiona reggae y reggaetón con instrumentos peruanos y requiere un público con gusto exquisito. Se muestra insatisfecho con las plataformas actuales, ya que no brindan las herramientas necesarias para un crecimiento real de artistas emergentes. Por ello, expresa gran entusiasmo por GigMap, a la que considera una solución disruptiva al integrar un mapa musical local. Propone funcionalidades como la gestión eficiente de perfiles y fechas de conciertos, análisis estratégicos de datos sobre satisfacción del público y retorno de inversión para elegir ciudades viables, y una experiencia personalizada que permita a los seguidores pedir comida y servicios directamente desde la app durante los shows. Finalmente, Le Saint afirma que recomendaría la plataforma a otros músicos y valora la creación de una comunidad para interactuar de forma cercana con sus seguidores.\*
 
 ### 2.2.3. Análisis de entrevistas
-
 
 A continuación, se presenta el análisis cualitativo y cuantitativo de las entrevistas realizadas, agrupadas por segmento objetivo. Este análisis identifica las características más representativas de cada grupo, con el fin de sustentar la construcción de arquetipos de usuario. Las observaciones aquí descritas se fundamentan directamente en los resúmenes de las entrevistas aplicadas a un total de seis personas, distribuidas en dos segmentos clave.
 
@@ -976,35 +953,39 @@ A continuación, se presenta el análisis cualitativo y cuantitativo de las entr
 Este grupo está conformado por estudiantes universitarios entre los 19 y 20 años, residentes en distintos distritos de Lima Metropolitana. Son consumidores activos de música, aunque con distinta frecuencia de asistencia a conciertos. Representan el público objetivo final de la aplicación propuesta (GigMap).
 
 #### Entrevistas incluidas
+
 - Entrevista #1: Reina Ruiz (20 años, Cercado de Lima)
 - Entrevista #2: Rodrigo Chávez (19 años, San Martín de Porres)
 - Entrevista #3: Bianca Huertas (20 años, Ventanilla)
 
 #### Características Objetivas
 
-| Variable                               | Valor común identificado                            | Frecuencia | Porcentaje (%) |
-|----------------------------------------|------------------------------------------------------|------------|----------------|
-| **Edad**                               | 19-20 años                                           | 3/3        | 100%           |
-| **Ocupación**                          | Estudiantes universitarios                           | 3/3        | 100%           |
-| **Distritos de residencia**            | Lima Metropolitana (zona norte y centro)            | 3/3        | 100%           |
-| **Frecuencia de asistencia a conciertos** | Esporádica (1–2 veces al mes o menos)             | 2/3        | 66.7%          |
-| **Uso de redes para enterarse de eventos** | Sí (Instagram, TikTok, YouTube, Spotify)          | 3/3        | 100%           |
-| **Dificultades para enterarse de eventos** | Sí                                                | 3/3        | 100%           |
-| **Disposición a usar una app como GigMap** | Sí                                               | 3/3        | 100%           |
+| Variable                                   | Valor común identificado                 | Frecuencia | Porcentaje (%) |
+| ------------------------------------------ | ---------------------------------------- | ---------- | -------------- |
+| **Edad**                                   | 19-20 años                               | 3/3        | 100%           |
+| **Ocupación**                              | Estudiantes universitarios               | 3/3        | 100%           |
+| **Distritos de residencia**                | Lima Metropolitana (zona norte y centro) | 3/3        | 100%           |
+| **Frecuencia de asistencia a conciertos**  | Esporádica (1–2 veces al mes o menos)    | 2/3        | 66.7%          |
+| **Uso de redes para enterarse de eventos** | Sí (Instagram, TikTok, YouTube, Spotify) | 3/3        | 100%           |
+| **Dificultades para enterarse de eventos** | Sí                                       | 3/3        | 100%           |
+| **Disposición a usar una app como GigMap** | Sí                                       | 3/3        | 100%           |
 
 #### Características Subjetivas
 
 **Motivaciones comunes:**
+
 - Desean mejorar la experiencia de búsqueda de eventos
 - Buscan socializar a través de la música (coordinación con amigos)
 - Muestran interés por descubrir artistas nuevos
 
 **Frustraciones frecuentes:**
+
 - No reciben notificaciones a tiempo o de manera relevante
 - La información está dispersa entre varias aplicaciones
 - Poca personalización en las apps actuales de eventos
 
 **Preferencias destacadas:**
+
 - Mapa interactivo de conciertos por ubicación
 - Filtros por género musical
 - Notificaciones automáticas personalizadas
@@ -1012,6 +993,7 @@ Este grupo está conformado por estudiantes universitarios entre los 19 y 20 añ
 - Integración con redes sociales y aplicaciones de música
 
 #### Implicancias para el diseño
+
 Este grupo representa un público digitalmente activo, con expectativas altas respecto a la experiencia de usuario. El hallazgo más relevante es la necesidad de centralizar y personalizar la información sobre conciertos, así como fomentar la interacción social entre asistentes. Las funcionalidades sugeridas están alineadas con una interfaz amigable, dinámica y conectada a las redes sociales que ya utilizan.
 
 ### Segmento objetivo #2: Artistas emergentes y bandas independientes
@@ -1019,36 +1001,39 @@ Este grupo representa un público digitalmente activo, con expectativas altas re
 Está compuesto por jóvenes músicos independientes que gestionan su carrera de forma autónoma. Son creadores de contenido musical con experiencia en presentaciones en vivo, difusión en redes sociales y distribución digital. Constituyen el segundo público clave para GigMap, como usuarios generadores de eventos.
 
 #### Entrevistas incluidas
+
 - Entrevista #1: Zaleth Feijóo (19 años, Pueblo Libre)
 - Entrevista #2: Diego Zúñiga (20 años, Comas)
 - Entrevista #3: Diego Santos (27 años, San Miguel)
 
-
 #### Características Objetivas
 
-| Variable                                         | Valor común identificado                          | Frecuencia | Porcentaje (%) |
-|--------------------------------------------------|--------------------------------------------------|------------|----------------|
-| **Edad**                                         | 19-27 años                                       | 3/3        | 100%           |
-| **Género musical principal**                     | Indie rock, pop alternativo, indie pop           | 3/3        | 100%           |
-| **Gestión independiente de eventos**             | Sí                                               | 3/3        | 100%           |
-| **Uso de redes para difusión**                   | Instagram, TikTok, Spotify                       | 3/3        | 100%           |
-| **Ha enfrentado dificultades de visibilidad**    | Sí                                               | 3/3        | 100%           |
-| **Ha usado aplicaciones como Eventbrite o Facebook Events** | Sí                                       | 2/3        | 66.7%          |
-| **Interés en usar una app como GigMap**          | Sí                                               | 3/3        | 100%           |
+| Variable                                                    | Valor común identificado               | Frecuencia | Porcentaje (%) |
+| ----------------------------------------------------------- | -------------------------------------- | ---------- | -------------- |
+| **Edad**                                                    | 19-27 años                             | 3/3        | 100%           |
+| **Género musical principal**                                | Indie rock, pop alternativo, indie pop | 3/3        | 100%           |
+| **Gestión independiente de eventos**                        | Sí                                     | 3/3        | 100%           |
+| **Uso de redes para difusión**                              | Instagram, TikTok, Spotify             | 3/3        | 100%           |
+| **Ha enfrentado dificultades de visibilidad**               | Sí                                     | 3/3        | 100%           |
+| **Ha usado aplicaciones como Eventbrite o Facebook Events** | Sí                                     | 2/3        | 66.7%          |
+| **Interés en usar una app como GigMap**                     | Sí                                     | 3/3        | 100%           |
 
 #### Características Subjetivas
 
 **Motivaciones comunes:**
+
 - Aumentar visibilidad fuera de su red cercana
 - Alcanzar públicos locales con mayor precisión
 - Profesionalizar la gestión de sus eventos
 
 **Frustraciones frecuentes:**
+
 - Saturación de contenido en redes sociales
 - Limitado alcance por algoritmos o falta de presupuesto
 - Ausencia de aplicaciones dedicadas a artistas emergentes
 
 **Preferencias destacadas:**
+
 - Perfil artístico personalizado (logo, biografía, URL)
 - Publicación de eventos y fechas de conciertos
 - Estadísticas de visualización y asistencia
@@ -1056,17 +1041,16 @@ Está compuesto por jóvenes músicos independientes que gestionan su carrera de
 - Espacios de comunidad y contenido exclusivo
 
 #### Implicancias para el diseño
+
 Este segmento valora profundamente las herramientas de gestión profesional que, a la vez, faciliten la construcción de una comunidad auténtica. GigMap debe ofrecer funcionalidades pensadas desde el artista independiente, como la personalización del perfil, gestión de eventos, conexión directa con fans, y analítica simple y útil. La posibilidad de reducir la dependencia de algoritmos y redes sociales tradicionales es clave para ellos.
 
 ### Conclusión General del Análisis
+
 Los hallazgos de ambas agrupaciones muestran una alineación clara entre los problemas identificados y la propuesta de valor de GigMap. Los usuarios finales demandan una aplicación que centralice, personalice y notifique sobre eventos musicales de forma proactiva. Por su parte, los artistas emergentes buscan una aplicaciones que les ofrezca visibilidad, herramientas de gestión y conexión directa con su audiencia, sin la saturación ni limitaciones de las redes sociales tradicionales.
 
 ## 2.3. Needfinding
 
 ### 2.3.1. User Personas
-
-
-
 
 Los user personas son representaciones de los distintos tipos de usuarios que permiten entender con mayor claridad sus necesidades, motivaciones y formas de interactuar. En GigMap, estos perfiles sirven como referencia para orientar el diseño y la evolución de la aplicaciones, garantizando que se ajuste a lo que esperan nuestros principales públicos, como los aficionados a la música y los artistas en crecimiento.
 
@@ -1078,33 +1062,29 @@ Los user personas son representaciones de los distintos tipos de usuarios que pe
   <img src="assets/images/user_persona/diego_rivas.png" alt="user_persona" width="700">
 </p>
 
-
 ### 2.3.2. User Task Matrix
 
-
-
-| Tareas                                        | Frecuencia | Importancia |
-|-----------------------------------------------|------------|-------------|
-| Buscar conciertos cerca de su zona            | Frecuente  | Alta        |
-| Descubrir nuevos artistas y géneros           | Frecuente  | Media       |
-| Comparar información de eventos entre diferentes redes | Ocasional | Media |
-| Consultas redes sociales para enterarse de eventos | Muy frecuente | Alta |
+| Tareas                                                 | Frecuencia    | Importancia |
+| ------------------------------------------------------ | ------------- | ----------- |
+| Buscar conciertos cerca de su zona                     | Frecuente     | Alta        |
+| Descubrir nuevos artistas y géneros                    | Frecuente     | Media       |
+| Comparar información de eventos entre diferentes redes | Ocasional     | Media       |
+| Consultas redes sociales para enterarse de eventos     | Muy frecuente | Alta        |
 
 ### Diego Rivas
 
-| Tareas                                        | Frecuencia | Importancia |
-|-----------------------------------------------|------------|-------------|
-| Promocionar sus conciertos                    | Frecuente  | Muy alta    |
-| Buscar aplicaciones gratuitas o de bajo costo para difusión | Frecuente  | Muy alta |
-| Organizar y coordinar presentaciones en bares o festivales | Ocasional | Alta |
-| Interactuar con su comunidad de seguidores    | Frecuente  | Medio       |
+| Tareas                                                      | Frecuencia | Importancia |
+| ----------------------------------------------------------- | ---------- | ----------- |
+| Promocionar sus conciertos                                  | Frecuente  | Muy alta    |
+| Buscar aplicaciones gratuitas o de bajo costo para difusión | Frecuente  | Muy alta    |
+| Organizar y coordinar presentaciones en bares o festivales  | Ocasional  | Alta        |
+| Interactuar con su comunidad de seguidores                  | Frecuente  | Medio       |
 
 ### 2.3.3. User Journey Mapping
 
 En esta sección se muestran los User Journey Maps As-Is de los principales segmentos objetivo identificados. Estos mapas reflejan el recorrido actual que siguen los usuarios en su vida cotidiana, sin contar todavía con la solución que propone GigMap.
 
 A lo largo de las diferentes etapas de su experiencia, se examinan las acciones que realizan, las necesidades o frustraciones que enfrentan, los puntos de contacto que utilizan, así como las emociones que atraviesan en ese proceso. Además, se identifican oportunidades que permiten diseñar una solución capaz de atender dichos puntos de dolor. Esta representación facilita una comprensión profunda del contexto de los usuarios y constituye una base sólida para idear funcionalidades relevantes, empáticas y de alto impacto en futuras iteraciones de la aplicación.
-
 
 **Fans de la música**
 
@@ -1118,25 +1098,17 @@ A lo largo de las diferentes etapas de su experiencia, se examinan las acciones 
   <img src="assets/images/user_journey_mapping/user-journey-mapping-artista.png" alt="user_journey_mapping" width="700">
 </p>
 
-
-
 ### 2.3.4. Empathy Mapping
-
 
 **Diego Rivas**
 
 <img src="assets/images/empathy_map/empathy_map_artistas.png" alt="user_persona" style="width: 700px">
 </td>
 
-
-
 **Valeria Torres**
 
 <img src="assets/images/empathy_map/empathy_map_fan.png" alt="user_persona" style="width: 700px">
 </td>
-
-
-
 
 ## 2.3.5. As-is Scenario Mapping
 
@@ -1152,11 +1124,7 @@ A lo largo de las diferentes etapas de su experiencia, se examinan las acciones 
   <img src="assets/images/as-is-scenrio/as-is-scenrio-artistas-emergentes.png" alt="as is scenario artistas" width="700">
 </p>
 
-
 ## 2.4. Ubiquitous Language
-
-
-
 
 <table>
   <thead>
@@ -1213,15 +1181,9 @@ A lo largo de las diferentes etapas de su experiencia, se examinan las acciones 
   </tbody>
 </table>
 
-
-
-
 # CAPÍTULO III: Requirements Specification
 
 ## 3.1. To-Be Scenario Mapping
-
-
-
 
 **SEGMENTO #1: Fans de la música**
 
@@ -1238,17 +1200,18 @@ A lo largo de las diferentes etapas de su experiencia, se examinan las acciones 
 ## 3.2. User Stories
 
 **Epics:**
-| Epic ID | Título                                             | Descripción                                                                                                                                                                                       |
+| Epic ID | Título | Descripción |
 |---------|----------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| EP01    | Creación y descubrimiento de conciertos         | Esta épica se centra en permitir a los artistas registrar y gestionar conciertos en la aplicación, mientras que los usuarios podrán descubrir nuevos eventos según su ubicación, género musical y artistas favoritos. Se busca optimizar la experiencia de búsqueda y exploración para que los fans encuentren fácilmente conciertos relevantes y personalizados. |
-| EP02    | Notificaciones personalizadas                      | Incluye el desarrollo de un sistema de alertas que informe a los usuarios sobre nuevos conciertos, cambios en eventos, promociones y recordatorios, todo basado en sus preferencias e historial de interacción. El objetivo es mantenerlos siempre actualizados y fomentar su participación activa en la aplicación.|
-| EP03    | Interacción social y comunidades               | Esta épica permitirá a los usuarios interactuar con otros fans a través de comunidades dentro de la aplicación. Se busca construir un espacio social donde los usuarios compartan experiencias, recomendaciones y opiniones, fortaleciendo el sentido de comunidad alrededor de la música en vivo.|
-| EP04    | Gestión de Identidad y Acceso (Registro y Autenticación) | Enfocada en el inicio de sesión y registro de usuarios, esta épica incluye autenticación mediante correo electrónico o redes sociales, recuperación de contraseñas y gestión de roles y permisos básicos. Su objetivo es garantizar la seguridad, privacidad y facilidad de acceso a la aplicación para todos los usuarios. |
-| EP05    | Exploración y Gestión de Eventos Relacionados    | Esta épica se centra en permitir la creación y descubrimiento de eventos asociados a un concierto principal, como juntadas de fans en un parque, fiestas temáticas previas, actividades comunitarias o afterparties. Los usuarios podrán explorar, unirse y organizar este tipo de encuentros que enriquecen la experiencia musical más allá del show oficial. El objetivo es fomentar la interacción entre fans y ampliar el ecosistema de eventos alrededor de los conciertos.|
-| EP06    | Desarrollo técnico del backend (RESTful API)       | Esta épica comprende la implementación de la infraestructura técnica que soportará la aplicación, incluyendo la base de datos, API, servicios en la nube y escalabilidad del sistema. El foco está en garantizar rendimiento, seguridad y estabilidad para manejar de manera eficiente las operaciones de usuarios y organizadores. |
-| EP07    | Plataforma informativa (Landing Page)     | Se centra en el desarrollo de una landing page que funcione como punto de entrada informativo, presentando la propuesta de valor, características principales y beneficios de la aplicación. El objetivo es atraer nuevos usuarios, transmitiendo confianza y profesionalismo desde la primera interacción. |
+| EP01 | Creación y descubrimiento de conciertos | Esta épica se centra en permitir a los artistas registrar y gestionar conciertos en la aplicación, mientras que los usuarios podrán descubrir nuevos eventos según su ubicación, género musical y artistas favoritos. Se busca optimizar la experiencia de búsqueda y exploración para que los fans encuentren fácilmente conciertos relevantes y personalizados. |
+| EP02 | Notificaciones personalizadas | Incluye el desarrollo de un sistema de alertas que informe a los usuarios sobre nuevos conciertos, cambios en eventos, promociones y recordatorios, todo basado en sus preferencias e historial de interacción. El objetivo es mantenerlos siempre actualizados y fomentar su participación activa en la aplicación.|
+| EP03 | Interacción social y comunidades | Esta épica permitirá a los usuarios interactuar con otros fans a través de comunidades dentro de la aplicación. Se busca construir un espacio social donde los usuarios compartan experiencias, recomendaciones y opiniones, fortaleciendo el sentido de comunidad alrededor de la música en vivo.|
+| EP04 | Gestión de Identidad y Acceso (Registro y Autenticación) | Enfocada en el inicio de sesión y registro de usuarios, esta épica incluye autenticación mediante correo electrónico o redes sociales, recuperación de contraseñas y gestión de roles y permisos básicos. Su objetivo es garantizar la seguridad, privacidad y facilidad de acceso a la aplicación para todos los usuarios. |
+| EP05 | Exploración y Gestión de Eventos Relacionados | Esta épica se centra en permitir la creación y descubrimiento de eventos asociados a un concierto principal, como juntadas de fans en un parque, fiestas temáticas previas, actividades comunitarias o afterparties. Los usuarios podrán explorar, unirse y organizar este tipo de encuentros que enriquecen la experiencia musical más allá del show oficial. El objetivo es fomentar la interacción entre fans y ampliar el ecosistema de eventos alrededor de los conciertos.|
+| EP06 | Desarrollo técnico del backend (RESTful API) | Esta épica comprende la implementación de la infraestructura técnica que soportará la aplicación, incluyendo la base de datos, API, servicios en la nube y escalabilidad del sistema. El foco está en garantizar rendimiento, seguridad y estabilidad para manejar de manera eficiente las operaciones de usuarios y organizadores. |
+| EP07 | Plataforma informativa (Landing Page) | Se centra en el desarrollo de una landing page que funcione como punto de entrada informativo, presentando la propuesta de valor, características principales y beneficios de la aplicación. El objetivo es atraer nuevos usuarios, transmitiendo confianza y profesionalismo desde la primera interacción. |
 
 **User Stories:**
+
 <table>
   <thead>
     <tr>
@@ -3480,34 +3443,34 @@ A lo largo de las diferentes etapas de su experiencia, se examinan las acciones 
 
 ## 3.3. Product Backlog
 
-| # Orden | User Story Id | Título                                                    | Descripción                                                                                                                                                                                       | Story Points (1 / 2 / 3 / 5 / 8) |
-| ------- | ------------- | --------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | -------------------------------- |
-| 1       | US31          | Ver beneficios para fans                                  | Como usuario del segmento fan, quiero conocer los beneficios de la app para mí, para decidir registrarme.                                                                                       | 3                                |
-| 2       | US32          | Ver beneficios para artista                               | Como usuario del segmento artista, quiero ver cómo la app me ayuda a promocionar mis eventos.                                                                                                   | 3                                |
-| 3       | US33          | Acceder a testimonios                                     | Como usuario, quiero leer testimonios de usuarios reales para aumentar mi confianza en la app.                                                                                                  | 2                                |
-| 4       | US03          | Personalizar perfil de artista                            | Como artista, quiero personalizar mi perfil con mi nombre artístico y fotografía para conectar mejor con el público.                                                                              | 5                                |
-| 5       | US06          | Buscar conciertos                                         | Como usuario, quiero buscar conciertos por nombre o artista para encontrarlos fácilmente.                                                                                                         | 3                                |
-| 6       | US07          | Buscar comunidades                                        | Como usuario, quiero buscar comunidades por nombre para unirme a las que me interesen.                                                                                                 | 3                                |
-| 7       | US11          | Zoom a concierto en el mapa                               | Como fan, quiero que al seleccionar un concierto en el mapa se haga zoom a su ubicación.                                                                                                          | 2                                |
-| 8       | US18          | Ver comunidades accedidas                                 | Como usuario, quiero visualizar en el apartado "Comunidades" las comunidades a las que me he unido.                                                                                                | 2                                |
-| 9       | US19          | Reaccionar a publicaciones en comunidades                 | Como usuario, quiero poder reaccionar a publicaciones dentro de las comunidades.                                                                                                                  | 3                                |
-| 10      | US20          | Acceder a perfil de otros usuarios                        | Como usuario, quiero poder acceder al perfil de otros usuarios para conocer más sobre ellos.                                                                                                      | 2                                |
-| 11      | US21          | Ver publicaciones con like                                | Como usuario, quiero ver una lista de publicaciones a las que les he dado "like".                                                                                                                 | 2                                |
-| 12      | US30          | Ver información detallada del evento asociado             | Como fan, quiero ver la información completa de un concierto para decidir si asistir.                                                                                                             | 3                                |
-| 13      | US01          | Filtrar conciertos por género musical                     | Como fan, quiero filtrar conciertos por género para ver solo los que me interesan.                                                                                                                | 3                                |
-| 14      | US02          | Publicar nuevo concierto                                  | Como artista, quiero crear un evento para promocionar mi presentación.                                                                                                                            | 5                                |
-| 15      | US04          | Crear comunidad                                           | Como usuario, quiero crear una comunidad temática para reunir a otros usuarios en torno a intereses compartidos.                                                                                  | 5                                |
-| 16      | US05          | Ver mapa con geolocalización                              | Como fan, quiero ver un mapa con mi ubicación y los conciertos cercanos marcados para explorar visualmente las opciones disponibles.                                                              | 8                                |
-| 17      | US08          | Iniciar sesión en la app mobile                           | Como usuario registrado, quiero iniciar sesión desde la aplicación móvil para acceder a mi cuenta.                                                                                                | 3                                |
-| 18      | US09          | Registrarse como artista                                  | Como nuevo usuario, quiero registrarme como artista para promocionar mis conciertos.                                                                                                              | 3                                |
-| 19      | US10          | Registrarse como fan                                      | Como nuevo usuario, quiero registrarme como fan para participar en la comunidad y explorar conciertos.                                                                                            | 3                                |
-| 20      | US13          | Ver información detallada del concierto                   | Como fan, quiero ver la información completa de un concierto para decidir si asistir.                                                                                                             | 3                                |
-| 21      | US14          | Unirse a una comunidad                                    | Como fan, quiero unirme a una comunidad musical para interactuar con otros usuarios con intereses similares.                                                                                      | 3                                |
-| 22      | US15          | Publicar en la comunidad                                  | Como fan, quiero crear publicaciones en las comunidad creadas, para compartir opiniones, fotos o recomendaciones con otros miembros.                                                  | 5                                |
-| 23      | US17          | Confirmar o marcar asistencia a un concierto              | Como fan, quiero poder marcar un concierto como “Marcar asistencia”, para llevar un seguimiento de los conciertos que planeo asistir.                                                             | 5                                |
-| 24      | US23          | Subir imágenes en comunidades                             | Como usuario, quiero subir imágenes en publicaciones de comunidad para compartir experiencias visuales.                                                                                           | 5                                |
-| 25      | US24          | Ver eventos asociados                                     | Como usuario de GigMap, quiero ver un apartado de eventos relacionados en el perfil de un concierto, para conocer actividades cercanas en tiempo y lugar (pre/after/meetups) que podría realizar. | 5                                |
-| 26      | US34          | Crear evento asociado             | Como usuario, quiero crear eventos asociados para conocer más gente que compartan mis gustos y poder ir juntos a más conciertos.                                                             |                                 |
+| # Orden | User Story Id | Título                                        | Descripción                                                                                                                                                                                       | Story Points (1 / 2 / 3 / 5 / 8) |
+| ------- | ------------- | --------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | -------------------------------- |
+| 1       | US31          | Ver beneficios para fans                      | Como usuario del segmento fan, quiero conocer los beneficios de la app para mí, para decidir registrarme.                                                                                         | 3                                |
+| 2       | US32          | Ver beneficios para artista                   | Como usuario del segmento artista, quiero ver cómo la app me ayuda a promocionar mis eventos.                                                                                                     | 3                                |
+| 3       | US33          | Acceder a testimonios                         | Como usuario, quiero leer testimonios de usuarios reales para aumentar mi confianza en la app.                                                                                                    | 2                                |
+| 4       | US03          | Personalizar perfil de artista                | Como artista, quiero personalizar mi perfil con mi nombre artístico y fotografía para conectar mejor con el público.                                                                              | 5                                |
+| 5       | US06          | Buscar conciertos                             | Como usuario, quiero buscar conciertos por nombre o artista para encontrarlos fácilmente.                                                                                                         | 3                                |
+| 6       | US07          | Buscar comunidades                            | Como usuario, quiero buscar comunidades por nombre para unirme a las que me interesen.                                                                                                            | 3                                |
+| 7       | US11          | Zoom a concierto en el mapa                   | Como fan, quiero que al seleccionar un concierto en el mapa se haga zoom a su ubicación.                                                                                                          | 2                                |
+| 8       | US18          | Ver comunidades accedidas                     | Como usuario, quiero visualizar en el apartado "Comunidades" las comunidades a las que me he unido.                                                                                               | 2                                |
+| 9       | US19          | Reaccionar a publicaciones en comunidades     | Como usuario, quiero poder reaccionar a publicaciones dentro de las comunidades.                                                                                                                  | 3                                |
+| 10      | US20          | Acceder a perfil de otros usuarios            | Como usuario, quiero poder acceder al perfil de otros usuarios para conocer más sobre ellos.                                                                                                      | 2                                |
+| 11      | US21          | Ver publicaciones con like                    | Como usuario, quiero ver una lista de publicaciones a las que les he dado "like".                                                                                                                 | 2                                |
+| 12      | US30          | Ver información detallada del evento asociado | Como fan, quiero ver la información completa de un concierto para decidir si asistir.                                                                                                             | 3                                |
+| 13      | US01          | Filtrar conciertos por género musical         | Como fan, quiero filtrar conciertos por género para ver solo los que me interesan.                                                                                                                | 3                                |
+| 14      | US02          | Publicar nuevo concierto                      | Como artista, quiero crear un evento para promocionar mi presentación.                                                                                                                            | 5                                |
+| 15      | US04          | Crear comunidad                               | Como usuario, quiero crear una comunidad temática para reunir a otros usuarios en torno a intereses compartidos.                                                                                  | 5                                |
+| 16      | US05          | Ver mapa con geolocalización                  | Como fan, quiero ver un mapa con mi ubicación y los conciertos cercanos marcados para explorar visualmente las opciones disponibles.                                                              | 8                                |
+| 17      | US08          | Iniciar sesión en la app mobile               | Como usuario registrado, quiero iniciar sesión desde la aplicación móvil para acceder a mi cuenta.                                                                                                | 3                                |
+| 18      | US09          | Registrarse como artista                      | Como nuevo usuario, quiero registrarme como artista para promocionar mis conciertos.                                                                                                              | 3                                |
+| 19      | US10          | Registrarse como fan                          | Como nuevo usuario, quiero registrarme como fan para participar en la comunidad y explorar conciertos.                                                                                            | 3                                |
+| 20      | US13          | Ver información detallada del concierto       | Como fan, quiero ver la información completa de un concierto para decidir si asistir.                                                                                                             | 3                                |
+| 21      | US14          | Unirse a una comunidad                        | Como fan, quiero unirme a una comunidad musical para interactuar con otros usuarios con intereses similares.                                                                                      | 3                                |
+| 22      | US15          | Publicar en la comunidad                      | Como fan, quiero crear publicaciones en las comunidad creadas, para compartir opiniones, fotos o recomendaciones con otros miembros.                                                              | 5                                |
+| 23      | US17          | Confirmar o marcar asistencia a un concierto  | Como fan, quiero poder marcar un concierto como “Marcar asistencia”, para llevar un seguimiento de los conciertos que planeo asistir.                                                             | 5                                |
+| 24      | US23          | Subir imágenes en comunidades                 | Como usuario, quiero subir imágenes en publicaciones de comunidad para compartir experiencias visuales.                                                                                           | 5                                |
+| 25      | US24          | Ver eventos asociados                         | Como usuario de GigMap, quiero ver un apartado de eventos relacionados en el perfil de un concierto, para conocer actividades cercanas en tiempo y lugar (pre/after/meetups) que podría realizar. | 5                                |
+| 26      | US34          | Crear evento asociado                         | Como usuario, quiero crear eventos asociados para conocer más gente que compartan mis gustos y poder ir juntos a más conciertos.                                                                  |                                  |
 
 ## 3.4. Impact Mapping
 
@@ -3611,18 +3574,18 @@ Este enfoque en la organización de la información está alineado con los objet
 
 El sistema de etiquetado define la manera en que se representará la información dentro de la aplicación, priorizando la claridad, simplicidad y coherencia en el lenguaje. El propósito es que los usuarios puedan identificar rápidamente las funciones y secciones sin confusión, asociando cada etiqueta con su contenido o acción correspondiente. Las etiquetas se han diseñado para ser breves, intuitivas y consistentes
 
-| **Sección / Función**                          | **Etiqueta Propuesta**                         |
-|------------------------------------------------|------------------------------------------------|
-| Lista de conciertos asistidos y por asistir     | GigList                                   |
-| Creación de conciertos               | Crear concierto  |
-| Creación de eventos                |  Crear evento relacionado |
-| Creación de comunidades                |  Crear comunidad |
-| Publicaciones con “me gusta”                    | Likes                                |
-| Comunidades a las que pertenece el usuario      | Comunidades                               |
-| Perfil del usuario                              | Mi perfil / Editar perfil              |
-| Sección general de eventos                      | Eventos relacionados                    |
-| Página de inicio          | Inicio                 |
-| Mapa interactivo        | Mapa                 |
+| **Sección / Función**                       | **Etiqueta Propuesta**    |
+| ------------------------------------------- | ------------------------- |
+| Lista de conciertos asistidos y por asistir | GigList                   |
+| Creación de conciertos                      | Crear concierto           |
+| Creación de eventos                         | Crear evento relacionado  |
+| Creación de comunidades                     | Crear comunidad           |
+| Publicaciones con “me gusta”                | Likes                     |
+| Comunidades a las que pertenece el usuario  | Comunidades               |
+| Perfil del usuario                          | Mi perfil / Editar perfil |
+| Sección general de eventos                  | Eventos relacionados      |
+| Página de inicio                            | Inicio                    |
+| Mapa interactivo                            | Mapa                      |
 
 ### 4.2.3. SEO Tags and Meta Tags
 
@@ -3634,22 +3597,22 @@ Se han definido los valores para las principales páginas del sitio web (Landing
 
 **Landing Page:**
 
-| **Etiqueta**        | **Valor Asignado** |
-|----------------------|--------------------|
-| **Title**            | GigMap |
+| **Etiqueta**         | **Valor Asignado**                                                                                                                                          |
+| -------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| **Title**            | GigMap                                                                                                                                                      |
 | **Meta Description** | Descubre, organiza y comparte tus experiencias musicales. Con GigMap puedes explorar conciertos cercanos, crear eventos y conectar con comunidades de fans. |
-| **Keywords**         | conciertos, música en vivo, eventos, fans, artistas, comunidades musicales, gigmap |
-| **Author**           | StayBits |
+| **Keywords**         | conciertos, música en vivo, eventos, fans, artistas, comunidades musicales, gigmap                                                                          |
+| **Author**           | StayBits                                                                                                                                                    |
 
 **Aplicación mobile:**
 
-| **Elemento**         | **Valor Asignado** |
-|----------------------|--------------------|
-| **App Title**        | GigMap |
-| **App Subtitle**     | Tu mapa musical: conciertos, comunidades y experiencias únicas |
-| **App Description**  | Con GigMap, encuentra conciertos cerca de ti, crea tus propios eventos, sigue a tus artistas favoritos y conecta con otros fans. Todo desde una interfaz intuitiva y moderna. |
-| **App Keywords**     | música, conciertos, eventos, fans, artistas, comunidad, gigmap, experiencias en vivo |
-| **App Developer**    | StayBits |
+| **Elemento**        | **Valor Asignado**                                                                                                                                                            |
+| ------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| **App Title**       | GigMap                                                                                                                                                                        |
+| **App Subtitle**    | Tu mapa musical: conciertos, comunidades y experiencias únicas                                                                                                                |
+| **App Description** | Con GigMap, encuentra conciertos cerca de ti, crea tus propios eventos, sigue a tus artistas favoritos y conecta con otros fans. Todo desde una interfaz intuitiva y moderna. |
+| **App Keywords**    | música, conciertos, eventos, fans, artistas, comunidad, gigmap, experiencias en vivo                                                                                          |
+| **App Developer**   | StayBits                                                                                                                                                                      |
 
 ### 4.2.4. Searching Systems
 
@@ -3664,14 +3627,13 @@ A continuación, se describen los sistemas de búsqueda implementados:
 - **Búsqueda de comunidades:** En la pestaña de Comunidades, los usuarios disponen de una barra de búsqueda que les permite encontrar grupos afines a sus intereses, ya sea por nombre, temática o popularidad. Esto fomenta la conexión entre fans con gustos similares.
 
 - **Navegación guiada en la Landing Page:** En la Landing Page, el menú de navegación (navbar) actúa como un sistema de búsqueda estructurado por secciones. Incluye accesos directos a:
+  - Inicio: Vista principal de presentación del proyecto.
 
-	- Inicio: Vista principal de presentación del proyecto.
+  - Para Fans: Sección que muestra los beneficios y funcionalidades pensadas para los usuarios fanáticos.
 
-	- Para Fans: Sección que muestra los beneficios y funcionalidades pensadas para los usuarios fanáticos.
+  - Para Artistas: Espacio destinado a mostrar las ventajas y herramientas disponibles para músicos y creadores.
 
-	- Para Artistas: Espacio destinado a mostrar las ventajas y herramientas disponibles para músicos y creadores.
-
-	- Descargar: Botón que redirige directamente a la tienda de aplicaciones para obtener la versión móvil de GigMap.
+  - Descargar: Botón que redirige directamente a la tienda de aplicaciones para obtener la versión móvil de GigMap.
 
 Cada uno de estos mecanismos busca optimizar la experiencia del usuario, reduciendo el tiempo de búsqueda y mejorando la accesibilidad de la información dentro del ecosistema GigMap.
 
@@ -3689,7 +3651,7 @@ La navegación en la Landing Page está diseñada para ofrecer una experiencia c
 
 - **Para Artistas:** Describe las herramientas, ventajas y oportunidades que GigMap pone a disposición de los músicos y creadores para conectar con sus audiencias.
 
-- **Descargar:**  Botón de acción que redirige al usuario hacia la tienda de aplicaciones para obtener la versión móvil de GigMap, promoviendo la transición del entorno web a la aplicación nativa.
+- **Descargar:** Botón de acción que redirige al usuario hacia la tienda de aplicaciones para obtener la versión móvil de GigMap, promoviendo la transición del entorno web a la aplicación nativa.
 
 - **Footer con suscripción al newsletter:** En la parte inferior de la Landing Page se incluye un footer interactivo que permite a los usuarios suscribirse a un newsletter. Este espacio busca mantenerlos informados sobre novedades, lanzamientos y próximos eventos relacionados con GigMap, reforzando la conexión continua entre la aplicación y su comunidad.
 
@@ -3966,7 +3928,7 @@ SEGMENTO OBJETIVO: FANS
 
 ### 4.4.4. Mobile Applications User Flow Diagrams
 
-Esta sección presenta la propuesta de User Flows elaborados en Lucidchart, donde se representan las rutas que los usuarios siguen dentro de las diferentes aplicaciones que conforman el proyecto. Cada flujo está diseñado en función de los User Persona y sus respectivos User Goals, evidenciando tanto el camino principal o esperado (happy path) como las rutas alternativas (unhappy paths). Los diagramas incluyen los mockups de las pantallas involucradas, mostrando la secuencia lógica de acciones que conducen al cumplimiento de los objetivos del usuario. 
+Esta sección presenta la propuesta de User Flows elaborados en Lucidchart, donde se representan las rutas que los usuarios siguen dentro de las diferentes aplicaciones que conforman el proyecto. Cada flujo está diseñado en función de los User Persona y sus respectivos User Goals, evidenciando tanto el camino principal o esperado (happy path) como las rutas alternativas (unhappy paths). Los diagramas incluyen los mockups de las pantallas involucradas, mostrando la secuencia lógica de acciones que conducen al cumplimiento de los objetivos del usuario.
 
 Además, se emplea un sistema de colores para diferenciar cada tipo de flujo, garantizando una lectura clara e intuitiva.
 
@@ -4097,7 +4059,7 @@ En este flujo, el usuario accede a su perfil y selecciona la opción “Editar p
 
 **User Flow 12: Acceso a Notificaciones**
 
-En este flujo, el usuario se encuentra en cualquier pestaña de la aplicación que tenga el botón de notificaciones, le da click al botón de notificaciones, esto lo dirige directamente a su bandeja de notificaciones, donde puede revisar alertas, conciertos y actividades relevantes. 
+En este flujo, el usuario se encuentra en cualquier pestaña de la aplicación que tenga el botón de notificaciones, le da click al botón de notificaciones, esto lo dirige directamente a su bandeja de notificaciones, donde puede revisar alertas, conciertos y actividades relevantes.
 
 <p align="center">
   <img src="assets/images/product-desing/user-flows/userflow23.png" alt="User Flow 23" width="800">
@@ -4231,7 +4193,7 @@ En este flujo, el usuario accede a su perfil y selecciona la opción “Editar p
 
 **User Flow 11: Acceso a Notificaciones**
 
-En este flujo, el usuario se encuentra en cualquier pestaña de la aplicación que tenga el botón de notificaciones, le da click al botón de notificaciones, esto lo dirige directamente a su bandeja de notificaciones, donde puede revisar alertas, conciertos y actividades relevantes. 
+En este flujo, el usuario se encuentra en cualquier pestaña de la aplicación que tenga el botón de notificaciones, le da click al botón de notificaciones, esto lo dirige directamente a su bandeja de notificaciones, donde puede revisar alertas, conciertos y actividades relevantes.
 
 <p align="center">
   <img src="assets/images/product-desing/user-flows/userflow23.png" alt="User Flow 23" width="800">
@@ -4303,8 +4265,6 @@ El diagrama de contenedores detalla los elementos internos de GigMap. La aplicac
 
 ![team member profile photo](assets/c4/C4-Clase-Concerts.png)
 
-
-
 ## 4.10. Database Design
 
 **Registro y Autenticación:**
@@ -4326,6 +4286,7 @@ El diagrama de contenedores detalla los elementos internos de GigMap. La aplicac
 **Conciertos:**
 
 ![team member profile photo](assets/c4/ERD-Conciertos.png)
+
 ### 4.10.1. Relational/Non-Relational Database Diagram
 
 # CAPÍTULO V: Product Implementation
@@ -4338,18 +4299,15 @@ El diagrama de contenedores detalla los elementos internos de GigMap. La aplicac
 
 En esta etapa, se utilizaron herramientas colaborativas que permitieron planificar, organizar y supervisar el progreso del proyecto **GigMap** de manera eficiente. Estas aplicaciones facilitaron la comunicación entre los miembros del equipo y el seguimiento de tareas, optimizando el flujo de trabajo.
 
-- [**Discord:**](https://discord.com/)  Cada integrante empleó la aplicación Discord para realizar reuniones virtuales, coordinar avances y resolver dudas en tiempo real. Esta herramienta fue clave para mantener una comunicación constante y una colaboración efectiva durante todo el desarrollo del proyecto.
+- [**Discord:**](https://discord.com/) Cada integrante empleó la aplicación Discord para realizar reuniones virtuales, coordinar avances y resolver dudas en tiempo real. Esta herramienta fue clave para mantener una comunicación constante y una colaboración efectiva durante todo el desarrollo del proyecto.
 
 - [**Google Docs:**](https://workspace.google.com/intl/es-419/products/docs/) Con Google Docs se logró distribuir el trabajo de forma equitativa y registrar los avances individuales de cada miembro. Además, permitió organizar la información preliminar que posteriormente se integró en GitHub.
-
 
 **Requirements Management**
 
 Durante esta fase, se utilizaron diversas herramientas visuales para identificar, analizar y documentar los requerimientos del sistema, permitiendo una comprensión profunda de los usuarios y una definición clara de los objetivos del producto.
 
-
 - [**Trello:**](https://trello.com) Para asignar y organizar las tareas y responsabilidades de cada integrante del grupo en caso de revisiones o modificaciones del proyecto.
-
 
 **Product UX/UI Design**
 
@@ -4361,40 +4319,38 @@ En esta etapa se emplearon herramientas de diseño que hicieron posible crear in
 
 Empleamos Android y Jetpack Compose para la creación de la mobile application, y Spring Boot para la creación de la API REST.
 
-| **Herramienta** | **Descripción** | **Enlace** |
-|-----------------|-----------------|-------------|
-| Android | Lenguaje de programación utilizado para la creación de la *mobile application*. | [https://developer.android.com/](https://developer.android.com/) |
-| Jetpack Compose | Framework utilizado para la creación de la *mobile application*. | [https://developer.android.com/compose](https://developer.android.com/compose) |
+| **Herramienta** | **Descripción**                                                                 | **Enlace**                                                                     |
+| --------------- | ------------------------------------------------------------------------------- | ------------------------------------------------------------------------------ |
+| Android         | Lenguaje de programación utilizado para la creación de la _mobile application_. | [https://developer.android.com/](https://developer.android.com/)               |
+| Jetpack Compose | Framework utilizado para la creación de la _mobile application_.                | [https://developer.android.com/compose](https://developer.android.com/compose) |
 
 **Software Testing**
 
 Para la verificación y validación del comportamiento del sistema, se emplearon herramientas y lenguajes orientados a la escritura de pruebas de aceptación, garantizando que los criterios definidos respondan a las necesidades del negocio y los requerimientos funcionales de Gigmap.
 
-| **Herramienta** | **Descripción** | **Enlace** |
-|-----------------|-----------------|-------------|
-| Gherkin | Lenguaje utilizado para la escritura de pruebas de aceptación mediante escenarios estructurados con la sintaxis *Given / When / Then*, permitiendo validar los criterios de aceptación de forma clara y comprensible para todos los miembros del equipo. | [https://cucumber.io/docs/gherkin/reference]( https://cucumber.io/docs/gherkin/reference) |
-| Postman | Herramienta utilizada para la realización de pruebas sobre los endpoints de la API REST, permitiendo verificar el correcto funcionamiento de las solicitudes HTTP y validar las respuestas del servidor. | [https://www.postman.com/](https://www.postman.com/) |
-
+| **Herramienta** | **Descripción**                                                                                                                                                                                                                                          | **Enlace**                                                                               |
+| --------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------- |
+| Gherkin         | Lenguaje utilizado para la escritura de pruebas de aceptación mediante escenarios estructurados con la sintaxis _Given / When / Then_, permitiendo validar los criterios de aceptación de forma clara y comprensible para todos los miembros del equipo. | [https://cucumber.io/docs/gherkin/reference](https://cucumber.io/docs/gherkin/reference) |
+| Postman         | Herramienta utilizada para la realización de pruebas sobre los endpoints de la API REST, permitiendo verificar el correcto funcionamiento de las solicitudes HTTP y validar las respuestas del servidor.                                                 | [https://www.postman.com/](https://www.postman.com/)                                     |
 
 **Software Deployment**
 
 Se utilizaron las siguientes herramientas de software para el despliegue de los servicios del proyecto: Render para la base de datos, Render para la API, Github para la landing page, y Android Studio para la aplicación móvil.
 
-| **Herramienta** | **Descripción** | **Enlace** |
-|-----------------|-----------------|-------------|
-| Github | Para la landing page. | [https://github.com](https://github.com) |
-| Render | Data base y Landing Page utilizadas para el proyecto. | [https://render.com/](https://render.com/) |
-| Android Studio | Herramienta utilizada para la creación de la *mobile application*. | [https://developer.android.com/studio](https://developer.android.com/studio) |
+| **Herramienta** | **Descripción**                                                    | **Enlace**                                                                   |
+| --------------- | ------------------------------------------------------------------ | ---------------------------------------------------------------------------- |
+| Github          | Para la landing page.                                              | [https://github.com](https://github.com)                                     |
+| Render          | Data base y Landing Page utilizadas para el proyecto.              | [https://render.com/](https://render.com/)                                   |
+| Android Studio  | Herramienta utilizada para la creación de la _mobile application_. | [https://developer.android.com/studio](https://developer.android.com/studio) |
 
 **Software Documentation**
 
 Para la documentación del software utilizamos el lenguaje Markdown y para el trabajo colaborativo Github.
 
-| **Herramienta** | **Descripción** | **Enlace** |
-|-----------------|-----------------|-------------|
-| Markdown | Lenguaje de marcado utilizado | [https://www.markdownguide.org/](https://www.markdownguide.org/) |
-| GitHub | Plataforma utilizada para subir la documentación del proyecto. | [https://github.com/NRG-4/report](https://github.com/NRG-4/report) |
-
+| **Herramienta** | **Descripción**                                                | **Enlace**                                                         |
+| --------------- | -------------------------------------------------------------- | ------------------------------------------------------------------ |
+| Markdown        | Lenguaje de marcado utilizado                                  | [https://www.markdownguide.org/](https://www.markdownguide.org/)   |
+| GitHub          | Plataforma utilizada para subir la documentación del proyecto. | [https://github.com/NRG-4/report](https://github.com/NRG-4/report) |
 
 ### 5.1.2. Source Code Management
 
@@ -4402,12 +4358,12 @@ El código fuente del proyecto **GigMap** es gestionado mediante la plataforma *
 
 #### Repositorios
 
-| **Producto** | **URL** |
-|--------------|---------|
-| Landing Page | `link` |
-| Mobile Application | `link` |
-| Web Services | `link` |
-| Acceptance Tests | `link` |
+| **Producto**       | **URL** |
+| ------------------ | ------- |
+| Landing Page       | `link`  |
+| Mobile Application | `link`  |
+| Web Services       | `link`  |
+| Acceptance Tests   | `link`  |
 
 #### GitFlow como Workflow de Control de Versiones
 
@@ -4427,7 +4383,6 @@ Se aplica la convención **Conventional Commits** para estructurar los mensajes 
 - `refactor:` para reestructuración del código sin alterar su comportamiento.
 - `test:` para la adición o modificación de pruebas.
 
-
 ### 5.1.3. Source Code Style Guide & Conventions
 
 Para el desarrollo de la interfaz responsive de la aplicación GigMap se emplearon tecnologías web como HTML, CSS y JavaScript. A continuación, se detallan las convenciones y buenas prácticas aplicadas durante su implementación:
@@ -4436,107 +4391,90 @@ Para el desarrollo de la interfaz responsive de la aplicación GigMap se emplear
 
 Se aplicó una estructura clara y organizada mediante el uso de etiquetas semánticas y contenedores:
 
-	<header></header>
-
+    <header></header>
 
 Encabezado general de la página.
 
-	<nav></nav>
+    <nav></nav>
 
 Barra de navegación.
 
-	<main></main>
+    <main></main>
 
 Contenedor principal del contenido.
 
+    <div class="container">
 
-	<div class="container">
-	
 Se utilizó para agrupar bloques de contenido relacionados.
 
-	<footer>
+    <footer>
 
 Pie de página con información adicional.
 
+Los títulos se declararon jerárquicamente usando las etiquetas
 
-Los títulos se declararon jerárquicamente usando las etiquetas 
+    <h1> a <h6>
 
-	<h1> a <h6>
+Las imágenes se insertaron mediante la etiqueta
 
-Las imágenes se insertaron mediante la etiqueta 
-
-	<img>
+    <img>
 
 incluyendo el atributo alt.
 
 Ejemplo:
 
-	<header>
+    <header>
+
  	 <h1>GigMap</h1>
 	</header>
 
+    <div class="container">
 
-
-	<div class="container">
   	<p>Contenido relacionado agrupado.</p>
 	</div>
 
-
-	<img src="imagen.jpg" alt="Descripción de la imagen">
-
+    <img src="imagen.jpg" alt="Descripción de la imagen">
 
 **CSS**
 Los estilos se definieron en un archivo externo. Se emplearon las siguientes prácticas:
 Nombres de clases en formato kebab-case (ej. .contenedor-principal).
 
-
 - Separación por secciones (tipografía, layout, botones).
-
 
 - Uso de media queries para diseño responsive.
 
-
 - Colores definidos por variables CSS para facilitar su reutilización.
-
 
 Ejemplo:
 
+    h1 {
 
-	h1 {
- 	 font-size: 24px;
-	  color: #0066cc;
-	}
+font-size: 24px;
+color: #0066cc;
+}
 
 **JavaScript**
 
 Se utilizó JavaScript para interacciones básicas de la interfaz. Las principales convenciones fueron:
 Uso de nombres en camelCase.
 
-
 - Separación del código en archivos externos.
-
 
 - Comentarios explicativos cuando fue necesario.
 
-
-
-		function mostrarMenu() {
-  			// Código para mostrar u ocultar el menú
-		}
+      function mostrarMenu() {
+      		// Código para mostrar u ocultar el menú
+      }
 
 **Buenas prácticas generales**
 
 - Indentación de 2 espacios.
 
-
 - Uso correcto de etiquetas semánticas y atributos de accesibilidad.
-
 
 - Organización de archivos en carpetas: /css, /js, /img.
 
-
 - Separación del contenido (HTML), presentación (CSS) y comportamiento (JavaScript).
-
 
 **Android (Kotlin/Java)**
 
@@ -4550,13 +4488,13 @@ Nomenclatura:
 
 ejemplo:
 
-		class EventDetailViewModel : ViewModel()
+    	class EventDetailViewModel : ViewModel()
 
-		fun loadUserEvents() { /* ... */ }
+    	fun loadUserEvents() { /* ... */ }
 
-		const val MAX_PAGE_SIZE = 50
+    	const val MAX_PAGE_SIZE = 50
 
------
+---
 
 Estructura:
 
@@ -4570,21 +4508,22 @@ La UI consume estados inmutables y dispara eventos hacia el ViewModel.
 
 Ejemplo:
 
-		// Dominio
-		class GetUpcomingGigsUseCase(private val repo: GigRepository) {
+    	// Dominio
+    	class GetUpcomingGigsUseCase(private val repo: GigRepository) {
     	suspend operator fun invoke() = repo.fetchUpcoming()
-		}
+    	}
 
-		// Presentación
-		data class EventUiState(
+    	// Presentación
+    	data class EventUiState(
     		val isLoading: Boolean = false,
-   			val events: List<Gig> = emptyList(),
-    		val error: String? = null
-		)
 
-		class EventListViewModel(
+val events: List<Gig> = emptyList(),
+val error: String? = null
+)
+
+    	class EventListViewModel(
     	private val getUpcomingGigs: GetUpcomingGigsUseCase
-		) : ViewModel() {
+    	) : ViewModel() {
     		var uiState by mutableStateOf(EventUiState())
         		private set
 
@@ -4594,32 +4533,32 @@ Ejemplo:
             		.onSuccess { uiState = uiState.copy(isLoading = false, events = it) }
             		.onFailure { uiState = uiState.copy(isLoading = false, error = it.message) }
     		}
-		}
+    	}
 
-----------
+---
 
 **Jetpack Compose**
 
 Componentes:
+
 - Nombre de funciones composables: PascalCase (p. ej., ButtonSubmit()).
 - El estado (remember, mutableStateOf) se gestiona en el ViewModel; la UI recibe state y callbacks.
-  
+
 Ejemplo:
 
-		@Composable
-		fun EventListScreen(
+    	@Composable
+    	fun EventListScreen(
     		state: EventUiState,
     		onRetry: () -> Unit
-		) {
+    	) {
     		when {
         		state.isLoading -> Loading()
         		state.error != null -> ErrorView(message = state.error, onRetry = onRetry)
         		else -> EventList(events = state.events)
     		}
-		}
+    	}
 
 Recomposición:
-
 
 - Extraer lógica a UseCase/ViewModel o usar remember{} / derivedStateOf{} si aplica.
 
@@ -4627,20 +4566,19 @@ Recomposición:
 
 Ejemplo de Modifier reutilizable:
 
-		val cardModifier = Modifier
+    	val cardModifier = Modifier
     		.fillMaxWidth()
     		.padding(16.dp)
 
-		@Composable
-		fun GigCard(gig: Gig, modifier: Modifier = Modifier) {
+    	@Composable
+    	fun GigCard(gig: Gig, modifier: Modifier = Modifier) {
     		Card(modifier.then(cardModifier)) {
         		Column(Modifier.padding(16.dp)) {
             		Text(gig.title, style = MaterialTheme.typography.titleMedium)
             		Text(gig.venue, style = MaterialTheme.typography.bodyMedium)
         		}
     		}
-		}
-
+    	}
 
 ### 5.1.4. Software Deployment Configuration
 
@@ -4654,21 +4592,21 @@ En esta sección se detallan las consideraciones y pasos necesarios para el desp
 
 Requerimientos previos
 
-- Repositorio de desarrollo de la Landing Page en GitHub.  
-- Repositorio de GitHub con visibilidad pública.  
+- Repositorio de desarrollo de la Landing Page en GitHub.
+- Repositorio de GitHub con visibilidad pública.
 - Tener una cuenta activa en Render.
 
 Pasos para desplegar la Landing Page:
 
-- Ingresar al sitio web de [Render](https://render.com/).  
-- Iniciar sesión en la cuenta de Render.  
-- Seleccionar la opción New → Web Service.  
-- Conceder acceso a Render para leer los repositorios de GitHub (si es la primera vez).  
-- Elegir el repositorio correspondiente a la Landing Page de GigMap.  
-- Configurar el nombre del servicio y confirmar los ajustes de despliegue (puerto, comando de build, etc.).  
-- Hacer clic en **“Deploy”**.  
-- Esperar a que Render complete el proceso de compilación y despliegue.  
-- Acceder a la **URL pública generada por Render** para verificar que la Landing Page funcione correctamente.  
+- Ingresar al sitio web de [Render](https://render.com/).
+- Iniciar sesión en la cuenta de Render.
+- Seleccionar la opción New → Web Service.
+- Conceder acceso a Render para leer los repositorios de GitHub (si es la primera vez).
+- Elegir el repositorio correspondiente a la Landing Page de GigMap.
+- Configurar el nombre del servicio y confirmar los ajustes de despliegue (puerto, comando de build, etc.).
+- Hacer clic en **“Deploy”**.
+- Esperar a que Render complete el proceso de compilación y despliegue.
+- Acceder a la **URL pública generada por Render** para verificar que la Landing Page funcione correctamente.
 
 ---
 
@@ -4676,24 +4614,24 @@ Pasos para desplegar la Landing Page:
 
 Consideraciones antes del despliegue
 
-- Se debe contar con el API del backend desplegado en un servidor accesible externamente (Render en este caso).  
+- Se debe contar con el API del backend desplegado en un servidor accesible externamente (Render en este caso).
 - Verificar que las rutas del backend estén configuradas correctamente en el proyecto móvil.
 
 Requerimientos previos
 
-- Repositorio de desarrollo del API en **GitHub.  
-- Dispositivo Android en el que se pueda instalar la aplicación.  
+- Repositorio de desarrollo del API en \*\*GitHub.
+- Dispositivo Android en el que se pueda instalar la aplicación.
 
 Pasos para desplegar la aplicación móvil
 
-- Activar el modo desarrollador en el dispositivo Android.  
-- Habilitar la depuración por USB.  
-- Conectar el dispositivo móvil a la computadora.  
-- Abrir **Android Studio** y seleccionar el proyecto de GigMap.  
-- Escoger el dispositivo en la lista de dispositivos disponibles.  
-- Hacer clic en **“Run” (Ejecutar)** para compilar e instalar la aplicación.  
-- Esperar a que el proceso finalice.  
-- Abrir la aplicación en el dispositivo y verificar que funcione correctamente.  
+- Activar el modo desarrollador en el dispositivo Android.
+- Habilitar la depuración por USB.
+- Conectar el dispositivo móvil a la computadora.
+- Abrir **Android Studio** y seleccionar el proyecto de GigMap.
+- Escoger el dispositivo en la lista de dispositivos disponibles.
+- Hacer clic en **“Run” (Ejecutar)** para compilar e instalar la aplicación.
+- Esperar a que el proceso finalice.
+- Abrir la aplicación en el dispositivo y verificar que funcione correctamente.
 
 ---
 
@@ -4701,26 +4639,25 @@ Pasos para desplegar la aplicación móvil
 
 Consideraciones antes del despliegue
 
-- La base de datos debe estar desplegada en un servidor accesible externamente.  
-- Verificar la correcta configuración de las variables de entorno (por ejemplo, cadenas de conexión, claves secretas, etc.).  
+- La base de datos debe estar desplegada en un servidor accesible externamente.
+- Verificar la correcta configuración de las variables de entorno (por ejemplo, cadenas de conexión, claves secretas, etc.).
 
 Requerimientos previos
 
-- Repositorio de desarrollo del backend en GitHub.  
-- Repositorio con visibilidad pública.  
-- Cuenta activa en Render.  
+- Repositorio de desarrollo del backend en GitHub.
+- Repositorio con visibilidad pública.
+- Cuenta activa en Render.
 
 Pasos para desplegar el backend en Render
 
-- Extraer el pipeline de la base de datos de Gigmap y vincularlo con el código del API.  
-- Crear un archivo Dockerfile para configurar el despliegue del API.  
-- Iniciar sesión en [Render](https://render.com/).  
-- Crear un nuevo proyecto de tipo Web Service.  
-- Importar el repositorio del API de GigMap al proyecto en Render.  
-- Configurar las variables de entorno necesarias (DB_URL, PORT, etc.).  
-- Hacer clic en Deploy*.  
-- Esperar a que Render complete el despliegue y verificar el estado del servicio.  
-
+- Extraer el pipeline de la base de datos de Gigmap y vincularlo con el código del API.
+- Crear un archivo Dockerfile para configurar el despliegue del API.
+- Iniciar sesión en [Render](https://render.com/).
+- Crear un nuevo proyecto de tipo Web Service.
+- Importar el repositorio del API de GigMap al proyecto en Render.
+- Configurar las variables de entorno necesarias (DB_URL, PORT, etc.).
+- Hacer clic en Deploy\*.
+- Esperar a que Render complete el despliegue y verificar el estado del servicio.
 
 ## 5.2. Product Implementation & Deployment
 
@@ -4793,6 +4730,7 @@ Al descargar, instalar o utilizar la aplicación móvil, el usuario declara habe
 **2. Uso del servicio**
 
 El usuario se compromete a utilizar la aplicación exclusivamente para fines personales e informativos relacionados con la consulta de conciertos en Lima Metropolitana. Queda prohibido:
+
 - Utilizar la aplicación con fines ilícitos o fraudulentos
 - Interferir con el funcionamiento normal de la aplicación
 - Intentar acceder a información o funcionalidades no autorizadas
@@ -4809,10 +4747,11 @@ El usuario otorga su consentimiento expreso para dicho acceso y podrá revocarlo
 **5. Tratamiento de datos personales**
 
 El tratamiento de los datos personales se realiza conforme a la Ley N.º 29733 – Ley de Protección de Datos Personales y su reglamento en el Perú. Los datos recopilados serán utilizados únicamente para:
+
 - Personalizar la experiencia del usuario
 - Mejorar el servicio ofrecido
 - Gestionar el acceso y uso de la aplicación
-El usuario puede ejercer sus derechos de acceso, rectificación, cancelación y oposición (ARCO) conforme a la normativa vigente.
+  El usuario puede ejercer sus derechos de acceso, rectificación, cancelación y oposición (ARCO) conforme a la normativa vigente.
 
 **6. Disponibilidad del servicio**
 
@@ -4825,6 +4764,7 @@ Todos los elementos de la aplicación, incluyendo diseño, código, logotipos y 
 **8. Limitación de responsabilidad**
 
 La aplicación actúa únicamente como un medio informativo sobre conciertos en Lima Metropolitana. No se responsabiliza por:
+
 - Cambios de fecha, lugar o cancelaciones de eventos
 - Disponibilidad o venta de entradas
 - Información proporcionada por terceros
@@ -4843,25 +4783,66 @@ Los presentes términos se rigen por las leyes de la República del Perú. Cualq
   <img src="assets/images/restful-api/restful-api.png" alt="restfulapi" width="700">
 </p>
 
-
-
 ## 5.3. Video About-the-Product
 
-| **Video About-the-Product** |
-|-----------------------------|
-| **Screenshot:**<br>![Screenshot del video](assets/ss-video-about-the-product2.png) |
-| **Duración:**<br>2:32 |
-| **URL OneDrive:**<br>  `https://upcedupe-my.sharepoint.com/:v:/g/personal/u202311558_upc_edu_pe/IQAxvpLO7-vpSJ49qANyaf1qAbXJmMEOUdZM4wnkiwU-wTg?e=EcaAi8&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D`  |
-| **URL Youtube:**<br>  `https://youtu.be/4ypL066T7xk`  |
-| **Descripción:**<br>En el video se presenta una demostración del producto dirigida a los visitantes de nuestra landing page, donde se explican las principales funcionalidades de Gigmap. |
-
-
+| **Video About-the-Product**                                                                                                                                                                                                                                                                                                                     |
+| ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| **Screenshot:**<br>![Screenshot del video](assets/ss-video-about-the-product2.png)                                                                                                                                                                                                                                                              |
+| **Duración:**<br>2:32                                                                                                                                                                                                                                                                                                                           |
+| **URL OneDrive:**<br> `https://upcedupe-my.sharepoint.com/:v:/g/personal/u202311558_upc_edu_pe/IQAxvpLO7-vpSJ49qANyaf1qAbXJmMEOUdZM4wnkiwU-wTg?e=EcaAi8&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D` |
+| **URL Youtube:**<br> `https://youtu.be/4ypL066T7xk`                                                                                                                                                                                                                                                                                             |
+| **Descripción:**<br>En el video se presenta una demostración del producto dirigida a los visitantes de nuestra landing page, donde se explican las principales funcionalidades de Gigmap.                                                                                                                                                       |
 
 # CAPITULO VI: Product Verification & Validation
 
 ## 6.1 Testing suites & validation
+
 ## 6.1.1. Core Entities Unit Tests.
+
 ## 6.1.2. Core Integration Tests.
+
+**Auth Controller Tests:**
+
+<p align="center">
+  <img src="assets/images/core-integration-tests/AuthControllerTest.png" alt="AuthControllerTest" width="700">
+</p>
+
+**Community Controller Tests:**
+
+<p align="center">
+  <img src="assets/images/core-integration-tests/CommunityControllerTest.png" alt="CommunityControllerTest" width="700">
+</p>
+
+**Concert Controller Tests:**
+
+<p align="center">
+  <img src="assets/images/core-integration-tests/ConcertControllerTest.png" alt="ConcertControllerTest" width="700">
+</p>
+
+**Notification Controller Tests:**
+
+<p align="center">
+  <img src="assets/images/core-integration-tests/NotificationControllerTest.png" alt="NotificationControllerTest" width="700">
+</p>
+
+**Post Controller Tests:**
+
+<p align="center">
+  <img src="assets/images/core-integration-tests/PostControllerTest.png" alt="PostControllerTest" width="700">
+</p>
+
+**RelatedEvent Controller Tests:**
+
+<p align="center">
+  <img src="assets/images/core-integration-tests/RelatedEventControllerTest.png" alt="RelatedEventControllerTest" width="700">
+</p>
+
+**User Controller Tests:**
+
+<p align="center">
+  <img src="assets/images/core-integration-tests/UserControllerTest.png" alt="UserControllerTest" width="700">
+</p>
+
 ## 6.1.3. Core Behavior-Driven Development
 
 # CAPITULO VII: DevOps Practices
@@ -4982,8 +4963,7 @@ Se recomienda incorporar funcionalidades analíticas tanto para usuarios como pa
 
 Finalmente, se sugiere planificar la escalabilidad del sistema desde etapas tempranas, considerando su posible expansión a nuevas ciudades o países. Para ello, será clave diseñar una arquitectura flexible y adaptable que permita integrar nuevas fuentes de datos y mantener un rendimiento óptimo a medida que crezca la cantidad de usuarios y eventos.
 
-
-# Bibliografía 
+# Bibliografía
 
 Chartmetric. (2023). Year in music 2023: Part 1. Chartmetric. https://reports.chartmetric.com/2023/year-in-music/part-1
 
