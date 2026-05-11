@@ -4860,9 +4860,9 @@ Los presentes términos se rigen por las leyes de la República del Perú. Cualq
 # CAPITULO VI: Product Verification & Validation
 
 ## 6.1 Testing suites & validation
-## 6.1.1. Core Entities Unit Tests. ### Min 4 (Lore)
-## 6.1.2. Core Integration Tests. ### TODOS (DaDevel)
-## 6.1.3. Core Behavior-Driven Development ### Min 10 (Añaña)
+## 6.1.1. Core Entities Unit Tests.
+## 6.1.2. Core Integration Tests.
+## 6.1.3. Core Behavior-Driven Development
 
 # Conclusiones 
 
