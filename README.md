@@ -4904,21 +4904,21 @@ COMPLETAR
 |------|--------------------------|---|
 
 <p align="center">
-  <img src="assets/images/tests/US06.png" alt="US06" width="700">
+  <img src="assets/images/tests/us06.png" alt="US06" width="700">
 </p>
 
 | US07 | Buscar comunidades | **Como** usuario, **quiero** buscar comunidades por nombre **para** unirme a las que me interesen. |
 |------|--------------------------|---|
 
 <p align="center">
-  <img src="assets/images/tests/US07.png" alt="US07" width="700">
+  <img src="assets/images/tests/us07.png" alt="US07" width="700">
 </p>
 
 | US18 | Ver comunidades accedidas | **Como** usuario, **quiero** visualizar en el apartado "Comunidades" las comunidades a las que me he unido. |
 |------|--------------------------|---|
 
 <p align="center">
-  <img src="assets/images/tests/US18.png" alt="US18" width="700">
+  <img src="assets/images/tests/us18.png" alt="US18" width="700">
 </p>
 
 | US19 | Reaccionar a publicaciones en comunidades | **Como** usuario, **quiero** poder reaccionar a publicaciones dentro de las comunidades. |
