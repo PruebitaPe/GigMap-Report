@@ -4876,28 +4876,28 @@ COMPLETAR
 |------|--------------------------|---|
 
 <p align="center">
-  <img src="assets/images/tests/US31.png" alt="US31" width="700">
+  <img src="assets/images/tests/US31.jpeg" alt="US31" width="700">
 </p>
 
 | US32 | Ver beneficios para artista | **Como** usuario del segmento artista, **quiero** ver cómo la app me ayuda a promocionar mis eventos. |
 |------|--------------------------|---|
 
 <p align="center">
-  <img src="assets/images/tests/US32.png" alt="US32" width="700">
+  <img src="assets/images/tests/US32.jpeg" alt="US32" width="700">
 </p>
 
 | US33 | Acceder a testimonios | **Como** usuario, **quiero** leer testimonios de usuarios reales **para** aumentar mi confianza en la app. |
 |------|--------------------------|---|
 
 <p align="center">
-  <img src="assets/images/tests/US33.png" alt="US33" width="700">
+  <img src="assets/images/tests/US33.jpeg" alt="US33" width="700">
 </p>
 
 | US03 | Personalizar perfil de artista | **Como** artista, **quiero** personalizar mi perfil con mi nombre artístico y fotografía **para** conectar mejor con el público. |
 |------|--------------------------|---|
 
 <p align="center">
-  <img src="assets/images/tests/US03.png" alt="US03" width="700">
+  <img src="assets/images/tests/US03.jpeg" alt="US03" width="700">
 </p>
 
 | US06 | Buscar conciertos | **Como** usuario, **quiero** buscar conciertos por nombre o artista **para** encontrarlos fácilmente. |
@@ -5044,7 +5044,7 @@ COMPLETAR
 |------|--------------------------|---|
 
 <p align="center">
-  <img src="assets/images/tests/US34.png" alt="US34" width="700">
+  <img src="assets/images/tests/US34.jpeg" alt="US34" width="700">
 </p>
 
 # CAPITULO VII: DevOps Practices
