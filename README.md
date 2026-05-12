@@ -4802,6 +4802,7 @@ Los presentes términos se rigen por las leyes de la República del Perú. Cualq
 ### 5.2.6. RESTful API documentation
 
 Enlace al repositorio del Backend: `https://github.com/StayBitsV2/gigmap-api.git`
+
 Enlace al Backend desplegado: `https://gigmap-api.onrender.com/swagger-ui/index.html`
 
 A continuación se presenta la documentación de los endpoints disponibles en la API RESTful de GigMap.
