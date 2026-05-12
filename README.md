@@ -4361,8 +4361,8 @@ El código fuente del proyecto **GigMap** es gestionado mediante la plataforma *
 | **Producto**       | **URL** |
 | ------------------ | ------- |
 | Landing Page       | `link`  |
-| Mobile Application | `link`  |
-| Web Services       | `link`  |
+| Mobile Application | `https://github.com/StayBitsV2/Gigmap-mobile.git`  |
+| Web Services       | `https://github.com/StayBitsV2/gigmap-api.git`  |
 | Acceptance Tests   | `link`  |
 
 #### GitFlow como Workflow de Control de Versiones
