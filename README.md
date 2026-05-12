@@ -5119,6 +5119,16 @@ Esta sección detalla las pruebas unitarias aplicadas a las entidades fundamenta
 
 ## 6.1.3. Core Behavior-Driven Development
 
+<p align="center">
+  <img src="assets/images/core/features.png" alt="Features" width="700">
+</p>
+<p align="center">
+  <img src="assets/images/core/feature2.png" alt="Features2" width="700">
+</p>
+<p align="center">
+  <img src="assets/images/core/feature7.png" alt="Features7" width="700">
+</p>
+
 ## 6.1.4. Core System Tests
 
 | US31 | Ver beneficios para fans | **Como** usuario del segmento fan, **quiero** conocer los beneficios de la app para mí, **para** decidir registrarme. |
