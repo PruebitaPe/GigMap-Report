@@ -4824,8 +4824,77 @@ COMPLETAR
 
 ## 6.1.1. Core Entities Unit Tests.
 
-## 6.1.2. Core Integration Tests.
+Esta sección detalla las pruebas unitarias aplicadas a las entidades fundamentales del sistema para validar su lógica interna y reglas de negocio. El objetivo es garantizar la integridad de los modelos de datos y su comportamiento correcto antes de ser integrados con otros componentes.
 
+**USER SERVICE TEST**
+
+<p align="center">
+  <img src="assets/images/core-integration-tests/UserCommandService.PNG" alt="AuthControllerTest" width="700">
+</p>
+
+<p align="center">
+  <img src="assets/images/core-integration-tests/UserQueryService.PNG" alt="AuthControllerTest" width="700">
+</p>
+
+**COMMUNITY SERVICE TEST**
+
+<p align="center">
+  <img src="assets/images/core-integration-tests/CommunityCommandService.PNG" alt="AuthControllerTest" width="700">
+</p>
+
+<p align="center">
+  <img src="assets/images/core-integration-tests/CommunityQueryService.PNG" alt="AuthControllerTest" width="700">
+</p>
+
+**POST SERVICE TEST**
+
+<p align="center">
+  <img src="assets/images/core-integration-tests/PostCommandService.PNG" alt="AuthControllerTest" width="700">
+</p>
+
+<p align="center">
+  <img src="assets/images/core-integration-tests/PostQueryService.PNG" alt="AuthControllerTest" width="700">
+</p>
+
+**CONCERT SERVICE TEST**
+
+<p align="center">
+  <img src="assets/images/core-integration-tests/ConcertCommandService.PNG" alt="AuthControllerTest" width="700">
+</p>
+
+<p align="center">
+  <img src="assets/images/core-integration-tests/ConcertQueryService.PNG" alt="AuthControllerTest" width="700">
+</p>
+
+<p align="center">
+  <img src="assets/images/core-integration-tests/ConcertReminderScheduler.PNG" alt="AuthControllerTest" width="700">
+</p>
+
+**NOTIFICATION SERVICE TEST**
+
+<p align="center">
+  <img src="assets/images/core-integration-tests/NotificationCommandService.PNG" alt="AuthControllerTest" width="700">
+</p>
+
+<p align="center">
+  <img src="assets/images/core-integration-tests/NotificationQueryService.PNG" alt="AuthControllerTest" width="700">
+</p>
+
+<p align="center">
+  <img src="assets/images/core-integration-tests/TokenCommandService.PNG" alt="AuthControllerTest" width="700">
+</p>
+
+**EVENT SERVICE TEST**
+
+<p align="center">
+  <img src="assets/images/core-integration-tests/EventCommandService.PNG" alt="AuthControllerTest" width="700">
+</p>
+
+<p align="center">
+  <img src="assets/images/core-integration-tests/EventQueryService.PNG" alt="AuthControllerTest" width="700">
+</p>
+
+## 6.1.2. Core Integration Tests.
 **Auth Controller Tests:**
 
 <p align="center">
