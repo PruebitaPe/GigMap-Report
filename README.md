@@ -4374,8 +4374,8 @@ El código fuente del proyecto **GigMap** es gestionado mediante la plataforma *
 | **Producto**       | **URL** |
 | ------------------ | ------- |
 | Landing Page       | `link`  |
-| Mobile Application | `link`  |
-| Web Services       | `link`  |
+| Mobile Application | `https://github.com/StayBitsV2/Gigmap-mobile.git`  |
+| Web Services       | `https://github.com/StayBitsV2/gigmap-api.git`  |
 | Acceptance Tests   | `link`  |
 
 #### GitFlow como Workflow de Control de Versiones
@@ -4792,11 +4792,20 @@ La empresa se reserva el derecho de modificar estos términos en cualquier momen
 
 Los presentes términos se rigen por las leyes de la República del Perú. Cualquier controversia será sometida a la jurisdicción de los tribunales competentes de Lima Metropolitana.
 
-### 5.2.6. Implemented RESTful API and/or Serverless Backend Evidence
+### 5.2.5. Implemented RESTful API and/or Serverless Backend Evidence
 
 <p align="center">
   <img src="assets/images/restful-api/restful-api.png" alt="restfulapi" width="700">
 </p>
+
+
+### 5.2.6. RESTful API documentation
+
+COMPLETAR
+
+### 5.2.7. Team Collaboration Insights
+
+COMPLETAR
 
 
 ## 5.3. Video About-the-Product
