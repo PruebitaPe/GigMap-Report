@@ -4801,7 +4801,132 @@ Los presentes términos se rigen por las leyes de la República del Perú. Cualq
 
 ### 5.2.6. RESTful API documentation
 
-COMPLETAR
+Enlace al repositorio del Backend: `https://github.com/StayBitsV2/gigmap-api.git`
+Enlace al Backend desplegado: `https://gigmap-api.onrender.com/swagger-ui/index.html`
+
+A continuación se presenta la documentación de los endpoints disponibles en la API RESTful de GigMap.
+
+#### Authentication
+
+| Método | Endpoint | Descripción |
+|--------|----------|-------------|
+| POST | /api/v1/auth/register | Se registra un nuevo usuario. |
+| POST | /api/v1/auth/login | Se inicia sesión con las credenciales del usuario. |
+
+<p align="center">
+  <img src="assets/images/back/1.png" alt="restfulapi" width="700">
+</p>
+
+
+#### Concerts
+
+| Método | Endpoint | Descripción |
+|--------|----------|-------------|
+| GET | /api/v1/concerts/{concertId} | Se obtiene un concierto por ID. |
+| PUT | /api/v1/concerts/{concertId} | Se actualiza un concierto. |
+| DELETE | /api/v1/concerts/{concertId} | Se elimina un concierto. |
+| GET | /api/v1/concerts | Se obtiene la lista de todos los conciertos. |
+| POST | /api/v1/concerts | Se crea un nuevo concierto. |
+| POST | /api/v1/concerts/attendees | Se añade un asistente a un concierto. |
+| DELETE | /api/v1/concerts/attendees | Se elimina un asistente de un concierto. |
+| GET | /api/v1/concerts/genre/{genre} | Se obtienen conciertos por género. |
+| GET | /api/v1/concerts/attended/{userId} | Se obtienen todos los conciertos a los que asistió un usuario. |
+| GET | /api/v1/concerts/artist/{artistId} | Se obtienen conciertos por artista. |
+
+<p align="center">
+  <img src="assets/images/back/2.png" alt="restfulapi" width="700">
+</p>
+
+
+#### Users
+
+| Método | Endpoint | Descripción |
+|--------|----------|-------------|
+| GET | /api/v1/users/{userId} | Se obtiene un usuario por ID. |
+| PUT | /api/v1/users/{userId} | Se actualiza un usuario. |
+| GET | /api/v1/users | Se obtiene la lista de usuarios. |
+| GET | /api/v1/users/{userId}/details | Se obtienen los detalles de un usuario por ID. |
+
+<p align="center">
+  <img src="assets/images/back/3.png" alt="restfulapi" width="700">
+</p>
+
+
+#### Communities
+
+| Método | Endpoint | Descripción |
+|--------|----------|-------------|
+| PUT | /api/v1/communities/{id} | Se actualiza una comunidad. |
+| DELETE | /api/v1/communities/{id} | Se elimina una comunidad. |
+| GET | /api/v1/communities | Se obtiene la lista de todas las comunidades. |
+| POST | /api/v1/communities | Se crea una nueva comunidad. |
+| POST | /api/v1/communities/{communityId}/join | Se une a una comunidad. |
+| GET | /api/v1/communities/{communityId} | Se obtiene una comunidad por ID. |
+| GET | /api/v1/communities/joined/{userId} | Se obtienen todas las comunidades a las que se unió un usuario. |
+| DELETE | /api/v1/communities/{communityId}/leave | Se abandona una comunidad. |
+
+<p align="center">
+  <img src="assets/images/back/4.png" alt="restfulapi" width="700">
+</p>
+
+
+#### Notifications
+
+| Método | Endpoint | Descripción |
+|--------|----------|-------------|
+| POST | /api/v1/notifications | Se crea una nueva notificación. |
+| GET | /api/v1/notifications/user/{userId} | Se obtienen todas las notificaciones de un usuario. |
+
+<p align="center">
+  <img src="assets/images/back/5.png" alt="restfulapi" width="700">
+</p>
+
+
+#### Posts
+
+| Método | Endpoint | Descripción |
+|--------|----------|-------------|
+| PUT | /api/v1/posts/{id} | Se actualiza una publicación. |
+| DELETE | /api/v1/posts/{id} | Se elimina una publicación. |
+| GET | /api/v1/posts | Se obtienen todas las publicaciones. |
+| POST | /api/v1/posts | Se crea una nueva publicación. |
+| POST | /api/v1/posts/{postId}/like | Se da like a una publicación. |
+| GET | /api/v1/posts/{postId} | Se obtiene una publicación por ID. |
+| GET | /api/v1/posts/liked_by/{userId} | Se obtienen todas las publicaciones con like de un usuario. |
+| DELETE | /api/v1/posts/{postId}/unlike | Se quita el like de una publicación. |
+
+<p align="center">
+  <img src="assets/images/back/6.png" alt="restfulapi" width="700">
+</p>
+
+
+#### Related Events
+
+| Método | Endpoint | Descripción |
+|--------|----------|-------------|
+| GET | /api/v1/related-events/{relatedEventId} | Se obtiene un evento asociado por ID. |
+| PUT | /api/v1/related-events/{relatedEventId} | Se actualiza un evento asociado. |
+| DELETE | /api/v1/related-events/{relatedEventId} | Se elimina un evento asociado. |
+| POST | /api/v1/related-events | Se crea un nuevo evento asociado. |
+| POST | /api/v1/related-events/participants | Se añade un participante a un evento asociado. |
+| DELETE | /api/v1/related-events/participants | Se elimina un participante de un evento asociado. |
+| GET | /api/v1/related-events/concert/{concertId} | Se obtienen eventos asociados por ID de concierto. |
+
+<p align="center">
+  <img src="assets/images/back/7.png" alt="restfulapi" width="700">
+</p>
+
+
+#### Device Tokens
+
+| Método | Endpoint | Descripción |
+|--------|----------|-------------|
+| POST | /api/v1/device_tokens | Se crea un nuevo Device Token. |
+
+<p align="center">
+  <img src="assets/images/back/8.png" alt="restfulapi" width="700">
+</p>
+
 
 ### 5.2.7. Team Collaboration Insights
 
