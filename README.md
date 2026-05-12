@@ -2966,6 +2966,47 @@ La comunicación se desarrolla bajo una línea respetuosa y entusiasta, proyecta
 
 ### 4.1.2. Web Style Guidelines
 
+#### **Colors**
+StayBits ha definido una identidad visual que equilibra la elegancia nocturna de los eventos en vivo con la energía y pasión de la música. La paleta de colores de GigMap está diseñada para ofrecer un contraste sofisticado que garantiza la legibilidad en entornos de baja luminosidad, como conciertos, y resalta los puntos de interés en el mapa interactivo.
+
+<img src="assets/images/product-desing/style-guidelines/coloresWeb.png" alt="typo" width="700">
+
+#### **Typography (Tipografía)**
+
+La tipografía desempeña un papel fundamental en la identidad visual y la legibilidad de **GigMap**. Hemos seleccionado cuidadosamente la fuente **“Inter”**, una familia sans-serif moderna y versátil que garantiza una lectura clara tanto en el mapa interactivo como en la información de eventos. Su diseño optimizado para pantallas móviles permite que los usuarios de **StayBits** exploren conciertos y artistas con total fluidez, transmitiendo una imagen tecnológica, limpia y profesional.
+
+<img src="assets/images/product-desing/style-guidelines/tipografiaWeb.png" alt="typo" width="700">
+
+#### **Icons**
+
+La iconografía de **GigMap** ha sido diseñada para ser funcional, intuitiva y plenamente coherente con la estética nocturna y tecnológica de la plataforma. Utilizamos una línea de símbolos minimalistas que representan las interacciones clave del ecosistema de **StayBits**: la campana para las notificaciones de eventos en tiempo real, el sobre para la mensajería directa, el icono de grupo para representar a nuestra comunidad de fans y artistas, y el marcador de mapa para la geolocalización de conciertos.
+
+<img src="assets/images/product-desing/style-guidelines/iconosWeb.png" alt="typo" width="700">
+
+#### **Spacing (Espaciado)**
+
+El sistema de espaciado de **GigMap** se basa en una rejilla lógica que garantiza el equilibrio visual y la jerarquía en toda la interfaz. Utilizamos márgenes y rellenos proporcionales para separar los elementos de contenido, permitiendo que la aplicación "respire" y facilitando la lectura en pantallas de diversos tamaños. Este uso estratégico del espacio negativo no solo mejora la estética general, sino que optimiza la usabilidad al agrupar elementos relacionados y distinguir claramente las diferentes secciones de la plataforma, asegurando una experiencia de usuario clara, limpia y profesional.
+
+<img src="assets/images/product-desing/style-guidelines/spacingWeb.png" alt="typo" width="700">
+
+#### Grid System 
+
+El **Grid System** es una herramienta esencial en el diseño y la organización de la interfaz de usuario de **GigMap**. Proporciona una estructura visual que ayuda a distribuir y alinear los elementos de la página de manera consistente y armoniosa en diferentes tamaños de pantalla.
+
+<img src="assets/images/product-desing/style-guidelines/gridSystemWeb.png" alt="typo" width="700">
+
+### Button:
+
+En **GigMap**, los botones actúan como los principales puntos de interacción, diseñados para guiar al usuario hacia acciones estratégicas de forma ágil y visualmente atractiva. Más que simples elementos clicables, son herramientas de navegación que permiten desde la confirmación de asistencia hasta el descubrimiento de nuevas rutas musicales.
+
+<img src="assets/images/product-desing/style-guidelines/buttonmWeb.png" alt="typo" width="700">
+
+### Input System
+
+El **Input System** constituye la base de la interacción en **GigMap**, permitiendo que los usuarios alimenten la plataforma con datos y ejecuten comandos de manera ágil. Este sistema ha sido diseñado para que la captura de información —desde la búsqueda de un género musical hasta la creación de un perfil de artista— sea un proceso fluido y libre de fricciones.
+
+<img src="assets/images/product-desing/style-guidelines/inputSystemm.png" alt="typo" width="700">
+
 ### 4.1.3. Mobile Style Guidelines
 
 #### 4.1.3.1. Android Mobile Style Guidelines
