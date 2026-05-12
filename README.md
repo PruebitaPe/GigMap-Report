@@ -336,7 +336,7 @@ La capacidad de reconocer responsabilidades éticas y profesionales en situacion
 		TP1: <br><br>
         Lizarbe Alvarez, Ariana Nickole <br><br>
         TB1: <br>Contribuyó en el desarrollo del capítulo 3, aplicando pensamiento crítico y habilidades de trabajo en equipo. Participó en la mejora de las historias de usuario, procurando que estén bien definidas y considerando siempre la experiencia del usuario final.<br><br>
-		TP1: <br><br>
+		TP1: <br> Desarrolló la sección de Core Behavior-Driven Development, utilizando Gherkin para analizar distintas historias de usuario <br><br>
         Ortiz Cardenas, Johanna Antuanete <br><br>
         TB1: <br>
         Desarrolló el capítulo 4 con un enfoque en la calidad y cumplimiento de los entregables. Además, investigó información relevante y aportó ideas que ayudaron a fortalecer las historias de usuario y el contenido del informe.<br><br>
@@ -363,7 +363,7 @@ La capacidad de reconocer responsabilidades éticas y profesionales en situacion
 		TP1: <br><br>
         Lizarbe Alvarez, Ariana Nickole <br><br>
         TB1: <br> Incorporó una perspectiva empática en el desarrollo del proyecto, analizando cómo la solución puede mejorar la experiencia del usuario y fortalecer la conexión entre los fans y la comunidad musical.<br><br>
-		TP1: <br><br>
+		TP1: <br> Aportó para que el contenido del proyecto sea organizado y analítico, considerando plenamente las importancia de las pruebas funcionales en el código fuente <br><br>
         Ortiz Cardenas, Johanna Antuanete <br><br>
         TB1: Investigó y consideró tendencias tecnológicas actuales, con el objetivo de asegurar que la solución propuesta sea viable y tenga un impacto positivo tanto en el entorno digital como en el ámbito cultural.<br><br>
 		TP1: Investigó y seleccionó herramientas de despliegue continuo, con el objetivo de asegurar que la solución sea escalable y tenga un impacto positivo en la disponibilidad del servicio para los usuarios.<br><br>
