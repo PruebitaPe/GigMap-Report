@@ -4795,6 +4795,8 @@ Para el caso del Landing Page, se hizo el deployment a través de GitHub Pages, 
 
 Al descargar, instalar o utilizar la aplicación móvil, el usuario declara haber leído, entendido y aceptado estos términos y condiciones en su totalidad. En caso de no estar de acuerdo, deberá abstenerse de utilizar la aplicación y proceder a su desinstalación.
 
+Asimismo, el usuario reconoce que la aplicación requiere un dispositivo Android compatible con un nivel de API igual o superior a 36, correspondiente a Android 16 o versiones posteriores, para garantizar el correcto funcionamiento de sus funcionalidades y servicios.
+
 **2. Uso del servicio**
 
 El usuario se compromete a utilizar la aplicación exclusivamente para fines personales e informativos relacionados con la consulta de conciertos en Lima Metropolitana. Queda prohibido:
