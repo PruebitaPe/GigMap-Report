@@ -42,6 +42,7 @@ Zegarra Lopez, Renato Sebastian Rubber (u202311558)
 <br>
 
 **Abril, 2026**
+
 </h3>
 </div>
 
@@ -164,25 +165,27 @@ Zegarra Lopez, Renato Sebastian Rubber (u202311558)
 </div>
 
 ## Project Report Collaboration Insights
+
 URL de repositorio del reporte del proyecto: `https://github.com/PruebitaPe/GigMap-Report.git`
 
 **TB1 (26/04/2026):**
 
 ## **Contenido**
+
 - [STUDENT OUTCOME](#student-outcome)
 - [Part I: As-Is Software Project](#part-i-as-is-software-project)
 - [CAPÍTULO I: Introducción](#capítulo-i-introducción)
   - [1.1. Startup Profile](#11-startup-profile)
-      - [1.1.1. Descripción de la Startup](#111-descripción-de-la-startup)
-      - [1.1.2. Perfiles de integrantes del equipo](#112-perfiles-de-integrantes-del-equipo)
+    - [1.1.1. Descripción de la Startup](#111-descripción-de-la-startup)
+    - [1.1.2. Perfiles de integrantes del equipo](#112-perfiles-de-integrantes-del-equipo)
   - [1.2. Solution Profile](#12-solution-profile)
-      - [1.2.1. Nombre del producto](#121-nombre-del-producto)
-      - [1.2.2. Antecedentes y problemática](#122-antecedentes-y-problemática)
-      - [1.2.3. Lean UX Process](#123-lean-ux-process)
-        - [1.2.3.1. Lean UX Problem Statements](#1231-lean-ux-problem-statements)
-        - [1.2.3.2. Lean UX Assumptions](#1232-lean-ux-assumptions)
-        - [1.2.3.3. Lean UX Hypothesis Statements](#1233-lean-ux-hypothesis-statements)
-        - [1.2.3.4. Lean UX Canvas](#1234-lean-ux-canvas)
+    - [1.2.1. Nombre del producto](#121-nombre-del-producto)
+    - [1.2.2. Antecedentes y problemática](#122-antecedentes-y-problemática)
+    - [1.2.3. Lean UX Process](#123-lean-ux-process)
+      - [1.2.3.1. Lean UX Problem Statements](#1231-lean-ux-problem-statements)
+      - [1.2.3.2. Lean UX Assumptions](#1232-lean-ux-assumptions)
+      - [1.2.3.3. Lean UX Hypothesis Statements](#1233-lean-ux-hypothesis-statements)
+      - [1.2.3.4. Lean UX Canvas](#1234-lean-ux-canvas)
   - [1.3. Segmentos objetivo](#13-segmentos-objetivo)
 - [Capítulo II: Requirements Elicitation & Analysis](#capítulo-ii-requirements-elicitation--analysis)
   - [2.1. Competidores](#21-competidores)
@@ -261,6 +264,7 @@ URL de repositorio del reporte del proyecto: `https://github.com/PruebitaPe/GigM
   - [5.3. Video About-the-Product](#53-video-about-the-product)
 
 ## **Student Outcome**
+
 ABET – EAC - Student Outcome 4: <br>
 La capacidad de reconocer responsabilidades éticas y profesionales en situaciones de ingeniería y hacer juicios informados, que deben considerar el impacto de las soluciones de ingeniería en contextos globales, económicos, ambientales y sociales.
 
@@ -309,7 +313,7 @@ La capacidad de reconocer responsabilidades éticas y profesionales en situacion
   </tbody>
 </table>
 
-# Part I: As-Is Software Project 
+# Part I: As-Is Software Project
 
 # CAPÍTULO I: Introducción
 
@@ -374,17 +378,18 @@ La capacidad de reconocer responsabilidades éticas y profesionales en situacion
 ## 3.2. User Stories
 
 **Epics:**
-| Epic ID | Título                                             | Descripción                                                                                                                                                                                       |
+| Epic ID | Título | Descripción |
 |---------|----------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| EP01    | Creación y descubrimiento de conciertos         | Esta épica se centra en permitir a los artistas registrar y gestionar conciertos en la aplicación, mientras que los usuarios podrán descubrir nuevos eventos según su ubicación, género musical y artistas favoritos. Se busca optimizar la experiencia de búsqueda y exploración para que los fans encuentren fácilmente conciertos relevantes y personalizados. |
-| EP02    | Notificaciones personalizadas                      | Incluye el desarrollo de un sistema de alertas que informe a los usuarios sobre nuevos conciertos, cambios en eventos, promociones y recordatorios, todo basado en sus preferencias e historial de interacción. El objetivo es mantenerlos siempre actualizados y fomentar su participación activa en la aplicación.|
-| EP03    | Interacción social y comunidades               | Esta épica permitirá a los usuarios interactuar con otros fans a través de comunidades dentro de la aplicación. Se busca construir un espacio social donde los usuarios compartan experiencias, recomendaciones y opiniones, fortaleciendo el sentido de comunidad alrededor de la música en vivo.|
-| EP04    | Gestión de Identidad y Acceso (Registro y Autenticación) | Enfocada en el inicio de sesión y registro de usuarios, esta épica incluye autenticación mediante correo electrónico o redes sociales, recuperación de contraseñas y gestión de roles y permisos básicos. Su objetivo es garantizar la seguridad, privacidad y facilidad de acceso a la aplicación para todos los usuarios. |
-| EP05    | Exploración y Gestión de Eventos Relacionados    | Esta épica se centra en permitir la creación y descubrimiento de eventos asociados a un concierto principal, como juntadas de fans en un parque, fiestas temáticas previas, actividades comunitarias o afterparties. Los usuarios podrán explorar, unirse y organizar este tipo de encuentros que enriquecen la experiencia musical más allá del show oficial. El objetivo es fomentar la interacción entre fans y ampliar el ecosistema de eventos alrededor de los conciertos.|
-| EP06    | Desarrollo técnico del backend (RESTful API)       | Esta épica comprende la implementación de la infraestructura técnica que soportará la aplicación, incluyendo la base de datos, API, servicios en la nube y escalabilidad del sistema. El foco está en garantizar rendimiento, seguridad y estabilidad para manejar de manera eficiente las operaciones de usuarios y organizadores. |
-| EP07    | Plataforma informativa (Landing Page)     | Se centra en el desarrollo de una landing page que funcione como punto de entrada informativo, presentando la propuesta de valor, características principales y beneficios de la aplicación. El objetivo es atraer nuevos usuarios, transmitiendo confianza y profesionalismo desde la primera interacción. |
+| EP01 | Creación y descubrimiento de conciertos | Esta épica se centra en permitir a los artistas registrar y gestionar conciertos en la aplicación, mientras que los usuarios podrán descubrir nuevos eventos según su ubicación, género musical y artistas favoritos. Se busca optimizar la experiencia de búsqueda y exploración para que los fans encuentren fácilmente conciertos relevantes y personalizados. |
+| EP02 | Notificaciones personalizadas | Incluye el desarrollo de un sistema de alertas que informe a los usuarios sobre nuevos conciertos, cambios en eventos, promociones y recordatorios, todo basado en sus preferencias e historial de interacción. El objetivo es mantenerlos siempre actualizados y fomentar su participación activa en la aplicación.|
+| EP03 | Interacción social y comunidades | Esta épica permitirá a los usuarios interactuar con otros fans a través de comunidades dentro de la aplicación. Se busca construir un espacio social donde los usuarios compartan experiencias, recomendaciones y opiniones, fortaleciendo el sentido de comunidad alrededor de la música en vivo.|
+| EP04 | Gestión de Identidad y Acceso (Registro y Autenticación) | Enfocada en el inicio de sesión y registro de usuarios, esta épica incluye autenticación mediante correo electrónico o redes sociales, recuperación de contraseñas y gestión de roles y permisos básicos. Su objetivo es garantizar la seguridad, privacidad y facilidad de acceso a la aplicación para todos los usuarios. |
+| EP05 | Exploración y Gestión de Eventos Relacionados | Esta épica se centra en permitir la creación y descubrimiento de eventos asociados a un concierto principal, como juntadas de fans en un parque, fiestas temáticas previas, actividades comunitarias o afterparties. Los usuarios podrán explorar, unirse y organizar este tipo de encuentros que enriquecen la experiencia musical más allá del show oficial. El objetivo es fomentar la interacción entre fans y ampliar el ecosistema de eventos alrededor de los conciertos.|
+| EP06 | Desarrollo técnico del backend (RESTful API) | Esta épica comprende la implementación de la infraestructura técnica que soportará la aplicación, incluyendo la base de datos, API, servicios en la nube y escalabilidad del sistema. El foco está en garantizar rendimiento, seguridad y estabilidad para manejar de manera eficiente las operaciones de usuarios y organizadores. |
+| EP07 | Plataforma informativa (Landing Page) | Se centra en el desarrollo de una landing page que funcione como punto de entrada informativo, presentando la propuesta de valor, características principales y beneficios de la aplicación. El objetivo es atraer nuevos usuarios, transmitiendo confianza y profesionalismo desde la primera interacción. |
 
 **User Stories:**
+
 <table>
   <thead>
     <tr>
@@ -2616,34 +2621,33 @@ La capacidad de reconocer responsabilidades éticas y profesionales en situacion
 
 ## 3.3. Product Backlog
 
-| # Orden | User Story Id | Título                                                    | Descripción                                                                                                                                                                                       | Story Points (1 / 2 / 3 / 5 / 8) |
-| ------- | ------------- | --------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | -------------------------------- |
-| 1       | US31          | Ver beneficios para fans                                  | Como usuario del segmento fan, quiero conocer los beneficios de la app para mí, para decidir registrarme.                                                                                       | 3                                |
-| 2       | US32          | Ver beneficios para artista                               | Como usuario del segmento artista, quiero ver cómo la app me ayuda a promocionar mis eventos.                                                                                                   | 3                                |
-| 3       | US33          | Acceder a testimonios                                     | Como usuario, quiero leer testimonios de usuarios reales para aumentar mi confianza en la app.                                                                                                  | 2                                |
-| 4       | US03          | Personalizar perfil de artista                            | Como artista, quiero personalizar mi perfil con mi nombre artístico y fotografía para conectar mejor con el público.                                                                              | 5                                |
-| 5       | US06          | Buscar conciertos                                         | Como usuario, quiero buscar conciertos por nombre o artista para encontrarlos fácilmente.                                                                                                         | 3                                |
-| 6       | US07          | Buscar comunidades                                        | Como usuario, quiero buscar comunidades por nombre para unirme a las que me interesen.                                                                                                 | 3                                |
-| 7       | US11          | Zoom a concierto en el mapa                               | Como fan, quiero que al seleccionar un concierto en el mapa se haga zoom a su ubicación.                                                                                                          | 2                                |
-| 8       | US18          | Ver comunidades accedidas                                 | Como usuario, quiero visualizar en el apartado "Comunidades" las comunidades a las que me he unido.                                                                                                | 2                                |
-| 9       | US19          | Reaccionar a publicaciones en comunidades                 | Como usuario, quiero poder reaccionar a publicaciones dentro de las comunidades.                                                                                                                  | 3                                |
-| 10      | US20          | Acceder a perfil de otros usuarios                        | Como usuario, quiero poder acceder al perfil de otros usuarios para conocer más sobre ellos.                                                                                                      | 2                                |
-| 11      | US21          | Ver publicaciones con like                                | Como usuario, quiero ver una lista de publicaciones a las que les he dado "like".                                                                                                                 | 2                                |
-| 12      | US30          | Ver información detallada del evento asociado             | Como fan, quiero ver la información completa de un concierto para decidir si asistir.                                                                                                             | 3                                |
-| 13      | US01          | Filtrar conciertos por género musical                     | Como fan, quiero filtrar conciertos por género para ver solo los que me interesan.                                                                                                                | 3                                |
-| 14      | US02          | Publicar nuevo concierto                                  | Como artista, quiero crear un evento para promocionar mi presentación.                                                                                                                            | 5                                |
-| 15      | US04          | Crear comunidad                                           | Como usuario, quiero crear una comunidad temática para reunir a otros usuarios en torno a intereses compartidos.                                                                                  | 5                                |
-| 16      | US05          | Ver mapa con geolocalización                              | Como fan, quiero ver un mapa con mi ubicación y los conciertos cercanos marcados para explorar visualmente las opciones disponibles.                                                              | 8                                |
-| 17      | US08          | Iniciar sesión en la app mobile                           | Como usuario registrado, quiero iniciar sesión desde la aplicación móvil para acceder a mi cuenta.                                                                                                | 3                                |
-| 18      | US09          | Registrarse como artista                                  | Como nuevo usuario, quiero registrarme como artista para promocionar mis conciertos.                                                                                                              | 3                                |
-| 19      | US10          | Registrarse como fan                                      | Como nuevo usuario, quiero registrarme como fan para participar en la comunidad y explorar conciertos.                                                                                            | 3                                |
-| 20      | US13          | Ver información detallada del concierto                   | Como fan, quiero ver la información completa de un concierto para decidir si asistir.                                                                                                             | 3                                |
-| 21      | US14          | Unirse a una comunidad                                    | Como fan, quiero unirme a una comunidad musical para interactuar con otros usuarios con intereses similares.                                                                                      | 3                                |
-| 22      | US15          | Publicar en la comunidad                                  | Como fan, quiero crear publicaciones en las comunidad creadas, para compartir opiniones, fotos o recomendaciones con otros miembros.                                                  | 5                                |
-| 23      | US17          | Confirmar o marcar asistencia a un concierto              | Como fan, quiero poder marcar un concierto como “Marcar asistencia”, para llevar un seguimiento de los conciertos que planeo asistir.                                                             | 5                                |
-| 24      | US23          | Subir imágenes en comunidades                             | Como usuario, quiero subir imágenes en publicaciones de comunidad para compartir experiencias visuales.                                                                                           | 5                                |
-| 25      | US24          | Ver eventos asociados                                     | Como usuario de GigMap, quiero ver un apartado de eventos relacionados en el perfil de un concierto, para conocer actividades cercanas en tiempo y lugar (pre/after/meetups) que podría realizar. | 5                                |
-| 26      | US34          | Crear evento asociado             | Como usuario, quiero crear eventos asociados para conocer más gente que compartan mis gustos y poder ir juntos a más conciertos.                                                             |                                 |
+| # Orden | User Story Id | Título                                        | Descripción                                                                                                                                                                                       | Story Points (1 / 2 / 3 / 5 / 8) |
+| ------- | ------------- | --------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | -------------------------------- |
+| 1       | US31          | Ver beneficios para fans                      | Como usuario del segmento fan, quiero conocer los beneficios de la app para mí, para decidir registrarme.                                                                                         | 3                                |
+| 2       | US32          | Ver beneficios para artista                   | Como usuario del segmento artista, quiero ver cómo la app me ayuda a promocionar mis eventos.                                                                                                     | 3                                |
+| 3       | US33          | Acceder a testimonios                         | Como usuario, quiero leer testimonios de usuarios reales para aumentar mi confianza en la app.                                                                                                    | 2                                |
+| 4       | US03          | Personalizar perfil de artista                | Como artista, quiero personalizar mi perfil con mi nombre artístico y fotografía para conectar mejor con el público.                                                                              | 5                                |
+| 5       | US06          | Buscar conciertos                             | Como usuario, quiero buscar conciertos por nombre o artista para encontrarlos fácilmente.                                                                                                         | 3                                |
+| 6       | US07          | Buscar comunidades                            | Como usuario, quiero buscar comunidades por nombre para unirme a las que me interesen.                                                                                                            | 3                                |
+| 7       | US18          | Ver comunidades accedidas                     | Como usuario, quiero visualizar en el apartado "Comunidades" las comunidades a las que me he unido.                                                                                               | 2                                |
+| 8       | US19          | Reaccionar a publicaciones en comunidades     | Como usuario, quiero poder reaccionar a publicaciones dentro de las comunidades.                                                                                                                  | 3                                |
+| 9       | US20          | Acceder a perfil de otros usuarios            | Como usuario, quiero poder acceder al perfil de otros usuarios para conocer más sobre ellos.                                                                                                      | 2                                |
+| 10      | US21          | Ver publicaciones con like                    | Como usuario, quiero ver una lista de publicaciones a las que les he dado "like".                                                                                                                 | 2                                |
+| 11      | US30          | Ver información detallada del evento asociado | Como fan, quiero ver la información completa de un concierto para decidir si asistir.                                                                                                             | 3                                |
+| 12      | US01          | Filtrar conciertos por género musical         | Como fan, quiero filtrar conciertos por género para ver solo los que me interesan.                                                                                                                | 3                                |
+| 13      | US02          | Publicar nuevo concierto                      | Como artista, quiero crear un evento para promocionar mi presentación.                                                                                                                            | 5                                |
+| 14      | US04          | Crear comunidad                               | Como usuario, quiero crear una comunidad temática para reunir a otros usuarios en torno a intereses compartidos.                                                                                  | 5                                |
+| 15      | US05          | Ver mapa con geolocalización                  | Como fan, quiero ver un mapa con mi ubicación y los conciertos cercanos marcados para explorar visualmente las opciones disponibles.                                                              | 8                                |
+| 16      | US08          | Iniciar sesión en la app mobile               | Como usuario registrado, quiero iniciar sesión desde la aplicación móvil para acceder a mi cuenta.                                                                                                | 3                                |
+| 17      | US09          | Registrarse como artista                      | Como nuevo usuario, quiero registrarme como artista para promocionar mis conciertos.                                                                                                              | 3                                |
+| 18      | US10          | Registrarse como fan                          | Como nuevo usuario, quiero registrarme como fan para participar en la comunidad y explorar conciertos.                                                                                            | 3                                |
+| 19      | US13          | Ver información detallada del concierto       | Como fan, quiero ver la información completa de un concierto para decidir si asistir.                                                                                                             | 3                                |
+| 20      | US14          | Unirse a una comunidad                        | Como fan, quiero unirme a una comunidad musical para interactuar con otros usuarios con intereses similares.                                                                                      | 3                                |
+| 21      | US15          | Publicar en la comunidad                      | Como fan, quiero crear publicaciones en las comunidad creadas, para compartir opiniones, fotos o recomendaciones con otros miembros.                                                              | 5                                |
+| 22      | US17          | Confirmar o marcar asistencia a un concierto  | Como fan, quiero poder marcar un concierto como “Marcar asistencia”, para llevar un seguimiento de los conciertos que planeo asistir.                                                             | 5                                |
+| 23      | US23          | Subir imágenes en comunidades                 | Como usuario, quiero subir imágenes en publicaciones de comunidad para compartir experiencias visuales.                                                                                           | 5                                |
+| 24      | US24          | Ver eventos asociados                         | Como usuario de GigMap, quiero ver un apartado de eventos relacionados en el perfil de un concierto, para conocer actividades cercanas en tiempo y lugar (pre/after/meetups) que podría realizar. | 5                                |
+| 25      | US34          | Crear evento asociado                         | Como usuario, quiero crear eventos asociados para conocer más gente que compartan mis gustos y poder ir juntos a más conciertos.                                                                  |                                  |
 
 ## 3.4. Impact Mapping
 
