@@ -4783,6 +4783,14 @@ Los presentes términos se rigen por las leyes de la República del Perú. Cualq
   <img src="assets/images/restful-api/restful-api.png" alt="restfulapi" width="700">
 </p>
 
+### 5.2.7. RESTful API documentation
+
+COMPLETAR
+
+### 5.2.8. Team Collaboration Insights
+
+COMPLETAR
+
 ## 5.3. Video About-the-Product
 
 | **Video About-the-Product**                                                                                                                                                                                                                                                                                                                     |
