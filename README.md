@@ -4805,8 +4805,17 @@ COMPLETAR
 
 ### 5.2.7. Team Collaboration Insights
 
-COMPLETAR
+Front-end Mobile Application:
 
+<p align="center">
+  <img src="assets/images/insights/front.png" alt="front" width="700">
+</p>
+
+Back-end Application:
+
+<p align="center">
+  <img src="assets/images/insights/back.png" alt="front" width="700">
+</p>
 
 ## 5.3. Video About-the-Product
 
