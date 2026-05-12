@@ -194,6 +194,8 @@ Zegarra Lopez, Renato Sebastian Rubber (u202311558)
 
 ## Project Report Collaboration Insights
 
+URL de repositorio del reporte del proyecto: `https://github.com/PruebitaPe/GigMap-Report.git`
+
 URL de repositorio del reporte del proyecto: `https://github.com/StayBitsV2/GigMap-Report.git`
 
 **TB1 (26/04/2026):**
@@ -210,12 +212,23 @@ URL de repositorio del reporte del proyecto: `https://github.com/StayBitsV2/GigM
 
 ## **Contenido**
 
+- [STUDENT OUTCOME](#student-outcome)
+
 - [Part I: As-Is Software Project](#part-i-as-is-software-project)
 - [CAPÍTULO I: Introducción](#capítulo-i-introducción)
   - [1.1. Startup Profile](#11-startup-profile)
     - [1.1.1. Descripción de la Startup](#111-descripción-de-la-startup)
     - [1.1.2. Perfiles de integrantes del equipo](#112-perfiles-de-integrantes-del-equipo)
+    - [1.1.1. Descripción de la Startup](#111-descripción-de-la-startup)
+    - [1.1.2. Perfiles de integrantes del equipo](#112-perfiles-de-integrantes-del-equipo)
   - [1.2. Solution Profile](#12-solution-profile)
+    - [1.2.1. Nombre del producto](#121-nombre-del-producto)
+    - [1.2.2. Antecedentes y problemática](#122-antecedentes-y-problemática)
+    - [1.2.3. Lean UX Process](#123-lean-ux-process)
+      - [1.2.3.1. Lean UX Problem Statements](#1231-lean-ux-problem-statements)
+      - [1.2.3.2. Lean UX Assumptions](#1232-lean-ux-assumptions)
+      - [1.2.3.3. Lean UX Hypothesis Statements](#1233-lean-ux-hypothesis-statements)
+      - [1.2.3.4. Lean UX Canvas](#1234-lean-ux-canvas)
     - [1.2.1. Nombre del producto](#121-nombre-del-producto)
     - [1.2.2. Antecedentes y problemática](#122-antecedentes-y-problemática)
     - [1.2.3. Lean UX Process](#123-lean-ux-process)
@@ -380,6 +393,8 @@ La capacidad de reconocer responsabilidades éticas y profesionales en situacion
     </tr>
   </tbody>
 </table>
+
+# Part I: As-Is Software Project
 
 # Part I: As-Is Software Project
 
@@ -1267,7 +1282,15 @@ A lo largo de las diferentes etapas de su experiencia, se examinan las acciones 
 
 **Epics:**
 | Epic ID | Título | Descripción |
+| Epic ID | Título | Descripción |
 |---------|----------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| EP01 | Creación y descubrimiento de conciertos | Esta épica se centra en permitir a los artistas registrar y gestionar conciertos en la aplicación, mientras que los usuarios podrán descubrir nuevos eventos según su ubicación, género musical y artistas favoritos. Se busca optimizar la experiencia de búsqueda y exploración para que los fans encuentren fácilmente conciertos relevantes y personalizados. |
+| EP02 | Notificaciones personalizadas | Incluye el desarrollo de un sistema de alertas que informe a los usuarios sobre nuevos conciertos, cambios en eventos, promociones y recordatorios, todo basado en sus preferencias e historial de interacción. El objetivo es mantenerlos siempre actualizados y fomentar su participación activa en la aplicación.|
+| EP03 | Interacción social y comunidades | Esta épica permitirá a los usuarios interactuar con otros fans a través de comunidades dentro de la aplicación. Se busca construir un espacio social donde los usuarios compartan experiencias, recomendaciones y opiniones, fortaleciendo el sentido de comunidad alrededor de la música en vivo.|
+| EP04 | Gestión de Identidad y Acceso (Registro y Autenticación) | Enfocada en el inicio de sesión y registro de usuarios, esta épica incluye autenticación mediante correo electrónico o redes sociales, recuperación de contraseñas y gestión de roles y permisos básicos. Su objetivo es garantizar la seguridad, privacidad y facilidad de acceso a la aplicación para todos los usuarios. |
+| EP05 | Exploración y Gestión de Eventos Relacionados | Esta épica se centra en permitir la creación y descubrimiento de eventos asociados a un concierto principal, como juntadas de fans en un parque, fiestas temáticas previas, actividades comunitarias o afterparties. Los usuarios podrán explorar, unirse y organizar este tipo de encuentros que enriquecen la experiencia musical más allá del show oficial. El objetivo es fomentar la interacción entre fans y ampliar el ecosistema de eventos alrededor de los conciertos.|
+| EP06 | Desarrollo técnico del backend (RESTful API) | Esta épica comprende la implementación de la infraestructura técnica que soportará la aplicación, incluyendo la base de datos, API, servicios en la nube y escalabilidad del sistema. El foco está en garantizar rendimiento, seguridad y estabilidad para manejar de manera eficiente las operaciones de usuarios y organizadores. |
+| EP07 | Plataforma informativa (Landing Page) | Se centra en el desarrollo de una landing page que funcione como punto de entrada informativo, presentando la propuesta de valor, características principales y beneficios de la aplicación. El objetivo es atraer nuevos usuarios, transmitiendo confianza y profesionalismo desde la primera interacción. |
 | EP01 | Creación y descubrimiento de conciertos | Esta épica se centra en permitir a los artistas registrar y gestionar conciertos en la aplicación, mientras que los usuarios podrán descubrir nuevos eventos según su ubicación, género musical y artistas favoritos. Se busca optimizar la experiencia de búsqueda y exploración para que los fans encuentren fácilmente conciertos relevantes y personalizados. |
 | EP02 | Notificaciones personalizadas | Incluye el desarrollo de un sistema de alertas que informe a los usuarios sobre nuevos conciertos, cambios en eventos, promociones y recordatorios, todo basado en sus preferencias e historial de interacción. El objetivo es mantenerlos siempre actualizados y fomentar su participación activa en la aplicación.|
 | EP03 | Interacción social y comunidades | Esta épica permitirá a los usuarios interactuar con otros fans a través de comunidades dentro de la aplicación. Se busca construir un espacio social donde los usuarios compartan experiencias, recomendaciones y opiniones, fortaleciendo el sentido de comunidad alrededor de la música en vivo.|
