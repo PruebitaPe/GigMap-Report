@@ -340,7 +340,7 @@ La capacidad de reconocer responsabilidades éticas y profesionales en situacion
         Ortiz Cardenas, Johanna Antuanete <br><br>
         TB1: <br>
         Desarrolló el capítulo 4 con un enfoque en la calidad y cumplimiento de los entregables. Además, investigó información relevante y aportó ideas que ayudaron a fortalecer las historias de usuario y el contenido del informe.<br><br>
-		TP1: <br><br>
+		TP1: Desarrolló la sección de Continuous Deployment, documentando las herramientas, prácticas y componentes del pipeline de despliegue a producción. Además, se aseguró de seguir buenas prácticas que garanticen la estabilidad del producto.<br><br>
         Sarmiento Medina, Loreley <br><br>
         TB1: <br> Se encargó del desarrollo del capítulo 1, asegurando una base sólida y bien estructurada para el proyecto. También realizó una revisión general del informe y de las historias de usuario, verificando la coherencia, organización y alineación con los objetivos planteados.<br><br>
 		TP1: <br><br>
@@ -349,7 +349,7 @@ La capacidad de reconocer responsabilidades éticas y profesionales en situacion
 		TP1: <br><br>
       </td>
       <td> TB1: A lo largo del desarrollo del trabajo, el equipo demostró una adecuada comprensión de sus responsabilidades éticas y profesionales, reflejada en la forma en que organizaron sus tareas y colaboraron entre sí. Cada integrante asumió su rol con compromiso, asegurando la calidad del contenido y el cumplimiento de los objetivos establecidos. Además, se priorizó la comunicación y el respeto por las ideas de todos, lo que permitió integrar diferentes aportes de manera ordenada. Esto evidencia una práctica responsable dentro del proceso de desarrollo del proyecto. <br><br>
-	  TP1: <br><br>
+	  TP1: Durante esta entrega, el equipo demostró responsabilidad ética y profesional al implementar prácticas rigurosas de verificación, validación y DevOps. La elaboración de pruebas unitarias, de integración, BDD y de sistema refleja un compromiso con la calidad del software y con la entrega de un producto confiable. Asimismo, la configuración de pipelines de CI/CD evidencia una práctica profesional orientada a reducir errores en producción y proteger la experiencia del usuario. Cada integrante asumió la responsabilidad de sus secciones asegurando trazabilidad y transparencia en el proceso.<br><br>
 	  </td>
     </tr>
     <tr>
@@ -366,7 +366,7 @@ La capacidad de reconocer responsabilidades éticas y profesionales en situacion
 		TP1: <br><br>
         Ortiz Cardenas, Johanna Antuanete <br><br>
         TB1: Investigó y consideró tendencias tecnológicas actuales, con el objetivo de asegurar que la solución propuesta sea viable y tenga un impacto positivo tanto en el entorno digital como en el ámbito cultural.<br><br>
-		TP1: <br><br>
+		TP1: Investigó y seleccionó herramientas de despliegue continuo, con el objetivo de asegurar que la solución sea escalable y tenga un impacto positivo en la disponibilidad del servicio para los usuarios.<br><br>
         Sarmiento Medina, Loreley <br><br>
         TB1: <br> Analizó la problemática considerando su impacto en el contexto social y cultural, asegurando que la propuesta esté alineada con necesidades reales y aporte valor tanto a los usuarios como a los artistas.<br><br>
 		TP1: <br><br>
@@ -375,7 +375,7 @@ La capacidad de reconocer responsabilidades éticas y profesionales en situacion
 		TP1: <br><br>
       </td>
       <td>El equipo logró considerar el impacto de la solución propuesta desde una perspectiva más amplia, tomando en cuenta aspectos sociales, culturales y tecnológicos. A través del análisis de la problemática, se evidenció una intención clara de generar valor tanto para los usuarios como para los artistas emergentes. Asimismo, se evaluó cómo la solución puede influir en la forma en que las personas acceden a la música en vivo y participan en la escena local. Esto demuestra una capacidad para tomar decisiones informadas, alineadas con el contexto y las necesidades reales del entorno.<br><br>
-	  TP1: <br><br>
+	  TP1: El equipo emitió juicios informados al diseñar las suites de testing y los pipelines de DevOps, considerando cómo estas decisiones impactan en la experiencia del usuario y en la sostenibilidad del proyecto. La automatización de pruebas y despliegues reduce el consumo innecesario de recursos computacionales y garantiza que los cambios lleguen al usuario de forma rápida y segura. Estas decisiones reflejan una visión integral que contempla el contexto tecnológico actual y las necesidades reales del entorno al que se dirige la solución.<br><br>
 	  </td>
     </tr>
   </tbody>
