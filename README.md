@@ -4378,6 +4378,9 @@ El diagrama de contenedores detalla los elementos internos de GigMap. La aplicac
 
 ### 4.10.1. Relational/Non-Relational Database Diagram
 
+![database](assets/images/database.jpg)
+
+
 # CAPÍTULO V: Product Implementation
 
 ## 5.1. Software Configuration Management
