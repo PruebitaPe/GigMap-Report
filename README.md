@@ -273,7 +273,7 @@ URL de repositorio del reporte del proyecto: `https://github.com/StayBitsV2/GigM
   - [7.3. Continuous Deployment](#73-continuous-deployment)
     - [7.3.1. Tools and Practices](#731-tools-and-practices)
     - [7.3.2. Production Deployment Pipeline Components](#732-production-deployment-pipeline-components)
-      
+
 ## **Student Outcome**
 
 ABET – EAC - Student Outcome 4: <br>
@@ -4371,12 +4371,12 @@ El código fuente del proyecto **GigMap** es gestionado mediante la plataforma *
 
 #### Repositorios
 
-| **Producto**       | **URL** |
-| ------------------ | ------- |
-| Landing Page       | `link`  |
-| Mobile Application | `https://github.com/StayBitsV2/Gigmap-mobile.git`  |
-| Web Services       | `https://github.com/StayBitsV2/gigmap-api.git`  |
-| Acceptance Tests   | `link`  |
+| **Producto**       | **URL**                                           |
+| ------------------ | ------------------------------------------------- |
+| Landing Page       | `link`                                            |
+| Mobile Application | `https://github.com/StayBitsV2/Gigmap-mobile.git` |
+| Web Services       | `https://github.com/StayBitsV2/gigmap-api.git`    |
+| Acceptance Tests   | `link`                                            |
 
 #### GitFlow como Workflow de Control de Versiones
 
@@ -4798,7 +4798,6 @@ Los presentes términos se rigen por las leyes de la República del Perú. Cualq
   <img src="assets/images/restful-api/restful-api.png" alt="restfulapi" width="700">
 </p>
 
-
 ### 5.2.6. RESTful API documentation
 
 COMPLETAR
@@ -4806,7 +4805,6 @@ COMPLETAR
 ### 5.2.7. Team Collaboration Insights
 
 COMPLETAR
-
 
 ## 5.3. Video About-the-Product
 
@@ -4895,6 +4893,7 @@ Esta sección detalla las pruebas unitarias aplicadas a las entidades fundamenta
 </p>
 
 ## 6.1.2. Core Integration Tests.
+
 **Auth Controller Tests:**
 
 <p align="center">
@@ -4942,175 +4941,190 @@ Esta sección detalla las pruebas unitarias aplicadas a las entidades fundamenta
 ## 6.1.4. Core System Tests
 
 | US31 | Ver beneficios para fans | **Como** usuario del segmento fan, **quiero** conocer los beneficios de la app para mí, **para** decidir registrarme. |
-|------|--------------------------|---|
+| ---- | ------------------------ | --------------------------------------------------------------------------------------------------------------------- |
 
 <p align="center">
   <img src="assets/images/tests/US31.png" alt="US31" width="700">
 </p>
 
 | US32 | Ver beneficios para artista | **Como** usuario del segmento artista, **quiero** ver cómo la app me ayuda a promocionar mis eventos. |
-|------|--------------------------|---|
+| ---- | --------------------------- | ----------------------------------------------------------------------------------------------------- |
 
 <p align="center">
   <img src="assets/images/tests/US32.png" alt="US32" width="700">
 </p>
 
 | US33 | Acceder a testimonios | **Como** usuario, **quiero** leer testimonios de usuarios reales **para** aumentar mi confianza en la app. |
-|------|--------------------------|---|
+| ---- | --------------------- | ---------------------------------------------------------------------------------------------------------- |
 
 <p align="center">
   <img src="assets/images/tests/US33.png" alt="US33" width="700">
 </p>
 
 | US03 | Personalizar perfil de artista | **Como** artista, **quiero** personalizar mi perfil con mi nombre artístico y fotografía **para** conectar mejor con el público. |
-|------|--------------------------|---|
+| ---- | ------------------------------ | -------------------------------------------------------------------------------------------------------------------------------- |
 
 <p align="center">
   <img src="assets/images/tests/US03.png" alt="US03" width="700">
 </p>
 
 | US06 | Buscar conciertos | **Como** usuario, **quiero** buscar conciertos por nombre o artista **para** encontrarlos fácilmente. |
-|------|--------------------------|---|
+| ---- | ----------------- | ----------------------------------------------------------------------------------------------------- |
 
 <p align="center">
   <img src="assets/images/tests/US06.png" alt="US06" width="700">
 </p>
 
 | US07 | Buscar comunidades | **Como** usuario, **quiero** buscar comunidades por nombre **para** unirme a las que me interesen. |
-|------|--------------------------|---|
+| ---- | ------------------ | -------------------------------------------------------------------------------------------------- |
 
 <p align="center">
   <img src="assets/images/tests/US07.png" alt="US07" width="700">
 </p>
 
 | US18 | Ver comunidades accedidas | **Como** usuario, **quiero** visualizar en el apartado "Comunidades" las comunidades a las que me he unido. |
-|------|--------------------------|---|
+| ---- | ------------------------- | ----------------------------------------------------------------------------------------------------------- |
 
 <p align="center">
   <img src="assets/images/tests/US18.png" alt="US18" width="700">
 </p>
 
 | US19 | Reaccionar a publicaciones en comunidades | **Como** usuario, **quiero** poder reaccionar a publicaciones dentro de las comunidades. |
-|------|--------------------------|---|
+| ---- | ----------------------------------------- | ---------------------------------------------------------------------------------------- |
 
 <p align="center">
   <img src="assets/images/tests/US19.png" alt="US19" width="700">
 </p>
 
 | US20 | Acceder a perfil de otros usuarios | **Como** usuario, **quiero** poder acceder al perfil de otros usuarios **para** conocer más sobre ellos. |
-|------|--------------------------|---|
+| ---- | ---------------------------------- | -------------------------------------------------------------------------------------------------------- |
 
 <p align="center">
   <img src="assets/images/tests/US20.png" alt="US20" width="700">
 </p>
 
 | US21 | Ver publicaciones con like | **Como** usuario, **quiero** ver una lista de publicaciones a las que les he dado "like". |
-|------|--------------------------|---|
+| ---- | -------------------------- | ----------------------------------------------------------------------------------------- |
 
 <p align="center">
   <img src="assets/images/tests/US21.png" alt="US21" width="700">
 </p>
 
 | US30 | Ver información detallada del evento asociado | **Como** fan, **quiero** ver la información completa de un concierto **para** decidir si asistir. |
-|------|--------------------------|---|
+| ---- | --------------------------------------------- | ------------------------------------------------------------------------------------------------- |
 
 <p align="center">
   <img src="assets/images/tests/US30.png" alt="US30" width="700">
 </p>
 
 | US01 | Filtrar conciertos por género musical | **Como** fan, **quiero** filtrar conciertos por género **para** ver solo los que me interesan. |
-|------|--------------------------|---|
+| ---- | ------------------------------------- | ---------------------------------------------------------------------------------------------- |
 
 <p align="center">
   <img src="assets/images/tests/US01.png" alt="US01" width="700">
 </p>
 
 | US02 | Publicar nuevo concierto | **Como** artista, **quiero** crear un evento **para** promocionar mi presentación. |
-|------|--------------------------|---|
+| ---- | ------------------------ | ---------------------------------------------------------------------------------- |
 
 <p align="center">
   <img src="assets/images/tests/US02.png" alt="US02" width="700">
 </p>
 
 | US04 | Crear comunidad | **Como** usuario, **quiero** crear una comunidad temática **para** reunir a otros usuarios en torno a intereses compartidos. |
-|------|--------------------------|---|
+| ---- | --------------- | ---------------------------------------------------------------------------------------------------------------------------- |
 
 <p align="center">
   <img src="assets/images/tests/US04.png" alt="US04" width="700">
 </p>
 
 | US05 | Ver mapa con geolocalización | **Como** fan, **quiero** ver un mapa con mi ubicación y los conciertos cercanos marcados **para** explorar visualmente las opciones disponibles. |
-|------|--------------------------|---|
+| ---- | ---------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------ |
 
 <p align="center">
   <img src="assets/images/tests/US05.png" alt="US05" width="700">
 </p>
 
 | US08 | Iniciar sesión en la app mobile | **Como** usuario registrado, **quiero** iniciar sesión desde la aplicación móvil **para** acceder a mi cuenta. |
-|------|--------------------------|---|
+| ---- | ------------------------------- | -------------------------------------------------------------------------------------------------------------- |
 
 <p align="center">
-  <img src="assets/images/tests/US08.png" alt="US08" width="700">
+  <img src="assets/images/tests/US08-1.png" alt="US08" width="700">
+</p>
+<p align="center">
+  <img src="assets/images/tests/US08-2.png" alt="US08" width="700">
 </p>
 
 | US09 | Registrarse como artista | **Como** nuevo usuario, **quiero** registrarme como artista **para** promocionar mis conciertos. |
-|------|--------------------------|---|
+| ---- | ------------------------ | ------------------------------------------------------------------------------------------------ |
 
 <p align="center">
-  <img src="assets/images/tests/US09.png" alt="US09" width="700">
+  <img src="assets/images/tests/US09-1.png" alt="US09" width="700">
+</p>
+<p align="center">
+  <img src="assets/images/tests/US09-2.png" alt="US09" width="700">
 </p>
 
 | US10 | Registrarse como fan | **Como** nuevo usuario, **quiero** registrarme como fan **para** participar en la comunidad y explorar conciertos. |
-|------|--------------------------|---|
+| ---- | -------------------- | ------------------------------------------------------------------------------------------------------------------ |
 
 <p align="center">
-  <img src="assets/images/tests/US10.png" alt="US10" width="700">
+  <img src="assets/images/tests/US10-1.png" alt="US10" width="700">
+</p>
+<p align="center">
+  <img src="assets/images/tests/US10-2.png" alt="US10" width="700">
 </p>
 
 | US13 | Ver información detallada del concierto | **Como** fan, **quiero** ver la información completa de un concierto **para** decidir si asistir. |
-|------|--------------------------|---|
+| ---- | --------------------------------------- | ------------------------------------------------------------------------------------------------- |
 
 <p align="center">
-  <img src="assets/images/tests/US13.png" alt="US13" width="700">
+  <img src="assets/images/tests/US13-1.png" alt="US13" width="700">
+</p>
+<p align="center">
+  <img src="assets/images/tests/US13-2.png" alt="US13" width="700">
 </p>
 
 | US14 | Unirse a una comunidad | **Como** fan, **quiero** unirme a una comunidad musical **para** interactuar con otros usuarios con intereses similares. |
-|------|--------------------------|---|
+| ---- | ---------------------- | ------------------------------------------------------------------------------------------------------------------------ |
 
 <p align="center">
   <img src="assets/images/tests/US14.png" alt="US14" width="700">
 </p>
 
 | US15 | Publicar en la comunidad | **Como** fan, **quiero** crear publicaciones en las comunidades creadas, **para** compartir opiniones, fotos o recomendaciones con otros miembros. |
-|------|--------------------------|---|
+| ---- | ------------------------ | -------------------------------------------------------------------------------------------------------------------------------------------------- |
 
 <p align="center">
   <img src="assets/images/tests/US15.png" alt="US15" width="700">
 </p>
 
 | US17 | Confirmar o marcar asistencia a un concierto | **Como** fan, **quiero** poder marcar un concierto como "Marcar asistencia", **para** llevar un seguimiento de los conciertos que planeo asistir. |
-|------|--------------------------|---|
+| ---- | -------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------- |
 
 <p align="center">
   <img src="assets/images/tests/US17.png" alt="US17" width="700">
 </p>
 
 | US23 | Subir imágenes en comunidades | **Como** usuario, **quiero** subir imágenes en publicaciones de comunidad **para** compartir experiencias visuales. |
-|------|--------------------------|---|
+| ---- | ----------------------------- | ------------------------------------------------------------------------------------------------------------------- |
 
 <p align="center">
   <img src="assets/images/tests/US23.png" alt="US23" width="700">
 </p>
 
 | US24 | Ver eventos asociados | **Como** usuario de GigMap, **quiero** ver un apartado de eventos relacionados en el perfil de un concierto, **para** conocer actividades cercanas en tiempo y lugar (pre/after/meetups) que podría realizar. |
-|------|--------------------------|---|
+| ---- | --------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 
 <p align="center">
-  <img src="assets/images/tests/US24.png" alt="US24" width="700">
+  <img src="assets/images/tests/US24-1.png" alt="US24" width="700">
+</p>
+<p align="center">
+  <img src="assets/images/tests/US24-2.png" alt="US24" width="700">
 </p>
 
 | US34 | Crear evento asociado | **Como** usuario, **quiero** crear eventos asociados **para** conocer más gente que compartan mis gustos y poder ir juntos a más conciertos. |
-|------|--------------------------|---|
+| ---- | --------------------- | -------------------------------------------------------------------------------------------------------------------------------------------- |
 
 <p align="center">
   <img src="assets/images/tests/US34.png" alt="US34" width="700">
@@ -5126,12 +5140,12 @@ En el ámbito del desarrollo y pruebas de software, es importante contar con her
 
 Además, se consideran prácticas como el Desarrollo Orientado por Pruebas (TDD) y el Desarrollo Orientado por Comportamiento (BDD), ya que ayudan a comprobar que las funcionalidades cumplan con los requerimientos del usuario y que los componentes del sistema funcionen correctamente antes de ser integrados completamente.
 
-| Herramienta | Tipo | Descripción | Propósito |
-|---|---|---|---|
-| JUnit | Herramienta para pruebas unitarias (TDD) | Es un framework de pruebas para Java y Kotlin que permite validar el comportamiento de métodos, clases y componentes de forma aislada. | Permite comprobar que la lógica principal de la aplicación funcione correctamente mediante pruebas automatizadas. |
-| Mockito | Herramienta de simulación para pruebas (TDD) | Permite crear objetos simulados o mocks para reemplazar dependencias reales durante las pruebas. | Ayuda a probar servicios o componentes sin depender de bases de datos, APIs externas u otros módulos reales. |
-| Selenium | Herramienta para pruebas funcionales y end-to-end | Permite automatizar acciones del usuario en una interfaz, como hacer clic, escribir texto, navegar entre pantallas o validar resultados visibles. | Sirve para comprobar que los flujos principales de la aplicación funcionen correctamente desde la perspectiva del usuario. |
-| Jetpack Compose UI Testing | Herramienta para pruebas de interfaz en Android | Es una herramienta de pruebas para aplicaciones Android desarrolladas con Jetpack Compose. Permite buscar elementos de la interfaz, verificar textos y simular acciones del usuario. | Permite validar que las pantallas, botones, formularios y navegación de la aplicación funcionen correctamente. |
+| Herramienta                | Tipo                                              | Descripción                                                                                                                                                                          | Propósito                                                                                                                  |
+| -------------------------- | ------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ | -------------------------------------------------------------------------------------------------------------------------- |
+| JUnit                      | Herramienta para pruebas unitarias (TDD)          | Es un framework de pruebas para Java y Kotlin que permite validar el comportamiento de métodos, clases y componentes de forma aislada.                                               | Permite comprobar que la lógica principal de la aplicación funcione correctamente mediante pruebas automatizadas.          |
+| Mockito                    | Herramienta de simulación para pruebas (TDD)      | Permite crear objetos simulados o mocks para reemplazar dependencias reales durante las pruebas.                                                                                     | Ayuda a probar servicios o componentes sin depender de bases de datos, APIs externas u otros módulos reales.               |
+| Selenium                   | Herramienta para pruebas funcionales y end-to-end | Permite automatizar acciones del usuario en una interfaz, como hacer clic, escribir texto, navegar entre pantallas o validar resultados visibles.                                    | Sirve para comprobar que los flujos principales de la aplicación funcionen correctamente desde la perspectiva del usuario. |
+| Jetpack Compose UI Testing | Herramienta para pruebas de interfaz en Android   | Es una herramienta de pruebas para aplicaciones Android desarrolladas con Jetpack Compose. Permite buscar elementos de la interfaz, verificar textos y simular acciones del usuario. | Permite validar que las pantallas, botones, formularios y navegación de la aplicación funcionen correctamente.             |
 
 ### 7.1.2. Build & Test Suite Pipeline Components
 
@@ -5153,15 +5167,15 @@ El objetivo del Continuous Deployment en GigMap es automatizar el flujo de entre
 
 ### Herramientas
 
-| Herramienta | Uso en GigMap |
-|---|---|
-| **GitHub** | Aloja los repositorios del proyecto y actúa como punto de activación para los despliegues automáticos. Además, mediante GitHub Pages se despliega la Landing Page del proyecto. |
-| **Render** | Plataforma de despliegue para el backend (Spring Boot). Detecta cambios en el repositorio y ejecuta el build y despliegue de forma automática. |
-| **Supabase** | Servicio en la nube utilizado para alojar y gestionar la base de datos del proyecto, proporcionando acceso remoto, backups y panel de administración. |
-| **Firebase** | Se utiliza Firebase Cloud Messaging para la gestión de notificaciones push en la aplicación móvil. |
-| **Docker** | Se utiliza un `Dockerfile` para empaquetar el backend con todas sus dependencias, garantizando que el entorno de ejecución en Render sea idéntico al de desarrollo. |
+| Herramienta        | Uso en GigMap                                                                                                                                                                            |
+| ------------------ | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| **GitHub**         | Aloja los repositorios del proyecto y actúa como punto de activación para los despliegues automáticos. Además, mediante GitHub Pages se despliega la Landing Page del proyecto.          |
+| **Render**         | Plataforma de despliegue para el backend (Spring Boot). Detecta cambios en el repositorio y ejecuta el build y despliegue de forma automática.                                           |
+| **Supabase**       | Servicio en la nube utilizado para alojar y gestionar la base de datos del proyecto, proporcionando acceso remoto, backups y panel de administración.                                    |
+| **Firebase**       | Se utiliza Firebase Cloud Messaging para la gestión de notificaciones push en la aplicación móvil.                                                                                       |
+| **Docker**         | Se utiliza un `Dockerfile` para empaquetar el backend con todas sus dependencias, garantizando que el entorno de ejecución en Render sea idéntico al de desarrollo.                      |
 | **Android Studio** | Herramienta de compilación y distribución de la aplicación móvil desarrollada con Jetpack Compose. La instalación se realiza directamente en dispositivos Android mediante conexión USB. |
-| **Postman** | Permite validar los endpoints de la API REST tras cada despliegue, verificando que las respuestas del servidor sean correctas. |
+| **Postman**        | Permite validar los endpoints de la API REST tras cada despliegue, verificando que las respuestas del servidor sean correctas.                                                           |
 
 ### Prácticas
 
@@ -5215,7 +5229,7 @@ El objetivo del Continuous Deployment en GigMap es automatizar el flujo de entre
 
 - **Validación funcional:** Se abre la aplicación en el dispositivo y se verifica que las funcionalidades principales operen correctamente, incluyendo la comunicación con el backend en Render y la recepción de notificaciones a través de Firebase.
 
-# Conclusiones 
+# Conclusiones
 
 El desarrollo del proyecto GigMap permitió evidenciar una problemática real en la forma en que los usuarios acceden a conciertos en vivo, especialmente aquellos de menor escala. Se identificó que la falta de información centralizada y en tiempo real limita el descubrimiento de eventos y reduce la participación del público. Esto demuestra la necesidad de soluciones tecnológicas enfocadas en la inmediatez y personalización.
 Mediante el uso del enfoque Lean UX y el análisis de entrevistas, se logró validar las principales necesidades tanto de los fans como de los artistas emergentes. Ambos segmentos coinciden en la dificultad de difusión y acceso a eventos, lo que respalda la propuesta de valor de GigMap. Este proceso permitió tomar decisiones más informadas y centradas en el usuario.
