@@ -19,7 +19,7 @@ NRC: 12316
 <br><br>
 Docente: Julio Manuel Noriega Melendez
 <br><br>
-<strong>Informe de TB1</strong>  
+<strong>Informe de TP1</strong>  
 <br><br>
 Startup: 
 <br><br>
@@ -160,6 +160,34 @@ Zegarra Lopez, Renato Sebastian Rubber (u202311558)
   - 5.3. Video About-the-Product
       </td>
     </tr>
+	  <tr>
+      <td>TP1</td>
+      <td>12/04/2026</td>
+      <td>
+        - Bejarano Martinez, Alvaro Leandro <br>
+        - Collantes Carrillo, Diego Mateo <br>
+        - Ortiz Cardenas, Johanna Antuanete <br>
+        - Sarmiento Medina, Loreley <br>
+        - Zegarra López, Renato Sebastián Rubber
+      </td>
+      <td>
+     En esta entrega se avanzaron los siguientes puntos:<br><br>
+    CAPÍTULO VI: Product Verification & Validation<br>
+    - 6.1. Testing Suites \& Validation<br>
+    - 6.1.1. Core Entities Unit Tests<br>
+    - 6.1.2. Core Integration Tests<br>
+    - 6.1.3. Core Behavior-Driven Development<br>
+    - 6.1.4. Core System Tests<br>
+    CAPÍTULO VII: DevOps Practices<br>
+    - 7.1. Continuous Integration<br>
+    - 7.1.1. Tools and Practices<br>
+    - 7.1.2. Build \& Test Suite Pipeline Components<br>
+    - 7.2. Continuous Delivery<br>
+    - 7.3. Continuous Deployment<br>
+    - 7.3.1. Tools and Practices<br>
+    - 7.3.2. Production Deployment Pipeline Components<br>
+      </td>
+    </tr>
   </tbody>
 </table>
 </div>
@@ -171,7 +199,13 @@ URL de repositorio del reporte del proyecto: `https://github.com/StayBitsV2/GigM
 **TB1 (26/04/2026):**
 
 <p align="center">
-  <img src="assets/project.png" alt="fan2" width="700">
+  <img src="assets/project.png" alt="INSIGHTS" width="700">
+</p>
+
+**TP1 (12/05/2026):**
+
+<p align="center">
+  <img src="assets/project2.png" alt="INSIGHTS2" width="700">
 </p>
 
 ## **Contenido**
@@ -255,12 +289,12 @@ URL de repositorio del reporte del proyecto: `https://github.com/StayBitsV2/GigM
     - [5.2.2. Implemented Landing Page Evidence](#522-implemented-landing-page-evidence)
     - [5.2.3. Implemented Frontend-Web Application Evidence](#523-implemented-frontend-web-application-evidence)
     - [5.2.4. Acuerdo de Servicio - SaaS](#524-acuerdo-de-servicio---saas)
-    - [5.2.5. Implemented RESTful API and/or Serverless Backend Evidence](#526-implemented-restful-api-andor-serverless-backend-evidence)
-    - [5.2.6. RESTful API documentation](#527-restful-api-documentation)
-    - [5.2.7. Team Collaboration Insights](#528-team-collaboration-insights)
+    - [5.2.5. Implemented RESTful API and/or Serverless Backend Evidence](#525-implemented-restful-api-andor-serverless-backend-evidence)
+    - [5.2.6. RESTful API documentation](#526-restful-api-documentation)
+    - [5.2.7. Team Collaboration Insights](#527-team-collaboration-insights)
   - [5.3. Video About-the-Product](#53-video-about-the-product)
-- [CAPÍTULO VI: Product Verification \& Validation](#capítulo-vi-product-verification--validation)
-  - [6.1. Testing Suites \& Validation](#61-testing-suites--validation)
+- [CAPÍTULO VI: Product Verification & Validation](#capítulo-vi-product-verification--validation)
+  - [6.1. Testing Suites & Validation](#61-testing-suites--validation)
     - [6.1.1. Core Entities Unit Tests](#611-core-entities-unit-tests)
     - [6.1.2. Core Integration Tests](#612-core-integration-tests)
     - [6.1.3. Core Behavior-Driven Development](#613-core-behavior-driven-development)
@@ -272,7 +306,10 @@ URL de repositorio del reporte del proyecto: `https://github.com/StayBitsV2/GigM
   - [7.2. Continuous Delivery](#72-continuous-delivery)
   - [7.3. Continuous Deployment](#73-continuous-deployment)
     - [7.3.1. Tools and Practices](#731-tools-and-practices)
-    - [7.3.2. Production Deployment Pipeline Components](#732-production-deployment-pipeline-components)
+    - [7.3.2. Production Deployment Pipeline Components](#732-production-deployment-pipeline-components)   
+- [Conclusiones](#conclusiones)
+- [Recomendaciones](#recomendaciones)
+- [Bibliografía](#bibliografía)
       
 ## **Student Outcome**
 
@@ -293,37 +330,53 @@ La capacidad de reconocer responsabilidades éticas y profesionales en situacion
       <td>
         Bejarano Martinez, Alvaro Leandro <br><br>
         TB1: <br> Se encargó de organizar la estructura del capítulo 3, manteniendo un enfoque ordenado y coherente en el desarrollo del contenido. Además, promovió un ambiente de trabajo colaborativo, asegurando que cada integrante pueda aportar sus ideas y que estas se integren adecuadamente en la revisión de las historias de usuario. <br><br>
+		TP1: <br><br>
         Collantes Carrillo, Diego Mateo <br><br>
         TB1: <br> Participó en el desarrollo del capítulo 4, aportando principalmente en la redacción del contenido para que sea claro, entendible y bien estructurado. Asimismo, colaboró en la revisión de las historias de usuario, buscando que estas comuniquen correctamente las necesidades del usuario.<br><br>
+		TP1: <br><br>
         Lizarbe Alvarez, Ariana Nickole <br><br>
         TB1: <br>Contribuyó en el desarrollo del capítulo 3, aplicando pensamiento crítico y habilidades de trabajo en equipo. Participó en la mejora de las historias de usuario, procurando que estén bien definidas y considerando siempre la experiencia del usuario final.<br><br>
+		TP1: <br><br>
         Ortiz Cardenas, Johanna Antuanete <br><br>
         TB1: <br>
         Desarrolló el capítulo 4 con un enfoque en la calidad y cumplimiento de los entregables. Además, investigó información relevante y aportó ideas que ayudaron a fortalecer las historias de usuario y el contenido del informe.<br><br>
+		TP1: <br><br>
         Sarmiento Medina, Loreley <br><br>
         TB1: <br> Se encargó del desarrollo del capítulo 1, asegurando una base sólida y bien estructurada para el proyecto. También realizó una revisión general del informe y de las historias de usuario, verificando la coherencia, organización y alineación con los objetivos planteados.<br><br>
+		TP1: <br><br>
         Zegarra López, Renato Sebastián Rubber <br><br>
         TB1: <br> Desarrolló el capítulo 2 aplicando sus habilidades de análisis y creatividad, aportando ideas que enriquecieron la propuesta. Asimismo, participó en la revisión de las historias de usuario, mejorando su claridad y consistencia.<br><br>
+		TP1: <br><br>
       </td>
-      <td> A lo largo del desarrollo del trabajo, el equipo demostró una adecuada comprensión de sus responsabilidades éticas y profesionales, reflejada en la forma en que organizaron sus tareas y colaboraron entre sí. Cada integrante asumió su rol con compromiso, asegurando la calidad del contenido y el cumplimiento de los objetivos establecidos. Además, se priorizó la comunicación y el respeto por las ideas de todos, lo que permitió integrar diferentes aportes de manera ordenada. Esto evidencia una práctica responsable dentro del proceso de desarrollo del proyecto.</td>
+      <td> TB1: A lo largo del desarrollo del trabajo, el equipo demostró una adecuada comprensión de sus responsabilidades éticas y profesionales, reflejada en la forma en que organizaron sus tareas y colaboraron entre sí. Cada integrante asumió su rol con compromiso, asegurando la calidad del contenido y el cumplimiento de los objetivos establecidos. Además, se priorizó la comunicación y el respeto por las ideas de todos, lo que permitió integrar diferentes aportes de manera ordenada. Esto evidencia una práctica responsable dentro del proceso de desarrollo del proyecto. <br><br>
+	  TP1: <br><br>
+	  </td>
     </tr>
     <tr>
       <td> 4.c.2 Emite juicios informados considerando el impacto de las soluciones de ingeniería de software en contextos globales, económicos, ambientales y sociales </td>
       <td>
         Bejarano Martinez, Alvaro Leandro <br><br>
         TB1: <br> Se aseguró de que las decisiones tomadas dentro del equipo sigan un enfoque organizado y responsable, considerando la importancia de mantener un trabajo estructurado que permita un desarrollo sostenible del proyecto.<br><br>
+		TP1: <br><br>
         Collantes Carrillo, Diego Mateo <br><br>
         TB1: <br>Aportó a que el contenido del proyecto sea comprensible y accesible, considerando el impacto social de la solución en la forma en que las personas descubren y acceden a la música en vivo.<br><br>
+		TP1: <br><br>
         Lizarbe Alvarez, Ariana Nickole <br><br>
         TB1: <br> Incorporó una perspectiva empática en el desarrollo del proyecto, analizando cómo la solución puede mejorar la experiencia del usuario y fortalecer la conexión entre los fans y la comunidad musical.<br><br>
+		TP1: <br><br>
         Ortiz Cardenas, Johanna Antuanete <br><br>
         TB1: Investigó y consideró tendencias tecnológicas actuales, con el objetivo de asegurar que la solución propuesta sea viable y tenga un impacto positivo tanto en el entorno digital como en el ámbito cultural.<br><br>
+		TP1: <br><br>
         Sarmiento Medina, Loreley <br><br>
         TB1: <br> Analizó la problemática considerando su impacto en el contexto social y cultural, asegurando que la propuesta esté alineada con necesidades reales y aporte valor tanto a los usuarios como a los artistas.<br><br>
+		TP1: <br><br>
         Zegarra López, Renato Sebastián Rubber <br><br>
         TB1: <br>Evaluó la solución desde un enfoque analítico y creativo, considerando su impacto en la difusión de artistas emergentes y en la mejora de la experiencia de los usuarios dentro del ecosistema musical.<br>
+		TP1: <br><br>
       </td>
-      <td>El equipo logró considerar el impacto de la solución propuesta desde una perspectiva más amplia, tomando en cuenta aspectos sociales, culturales y tecnológicos. A través del análisis de la problemática, se evidenció una intención clara de generar valor tanto para los usuarios como para los artistas emergentes. Asimismo, se evaluó cómo la solución puede influir en la forma en que las personas acceden a la música en vivo y participan en la escena local. Esto demuestra una capacidad para tomar decisiones informadas, alineadas con el contexto y las necesidades reales del entorno.</td>
+      <td>El equipo logró considerar el impacto de la solución propuesta desde una perspectiva más amplia, tomando en cuenta aspectos sociales, culturales y tecnológicos. A través del análisis de la problemática, se evidenció una intención clara de generar valor tanto para los usuarios como para los artistas emergentes. Asimismo, se evaluó cómo la solución puede influir en la forma en que las personas acceden a la música en vivo y participan en la escena local. Esto demuestra una capacidad para tomar decisiones informadas, alineadas con el contexto y las necesidades reales del entorno.<br><br>
+	  TP1: <br><br>
+	  </td>
     </tr>
   </tbody>
 </table>
@@ -4953,7 +5006,7 @@ Back-end Application:
 | **URL Youtube:**<br> `https://youtu.be/4ypL066T7xk`                                                                                                                                                                                                                                                                                             |
 | **Descripción:**<br>En el video se presenta una demostración del producto dirigida a los visitantes de nuestra landing page, donde se explican las principales funcionalidades de Gigmap.                                                                                                                                                       |
 
-# CAPITULO VI: Product Verification & Validation
+# CAPÍTULO VI: Product Verification & Validation
 
 ## 6.1 Testing suites & validation
 
@@ -5182,7 +5235,7 @@ Back-end Application:
   <img src="assets/images/tests/US34.jpeg" alt="US34" width="700">
 </p>
 
-# CAPITULO VII: DevOps Practices
+# CAPÍTULO VII: DevOps Practices
 
 ## 7.1. Continuous Integration
 
