@@ -255,12 +255,25 @@ URL de repositorio del reporte del proyecto: `https://github.com/StayBitsV2/GigM
     - [5.2.2. Implemented Landing Page Evidence](#522-implemented-landing-page-evidence)
     - [5.2.3. Implemented Frontend-Web Application Evidence](#523-implemented-frontend-web-application-evidence)
     - [5.2.4. Acuerdo de Servicio - SaaS](#524-acuerdo-de-servicio---saas)
-    - [5.2.5. Implemented Native-Mobile Application Evidence](#525-implemented-native-mobile-application-evidence)
-    - [5.2.6. Implemented RESTful API and/or Serverless Backend Evidence](#526-implemented-restful-api-andor-serverless-backend-evidence)
-    - [5.2.7. RESTful API documentation](#527-restful-api-documentation)
-    - [5.2.8. Team Collaboration Insights](#528-team-collaboration-insights)
+    - [5.2.5. Implemented RESTful API and/or Serverless Backend Evidence](#526-implemented-restful-api-andor-serverless-backend-evidence)
+    - [5.2.6. RESTful API documentation](#527-restful-api-documentation)
+    - [5.2.7. Team Collaboration Insights](#528-team-collaboration-insights)
   - [5.3. Video About-the-Product](#53-video-about-the-product)
-
+- [CAPÍTULO VI: Product Verification \& Validation](#capítulo-vi-product-verification--validation)
+  - [6.1. Testing Suites \& Validation](#61-testing-suites--validation)
+    - [6.1.1. Core Entities Unit Tests](#611-core-entities-unit-tests)
+    - [6.1.2. Core Integration Tests](#612-core-integration-tests)
+    - [6.1.3. Core Behavior-Driven Development](#613-core-behavior-driven-development)
+    - [6.1.4. Core System Tests](#614-core-system-tests)
+- [CAPÍTULO VII: DevOps Practices](#capítulo-vii-devops-practices)
+  - [7.1. Continuous Integration](#71-continuous-integration)
+    - [7.1.1. Tools and Practices](#711-tools-and-practices)
+    - [7.1.2. Build \& Test Suite Pipeline Components](#712-build--test-suite-pipeline-components)
+  - [7.2. Continuous Delivery](#72-continuous-delivery)
+  - [7.3. Continuous Deployment](#73-continuous-deployment)
+    - [7.3.1. Tools and Practices](#731-tools-and-practices)
+    - [7.3.2. Production Deployment Pipeline Components](#732-production-deployment-pipeline-components)
+      
 ## **Student Outcome**
 
 ABET – EAC - Student Outcome 4: <br>
@@ -4721,7 +4734,9 @@ Para el caso del Landing Page, se hizo el deployment a través de GitHub Pages, 
   <img src="assets/images/landing-page/landing5.png" alt="landingpage5" width="700">
 </p>
 
-### 5.2.3. Acuerdo de Servicio - SaaS
+### 5.2.3. Implemented Frontend-Web Application Evidence
+
+### 5.2.4. Acuerdo de Servicio - SaaS
 
 **1. Aceptación de los términos**
 
@@ -4777,11 +4792,12 @@ La empresa se reserva el derecho de modificar estos términos en cualquier momen
 
 Los presentes términos se rigen por las leyes de la República del Perú. Cualquier controversia será sometida a la jurisdicción de los tribunales competentes de Lima Metropolitana.
 
-### 5.2.5. Implemented RESTful API and/or Serverless Backend Evidence
+### 5.2.6. Implemented RESTful API and/or Serverless Backend Evidence
 
 <p align="center">
   <img src="assets/images/restful-api/restful-api.png" alt="restfulapi" width="700">
 </p>
+
 
 ## 5.3. Video About-the-Product
 
@@ -4844,6 +4860,183 @@ Los presentes términos se rigen por las leyes de la República del Perú. Cualq
 </p>
 
 ## 6.1.3. Core Behavior-Driven Development
+
+## 6.1.4. Core System Tests
+
+| US31 | Ver beneficios para fans | **Como** usuario del segmento fan, **quiero** conocer los beneficios de la app para mí, **para** decidir registrarme. |
+|------|--------------------------|---|
+
+<p align="center">
+  <img src="assets/images/tests/US31.png" alt="US31" width="700">
+</p>
+
+| US32 | Ver beneficios para artista | **Como** usuario del segmento artista, **quiero** ver cómo la app me ayuda a promocionar mis eventos. |
+|------|--------------------------|---|
+
+<p align="center">
+  <img src="assets/images/tests/US32.png" alt="US32" width="700">
+</p>
+
+| US33 | Acceder a testimonios | **Como** usuario, **quiero** leer testimonios de usuarios reales **para** aumentar mi confianza en la app. |
+|------|--------------------------|---|
+
+<p align="center">
+  <img src="assets/images/tests/US33.png" alt="US33" width="700">
+</p>
+
+| US03 | Personalizar perfil de artista | **Como** artista, **quiero** personalizar mi perfil con mi nombre artístico y fotografía **para** conectar mejor con el público. |
+|------|--------------------------|---|
+
+<p align="center">
+  <img src="assets/images/tests/US03.png" alt="US03" width="700">
+</p>
+
+| US06 | Buscar conciertos | **Como** usuario, **quiero** buscar conciertos por nombre o artista **para** encontrarlos fácilmente. |
+|------|--------------------------|---|
+
+<p align="center">
+  <img src="assets/images/tests/US06.png" alt="US06" width="700">
+</p>
+
+| US07 | Buscar comunidades | **Como** usuario, **quiero** buscar comunidades por nombre **para** unirme a las que me interesen. |
+|------|--------------------------|---|
+
+<p align="center">
+  <img src="assets/images/tests/US07.png" alt="US07" width="700">
+</p>
+
+| US18 | Ver comunidades accedidas | **Como** usuario, **quiero** visualizar en el apartado "Comunidades" las comunidades a las que me he unido. |
+|------|--------------------------|---|
+
+<p align="center">
+  <img src="assets/images/tests/US18.png" alt="US18" width="700">
+</p>
+
+| US19 | Reaccionar a publicaciones en comunidades | **Como** usuario, **quiero** poder reaccionar a publicaciones dentro de las comunidades. |
+|------|--------------------------|---|
+
+<p align="center">
+  <img src="assets/images/tests/US19.png" alt="US19" width="700">
+</p>
+
+| US20 | Acceder a perfil de otros usuarios | **Como** usuario, **quiero** poder acceder al perfil de otros usuarios **para** conocer más sobre ellos. |
+|------|--------------------------|---|
+
+<p align="center">
+  <img src="assets/images/tests/US20.png" alt="US20" width="700">
+</p>
+
+| US21 | Ver publicaciones con like | **Como** usuario, **quiero** ver una lista de publicaciones a las que les he dado "like". |
+|------|--------------------------|---|
+
+<p align="center">
+  <img src="assets/images/tests/US21.png" alt="US21" width="700">
+</p>
+
+| US30 | Ver información detallada del evento asociado | **Como** fan, **quiero** ver la información completa de un concierto **para** decidir si asistir. |
+|------|--------------------------|---|
+
+<p align="center">
+  <img src="assets/images/tests/US30.png" alt="US30" width="700">
+</p>
+
+| US01 | Filtrar conciertos por género musical | **Como** fan, **quiero** filtrar conciertos por género **para** ver solo los que me interesan. |
+|------|--------------------------|---|
+
+<p align="center">
+  <img src="assets/images/tests/US01.png" alt="US01" width="700">
+</p>
+
+| US02 | Publicar nuevo concierto | **Como** artista, **quiero** crear un evento **para** promocionar mi presentación. |
+|------|--------------------------|---|
+
+<p align="center">
+  <img src="assets/images/tests/US02.png" alt="US02" width="700">
+</p>
+
+| US04 | Crear comunidad | **Como** usuario, **quiero** crear una comunidad temática **para** reunir a otros usuarios en torno a intereses compartidos. |
+|------|--------------------------|---|
+
+<p align="center">
+  <img src="assets/images/tests/US04.png" alt="US04" width="700">
+</p>
+
+| US05 | Ver mapa con geolocalización | **Como** fan, **quiero** ver un mapa con mi ubicación y los conciertos cercanos marcados **para** explorar visualmente las opciones disponibles. |
+|------|--------------------------|---|
+
+<p align="center">
+  <img src="assets/images/tests/US05.png" alt="US05" width="700">
+</p>
+
+| US08 | Iniciar sesión en la app mobile | **Como** usuario registrado, **quiero** iniciar sesión desde la aplicación móvil **para** acceder a mi cuenta. |
+|------|--------------------------|---|
+
+<p align="center">
+  <img src="assets/images/tests/US08.png" alt="US08" width="700">
+</p>
+
+| US09 | Registrarse como artista | **Como** nuevo usuario, **quiero** registrarme como artista **para** promocionar mis conciertos. |
+|------|--------------------------|---|
+
+<p align="center">
+  <img src="assets/images/tests/US09.png" alt="US09" width="700">
+</p>
+
+| US10 | Registrarse como fan | **Como** nuevo usuario, **quiero** registrarme como fan **para** participar en la comunidad y explorar conciertos. |
+|------|--------------------------|---|
+
+<p align="center">
+  <img src="assets/images/tests/US10.png" alt="US10" width="700">
+</p>
+
+| US13 | Ver información detallada del concierto | **Como** fan, **quiero** ver la información completa de un concierto **para** decidir si asistir. |
+|------|--------------------------|---|
+
+<p align="center">
+  <img src="assets/images/tests/US13.png" alt="US13" width="700">
+</p>
+
+| US14 | Unirse a una comunidad | **Como** fan, **quiero** unirme a una comunidad musical **para** interactuar con otros usuarios con intereses similares. |
+|------|--------------------------|---|
+
+<p align="center">
+  <img src="assets/images/tests/US14.png" alt="US14" width="700">
+</p>
+
+| US15 | Publicar en la comunidad | **Como** fan, **quiero** crear publicaciones en las comunidades creadas, **para** compartir opiniones, fotos o recomendaciones con otros miembros. |
+|------|--------------------------|---|
+
+<p align="center">
+  <img src="assets/images/tests/US15.png" alt="US15" width="700">
+</p>
+
+| US17 | Confirmar o marcar asistencia a un concierto | **Como** fan, **quiero** poder marcar un concierto como "Marcar asistencia", **para** llevar un seguimiento de los conciertos que planeo asistir. |
+|------|--------------------------|---|
+
+<p align="center">
+  <img src="assets/images/tests/US17.png" alt="US17" width="700">
+</p>
+
+| US23 | Subir imágenes en comunidades | **Como** usuario, **quiero** subir imágenes en publicaciones de comunidad **para** compartir experiencias visuales. |
+|------|--------------------------|---|
+
+<p align="center">
+  <img src="assets/images/tests/US23.png" alt="US23" width="700">
+</p>
+
+| US24 | Ver eventos asociados | **Como** usuario de GigMap, **quiero** ver un apartado de eventos relacionados en el perfil de un concierto, **para** conocer actividades cercanas en tiempo y lugar (pre/after/meetups) que podría realizar. |
+|------|--------------------------|---|
+
+<p align="center">
+  <img src="assets/images/tests/US24.png" alt="US24" width="700">
+</p>
+
+| US34 | Crear evento asociado | **Como** usuario, **quiero** crear eventos asociados **para** conocer más gente que compartan mis gustos y poder ir juntos a más conciertos. |
+|------|--------------------------|---|
+
+<p align="center">
+  <img src="assets/images/tests/US34.png" alt="US34" width="700">
+</p>
 
 # CAPITULO VII: DevOps Practices
 
