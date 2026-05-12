@@ -4737,7 +4737,6 @@ Pasos para desplegar el backend en Render
 | **US06**          | Buscar conciertos                       | **TSK02**   | Implementar buscador de conciertos | Como usuario, quiero buscar conciertos por nombre o artista para encontrarlos fácilmente.                                                           | 3 horas        | Diego          | Done       |
 | **US08**          | Iniciar sesión en la app móvil          | **TSK03**   | Login de usuario móvil             | Como usuario registrado, quiero iniciar sesión desde la aplicación móvil para acceder a mi cuenta.                                                  | 4 horas        | Renato         | Done       |
 | **US09**          | Registrarse como artista                | **TSK04**   | Registro de artista                | Como nuevo usuario, quiero registrarme como artista para promocionar mis conciertos.                                                                | 3 horas        | Antuanete      | Done       |
-| **US11**          | Zoom a concierto en el mapa             | **TSK05**   | Implementar zoom en mapa           | Como fan, quiero que al seleccionar un concierto en el mapa se haga zoom a su ubicación.                                                            | 2 horas        | Loreley        | Done       |
 | **US13**          | Ver información detallada del concierto | **TSK06**   | Detalle de concierto               | Como fan, quiero ver la información completa de un concierto para decidir si asistir.                                                               | 3 horas        | Álvaro         | Done       |
 | **US22**          | Permitir acceso a ubicación             | **TSK07**   | Permisos de geolocalización        | Como usuario, quiero que GigMap acceda a mi ubicación para recibir información personalizada.                                                       | 2 horas        | Renato         | Done       |
 | **TS01**          | Crear concierto                         | **TSK08**   | API POST de conciertos             | Como developer, quiero un endpoint POST en /api/v1/concerts que permita crear conciertos con toda su información.                                   | 5 horas        | Diego          | Done       |
@@ -4794,6 +4793,8 @@ Para el caso del Landing Page, se hizo el deployment a través de GitHub Pages, 
 **1. Aceptación de los términos**
 
 Al descargar, instalar o utilizar la aplicación móvil, el usuario declara haber leído, entendido y aceptado estos términos y condiciones en su totalidad. En caso de no estar de acuerdo, deberá abstenerse de utilizar la aplicación y proceder a su desinstalación.
+
+Asimismo, el usuario reconoce que la aplicación requiere un dispositivo Android compatible con un nivel de API igual o superior a 36, correspondiente a Android 16 o versiones posteriores, para garantizar el correcto funcionamiento de sus funcionalidades y servicios.
 
 **2. Uso del servicio**
 
