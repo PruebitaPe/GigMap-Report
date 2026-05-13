@@ -343,53 +343,53 @@ La capacidad de reconocer responsabilidades éticas y profesionales en situacion
       <td>
         Bejarano Martinez, Alvaro Leandro <br><br>
         TB1: <br> Se encargó de organizar la estructura del capítulo 3, manteniendo un enfoque ordenado y coherente en el desarrollo del contenido. Además, promovió un ambiente de trabajo colaborativo, asegurando que cada integrante pueda aportar sus ideas y que estas se integren adecuadamente en la revisión de las historias de usuario. <br><br>
-		TP1: <br><br>
+        TP1: <br> Desarrolló la sección de Continuous Delivery y las pruebas del sistema (Core System Tests) para las US21, US22, US23 y US24. Aseguró que el pipeline de entrega sea robusto y que las funcionalidades críticas del sistema estén validadas para garantizar un producto seguro y confiable para el usuario final. <br><br>
         Collantes Carrillo, Diego Mateo <br><br>
         TB1: <br> Participó en el desarrollo del capítulo 4, aportando principalmente en la redacción del contenido para que sea claro, entendible y bien estructurado. Asimismo, colaboró en la revisión de las historias de usuario, buscando que estas comuniquen correctamente las necesidades del usuario.<br><br>
-		TP1: <br><br>
+        TP1: <br><br>
         Lizarbe Alvarez, Ariana Nickole <br><br>
         TB1: <br>Contribuyó en el desarrollo del capítulo 3, aplicando pensamiento crítico y habilidades de trabajo en equipo. Participó en la mejora de las historias de usuario, procurando que estén bien definidas y considerando siempre la experiencia del usuario final.<br><br>
-		TP1: <br> Desarrolló la sección de Core Behavior-Driven Development, utilizando Gherkin para analizar distintas historias de usuario <br><br>
+        TP1: <br> Desarrolló la sección de Core Behavior-Driven Development, utilizando Gherkin para analizar distintas historias de usuario <br><br>
         Ortiz Cardenas, Johanna Antuanete <br><br>
         TB1: <br>
         Desarrolló el capítulo 4 con un enfoque en la calidad y cumplimiento de los entregables. Además, investigó información relevante y aportó ideas que ayudaron a fortalecer las historias de usuario y el contenido del informe.<br><br>
-		TP1: Desarrolló la sección de Continuous Deployment, documentando las herramientas, prácticas y componentes del pipeline de despliegue a producción. Además, se aseguró de seguir buenas prácticas que garanticen la estabilidad del producto.<br><br>
+        TP1: Desarrolló la sección de Continuous Deployment, documentando las herramientas, prácticas y componentes del pipeline de despliegue a producción. Además, se aseguró de seguir buenas prácticas que garanticen la estabilidad del producto.<br><br>
         Sarmiento Medina, Loreley <br><br>
         TB1: <br> Se encargó del desarrollo del capítulo 1, asegurando una base sólida y bien estructurada para el proyecto. También realizó una revisión general del informe y de las historias de usuario, verificando la coherencia, organización y alineación con los objetivos planteados.<br><br>
-		TP1: <br><br>
+        TP1: <br><br>
         Zegarra López, Renato Sebastián Rubber <br><br>
         TB1: <br> Desarrolló el capítulo 2 aplicando sus habilidades de análisis y creatividad, aportando ideas que enriquecieron la propuesta. Asimismo, participó en la revisión de las historias de usuario, mejorando su claridad y consistencia.<br><br>
-		TP1: <br>Aplique informacion de pruebas automatizadas con herramientas como JUnit, Mockito y Selenium para asegurar la calidad y correcto funcionamiento del software, demostrando responsabilidad profesional y compromiso con buenas prácticas de desarrollo.<br>
+        TP1: <br>Aplique informacion de pruebas automatizadas con herramientas como JUnit, Mockito y Selenium para asegurar la calidad y correcto funcionamiento del software, demostrando responsabilidad profesional y compromiso con buenas prácticas de desarrollo.<br>
       </td>
       <td> TB1: A lo largo del desarrollo del trabajo, el equipo demostró una adecuada comprensión de sus responsabilidades éticas y profesionales, reflejada en la forma en que organizaron sus tareas y colaboraron entre sí. Cada integrante asumió su rol con compromiso, asegurando la calidad del contenido y el cumplimiento de los objetivos establecidos. Además, se priorizó la comunicación y el respeto por las ideas de todos, lo que permitió integrar diferentes aportes de manera ordenada. Esto evidencia una práctica responsable dentro del proceso de desarrollo del proyecto. <br><br>
-	  TP1: Durante esta entrega, el equipo demostró responsabilidad ética y profesional al implementar prácticas rigurosas de verificación, validación y DevOps. La elaboración de pruebas unitarias, de integración, BDD y de sistema refleja un compromiso con la calidad del software y con la entrega de un producto confiable. Asimismo, la configuración de pipelines de CI/CD evidencia una práctica profesional orientada a reducir errores en producción y proteger la experiencia del usuario. Cada integrante asumió la responsabilidad de sus secciones asegurando trazabilidad y transparencia en el proceso.<br><br>
-	  </td>
+      TP1: Durante esta entrega, el equipo demostró responsabilidad ética y profesional al implementar prácticas rigurosas de verificación, validación y DevOps. La elaboración de pruebas unitarias, de integración, BDD y de sistema (US21-US24) refleja un compromiso con la calidad del software y con la entrega de un producto confiable. Asimismo, la configuración de pipelines de CI/CD evidencia una práctica profesional orientada a reducir errores en producción y proteger la experiencia del usuario. Cada integrante asumió la responsabilidad de sus secciones asegurando trazabilidad y transparencia en el proceso.<br><br>
+      </td>
     </tr>
     <tr>
       <td> 4.c.2 Emite juicios informados considerando el impacto de las soluciones de ingeniería de software en contextos globales, económicos, ambientales y sociales </td>
       <td>
         Bejarano Martinez, Alvaro Leandro <br><br>
         TB1: <br> Se aseguró de que las decisiones tomadas dentro del equipo sigan un enfoque organizado y responsable, considerando la importancia de mantener un trabajo estructurado que permita un desarrollo sostenible del proyecto.<br><br>
-		TP1: <br><br>
+        TP1: <br> Evaluó el impacto de la Entrega Continua y las pruebas del sistema en la estabilidad operativa de la plataforma, asegurando que la automatización de procesos minimice fallos técnicos que podrían afectar negativamente la experiencia social de los usuarios en eventos de música en vivo. <br><br>
         Collantes Carrillo, Diego Mateo <br><br>
         TB1: <br>Aportó a que el contenido del proyecto sea comprensible y accesible, considerando el impacto social de la solución en la forma en que las personas descubren y acceden a la música en vivo.<br><br>
-		TP1: <br><br>
+        TP1: <br><br>
         Lizarbe Alvarez, Ariana Nickole <br><br>
         TB1: <br> Incorporó una perspectiva empática en el desarrollo del proyecto, analizando cómo la solución puede mejorar la experiencia del usuario y fortalecer la conexión entre los fans y la comunidad musical.<br><br>
-		TP1: <br> Aportó para que el contenido del proyecto sea organizado y analítico, considerando plenamente las importancia de las pruebas funcionales en el código fuente <br><br>
+        TP1: <br> Aportó para que el contenido del proyecto sea organizado y analítico, considerando plenamente las importancia de las pruebas funcionales en el código fuente <br><br>
         Ortiz Cardenas, Johanna Antuanete <br><br>
         TB1: Investigó y consideró tendencias tecnológicas actuales, con el objetivo de asegurar que la solución propuesta sea viable y tenga un impacto positivo tanto en el entorno digital como en el ámbito cultural.<br><br>
-		TP1: Investigó y seleccionó herramientas de despliegue continuo, con el objetivo de asegurar que la solución sea escalable y tenga un impacto positivo en la disponibilidad del servicio para los usuarios.<br><br>
+        TP1: Investigó y seleccionó herramientas de despliegue continuo, con el objetivo de asegurar que la solución sea escalable y tenga un impacto positivo en la disponibilidad del servicio para los usuarios.<br><br>
         Sarmiento Medina, Loreley <br><br>
         TB1: <br> Analizó la problemática considerando su impacto en el contexto social y cultural, asegurando que la propuesta esté alineada con necesidades reales y aporte valor tanto a los usuarios como a los artistas.<br><br>
-		TP1: <br><br>
+        TP1: <br><br>
         Zegarra López, Renato Sebastián Rubber <br><br>
         TB1: <br>Evaluó la solución desde un enfoque analítico y creativo, considerando su impacto en la difusión de artistas emergentes y en la mejora de la experiencia de los usuarios dentro del ecosistema musical.<br>
-		TP1: <br>Utilice pruebas automatizadas para garantizar un software más confiable y eficiente, reduciendo errores y mejorando la experiencia del usuario, lo que contribuye positivamente al impacto social y tecnológico de la aplicación.<br>
+        TP1: <br>Utilice pruebas automatizadas para garantizar un software más confiable y eficiente, reduciendo errores y mejorando la experiencia del usuario, lo que contribuye positivamente al impacto social y tecnológico de la aplicación.<br>
       </td>
       <td>El equipo logró considerar el impacto de la solución propuesta desde una perspectiva más amplia, tomando en cuenta aspectos sociales, culturales y tecnológicos. A través del análisis de la problemática, se evidenció una intención clara de generar valor tanto para los usuarios como para los artistas emergentes. Asimismo, se evaluó cómo la solución puede influir en la forma en que las personas acceden a la música en vivo y participan en la escena local. Esto demuestra una capacidad para tomar decisiones informadas, alineadas con el contexto y las necesidades reales del entorno.<br><br>
-	  TP1: El equipo emitió juicios informados al diseñar las suites de testing y los pipelines de DevOps, considerando cómo estas decisiones impactan en la experiencia del usuario y en la sostenibilidad del proyecto. La automatización de pruebas y despliegues reduce el consumo innecesario de recursos computacionales y garantiza que los cambios lleguen al usuario de forma rápida y segura. Estas decisiones reflejan una visión integral que contempla el contexto tecnológico actual y las necesidades reales del entorno al que se dirige la solución.<br><br>
-	  </td>
+      TP1: El equipo emitió juicios informados al diseñar las suites de testing (incluyendo pruebas de sistema críticas) y los pipelines de DevOps, considerando cómo estas decisiones impactan en la experiencia del usuario y en la sostenibilidad del proyecto. La automatización de pruebas y despliegues reduce el consumo innecesario de recursos computacionales y garantiza que los cambios lleguen al usuario de forma rápida y segura. Estas decisiones reflejan una visión integral que contempla el contexto tecnológico actual y las necesidades reales del entorno al que se dirige la solución.<br><br>
+      </td>
     </tr>
   </tbody>
 </table>
@@ -3638,6 +3638,41 @@ La comunicación se desarrolla bajo una línea respetuosa y entusiasta, proyecta
 
 #### 4.1.3.1. Android Mobile Style Guidelines
 
+### Colors
+La identidad visual de GigMap se fundamenta en una paleta cromática seleccionada para transmitir la energía de los eventos en vivo y la precisión tecnológica de la geolocalización. El uso del granate profundo (#5C0F1A) junto a contrastes en blanco y negro busca evocar la atmósfera de los escenarios, proporcionando una interfaz moderna que destaca la información crítica para el usuario.
+
+<img src="assets/images/product-desing/style-guidelines/colorsMobile.png" alt="typo" width="700">
+
+### Typography
+La legibilidad es una prioridad absoluta en nuestra experiencia mobile, por lo que hemos adoptado la familia tipográfica "Inter". Esta fuente sans-serif fue elegida por su excelente rendimiento en pantallas pequeñas, permitiendo que los nombres de artistas, locaciones y horarios sean claros y fáciles de leer bajo cualquier condición de iluminación.
+
+<img src="assets/images/product-desing/style-guidelines/tipografiaMobile.png" alt="typo" width="700">
+
+### Icons
+El sistema de iconografía de GigMap actúa como una guía visual intuitiva que facilita la navegación rápida. Cada símbolo ha sido seleccionado para representar de forma directa funciones clave como el mapa, la comunidad y las alertas, manteniendo una estética minimalista que no sobrecarga la interfaz y refuerza la identidad dinámica de la startup StayBits.
+
+<img src="assets/images/product-desing/style-guidelines/iconsMobile.png" alt="typo" width="700">
+
+### Spacing
+Para garantizar una navegación cómoda y evitar errores de pulsación en dispositivos táctiles, hemos implementado una estructura de espaciado rigurosa. Estas pautas aseguran que cada elemento respire adecuadamente, creando una jerarquía visual equilibrada que guía el ojo del usuario de manera fluida a través de la cartelera musical.
+
+<img src="assets/images/product-desing/style-guidelines/spacingMobile.png" alt="typo" width="700">
+
+### Grid System
+La organización de GigMap se basa en un sistema de rejilla flexible diseñado específicamente para entornos móviles. Esta estructura permite que el mapa interactivo y las tarjetas de eventos se alineen de forma armónica, adaptando los contenidos con precisión a diferentes resoluciones de pantalla y manteniendo la consistencia en toda la aplicación.
+
+<img src="assets/images/product-desing/style-guidelines/gridSystemMobile.png" alt="typo" width="700">
+
+### Button
+Los botones en GigMap están diseñados como los principales catalizadores de acción, facilitando tareas como la confirmación de asistencia o la compra de entradas. Su estilo visual es prominente y coherente con la marca, garantizando que el usuario identifique instantáneamente los puntos de interacción y disfrute de una experiencia de uso predecible y satisfactoria.
+
+<img src="assets/images/product-desing/style-guidelines/buttonMobile.png" alt="typo" width="700">
+
+### Input System
+El sistema de entrada de datos ha sido optimizado para simplificar la interacción del usuario, especialmente en procesos de registro y búsqueda de conciertos. Mediante campos de texto limpios y estados visuales claros, aseguramos que la captura de información sea rápida, reduciendo la fricción y permitiendo que los fans se enfoquen en lo más importante: descubrir música en vivo.
+
+<img src="assets/images/product-desing/style-guidelines/inputSystemMobile.png" alt="typo" width="700">
+
 ## 4.2. Information Architecture
 
 La Information Architecture (IA) se centra en la organización, estructuración y presentación del contenido dentro del sistema, con el objetivo de facilitar la navegación y la comprensión por parte del usuario. A través de esta etapa, se establecen las bases para que la información sea accesible, coherente y fácil de encontrar. En esta sección, el equipo define las decisiones y fundamentos que orientan la distribución del contenido en las distintas experiencias digitales, incluyendo la Landing Page y la aplicación, asegurando que los usuarios puedan interactuar de manera intuitiva y sin esfuerzo. Asimismo, se detallan los lineamientos relacionados con los Organization Systems, Labeling Systems, Navigation Systems y Searching Systems, que en conjunto conforman la estructura lógica y funcional del producto.
@@ -5374,6 +5409,32 @@ Además, se consideran prácticas como el Desarrollo Orientado por Pruebas (TDD)
 </p>
 
 ## 7.2. Continuous Delivery
+
+El objetivo principal para **GigMap** es automatizar los ciclos de integración y pruebas de software, garantizando que el código permanezca siempre en un estado óptimo y listo para ser liberado al mercado en cuanto el equipo de **StayBits** lo decida.
+
+### 7.2.1. Tools and Practices
+
+**Tools (Herramientas)**
+
+* **GitHub Actions:** Utilizamos esta herramienta para orquestar todo el pipeline de CI/CD. En nuestro flujo de Entrega Continua, configuramos las etapas de validación automática, dejando el paso final a producción como una ejecución manual controlada.
+* **Trello:** Actúa como nuestra plataforma de gestión y gobernanza. Los despliegues solo progresan tras una revisión en el tablero de gestión, donde los responsables del proyecto validan los resultados de las pruebas antes de dar el visto bueno al lanzamiento.
+* **Docker:** Empleamos la contenerización para asegurar que la aplicación GigMap se comporte de manera idéntica en el entorno de desarrollo, en staging y en la infraestructura final. Esto elimina inconsistencias técnicas durante la fase de validación.
+
+**Practices (Prácticas)**
+
+* **Feature Branching y Merge Requests:** Cada nueva funcionalidad o corrección se desarrolla en ramas independientes. Una vez superadas las pruebas automáticas, el código se integra a la rama principal, quedando a la espera de una validación humana para su salida a producción.
+* **Pipeline de Validación en Staging:** Implementamos un entorno de pre-producción (Staging) que replica las condiciones reales de uso. Aquí, el equipo de StayBits realiza pruebas de geolocalización y carga antes de autorizar el despliegue definitivo.
+* **Despliegue Semiautomático:** Mantenemos una intervención humana estratégica. El sistema prepara todo el paquete de actualización, pero la ejecución final requiere la activación manual por parte de un administrador o desarrollador senior.
+* **Aprobación Manual:** Establecemos un punto de control obligatorio donde los resultados de calidad son auditados. Esto minimiza el riesgo de introducir errores en la experiencia de usuario de los fans y artistas.
+* **Rollback Manual:** En caso de detectar anomalías tras un lanzamiento, el equipo de operaciones tiene protocolos establecidos para revertir la aplicación a una versión estable previa de forma rápida y controlada.
+
+### 7.2.2. Stages Deployment Pipeline Components
+
+* **Integración Continua (CI):** Cada commit en las ramas de desarrollo activa un pipeline que compila y testea la lógica de la app, asegurando que GigMap sea siempre una solución técnicamente "desplegable".
+* **Validación en Staging:** El código se despliega en un entorno controlado para simular el comportamiento real de los usuarios, permitiendo ejecutar pruebas de seguridad, rendimiento y usabilidad de la interfaz.
+* **Despliegue Manual:** Se habilita la etapa final de lanzamiento bajo supervisión, permitiendo que el equipo elija el momento comercial o técnico más adecuado para actualizar la plataforma sin afectar la disponibilidad del servicio.
+* **Monitoreo y Feedback:** El pipeline incluye herramientas de análisis para observar cómo el nuevo código afecta el rendimiento de la aplicación, obteniendo datos valiosos antes de confirmar el éxito total del despliegue.
+* **Aprobación del Despliegue:** El proceso se detiene en un estado de espera activa hasta que el responsable técnico o el Product Owner confirma que todos los criterios de aceptación se han cumplido satisfactoriamente.
 
 ## 7.3. Continuous Deployment
 
