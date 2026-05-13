@@ -346,7 +346,7 @@ La capacidad de reconocer responsabilidades éticas y profesionales en situacion
         TP1: <br> Desarrolló la sección de Continuous Delivery y las pruebas del sistema (Core System Tests) para las US21, US22, US23 y US24. Aseguró que el pipeline de entrega sea robusto y que las funcionalidades críticas del sistema estén validadas para garantizar un producto seguro y confiable para el usuario final. <br><br>
         Collantes Carrillo, Diego Mateo <br><br>
         TB1: <br> Participó en el desarrollo del capítulo 4, aportando principalmente en la redacción del contenido para que sea claro, entendible y bien estructurado. Asimismo, colaboró en la revisión de las historias de usuario, buscando que estas comuniquen correctamente las necesidades del usuario.<br><br>
-        TP1: <br>La implementación de Core Integration Tests permitió garantizar la confiabilidad del sistema y prevenir fallos críticos, reflejando responsabilidad ética y profesional en el desarrollo de software.<br>
+        TP1: <br><br>
         Lizarbe Alvarez, Ariana Nickole <br><br>
         TB1: <br>Contribuyó en el desarrollo del capítulo 3, aplicando pensamiento crítico y habilidades de trabajo en equipo. Participó en la mejora de las historias de usuario, procurando que estén bien definidas y considerando siempre la experiencia del usuario final.<br><br>
         TP1: <br> Desarrolló la sección de Core Behavior-Driven Development, utilizando Gherkin para analizar distintas historias de usuario <br><br>
@@ -356,13 +356,13 @@ La capacidad de reconocer responsabilidades éticas y profesionales en situacion
         TP1: Desarrolló la sección de Continuous Deployment, documentando las herramientas, prácticas y componentes del pipeline de despliegue a producción. Además, se aseguró de seguir buenas prácticas que garanticen la estabilidad del producto.<br><br>
         Sarmiento Medina, Loreley <br><br>
         TB1: <br> Se encargó del desarrollo del capítulo 1, asegurando una base sólida y bien estructurada para el proyecto. También realizó una revisión general del informe y de las historias de usuario, verificando la coherencia, organización y alineación con los objetivos planteados.<br><br>
-        TP1: <br><br>
+        TP1: <br> Desarrolló las pruebas unitarias de las entidades principales (Core Entities Unit Tests) y las pruebas del sistema para las historias de usuario US01, US02, US04 y US05. Su trabajo garantizó que la lógica de negocio base sea sólida y que los procesos de registro y búsqueda funcionen correctamente bajo estándares de calidad profesional. <br><br>
         Zegarra López, Renato Sebastián Rubber <br><br>
         TB1: <br> Desarrolló el capítulo 2 aplicando sus habilidades de análisis y creatividad, aportando ideas que enriquecieron la propuesta. Asimismo, participó en la revisión de las historias de usuario, mejorando su claridad y consistencia.<br><br>
         TP1: <br>Aplique informacion de pruebas automatizadas con herramientas como JUnit, Mockito y Selenium para asegurar la calidad y correcto funcionamiento del software, demostrando responsabilidad profesional y compromiso con buenas prácticas de desarrollo.<br>
       </td>
       <td> TB1: A lo largo del desarrollo del trabajo, el equipo demostró una adecuada comprensión de sus responsabilidades éticas y profesionales, reflejada en la forma en que organizaron sus tareas y colaboraron entre sí. Cada integrante asumió su rol con compromiso, asegurando la calidad del contenido y el cumplimiento de los objetivos establecidos. Además, se priorizó la comunicación y el respeto por las ideas de todos, lo que permitió integrar diferentes aportes de manera ordenada. Esto evidencia una práctica responsable dentro del proceso de desarrollo del proyecto. <br><br>
-      TP1: Durante esta entrega, el equipo demostró responsabilidad ética y profesional al implementar prácticas rigurosas de verificación, validación y DevOps. La elaboración de pruebas unitarias, de integración, BDD y de sistema (US21-US24) refleja un compromiso con la calidad del software y con la entrega de un producto confiable. Asimismo, la configuración de pipelines de CI/CD evidencia una práctica profesional orientada a reducir errores en producción y proteger la experiencia del usuario. Cada integrante asumió la responsabilidad de sus secciones asegurando trazabilidad y transparencia en el proceso.<br><br>
+      TP1: Durante esta entrega, el equipo demostró responsabilidad ética y profesional al implementar prácticas rigurosas de verificación, validación y DevOps. La elaboración de pruebas unitarias (Entities), de integración, BDD y de sistema (US01-US24) refleja un compromiso con la integridad de los datos y la fiabilidad de las funciones core. Asimismo, la configuración de pipelines de CI/CD evidencia una práctica profesional orientada a proteger la experiencia del usuario y mantener la estabilidad del producto.<br><br>
       </td>
     </tr>
     <tr>
@@ -370,25 +370,25 @@ La capacidad de reconocer responsabilidades éticas y profesionales en situacion
       <td>
         Bejarano Martinez, Alvaro Leandro <br><br>
         TB1: <br> Se aseguró de que las decisiones tomadas dentro del equipo sigan un enfoque organizado y responsable, considerando la importancia de mantener un trabajo estructurado que permita un desarrollo sostenible del proyecto.<br><br>
-        TP1: <br> Evaluó el impacto de la Entrega Continua y las pruebas del sistema en la estabilidad operativa de la plataforma, asegurando que la automatización de procesos minimice fallos técnicos que podrían afectar negativamente la experiencia social de los usuarios en eventos de música en vivo. <br><br>
+        TP1: <br> Evaluó el impacto de la Entrega Continua y las pruebas del sistema en la estabilidad operativa de la plataforma, asegurando que la automatización de procesos minimice fallos técnicos que podrían afectar negativamente la experiencia social de los usuarios. <br><br>
         Collantes Carrillo, Diego Mateo <br><br>
         TB1: <br>Aportó a que el contenido del proyecto sea comprensible y accesible, considerando el impacto social de la solución en la forma en que las personas descubren y acceden a la música en vivo.<br><br>
-        TP1: <br>La implementación de Core Integration Tests permitió evaluar y asegurar la estabilidad del sistema, contribuyendo al desarrollo de soluciones de software confiables con impacto positivo en la experiencia y confianza de los usuarios.<br>
+        TP1: <br><br>
         Lizarbe Alvarez, Ariana Nickole <br><br>
         TB1: <br> Incorporó una perspectiva empática en el desarrollo del proyecto, analizando cómo la solución puede mejorar la experiencia del usuario y fortalecer la conexión entre los fans y la comunidad musical.<br><br>
         TP1: <br> Aportó para que el contenido del proyecto sea organizado y analítico, considerando plenamente las importancia de las pruebas funcionales en el código fuente <br><br>
         Ortiz Cardenas, Johanna Antuanete <br><br>
         TB1: Investigó y consideró tendencias tecnológicas actuales, con el objetivo de asegurar que la solución propuesta sea viable y tenga un impacto positivo tanto en el entorno digital como en el ámbito cultural.<br><br>
-        TP1: Investigó y seleccionó herramientas de despliegue continuo, con el objetivo de asegurar que la solución sea escalable y tenga un impacto positivo en la disponibilidad del servicio para los usuarios.<br><br>
+        TP1: Investigó y seleccionó herramientas de despliegue continuo, con el objetivo de asegurar que la solución sea escalable y tenga un impacto positivo en la disponibilidad del servicio para los usuarios. <br><br>
         Sarmiento Medina, Loreley <br><br>
         TB1: <br> Analizó la problemática considerando su impacto en el contexto social y cultural, asegurando que la propuesta esté alineada con necesidades reales y aporte valor tanto a los usuarios como a los artistas.<br><br>
-        TP1: <br><br>
+        TP1: <br> Analizó la importancia de las pruebas unitarias y de sistema iniciales para garantizar que el acceso a la plataforma (US01-US05) sea inclusivo y eficiente, permitiendo que artistas emergentes tengan una puerta de entrada confiable a la visibilidad digital. <br><br>
         Zegarra López, Renato Sebastián Rubber <br><br>
         TB1: <br>Evaluó la solución desde un enfoque analítico y creativo, considerando su impacto en la difusión de artistas emergentes y en la mejora de la experiencia de los usuarios dentro del ecosistema musical.<br>
         TP1: <br>Utilice pruebas automatizadas para garantizar un software más confiable y eficiente, reduciendo errores y mejorando la experiencia del usuario, lo que contribuye positivamente al impacto social y tecnológico de la aplicación.<br>
       </td>
       <td>El equipo logró considerar el impacto de la solución propuesta desde una perspectiva más amplia, tomando en cuenta aspectos sociales, culturales y tecnológicos. A través del análisis de la problemática, se evidenció una intención clara de generar valor tanto para los usuarios como para los artistas emergentes. Asimismo, se evaluó cómo la solución puede influir en la forma en que las personas acceden a la música en vivo y participan en la escena local. Esto demuestra una capacidad para tomar decisiones informadas, alineadas con el contexto y las necesidades reales del entorno.<br><br>
-      TP1: El equipo emitió juicios informados al diseñar las suites de testing (incluyendo pruebas de sistema críticas) y los pipelines de DevOps, considerando cómo estas decisiones impactan en la experiencia del usuario y en la sostenibilidad del proyecto. La automatización de pruebas y despliegues reduce el consumo innecesario de recursos computacionales y garantiza que los cambios lleguen al usuario de forma rápida y segura. Estas decisiones reflejan una visión integral que contempla el contexto tecnológico actual y las necesidades reales del entorno al que se dirige la solución.<br><br>
+      TP1: El equipo emitió juicios informados al diseñar las suites de testing (unitarias y de sistema) y los pipelines de DevOps, considerando cómo la robustez técnica se traduce en confianza social. La validación rigurosa de las entidades y flujos de usuario asegura que la plataforma sea una herramienta sostenible económicamente para los artistas y socialmente valiosa para los fans. La automatización garantiza que los cambios lleguen al usuario de forma rápida, segura y con un uso eficiente de recursos tecnológicos. <br><br>
       </td>
     </tr>
   </tbody>
