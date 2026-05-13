@@ -4426,7 +4426,7 @@ El código fuente del proyecto **GigMap** es gestionado mediante la plataforma *
 
 | **Producto**       | **URL**                                                     |
 | ------------------ | ----------------------------------------------------------- |
-| Landing Page       | `link`                                                      |
+| Landing Page       | `https://staybitsv2.github.io/gigmap-landingpage/`          |
 | Mobile Application | `https://github.com/StayBitsV2/Gigmap-mobile.git`           |
 | Web Services       | `https://github.com/StayBitsV2/gigmap-api.git`              |
 | Acceptance Tests   | `https://github.com/StayBitsV2/Gigmap-Acceptance-Tests.git` |
