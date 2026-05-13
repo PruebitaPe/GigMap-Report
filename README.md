@@ -4884,7 +4884,7 @@ Además, se consideran prácticas como el Desarrollo Orientado por Pruebas (TDD)
 ### 7.1.2. Build & Test Suite Pipeline Components
 
 <p align="center">
-  <img src="assets/images/restful-api/ss1.png" alt="img1" width="700">
+  <img src="assets/images/restful-api/ss1.jpg" alt="img1" width="700">
 </p>
 
 
