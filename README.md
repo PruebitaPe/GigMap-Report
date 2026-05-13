@@ -1545,7 +1545,7 @@ A lo largo de las diferentes etapas de su experiencia, se examinan las acciones 
       <td colspan="4"><strong>Description</strong></td>
     </tr>
     <tr>
-      <td colspan="4">Como usuario, quiero buscar conciertos por nombre o artista para encontrarlos fácilmente.</td>
+      <td colspan="4">Como usuario, quiero buscar conciertos por nombre para encontrarlos fácilmente.</td>
     </tr>
     <tr>
       <td colspan="4"><strong>Acceptance Criteria</strong></td>
