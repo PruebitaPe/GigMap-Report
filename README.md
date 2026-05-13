@@ -5404,9 +5404,7 @@ Además, se consideran prácticas como el Desarrollo Orientado por Pruebas (TDD)
   <img src="assets/images/restful-api/ss1.png" alt="img1" width="700">
 </p>
 
-<p align="center">
-  <img src="assets/images/restful-api/ss2.png" alt="img2" width="700">
-</p>
+
 
 ## 7.2. Continuous Delivery
 
