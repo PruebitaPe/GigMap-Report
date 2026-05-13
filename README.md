@@ -3554,12 +3554,9 @@ A lo largo de las diferentes etapas de su experiencia, se examinan las acciones 
 | 18      | US09          | Registrarse como artista                      | Como nuevo usuario, quiero registrarme como artista para promocionar mis conciertos.                                                                                                              | 3                                |
 | 19      | US10          | Registrarse como fan                          | Como nuevo usuario, quiero registrarme como fan para participar en la comunidad y explorar conciertos.                                                                                            | 3                                |
 | 20      | US13          | Ver información detallada del concierto       | Como fan, quiero ver la información completa de un concierto para decidir si asistir.                                                                                                             | 3                                |
-| 21      | US14          | Unirse a una comunidad                        | Como fan, quiero unirme a una comunidad musical para interactuar con otros usuarios con intereses similares.                                                                                      | 3                                |
-| 22      | US15          | Publicar en la comunidad                      | Como fan, quiero crear publicaciones en las comunidad creadas, para compartir opiniones, fotos o recomendaciones con otros miembros.                                                              | 5                                |
-| 23      | US17          | Confirmar o marcar asistencia a un concierto  | Como fan, quiero poder marcar un concierto como “Marcar asistencia”, para llevar un seguimiento de los conciertos que planeo asistir.                                                             | 5                                |
-| 24      | US23          | Subir imágenes en comunidades                 | Como usuario, quiero subir imágenes en publicaciones de comunidad para compartir experiencias visuales.                                                                                           | 5                                |
-| 25      | US24          | Ver eventos asociados                         | Como usuario de GigMap, quiero ver un apartado de eventos relacionados en el perfil de un concierto, para conocer actividades cercanas en tiempo y lugar (pre/after/meetups) que podría realizar. | 5                                |
-| 26      | US34          | Crear evento asociado                         | Como usuario, quiero crear eventos asociados para conocer más gente que compartan mis gustos y poder ir juntos a más conciertos.                                                                  |                                  |
+| 21      | US23          | Subir imágenes en comunidades                 | Como usuario, quiero subir imágenes en publicaciones de comunidad para compartir experiencias visuales.                                                                                           | 5                                |
+| 22      | US24          | Ver eventos asociados                         | Como usuario de GigMap, quiero ver un apartado de eventos relacionados en el perfil de un concierto, para conocer actividades cercanas en tiempo y lugar (pre/after/meetups) que podría realizar. | 5                                |
+| 23      | US34          | Crear evento asociado                         | Como usuario, quiero crear eventos asociados para conocer más gente que compartan mis gustos y poder ir juntos a más conciertos.                                                                  |                                  |
 
 ## 3.4. Impact Mapping
 
@@ -5239,28 +5236,45 @@ Esta sección detalla las pruebas unitarias aplicadas a las entidades fundamenta
 | ---- | ------------------------------------- | ---------------------------------------------------------------------------------------------- |
 
 <p align="center">
-  <img src="assets/images/tests/US01.png" alt="US01" width="700">
+  <img src="assets/images/tests/US01-1.PNG" alt="US01" width="700">
 </p>
+
+<p align="center">
+  <img src="assets/images/tests/US01-2.PNG" alt="US01" width="700">
+</p>
+
 
 | US02 | Publicar nuevo concierto | **Como** artista, **quiero** crear un evento **para** promocionar mi presentación. |
 | ---- | ------------------------ | ---------------------------------------------------------------------------------- |
 
 <p align="center">
-  <img src="assets/images/tests/US02.png" alt="US02" width="700">
+  <img src="assets/images/tests/US02-1.PNG" alt="US02" width="700">
+</p>
+
+<p align="center">
+  <img src="assets/images/tests/US02-2.PNG" alt="US02" width="700">
 </p>
 
 | US04 | Crear comunidad | **Como** usuario, **quiero** crear una comunidad temática **para** reunir a otros usuarios en torno a intereses compartidos. |
 | ---- | --------------- | ---------------------------------------------------------------------------------------------------------------------------- |
 
 <p align="center">
-  <img src="assets/images/tests/US04.png" alt="US04" width="700">
+  <img src="assets/images/tests/US04-1.PNG" alt="US02" width="700">
+</p>
+
+<p align="center">
+  <img src="assets/images/tests/US04-2.PNG" alt="US02" width="700">
 </p>
 
 | US05 | Ver mapa con geolocalización | **Como** fan, **quiero** ver un mapa con mi ubicación y los conciertos cercanos marcados **para** explorar visualmente las opciones disponibles. |
 | ---- | ---------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------ |
 
 <p align="center">
-  <img src="assets/images/tests/US05.png" alt="US05" width="700">
+  <img src="assets/images/tests/US05-1.PNG" alt="US02" width="700">
+</p>
+
+<p align="center">
+  <img src="assets/images/tests/US05-2.PNG" alt="US02" width="700">
 </p>
 
 | US08 | Iniciar sesión en la app mobile | **Como** usuario registrado, **quiero** iniciar sesión desde la aplicación móvil **para** acceder a mi cuenta. |
@@ -5303,32 +5317,16 @@ Esta sección detalla las pruebas unitarias aplicadas a las entidades fundamenta
   <img src="assets/images/tests/US13-2.png" alt="US13" width="700">
 </p>
 
-| US14 | Unirse a una comunidad | **Como** fan, **quiero** unirme a una comunidad musical **para** interactuar con otros usuarios con intereses similares. |
-| ---- | ---------------------- | ------------------------------------------------------------------------------------------------------------------------ |
-
-<p align="center">
-  <img src="assets/images/tests/US14.png" alt="US14" width="700">
-</p>
-
-| US15 | Publicar en la comunidad | **Como** fan, **quiero** crear publicaciones en las comunidades creadas, **para** compartir opiniones, fotos o recomendaciones con otros miembros. |
-| ---- | ------------------------ | -------------------------------------------------------------------------------------------------------------------------------------------------- |
-
-<p align="center">
-  <img src="assets/images/tests/US15.png" alt="US15" width="700">
-</p>
-
-| US17 | Confirmar o marcar asistencia a un concierto | **Como** fan, **quiero** poder marcar un concierto como "Marcar asistencia", **para** llevar un seguimiento de los conciertos que planeo asistir. |
-| ---- | -------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------- |
-
-<p align="center">
-  <img src="assets/images/tests/US17.png" alt="US17" width="700">
-</p>
 
 | US23 | Subir imágenes en comunidades | **Como** usuario, **quiero** subir imágenes en publicaciones de comunidad **para** compartir experiencias visuales. |
 | ---- | ----------------------------- | ------------------------------------------------------------------------------------------------------------------- |
 
 <p align="center">
-  <img src="assets/images/tests/US23.png" alt="US23" width="700">
+  <img src="assets/images/tests/US23-1.PNG" alt="US02" width="700">
+</p>
+
+<p align="center">
+  <img src="assets/images/tests/US23-2.PNG" alt="US02" width="700">
 </p>
 
 | US24 | Ver eventos asociados | **Como** usuario de GigMap, **quiero** ver un apartado de eventos relacionados en el perfil de un concierto, **para** conocer actividades cercanas en tiempo y lugar (pre/after/meetups) que podría realizar. |
