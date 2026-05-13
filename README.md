@@ -346,7 +346,7 @@ La capacidad de reconocer responsabilidades éticas y profesionales en situacion
         TP1: <br> Desarrolló la sección de Continuous Delivery y las pruebas del sistema (Core System Tests) para las US21, US22, US23 y US24. Aseguró que el pipeline de entrega sea robusto y que las funcionalidades críticas del sistema estén validadas para garantizar un producto seguro y confiable para el usuario final. <br><br>
         Collantes Carrillo, Diego Mateo <br><br>
         TB1: <br> Participó en el desarrollo del capítulo 4, aportando principalmente en la redacción del contenido para que sea claro, entendible y bien estructurado. Asimismo, colaboró en la revisión de las historias de usuario, buscando que estas comuniquen correctamente las necesidades del usuario.<br><br>
-        TP1: <br><br>
+        TP1: <br>La implementación de Core Integration Tests permitió garantizar la confiabilidad del sistema y prevenir fallos críticos, reflejando responsabilidad ética y profesional en el desarrollo de software.<br>
         Lizarbe Alvarez, Ariana Nickole <br><br>
         TB1: <br>Contribuyó en el desarrollo del capítulo 3, aplicando pensamiento crítico y habilidades de trabajo en equipo. Participó en la mejora de las historias de usuario, procurando que estén bien definidas y considerando siempre la experiencia del usuario final.<br><br>
         TP1: <br> Desarrolló la sección de Core Behavior-Driven Development, utilizando Gherkin para analizar distintas historias de usuario <br><br>
@@ -373,7 +373,7 @@ La capacidad de reconocer responsabilidades éticas y profesionales en situacion
         TP1: <br> Evaluó el impacto de la Entrega Continua y las pruebas del sistema en la estabilidad operativa de la plataforma, asegurando que la automatización de procesos minimice fallos técnicos que podrían afectar negativamente la experiencia social de los usuarios en eventos de música en vivo. <br><br>
         Collantes Carrillo, Diego Mateo <br><br>
         TB1: <br>Aportó a que el contenido del proyecto sea comprensible y accesible, considerando el impacto social de la solución en la forma en que las personas descubren y acceden a la música en vivo.<br><br>
-        TP1: <br><br>
+        TP1: <br>La implementación de Core Integration Tests permitió evaluar y asegurar la estabilidad del sistema, contribuyendo al desarrollo de soluciones de software confiables con impacto positivo en la experiencia y confianza de los usuarios.<br>
         Lizarbe Alvarez, Ariana Nickole <br><br>
         TB1: <br> Incorporó una perspectiva empática en el desarrollo del proyecto, analizando cómo la solución puede mejorar la experiencia del usuario y fortalecer la conexión entre los fans y la comunidad musical.<br><br>
         TP1: <br> Aportó para que el contenido del proyecto sea organizado y analítico, considerando plenamente las importancia de las pruebas funcionales en el código fuente <br><br>
