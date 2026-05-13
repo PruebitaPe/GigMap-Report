@@ -3538,13 +3538,13 @@ A lo largo de las diferentes etapas de su experiencia, se examinan las acciones 
 | 2       | US32          | Ver beneficios para artista                   | Como usuario del segmento artista, quiero ver cómo la app me ayuda a promocionar mis eventos.                                                                                                     | 3                                |
 | 3       | US33          | Acceder a testimonios                         | Como usuario, quiero leer testimonios de usuarios reales para aumentar mi confianza en la app.                                                                                                    | 2                                |
 | 4       | US03          | Personalizar perfil de artista                | Como artista, quiero personalizar mi perfil con mi nombre artístico y fotografía para conectar mejor con el público.                                                                              | 5                                |
-| 5       | US06          | Buscar conciertos                             | Como usuario, quiero buscar conciertos por nombre para encontrarlos fácilmente.                                                                                                         | 3                                |
+| 5       | US06          | Buscar conciertos                             | Como usuario, quiero buscar conciertos por nombre para encontrarlos fácilmente.                                                                                                                   | 3                                |
 | 6       | US07          | Buscar comunidades                            | Como usuario, quiero buscar comunidades por nombre para unirme a las que me interesen.                                                                                                            | 3                                |
 | 7       | US18          | Ver comunidades accedidas                     | Como usuario, quiero visualizar en el apartado "Comunidades" las comunidades a las que me he unido.                                                                                               | 2                                |
 | 8       | US19          | Reaccionar a publicaciones en comunidades     | Como usuario, quiero poder reaccionar a publicaciones dentro de las comunidades.                                                                                                                  | 3                                |
 | 9       | US20          | Acceder a perfil de otros usuarios            | Como usuario, quiero poder acceder al perfil de otros usuarios para conocer más sobre ellos.                                                                                                      | 2                                |
-| 10      | US21          | Ver publicaciones con like                    | Como usuario, quiero ver una lista de publicaciones a las que les he dado "like" en mi perfil.                                                                                                                 | 2                                |
-| 11      | US30          | Ver información detallada del evento asociado | Como fan, quiero ver la información completa de un evento para decidir si asistir.                                                                                                             | 3                                |
+| 10      | US21          | Ver publicaciones con like                    | Como usuario, quiero ver una lista de publicaciones a las que les he dado "like" en mi perfil.                                                                                                    | 2                                |
+| 11      | US30          | Ver información detallada del evento asociado | Como fan, quiero ver la información completa de un evento para decidir si asistir.                                                                                                                | 3                                |
 | 12      | US01          | Filtrar conciertos por género musical         | Como fan, quiero filtrar conciertos por género para ver solo los que me interesan.                                                                                                                | 3                                |
 | 13      | US02          | Publicar nuevo concierto                      | Como artista, quiero crear un evento para promocionar mi presentación.                                                                                                                            | 5                                |
 | 14      | US04          | Crear comunidad                               | Como usuario, quiero crear una comunidad temática para reunir a otros usuarios en torno a intereses compartidos.                                                                                  | 5                                |
@@ -3553,9 +3553,8 @@ A lo largo de las diferentes etapas de su experiencia, se examinan las acciones 
 | 17      | US09          | Registrarse como artista                      | Como nuevo usuario, quiero registrarme como artista para promocionar mis conciertos.                                                                                                              | 3                                |
 | 18      | US10          | Registrarse como fan                          | Como nuevo usuario, quiero registrarme como fan para participar en la comunidad y explorar conciertos.                                                                                            | 3                                |
 | 19      | US13          | Ver información detallada del concierto       | Como fan, quiero ver la información completa de un concierto para decidir si asistir.                                                                                                             | 3                                |
-| 20      | US23          | Subir imágenes en comunidades                 | Como usuario, quiero subir imágenes en publicaciones de comunidad para compartir experiencias visuales.                                                                                           | 5                                |
-| 21      | US24          | Ver eventos asociados                         | Como usuario de GigMap, quiero ver un apartado de eventos relacionados en el perfil de un concierto, para conocer actividades cercanas en tiempo y lugar (Renion/AfterParty) que podría realizar. | 5                                |
-| 22      | US34          | Crear evento asociado                         | Como usuario, quiero crear eventos asociados para conocer más gente que compartan mis gustos y poder ir juntos a más conciertos.                                                                  | 2                                |
+| 20      | US24          | Ver eventos asociados                         | Como usuario de GigMap, quiero ver un apartado de eventos relacionados en el perfil de un concierto, para conocer actividades cercanas en tiempo y lugar (Renion/AfterParty) que podría realizar. | 5                                |
+| 21      | US34          | Crear evento asociado                         | Como usuario, quiero crear eventos asociados para conocer más gente que compartan mis gustos y poder ir juntos a más conciertos.                                                                  | 2                                |
 
 ## 3.4. Impact Mapping
 
@@ -3638,36 +3637,43 @@ La comunicación se desarrolla bajo una línea respetuosa y entusiasta, proyecta
 #### 4.1.3.1. Android Mobile Style Guidelines
 
 ### Colors
+
 La identidad visual de GigMap se fundamenta en una paleta cromática seleccionada para transmitir la energía de los eventos en vivo y la precisión tecnológica de la geolocalización. El uso del granate profundo (#5C0F1A) junto a contrastes en blanco y negro busca evocar la atmósfera de los escenarios, proporcionando una interfaz moderna que destaca la información crítica para el usuario.
 
 <img src="assets/images/product-desing/style-guidelines/colorsMobile.png" alt="typo" width="700">
 
 ### Typography
+
 La legibilidad es una prioridad absoluta en nuestra experiencia mobile, por lo que hemos adoptado la familia tipográfica "Inter". Esta fuente sans-serif fue elegida por su excelente rendimiento en pantallas pequeñas, permitiendo que los nombres de artistas, locaciones y horarios sean claros y fáciles de leer bajo cualquier condición de iluminación.
 
 <img src="assets/images/product-desing/style-guidelines/tipografiaMobile.png" alt="typo" width="700">
 
 ### Icons
+
 El sistema de iconografía de GigMap actúa como una guía visual intuitiva que facilita la navegación rápida. Cada símbolo ha sido seleccionado para representar de forma directa funciones clave como el mapa, la comunidad y las alertas, manteniendo una estética minimalista que no sobrecarga la interfaz y refuerza la identidad dinámica de la startup StayBits.
 
 <img src="assets/images/product-desing/style-guidelines/iconsMobile.png" alt="typo" width="700">
 
 ### Spacing
+
 Para garantizar una navegación cómoda y evitar errores de pulsación en dispositivos táctiles, hemos implementado una estructura de espaciado rigurosa. Estas pautas aseguran que cada elemento respire adecuadamente, creando una jerarquía visual equilibrada que guía el ojo del usuario de manera fluida a través de la cartelera musical.
 
 <img src="assets/images/product-desing/style-guidelines/spacingMobile.png" alt="typo" width="700">
 
 ### Grid System
+
 La organización de GigMap se basa en un sistema de rejilla flexible diseñado específicamente para entornos móviles. Esta estructura permite que el mapa interactivo y las tarjetas de eventos se alineen de forma armónica, adaptando los contenidos con precisión a diferentes resoluciones de pantalla y manteniendo la consistencia en toda la aplicación.
 
 <img src="assets/images/product-desing/style-guidelines/gridSystemMobile.png" alt="typo" width="700">
 
 ### Button
+
 Los botones en GigMap están diseñados como los principales catalizadores de acción, facilitando tareas como la confirmación de asistencia o la compra de entradas. Su estilo visual es prominente y coherente con la marca, garantizando que el usuario identifique instantáneamente los puntos de interacción y disfrute de una experiencia de uso predecible y satisfactoria.
 
 <img src="assets/images/product-desing/style-guidelines/buttonMobile.png" alt="typo" width="700">
 
 ### Input System
+
 El sistema de entrada de datos ha sido optimizado para simplificar la interacción del usuario, especialmente en procesos de registro y búsqueda de conciertos. Mediante campos de texto limpios y estados visuales claros, aseguramos que la captura de información sea rápida, reduciendo la fricción y permitiendo que los fans se enfoquen en lo más importante: descubrir música en vivo.
 
 <img src="assets/images/product-desing/style-guidelines/inputSystemMobile.png" alt="typo" width="700">
@@ -4410,7 +4416,6 @@ El diagrama de contenedores detalla los elementos internos de GigMap. La aplicac
 ### 4.10.1. Relational/Non-Relational Database Diagram
 
 ![database](assets/images/database.jpg)
-
 
 # CAPÍTULO V: Product Implementation
 
@@ -5277,7 +5282,6 @@ Esta sección detalla las pruebas unitarias aplicadas a las entidades fundamenta
   <img src="assets/images/tests/US01-2.PNG" alt="US01" width="700">
 </p>
 
-
 | US02 | Publicar nuevo concierto | **Como** artista, **quiero** crear un evento **para** promocionar mi presentación. |
 | ---- | ------------------------ | ---------------------------------------------------------------------------------- |
 
@@ -5351,7 +5355,6 @@ Esta sección detalla las pruebas unitarias aplicadas a las entidades fundamenta
   <img src="assets/images/tests/US13-2.png" alt="US13" width="700">
 </p>
 
-
 | US23 | Subir imágenes en comunidades | **Como** usuario, **quiero** subir imágenes en publicaciones de comunidad **para** compartir experiencias visuales. |
 | ---- | ----------------------------- | ------------------------------------------------------------------------------------------------------------------- |
 
@@ -5403,8 +5406,6 @@ Además, se consideran prácticas como el Desarrollo Orientado por Pruebas (TDD)
   <img src="assets/images/restful-api/ss1.jpg" alt="img1" width="700">
 </p>
 
-
-
 ## 7.2. Continuous Delivery
 
 El objetivo principal para **GigMap** es automatizar los ciclos de integración y pruebas de software, garantizando que el código permanezca siempre en un estado óptimo y listo para ser liberado al mercado en cuanto el equipo de **StayBits** lo decida.
@@ -5413,25 +5414,25 @@ El objetivo principal para **GigMap** es automatizar los ciclos de integración 
 
 **Tools (Herramientas)**
 
-* **GitHub Actions:** Utilizamos esta herramienta para orquestar todo el pipeline de CI/CD. En nuestro flujo de Entrega Continua, configuramos las etapas de validación automática, dejando el paso final a producción como una ejecución manual controlada.
-* **Trello:** Actúa como nuestra plataforma de gestión y gobernanza. Los despliegues solo progresan tras una revisión en el tablero de gestión, donde los responsables del proyecto validan los resultados de las pruebas antes de dar el visto bueno al lanzamiento.
-* **Docker:** Empleamos la contenerización para asegurar que la aplicación GigMap se comporte de manera idéntica en el entorno de desarrollo, en staging y en la infraestructura final. Esto elimina inconsistencias técnicas durante la fase de validación.
+- **GitHub Actions:** Utilizamos esta herramienta para orquestar todo el pipeline de CI/CD. En nuestro flujo de Entrega Continua, configuramos las etapas de validación automática, dejando el paso final a producción como una ejecución manual controlada.
+- **Trello:** Actúa como nuestra plataforma de gestión y gobernanza. Los despliegues solo progresan tras una revisión en el tablero de gestión, donde los responsables del proyecto validan los resultados de las pruebas antes de dar el visto bueno al lanzamiento.
+- **Docker:** Empleamos la contenerización para asegurar que la aplicación GigMap se comporte de manera idéntica en el entorno de desarrollo, en staging y en la infraestructura final. Esto elimina inconsistencias técnicas durante la fase de validación.
 
 **Practices (Prácticas)**
 
-* **Feature Branching y Merge Requests:** Cada nueva funcionalidad o corrección se desarrolla en ramas independientes. Una vez superadas las pruebas automáticas, el código se integra a la rama principal, quedando a la espera de una validación humana para su salida a producción.
-* **Pipeline de Validación en Staging:** Implementamos un entorno de pre-producción (Staging) que replica las condiciones reales de uso. Aquí, el equipo de StayBits realiza pruebas de geolocalización y carga antes de autorizar el despliegue definitivo.
-* **Despliegue Semiautomático:** Mantenemos una intervención humana estratégica. El sistema prepara todo el paquete de actualización, pero la ejecución final requiere la activación manual por parte de un administrador o desarrollador senior.
-* **Aprobación Manual:** Establecemos un punto de control obligatorio donde los resultados de calidad son auditados. Esto minimiza el riesgo de introducir errores en la experiencia de usuario de los fans y artistas.
-* **Rollback Manual:** En caso de detectar anomalías tras un lanzamiento, el equipo de operaciones tiene protocolos establecidos para revertir la aplicación a una versión estable previa de forma rápida y controlada.
+- **Feature Branching y Merge Requests:** Cada nueva funcionalidad o corrección se desarrolla en ramas independientes. Una vez superadas las pruebas automáticas, el código se integra a la rama principal, quedando a la espera de una validación humana para su salida a producción.
+- **Pipeline de Validación en Staging:** Implementamos un entorno de pre-producción (Staging) que replica las condiciones reales de uso. Aquí, el equipo de StayBits realiza pruebas de geolocalización y carga antes de autorizar el despliegue definitivo.
+- **Despliegue Semiautomático:** Mantenemos una intervención humana estratégica. El sistema prepara todo el paquete de actualización, pero la ejecución final requiere la activación manual por parte de un administrador o desarrollador senior.
+- **Aprobación Manual:** Establecemos un punto de control obligatorio donde los resultados de calidad son auditados. Esto minimiza el riesgo de introducir errores en la experiencia de usuario de los fans y artistas.
+- **Rollback Manual:** En caso de detectar anomalías tras un lanzamiento, el equipo de operaciones tiene protocolos establecidos para revertir la aplicación a una versión estable previa de forma rápida y controlada.
 
 ### 7.2.2. Stages Deployment Pipeline Components
 
-* **Integración Continua (CI):** Cada commit en las ramas de desarrollo activa un pipeline que compila y testea la lógica de la app, asegurando que GigMap sea siempre una solución técnicamente "desplegable".
-* **Validación en Staging:** El código se despliega en un entorno controlado para simular el comportamiento real de los usuarios, permitiendo ejecutar pruebas de seguridad, rendimiento y usabilidad de la interfaz.
-* **Despliegue Manual:** Se habilita la etapa final de lanzamiento bajo supervisión, permitiendo que el equipo elija el momento comercial o técnico más adecuado para actualizar la plataforma sin afectar la disponibilidad del servicio.
-* **Monitoreo y Feedback:** El pipeline incluye herramientas de análisis para observar cómo el nuevo código afecta el rendimiento de la aplicación, obteniendo datos valiosos antes de confirmar el éxito total del despliegue.
-* **Aprobación del Despliegue:** El proceso se detiene en un estado de espera activa hasta que el responsable técnico o el Product Owner confirma que todos los criterios de aceptación se han cumplido satisfactoriamente.
+- **Integración Continua (CI):** Cada commit en las ramas de desarrollo activa un pipeline que compila y testea la lógica de la app, asegurando que GigMap sea siempre una solución técnicamente "desplegable".
+- **Validación en Staging:** El código se despliega en un entorno controlado para simular el comportamiento real de los usuarios, permitiendo ejecutar pruebas de seguridad, rendimiento y usabilidad de la interfaz.
+- **Despliegue Manual:** Se habilita la etapa final de lanzamiento bajo supervisión, permitiendo que el equipo elija el momento comercial o técnico más adecuado para actualizar la plataforma sin afectar la disponibilidad del servicio.
+- **Monitoreo y Feedback:** El pipeline incluye herramientas de análisis para observar cómo el nuevo código afecta el rendimiento de la aplicación, obteniendo datos valiosos antes de confirmar el éxito total del despliegue.
+- **Aprobación del Despliegue:** El proceso se detiene en un estado de espera activa hasta que el responsable técnico o el Product Owner confirma que todos los criterios de aceptación se han cumplido satisfactoriamente.
 
 ## 7.3. Continuous Deployment
 
