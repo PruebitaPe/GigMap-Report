@@ -5957,6 +5957,9 @@ Por ello, consideramos necesario cuestionarnos sobre las razones y obstáculos q
 - La existencia de espacios de interacción comunitaria, como foros, puede aumentar el tiempo que los usuarios permanecen dentro de la plataforma.
 
 ### 8.1.3. Experiment-Ready Questions
+En esta sección se presentan las preguntas listas para el experimento, priorizadas mediante una matriz de puntuación que evalúa cuatro criterios del 1 al 10: la confianza, que indica qué tan respaldada está la pregunta en evidencia previa o en las entrevistas realizadas; el riesgo, que refleja la probabilidad de que su implementación genere problemas técnicos o de adopción; el impacto, que mide el efecto potencial en la experiencia del usuario y en el crecimiento de GigMap; y el interés, que considera qué tan relevante es la pregunta para los usuarios identificados. El puntaje total se obtiene sumando los cuatro criterios, priorizando aquellas preguntas que representan mayor valor para el proyecto.
+
+
 
 ### 8.1.4. Question Backlog
 
