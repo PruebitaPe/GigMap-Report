@@ -5959,12 +5959,157 @@ Por ello, consideramos necesario cuestionarnos sobre las razones y obstáculos q
 ### 8.1.3. Experiment-Ready Questions
 En esta sección se presentan las preguntas listas para el experimento, priorizadas mediante una matriz de puntuación que evalúa cuatro criterios del 1 al 10: la confianza, que indica qué tan respaldada está la pregunta en evidencia previa o en las entrevistas realizadas; el riesgo, que refleja la probabilidad de que su implementación genere problemas técnicos o de adopción; el impacto, que mide el efecto potencial en la experiencia del usuario y en el crecimiento de GigMap; y el interés, que considera qué tan relevante es la pregunta para los usuarios identificados. El puntaje total se obtiene sumando los cuatro criterios, priorizando aquellas preguntas que representan mayor valor para el proyecto.
 
-
+| Question | Confidence | Risk | Impact | Interest | Total Score |
+|----------|------------|------|--------|----------|-------------|
+| ¿La geolocalización ayuda a los usuarios a descubrir eventos musicales que de otro modo no conocerían? | 8 - Alta, es una funcionalidad central de GigMap y ampliamente utilizada en aplicaciones similares de entretenimiento. | 3 - Riesgo bajo, aunque puede verse afectada por la precisión del GPS y la disposición del usuario para compartir su ubicación. | 9 - Puede incrementar significativamente el descubrimiento de eventos cercanos y relevantes para cada usuario. | 8 - Los usuarios muestran interés en encontrar conciertos y eventos próximos a su ubicación. | 28 |
+| ¿Seguir artistas dentro de la aplicación incrementa la frecuencia con la que los usuarios visitan la plataforma? | 7 - Existe evidencia en redes sociales de que los usuarios siguen activamente a sus artistas favoritos para mantenerse informados. | 2 - Riesgo bajo, es una funcionalidad común y bien recibida en plataformas digitales similares. | 8 - Puede incrementar la retención y fidelización de los usuarios dentro de la plataforma. | 8 - Los fanáticos suelen buscar contenido actualizado de sus artistas favoritos de forma frecuente. | 25 |
+| ¿La información mostrada sobre los eventos es suficiente para que los usuarios decidan asistir? | 6 - No existe evidencia clara sobre qué datos son realmente determinantes en la decisión de asistencia. | 4 - Riesgo medio, ya que las preferencias de información varían según el tipo de usuario y evento. | 8 - Impacta directamente en la conversión de usuarios interesados en asistentes reales. | 7 - Los usuarios valoran contar con información clara, completa y actualizada antes de tomar una decisión. | 25 |
+| ¿Registrar la asistencia a conciertos dentro de la app genera mayor interacción entre los usuarios de la comunidad? | 7 - Funcionalidades similares de check-in han mostrado resultados positivos en otras plataformas de entretenimiento. | 3 - Riesgo bajo-medio, existe incertidumbre sobre si los usuarios adoptarán esta funcionalidad de forma habitual. | 8 - Puede aumentar la participación activa y el sentido de pertenencia dentro de la comunidad. | 8 - Los usuarios suelen compartir sus experiencias musicales y eventos a los que asisten. | 26 |
+| ¿La visibilidad ofrecida por GigMap permite a los artistas emergentes llegar a nuevos seguidores? | 8 - Alta, está directamente alineado con uno de los propósitos principales de la plataforma. | 4 - Riesgo medio, ya que la visibilidad también depende de factores externos como la calidad del contenido del artista. | 10 - Alto impacto para el crecimiento de la comunidad artística y la diferenciación de la plataforma. | 8 - Es de interés tanto para artistas que buscan crecer como para fanáticos que desean descubrir nuevos talentos. | 30 |
+| ¿La integración de foros temáticos fomenta una participación más activa y continua de los usuarios dentro de la plataforma? | 7 - Los foros han demostrado generar comunidades activas en otras plataformas de entretenimiento y música. | 5 - Riesgo medio, requiere moderación constante para asegurar un uso adecuado y una experiencia positiva. | 7 - Puede aumentar el tiempo de permanencia en la plataforma y fortalecer el sentido de comunidad. | 8 - Los fanáticos estarían interesados en compartir opiniones, recomendaciones y experiencias sobre eventos y artistas. | 27 |
 
 ### 8.1.4. Question Backlog
 
+Las preguntas experimentales se organizan a continuación según su nivel de prioridad, utilizando la escala de Fibonacci (1, 2, 3, 5, 8), donde 1 representa la menor prioridad y 8 la mayor. Esta escala permite reflejar de forma más natural la incertidumbre y la diferencia de valor entre las preguntas, priorizando aquellas que generan mayor impacto y aprendizaje para el desarrollo de GigMap.
+
+| Prioridad (1, 2, 3, 5, 8) | Pregunta |
+|---------------------------|----------|
+| 8 | ¿La visibilidad ofrecida por GigMap permite a los artistas emergentes llegar a nuevos seguidores? |
+| 8 | ¿La geolocalización ayuda a los usuarios a descubrir eventos musicales que de otro modo no conocerían? |
+| 5 | ¿Registrar la asistencia a conciertos dentro de la app genera mayor interacción entre los usuarios de la comunidad? |
+| 5 | ¿Seguir artistas dentro de la aplicación incrementa la frecuencia con la que los usuarios visitan la plataforma? |
+| 5 | ¿La integración de foros temáticos fomenta una participación más activa y continua de los usuarios dentro de la plataforma? |
+| 3 | ¿La información mostrada sobre los eventos es suficiente para que los usuarios decidan asistir? |
+
 ### 8.1.5. Experiment Cards
 
+El siguiente conjunto de tarjetas representa el artefacto clave del proceso XDPD, estructurando la información esencial antes de ejecutar cada experimento. Cada tarjeta se divide en dos lados: el frontal, que captura la pregunta, el motivo, la hipótesis y la acción más simple a implementar; y el posterior, que detalla las medidas, condiciones y escala del experimento.
+
+---
+
+### Tarjeta 1
+
+**LADO FRONTAL**
+
+| Campo | Descripción |
+|-------|-------------|
+| **Pregunta** | ¿La visibilidad ofrecida por GigMap permite a los artistas emergentes llegar a nuevos seguidores? |
+| **¿Por qué?** | Los artistas emergentes enfrentan dificultades para obtener visibilidad frente a artistas más conocidos, lo cual limita su crecimiento dentro de la plataforma. |
+| **Hipótesis** | Si GigMap ofrece un perfil optimizado y herramientas de visibilidad para artistas emergentes, entonces estos lograrán aumentar su base de seguidores dentro de la plataforma. |
+| **¿Qué?** | Implementar un perfil básico para artistas emergentes con sección de próximos eventos y botón de seguir. |
+
+**LADO POSTERIOR**
+
+| Campo | Descripción |
+|-------|-------------|
+| **Medidas** | Número de nuevos seguidores obtenidos por artistas emergentes en un período determinado. |
+| **Condiciones** | Artistas emergentes registrados en GigMap con al menos un evento publicado. |
+| **Escala** | Prueba con un grupo reducido de artistas emergentes durante 4 semanas. |
+
+---
+
+### Tarjeta 2
+
+**LADO FRONTAL**
+
+| Campo | Descripción |
+|-------|-------------|
+| **Pregunta** | ¿La geolocalización ayuda a los usuarios a descubrir eventos musicales que de otro modo no conocerían? |
+| **¿Por qué?** | Los usuarios utilizan múltiples fuentes para informarse sobre eventos, lo que dificulta el descubrimiento de conciertos cercanos de forma centralizada. |
+| **Hipótesis** | Si se implementa un mapa interactivo con geolocalización, entonces los usuarios descubrirán más eventos musicales relevantes en su zona. |
+| **¿Qué?** | Mostrar un mapa con eventos cercanos basado en la ubicación actual del usuario. |
+
+**LADO POSTERIOR**
+
+| Campo | Descripción |
+|-------|-------------|
+| **Medidas** | Número de eventos visualizados y cantidad de usuarios que activaron la geolocalización. |
+| **Condiciones** | Usuarios con permisos de ubicación activados dentro de la aplicación. |
+| **Escala** | Prueba con usuarios nuevos durante las primeras 2 semanas de uso de la funcionalidad. |
+
+---
+
+### Tarjeta 3
+
+**LADO FRONTAL**
+
+| Campo | Descripción |
+|-------|-------------|
+| **Pregunta** | ¿Registrar la asistencia a conciertos dentro de la app genera mayor interacción entre los usuarios de la comunidad? |
+| **¿Por qué?** | Se busca fomentar el sentido de comunidad entre fanáticos y generar mayor actividad dentro de la plataforma. |
+| **Hipótesis** | Si los usuarios pueden registrar su asistencia a eventos, entonces aumentará la interacción entre miembros de la comunidad. |
+| **¿Qué?** | Agregar un botón de "Asistiré" en cada evento que sea visible para otros usuarios. |
+
+**LADO POSTERIOR**
+
+| Campo | Descripción |
+|-------|-------------|
+| **Medidas** | Número de registros de asistencia y cantidad de interacciones generadas a partir de ellos. |
+| **Condiciones** | Usuarios registrados en GigMap con acceso a eventos publicados. |
+| **Escala** | Prueba durante un mes con eventos activos dentro de la plataforma. |
+
+---
+
+### Tarjeta 4
+
+**LADO FRONTAL**
+
+| Campo | Descripción |
+|-------|-------------|
+| **Pregunta** | ¿Seguir artistas dentro de la aplicación incrementa la frecuencia con la que los usuarios visitan la plataforma? |
+| **¿Por qué?** | Se identificó que los fanáticos buscan mantenerse informados sobre sus artistas favoritos, lo que podría convertirse en un motivo recurrente de visita. |
+| **Hipótesis** | Si los usuarios pueden seguir artistas y recibir actualizaciones de ellos, entonces visitarán la plataforma con mayor frecuencia. |
+| **¿Qué?** | Implementar la funcionalidad de seguir artistas con un feed básico de novedades. |
+
+**LADO POSTERIOR**
+
+| Campo | Descripción |
+|-------|-------------|
+| **Medidas** | Frecuencia de visitas semanales de usuarios que siguen al menos un artista versus los que no siguen ninguno. |
+| **Condiciones** | Usuarios registrados que hayan seguido al menos un artista dentro de la plataforma. |
+| **Escala** | Seguimiento durante 3 semanas desde que el usuario empieza a seguir su primer artista. |
+
+---
+
+### Tarjeta 5
+
+**LADO FRONTAL**
+
+| Campo | Descripción |
+|-------|-------------|
+| **Pregunta** | ¿La integración de foros temáticos fomenta una participación más activa y continua de los usuarios dentro de la plataforma? |
+| **¿Por qué?** | Se busca crear espacios de comunidad donde los fanáticos puedan compartir experiencias y opiniones sobre eventos y artistas. |
+| **Hipótesis** | Si se integran foros temáticos dentro de GigMap, entonces los usuarios participarán de forma más activa y continua en la plataforma. |
+| **¿Qué?** | Crear un foro básico por género musical donde los usuarios puedan publicar y comentar. |
+
+**LADO POSTERIOR**
+
+| Campo | Descripción |
+|-------|-------------|
+| **Medidas** | Número de publicaciones, comentarios y usuarios activos dentro de los foros por semana. |
+| **Condiciones** | Usuarios registrados con acceso a los foros habilitados dentro de la plataforma. |
+| **Escala** | Prueba durante 4 semanas con un grupo de usuarios activos de la plataforma. |
+
+---
+
+### Tarjeta 6
+
+**LADO FRONTAL**
+
+| Campo | Descripción |
+|-------|-------------|
+| **Pregunta** | ¿La información mostrada sobre los eventos es suficiente para que los usuarios decidan asistir? |
+| **¿Por qué?** | No se conoce con claridad qué datos son determinantes para que un usuario tome la decisión de asistir a un evento. |
+| **Hipótesis** | Si se muestra información detallada y relevante sobre cada evento, entonces los usuarios tomarán decisiones de asistencia con mayor confianza. |
+| **¿Qué?** | Mostrar en la página del evento: artista, fecha, lugar, precio, género musical y mapa de ubicación. |
+
+**LADO POSTERIOR**
+
+| Campo | Descripción |
+|-------|-------------|
+| **Medidas** | Tasa de conversión de usuarios que visualizan un evento y luego registran asistencia. |
+| **Condiciones** | Eventos con información completa publicada dentro de la plataforma. |
+| **Escala** | Evaluación durante 3 semanas comparando eventos con información completa versus eventos con información incompleta. |
 
 # Conclusiones
 
