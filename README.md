@@ -5985,9 +5985,8 @@ Las preguntas experimentales se organizan a continuación según su nivel de pri
 
 El siguiente conjunto de tarjetas representa el artefacto clave del proceso XDPD, estructurando la información esencial antes de ejecutar cada experimento. Cada tarjeta se divide en dos lados: el frontal, que captura la pregunta, el motivo, la hipótesis y la acción más simple a implementar; y el posterior, que detalla las medidas, condiciones y escala del experimento.
 
----
 
-### Tarjeta 1
+**Tarjeta 1**
 
 **LADO FRONTAL**
 
@@ -6008,7 +6007,7 @@ El siguiente conjunto de tarjetas representa el artefacto clave del proceso XDPD
 
 ---
 
-### Tarjeta 2
+**Tarjeta 2**
 
 **LADO FRONTAL**
 
@@ -6029,7 +6028,7 @@ El siguiente conjunto de tarjetas representa el artefacto clave del proceso XDPD
 
 ---
 
-### Tarjeta 3
+**Tarjeta 3**
 
 **LADO FRONTAL**
 
@@ -6050,7 +6049,7 @@ El siguiente conjunto de tarjetas representa el artefacto clave del proceso XDPD
 
 ---
 
-### Tarjeta 4
+**Tarjeta 4**
 
 **LADO FRONTAL**
 
@@ -6071,7 +6070,7 @@ El siguiente conjunto de tarjetas representa el artefacto clave del proceso XDPD
 
 ---
 
-### Tarjeta 5
+**Tarjeta 5**
 
 **LADO FRONTAL**
 
@@ -6092,7 +6091,7 @@ El siguiente conjunto de tarjetas representa el artefacto clave del proceso XDPD
 
 ---
 
-### Tarjeta 6
+**Tarjeta 6**
 
 **LADO FRONTAL**
 
