@@ -19,7 +19,7 @@ NRC: 12316
 <br><br>
 Docente: Julio Manuel Noriega Melendez
 <br><br>
-<strong>Informe de TB1</strong>  
+<strong>Informe de TP1</strong>  
 <br><br>
 Startup: 
 <br><br>
@@ -160,28 +160,75 @@ Zegarra Lopez, Renato Sebastian Rubber (u202311558)
   - 5.3. Video About-the-Product
       </td>
     </tr>
+	  <tr>
+      <td>TP1</td>
+      <td>12/04/2026</td>
+      <td>
+        - Bejarano Martinez, Alvaro Leandro <br>
+        - Collantes Carrillo, Diego Mateo <br>
+        - Ortiz Cardenas, Johanna Antuanete <br>
+        - Sarmiento Medina, Loreley <br>
+        - Zegarra López, Renato Sebastián Rubber
+      </td>
+      <td>
+     En esta entrega se avanzaron los siguientes puntos:<br><br>
+    CAPÍTULO VI: Product Verification & Validation<br>
+    - 6.1. Testing Suites \& Validation<br>
+    - 6.1.1. Core Entities Unit Tests<br>
+    - 6.1.2. Core Integration Tests<br>
+    - 6.1.3. Core Behavior-Driven Development<br>
+    - 6.1.4. Core System Tests<br>
+    CAPÍTULO VII: DevOps Practices<br>
+    - 7.1. Continuous Integration<br>
+    - 7.1.1. Tools and Practices<br>
+    - 7.1.2. Build \& Test Suite Pipeline Components<br>
+    - 7.2. Continuous Delivery<br>
+    - 7.3. Continuous Deployment<br>
+    - 7.3.1. Tools and Practices<br>
+    - 7.3.2. Production Deployment Pipeline Components<br>
+      </td>
+    </tr>
   </tbody>
 </table>
 </div>
 
 ## Project Report Collaboration Insights
 
+URL de repositorio del reporte del proyecto: `https://github.com/PruebitaPe/GigMap-Report.git`
+
 URL de repositorio del reporte del proyecto: `https://github.com/StayBitsV2/GigMap-Report.git`
 
 **TB1 (26/04/2026):**
 
 <p align="center">
-  <img src="assets/project.png" alt="fan2" width="700">
+  <img src="assets/project.png" alt="INSIGHTS" width="700">
+</p>
+
+**TP1 (12/05/2026):**
+
+<p align="center">
+  <img src="assets/project2.png" alt="INSIGHTS2" width="700">
 </p>
 
 ## **Contenido**
+
+- [STUDENT OUTCOME](#student-outcome)
 
 - [Part I: As-Is Software Project](#part-i-as-is-software-project)
 - [CAPÍTULO I: Introducción](#capítulo-i-introducción)
   - [1.1. Startup Profile](#11-startup-profile)
     - [1.1.1. Descripción de la Startup](#111-descripción-de-la-startup)
     - [1.1.2. Perfiles de integrantes del equipo](#112-perfiles-de-integrantes-del-equipo)
+    - [1.1.1. Descripción de la Startup](#111-descripción-de-la-startup)
+    - [1.1.2. Perfiles de integrantes del equipo](#112-perfiles-de-integrantes-del-equipo)
   - [1.2. Solution Profile](#12-solution-profile)
+    - [1.2.1. Nombre del producto](#121-nombre-del-producto)
+    - [1.2.2. Antecedentes y problemática](#122-antecedentes-y-problemática)
+    - [1.2.3. Lean UX Process](#123-lean-ux-process)
+      - [1.2.3.1. Lean UX Problem Statements](#1231-lean-ux-problem-statements)
+      - [1.2.3.2. Lean UX Assumptions](#1232-lean-ux-assumptions)
+      - [1.2.3.3. Lean UX Hypothesis Statements](#1233-lean-ux-hypothesis-statements)
+      - [1.2.3.4. Lean UX Canvas](#1234-lean-ux-canvas)
     - [1.2.1. Nombre del producto](#121-nombre-del-producto)
     - [1.2.2. Antecedentes y problemática](#122-antecedentes-y-problemática)
     - [1.2.3. Lean UX Process](#123-lean-ux-process)
@@ -255,12 +302,12 @@ URL de repositorio del reporte del proyecto: `https://github.com/StayBitsV2/GigM
     - [5.2.2. Implemented Landing Page Evidence](#522-implemented-landing-page-evidence)
     - [5.2.3. Implemented Frontend-Web Application Evidence](#523-implemented-frontend-web-application-evidence)
     - [5.2.4. Acuerdo de Servicio - SaaS](#524-acuerdo-de-servicio---saas)
-    - [5.2.5. Implemented RESTful API and/or Serverless Backend Evidence](#526-implemented-restful-api-andor-serverless-backend-evidence)
-    - [5.2.6. RESTful API documentation](#527-restful-api-documentation)
-    - [5.2.7. Team Collaboration Insights](#528-team-collaboration-insights)
+    - [5.2.5. Implemented RESTful API and/or Serverless Backend Evidence](#525-implemented-restful-api-andor-serverless-backend-evidence)
+    - [5.2.6. RESTful API documentation](#526-restful-api-documentation)
+    - [5.2.7. Team Collaboration Insights](#527-team-collaboration-insights)
   - [5.3. Video About-the-Product](#53-video-about-the-product)
-- [CAPÍTULO VI: Product Verification \& Validation](#capítulo-vi-product-verification--validation)
-  - [6.1. Testing Suites \& Validation](#61-testing-suites--validation)
+- [CAPÍTULO VI: Product Verification & Validation](#capítulo-vi-product-verification--validation)
+  - [6.1. Testing Suites & Validation](#61-testing-suites--validation)
     - [6.1.1. Core Entities Unit Tests](#611-core-entities-unit-tests)
     - [6.1.2. Core Integration Tests](#612-core-integration-tests)
     - [6.1.3. Core Behavior-Driven Development](#613-core-behavior-driven-development)
@@ -273,6 +320,9 @@ URL de repositorio del reporte del proyecto: `https://github.com/StayBitsV2/GigM
   - [7.3. Continuous Deployment](#73-continuous-deployment)
     - [7.3.1. Tools and Practices](#731-tools-and-practices)
     - [7.3.2. Production Deployment Pipeline Components](#732-production-deployment-pipeline-components)
+- [Conclusiones](#conclusiones)
+- [Recomendaciones](#recomendaciones)
+- [Bibliografía](#bibliografía)
 
 ## **Student Outcome**
 
@@ -293,40 +343,58 @@ La capacidad de reconocer responsabilidades éticas y profesionales en situacion
       <td>
         Bejarano Martinez, Alvaro Leandro <br><br>
         TB1: <br> Se encargó de organizar la estructura del capítulo 3, manteniendo un enfoque ordenado y coherente en el desarrollo del contenido. Además, promovió un ambiente de trabajo colaborativo, asegurando que cada integrante pueda aportar sus ideas y que estas se integren adecuadamente en la revisión de las historias de usuario. <br><br>
+        TP1: <br> Desarrolló la sección de Continuous Delivery y las pruebas del sistema (Core System Tests) para las US21, US22, US23 y US24. Aseguró que el pipeline de entrega sea robusto y que las funcionalidades críticas del sistema estén validadas para garantizar un producto seguro y confiable para el usuario final. <br><br>
         Collantes Carrillo, Diego Mateo <br><br>
         TB1: <br> Participó en el desarrollo del capítulo 4, aportando principalmente en la redacción del contenido para que sea claro, entendible y bien estructurado. Asimismo, colaboró en la revisión de las historias de usuario, buscando que estas comuniquen correctamente las necesidades del usuario.<br><br>
+        TP1: <br><br>
         Lizarbe Alvarez, Ariana Nickole <br><br>
         TB1: <br>Contribuyó en el desarrollo del capítulo 3, aplicando pensamiento crítico y habilidades de trabajo en equipo. Participó en la mejora de las historias de usuario, procurando que estén bien definidas y considerando siempre la experiencia del usuario final.<br><br>
+        TP1: <br> Desarrolló la sección de Core Behavior-Driven Development, utilizando Gherkin para analizar distintas historias de usuario <br><br>
         Ortiz Cardenas, Johanna Antuanete <br><br>
         TB1: <br>
         Desarrolló el capítulo 4 con un enfoque en la calidad y cumplimiento de los entregables. Además, investigó información relevante y aportó ideas que ayudaron a fortalecer las historias de usuario y el contenido del informe.<br><br>
+        TP1: Desarrolló la sección de Continuous Deployment, documentando las herramientas, prácticas y componentes del pipeline de despliegue a producción. Además, se aseguró de seguir buenas prácticas que garanticen la estabilidad del producto.<br><br>
         Sarmiento Medina, Loreley <br><br>
         TB1: <br> Se encargó del desarrollo del capítulo 1, asegurando una base sólida y bien estructurada para el proyecto. También realizó una revisión general del informe y de las historias de usuario, verificando la coherencia, organización y alineación con los objetivos planteados.<br><br>
+        TP1: <br> Desarrolló las pruebas unitarias de las entidades principales (Core Entities Unit Tests) y las pruebas del sistema para las historias de usuario US01, US02, US04 y US05. Su trabajo garantizó que la lógica de negocio base sea sólida y que los procesos de registro y búsqueda funcionen correctamente bajo estándares de calidad profesional. <br><br>
         Zegarra López, Renato Sebastián Rubber <br><br>
         TB1: <br> Desarrolló el capítulo 2 aplicando sus habilidades de análisis y creatividad, aportando ideas que enriquecieron la propuesta. Asimismo, participó en la revisión de las historias de usuario, mejorando su claridad y consistencia.<br><br>
+        TP1: <br>Aplique informacion de pruebas automatizadas con herramientas como JUnit, Mockito y Selenium para asegurar la calidad y correcto funcionamiento del software, demostrando responsabilidad profesional y compromiso con buenas prácticas de desarrollo.<br>
       </td>
-      <td> A lo largo del desarrollo del trabajo, el equipo demostró una adecuada comprensión de sus responsabilidades éticas y profesionales, reflejada en la forma en que organizaron sus tareas y colaboraron entre sí. Cada integrante asumió su rol con compromiso, asegurando la calidad del contenido y el cumplimiento de los objetivos establecidos. Además, se priorizó la comunicación y el respeto por las ideas de todos, lo que permitió integrar diferentes aportes de manera ordenada. Esto evidencia una práctica responsable dentro del proceso de desarrollo del proyecto.</td>
+      <td> TB1: A lo largo del desarrollo del trabajo, el equipo demostró una adecuada comprensión de sus responsabilidades éticas y profesionales, reflejada en la forma en que organizaron sus tareas y colaboraron entre sí. Cada integrante asumió su rol con compromiso, asegurando la calidad del contenido y el cumplimiento de los objetivos establecidos. Además, se priorizó la comunicación y el respeto por las ideas de todos, lo que permitió integrar diferentes aportes de manera ordenada. Esto evidencia una práctica responsable dentro del proceso de desarrollo del proyecto. <br><br>
+      TP1: Durante esta entrega, el equipo demostró responsabilidad ética y profesional al implementar prácticas rigurosas de verificación, validación y DevOps. La elaboración de pruebas unitarias (Entities), de integración, BDD y de sistema (US01-US24) refleja un compromiso con la integridad de los datos y la fiabilidad de las funciones core. Asimismo, la configuración de pipelines de CI/CD evidencia una práctica profesional orientada a proteger la experiencia del usuario y mantener la estabilidad del producto.<br><br>
+      </td>
     </tr>
     <tr>
       <td> 4.c.2 Emite juicios informados considerando el impacto de las soluciones de ingeniería de software en contextos globales, económicos, ambientales y sociales </td>
       <td>
         Bejarano Martinez, Alvaro Leandro <br><br>
         TB1: <br> Se aseguró de que las decisiones tomadas dentro del equipo sigan un enfoque organizado y responsable, considerando la importancia de mantener un trabajo estructurado que permita un desarrollo sostenible del proyecto.<br><br>
+        TP1: <br> Evaluó el impacto de la Entrega Continua y las pruebas del sistema en la estabilidad operativa de la plataforma, asegurando que la automatización de procesos minimice fallos técnicos que podrían afectar negativamente la experiencia social de los usuarios. <br><br>
         Collantes Carrillo, Diego Mateo <br><br>
         TB1: <br>Aportó a que el contenido del proyecto sea comprensible y accesible, considerando el impacto social de la solución en la forma en que las personas descubren y acceden a la música en vivo.<br><br>
+        TP1: <br><br>
         Lizarbe Alvarez, Ariana Nickole <br><br>
         TB1: <br> Incorporó una perspectiva empática en el desarrollo del proyecto, analizando cómo la solución puede mejorar la experiencia del usuario y fortalecer la conexión entre los fans y la comunidad musical.<br><br>
+        TP1: <br> Aportó para que el contenido del proyecto sea organizado y analítico, considerando plenamente las importancia de las pruebas funcionales en el código fuente <br><br>
         Ortiz Cardenas, Johanna Antuanete <br><br>
         TB1: Investigó y consideró tendencias tecnológicas actuales, con el objetivo de asegurar que la solución propuesta sea viable y tenga un impacto positivo tanto en el entorno digital como en el ámbito cultural.<br><br>
+        TP1: Investigó y seleccionó herramientas de despliegue continuo, con el objetivo de asegurar que la solución sea escalable y tenga un impacto positivo en la disponibilidad del servicio para los usuarios. <br><br>
         Sarmiento Medina, Loreley <br><br>
         TB1: <br> Analizó la problemática considerando su impacto en el contexto social y cultural, asegurando que la propuesta esté alineada con necesidades reales y aporte valor tanto a los usuarios como a los artistas.<br><br>
+        TP1: <br> Analizó la importancia de las pruebas unitarias y de sistema iniciales para garantizar que el acceso a la plataforma (US01-US05) sea inclusivo y eficiente, permitiendo que artistas emergentes tengan una puerta de entrada confiable a la visibilidad digital. <br><br>
         Zegarra López, Renato Sebastián Rubber <br><br>
         TB1: <br>Evaluó la solución desde un enfoque analítico y creativo, considerando su impacto en la difusión de artistas emergentes y en la mejora de la experiencia de los usuarios dentro del ecosistema musical.<br>
+        TP1: <br>Utilice pruebas automatizadas para garantizar un software más confiable y eficiente, reduciendo errores y mejorando la experiencia del usuario, lo que contribuye positivamente al impacto social y tecnológico de la aplicación.<br>
       </td>
-      <td>El equipo logró considerar el impacto de la solución propuesta desde una perspectiva más amplia, tomando en cuenta aspectos sociales, culturales y tecnológicos. A través del análisis de la problemática, se evidenció una intención clara de generar valor tanto para los usuarios como para los artistas emergentes. Asimismo, se evaluó cómo la solución puede influir en la forma en que las personas acceden a la música en vivo y participan en la escena local. Esto demuestra una capacidad para tomar decisiones informadas, alineadas con el contexto y las necesidades reales del entorno.</td>
+      <td>El equipo logró considerar el impacto de la solución propuesta desde una perspectiva más amplia, tomando en cuenta aspectos sociales, culturales y tecnológicos. A través del análisis de la problemática, se evidenció una intención clara de generar valor tanto para los usuarios como para los artistas emergentes. Asimismo, se evaluó cómo la solución puede influir en la forma en que las personas acceden a la música en vivo y participan en la escena local. Esto demuestra una capacidad para tomar decisiones informadas, alineadas con el contexto y las necesidades reales del entorno.<br><br>
+      TP1: El equipo emitió juicios informados al diseñar las suites de testing (unitarias y de sistema) y los pipelines de DevOps, considerando cómo la robustez técnica se traduce en confianza social. La validación rigurosa de las entidades y flujos de usuario asegura que la plataforma sea una herramienta sostenible económicamente para los artistas y socialmente valiosa para los fans. La automatización garantiza que los cambios lleguen al usuario de forma rápida, segura y con un uso eficiente de recursos tecnológicos. <br><br>
+      </td>
     </tr>
   </tbody>
 </table>
+
+# Part I: As-Is Software Project
 
 # Part I: As-Is Software Project
 
@@ -1214,7 +1282,15 @@ A lo largo de las diferentes etapas de su experiencia, se examinan las acciones 
 
 **Epics:**
 | Epic ID | Título | Descripción |
+| Epic ID | Título | Descripción |
 |---------|----------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| EP01 | Creación y descubrimiento de conciertos | Esta épica se centra en permitir a los artistas registrar y gestionar conciertos en la aplicación, mientras que los usuarios podrán descubrir nuevos eventos según su ubicación, género musical y artistas favoritos. Se busca optimizar la experiencia de búsqueda y exploración para que los fans encuentren fácilmente conciertos relevantes y personalizados. |
+| EP02 | Notificaciones personalizadas | Incluye el desarrollo de un sistema de alertas que informe a los usuarios sobre nuevos conciertos, cambios en eventos, promociones y recordatorios, todo basado en sus preferencias e historial de interacción. El objetivo es mantenerlos siempre actualizados y fomentar su participación activa en la aplicación.|
+| EP03 | Interacción social y comunidades | Esta épica permitirá a los usuarios interactuar con otros fans a través de comunidades dentro de la aplicación. Se busca construir un espacio social donde los usuarios compartan experiencias, recomendaciones y opiniones, fortaleciendo el sentido de comunidad alrededor de la música en vivo.|
+| EP04 | Gestión de Identidad y Acceso (Registro y Autenticación) | Enfocada en el inicio de sesión y registro de usuarios, esta épica incluye autenticación mediante correo electrónico o redes sociales, recuperación de contraseñas y gestión de roles y permisos básicos. Su objetivo es garantizar la seguridad, privacidad y facilidad de acceso a la aplicación para todos los usuarios. |
+| EP05 | Exploración y Gestión de Eventos Relacionados | Esta épica se centra en permitir la creación y descubrimiento de eventos asociados a un concierto principal, como juntadas de fans en un parque, fiestas temáticas previas, actividades comunitarias o afterparties. Los usuarios podrán explorar, unirse y organizar este tipo de encuentros que enriquecen la experiencia musical más allá del show oficial. El objetivo es fomentar la interacción entre fans y ampliar el ecosistema de eventos alrededor de los conciertos.|
+| EP06 | Desarrollo técnico del backend (RESTful API) | Esta épica comprende la implementación de la infraestructura técnica que soportará la aplicación, incluyendo la base de datos, API, servicios en la nube y escalabilidad del sistema. El foco está en garantizar rendimiento, seguridad y estabilidad para manejar de manera eficiente las operaciones de usuarios y organizadores. |
+| EP07 | Plataforma informativa (Landing Page) | Se centra en el desarrollo de una landing page que funcione como punto de entrada informativo, presentando la propuesta de valor, características principales y beneficios de la aplicación. El objetivo es atraer nuevos usuarios, transmitiendo confianza y profesionalismo desde la primera interacción. |
 | EP01 | Creación y descubrimiento de conciertos | Esta épica se centra en permitir a los artistas registrar y gestionar conciertos en la aplicación, mientras que los usuarios podrán descubrir nuevos eventos según su ubicación, género musical y artistas favoritos. Se busca optimizar la experiencia de búsqueda y exploración para que los fans encuentren fácilmente conciertos relevantes y personalizados. |
 | EP02 | Notificaciones personalizadas | Incluye el desarrollo de un sistema de alertas que informe a los usuarios sobre nuevos conciertos, cambios en eventos, promociones y recordatorios, todo basado en sus preferencias e historial de interacción. El objetivo es mantenerlos siempre actualizados y fomentar su participación activa en la aplicación.|
 | EP03 | Interacción social y comunidades | Esta épica permitirá a los usuarios interactuar con otros fans a través de comunidades dentro de la aplicación. Se busca construir un espacio social donde los usuarios compartan experiencias, recomendaciones y opiniones, fortaleciendo el sentido de comunidad alrededor de la música en vivo.|
@@ -1469,7 +1545,7 @@ A lo largo de las diferentes etapas de su experiencia, se examinan las acciones 
       <td colspan="4"><strong>Description</strong></td>
     </tr>
     <tr>
-      <td colspan="4">Como usuario, quiero buscar conciertos por nombre o artista para encontrarlos fácilmente.</td>
+      <td colspan="4">Como usuario, quiero buscar conciertos por nombre para encontrarlos fácilmente.</td>
     </tr>
     <tr>
       <td colspan="4"><strong>Acceptance Criteria</strong></td>
@@ -3462,28 +3538,23 @@ A lo largo de las diferentes etapas de su experiencia, se examinan las acciones 
 | 2       | US32          | Ver beneficios para artista                   | Como usuario del segmento artista, quiero ver cómo la app me ayuda a promocionar mis eventos.                                                                                                     | 3                                |
 | 3       | US33          | Acceder a testimonios                         | Como usuario, quiero leer testimonios de usuarios reales para aumentar mi confianza en la app.                                                                                                    | 2                                |
 | 4       | US03          | Personalizar perfil de artista                | Como artista, quiero personalizar mi perfil con mi nombre artístico y fotografía para conectar mejor con el público.                                                                              | 5                                |
-| 5       | US06          | Buscar conciertos                             | Como usuario, quiero buscar conciertos por nombre o artista para encontrarlos fácilmente.                                                                                                         | 3                                |
+| 5       | US06          | Buscar conciertos                             | Como usuario, quiero buscar conciertos por nombre para encontrarlos fácilmente.                                                                                                                   | 3                                |
 | 6       | US07          | Buscar comunidades                            | Como usuario, quiero buscar comunidades por nombre para unirme a las que me interesen.                                                                                                            | 3                                |
-| 7       | US11          | Zoom a concierto en el mapa                   | Como fan, quiero que al seleccionar un concierto en el mapa se haga zoom a su ubicación.                                                                                                          | 2                                |
-| 8       | US18          | Ver comunidades accedidas                     | Como usuario, quiero visualizar en el apartado "Comunidades" las comunidades a las que me he unido.                                                                                               | 2                                |
-| 9       | US19          | Reaccionar a publicaciones en comunidades     | Como usuario, quiero poder reaccionar a publicaciones dentro de las comunidades.                                                                                                                  | 3                                |
-| 10      | US20          | Acceder a perfil de otros usuarios            | Como usuario, quiero poder acceder al perfil de otros usuarios para conocer más sobre ellos.                                                                                                      | 2                                |
-| 11      | US21          | Ver publicaciones con like                    | Como usuario, quiero ver una lista de publicaciones a las que les he dado "like".                                                                                                                 | 2                                |
-| 12      | US30          | Ver información detallada del evento asociado | Como fan, quiero ver la información completa de un concierto para decidir si asistir.                                                                                                             | 3                                |
-| 13      | US01          | Filtrar conciertos por género musical         | Como fan, quiero filtrar conciertos por género para ver solo los que me interesan.                                                                                                                | 3                                |
-| 14      | US02          | Publicar nuevo concierto                      | Como artista, quiero crear un evento para promocionar mi presentación.                                                                                                                            | 5                                |
-| 15      | US04          | Crear comunidad                               | Como usuario, quiero crear una comunidad temática para reunir a otros usuarios en torno a intereses compartidos.                                                                                  | 5                                |
-| 16      | US05          | Ver mapa con geolocalización                  | Como fan, quiero ver un mapa con mi ubicación y los conciertos cercanos marcados para explorar visualmente las opciones disponibles.                                                              | 8                                |
-| 17      | US08          | Iniciar sesión en la app mobile               | Como usuario registrado, quiero iniciar sesión desde la aplicación móvil para acceder a mi cuenta.                                                                                                | 3                                |
-| 18      | US09          | Registrarse como artista                      | Como nuevo usuario, quiero registrarme como artista para promocionar mis conciertos.                                                                                                              | 3                                |
-| 19      | US10          | Registrarse como fan                          | Como nuevo usuario, quiero registrarme como fan para participar en la comunidad y explorar conciertos.                                                                                            | 3                                |
-| 20      | US13          | Ver información detallada del concierto       | Como fan, quiero ver la información completa de un concierto para decidir si asistir.                                                                                                             | 3                                |
-| 21      | US14          | Unirse a una comunidad                        | Como fan, quiero unirme a una comunidad musical para interactuar con otros usuarios con intereses similares.                                                                                      | 3                                |
-| 22      | US15          | Publicar en la comunidad                      | Como fan, quiero crear publicaciones en las comunidad creadas, para compartir opiniones, fotos o recomendaciones con otros miembros.                                                              | 5                                |
-| 23      | US17          | Confirmar o marcar asistencia a un concierto  | Como fan, quiero poder marcar un concierto como “Marcar asistencia”, para llevar un seguimiento de los conciertos que planeo asistir.                                                             | 5                                |
-| 24      | US23          | Subir imágenes en comunidades                 | Como usuario, quiero subir imágenes en publicaciones de comunidad para compartir experiencias visuales.                                                                                           | 5                                |
-| 25      | US24          | Ver eventos asociados                         | Como usuario de GigMap, quiero ver un apartado de eventos relacionados en el perfil de un concierto, para conocer actividades cercanas en tiempo y lugar (pre/after/meetups) que podría realizar. | 5                                |
-| 26      | US34          | Crear evento asociado                         | Como usuario, quiero crear eventos asociados para conocer más gente que compartan mis gustos y poder ir juntos a más conciertos.                                                                  |                                  |
+| 7       | US18          | Ver comunidades accedidas                     | Como usuario, quiero visualizar en el apartado "Comunidades" las comunidades a las que me he unido.                                                                                               | 2                                |
+| 8       | US19          | Reaccionar a publicaciones en comunidades     | Como usuario, quiero poder reaccionar a publicaciones dentro de las comunidades.                                                                                                                  | 3                                |
+| 9       | US20          | Acceder a perfil de otros usuarios            | Como usuario, quiero poder acceder al perfil de otros usuarios para conocer más sobre ellos.                                                                                                      | 2                                |
+| 10      | US21          | Ver publicaciones con like                    | Como usuario, quiero ver una lista de publicaciones a las que les he dado "like" en mi perfil.                                                                                                    | 2                                |
+| 11      | US30          | Ver información detallada del evento asociado | Como fan, quiero ver la información completa de un evento para decidir si asistir.                                                                                                                | 3                                |
+| 12      | US01          | Filtrar conciertos por género musical         | Como fan, quiero filtrar conciertos por género para ver solo los que me interesan.                                                                                                                | 3                                |
+| 13      | US02          | Publicar nuevo concierto                      | Como artista, quiero crear un evento para promocionar mi presentación.                                                                                                                            | 5                                |
+| 14      | US04          | Crear comunidad                               | Como usuario, quiero crear una comunidad temática para reunir a otros usuarios en torno a intereses compartidos.                                                                                  | 5                                |
+| 15      | US05          | Ver mapa con geolocalización                  | Como fan, quiero ver un mapa con mi ubicación y los conciertos cercanos marcados para explorar visualmente las opciones disponibles.                                                              | 8                                |
+| 16      | US08          | Iniciar sesión en la app mobile               | Como usuario registrado, quiero iniciar sesión desde la aplicación móvil para acceder a mi cuenta.                                                                                                | 3                                |
+| 17      | US09          | Registrarse como artista                      | Como nuevo usuario, quiero registrarme como artista para promocionar mis conciertos.                                                                                                              | 3                                |
+| 18      | US10          | Registrarse como fan                          | Como nuevo usuario, quiero registrarme como fan para participar en la comunidad y explorar conciertos.                                                                                            | 3                                |
+| 19      | US13          | Ver información detallada del concierto       | Como fan, quiero ver la información completa de un concierto para decidir si asistir.                                                                                                             | 3                                |
+| 20      | US24          | Ver eventos asociados                         | Como usuario de GigMap, quiero ver un apartado de eventos relacionados en el perfil de un concierto, para conocer actividades cercanas en tiempo y lugar (Renion/AfterParty) que podría realizar. | 5                                |
+| 21      | US34          | Crear evento asociado                         | Como usuario, quiero crear eventos asociados para conocer más gente que compartan mis gustos y poder ir juntos a más conciertos.                                                                  | 2                                |
 
 ## 3.4. Impact Mapping
 
@@ -3564,6 +3635,48 @@ La comunicación se desarrolla bajo una línea respetuosa y entusiasta, proyecta
 ### 4.1.3. Mobile Style Guidelines
 
 #### 4.1.3.1. Android Mobile Style Guidelines
+
+### Colors
+
+La identidad visual de GigMap se fundamenta en una paleta cromática seleccionada para transmitir la energía de los eventos en vivo y la precisión tecnológica de la geolocalización. El uso del granate profundo (#5C0F1A) junto a contrastes en blanco y negro busca evocar la atmósfera de los escenarios, proporcionando una interfaz moderna que destaca la información crítica para el usuario.
+
+<img src="assets/images/product-desing/style-guidelines/colorsMobile.png" alt="typo" width="700">
+
+### Typography
+
+La legibilidad es una prioridad absoluta en nuestra experiencia mobile, por lo que hemos adoptado la familia tipográfica "Inter". Esta fuente sans-serif fue elegida por su excelente rendimiento en pantallas pequeñas, permitiendo que los nombres de artistas, locaciones y horarios sean claros y fáciles de leer bajo cualquier condición de iluminación.
+
+<img src="assets/images/product-desing/style-guidelines/tipografiaMobile.png" alt="typo" width="700">
+
+### Icons
+
+El sistema de iconografía de GigMap actúa como una guía visual intuitiva que facilita la navegación rápida. Cada símbolo ha sido seleccionado para representar de forma directa funciones clave como el mapa, la comunidad y las alertas, manteniendo una estética minimalista que no sobrecarga la interfaz y refuerza la identidad dinámica de la startup StayBits.
+
+<img src="assets/images/product-desing/style-guidelines/iconsMobile.png" alt="typo" width="700">
+
+### Spacing
+
+Para garantizar una navegación cómoda y evitar errores de pulsación en dispositivos táctiles, hemos implementado una estructura de espaciado rigurosa. Estas pautas aseguran que cada elemento respire adecuadamente, creando una jerarquía visual equilibrada que guía el ojo del usuario de manera fluida a través de la cartelera musical.
+
+<img src="assets/images/product-desing/style-guidelines/spacingMobile.png" alt="typo" width="700">
+
+### Grid System
+
+La organización de GigMap se basa en un sistema de rejilla flexible diseñado específicamente para entornos móviles. Esta estructura permite que el mapa interactivo y las tarjetas de eventos se alineen de forma armónica, adaptando los contenidos con precisión a diferentes resoluciones de pantalla y manteniendo la consistencia en toda la aplicación.
+
+<img src="assets/images/product-desing/style-guidelines/gridSystemMobile.png" alt="typo" width="700">
+
+### Button
+
+Los botones en GigMap están diseñados como los principales catalizadores de acción, facilitando tareas como la confirmación de asistencia o la compra de entradas. Su estilo visual es prominente y coherente con la marca, garantizando que el usuario identifique instantáneamente los puntos de interacción y disfrute de una experiencia de uso predecible y satisfactoria.
+
+<img src="assets/images/product-desing/style-guidelines/buttonMobile.png" alt="typo" width="700">
+
+### Input System
+
+El sistema de entrada de datos ha sido optimizado para simplificar la interacción del usuario, especialmente en procesos de registro y búsqueda de conciertos. Mediante campos de texto limpios y estados visuales claros, aseguramos que la captura de información sea rápida, reduciendo la fricción y permitiendo que los fans se enfoquen en lo más importante: descubrir música en vivo.
+
+<img src="assets/images/product-desing/style-guidelines/inputSystemMobile.png" alt="typo" width="700">
 
 ## 4.2. Information Architecture
 
@@ -4302,6 +4415,8 @@ El diagrama de contenedores detalla los elementos internos de GigMap. La aplicac
 
 ### 4.10.1. Relational/Non-Relational Database Diagram
 
+![database](assets/images/database.jpg)
+
 # CAPÍTULO V: Product Implementation
 
 ## 5.1. Software Configuration Management
@@ -4371,12 +4486,12 @@ El código fuente del proyecto **GigMap** es gestionado mediante la plataforma *
 
 #### Repositorios
 
-| **Producto**       | **URL**                                           |
-| ------------------ | ------------------------------------------------- |
-| Landing Page       | `link`                                            |
-| Mobile Application | `https://github.com/StayBitsV2/Gigmap-mobile.git` |
-| Web Services       | `https://github.com/StayBitsV2/gigmap-api.git`    |
-| Acceptance Tests   | `link`                                            |
+| **Producto**       | **URL**                                                     |
+| ------------------ | ----------------------------------------------------------- |
+| Landing Page       | `https://staybitsv2.github.io/gigmap-landingpage/`          |
+| Mobile Application | `https://github.com/StayBitsV2/Gigmap-mobile.git`           |
+| Web Services       | `https://github.com/StayBitsV2/gigmap-api.git`              |
+| Acceptance Tests   | `https://github.com/StayBitsV2/Gigmap-Acceptance-Tests.git` |
 
 #### GitFlow como Workflow de Control de Versiones
 
@@ -4684,7 +4799,6 @@ Pasos para desplegar el backend en Render
 | **US06**          | Buscar conciertos                       | **TSK02**   | Implementar buscador de conciertos | Como usuario, quiero buscar conciertos por nombre o artista para encontrarlos fácilmente.                                                           | 3 horas        | Diego          | Done       |
 | **US08**          | Iniciar sesión en la app móvil          | **TSK03**   | Login de usuario móvil             | Como usuario registrado, quiero iniciar sesión desde la aplicación móvil para acceder a mi cuenta.                                                  | 4 horas        | Renato         | Done       |
 | **US09**          | Registrarse como artista                | **TSK04**   | Registro de artista                | Como nuevo usuario, quiero registrarme como artista para promocionar mis conciertos.                                                                | 3 horas        | Antuanete      | Done       |
-| **US11**          | Zoom a concierto en el mapa             | **TSK05**   | Implementar zoom en mapa           | Como fan, quiero que al seleccionar un concierto en el mapa se haga zoom a su ubicación.                                                            | 2 horas        | Loreley        | Done       |
 | **US13**          | Ver información detallada del concierto | **TSK06**   | Detalle de concierto               | Como fan, quiero ver la información completa de un concierto para decidir si asistir.                                                               | 3 horas        | Álvaro         | Done       |
 | **US22**          | Permitir acceso a ubicación             | **TSK07**   | Permisos de geolocalización        | Como usuario, quiero que GigMap acceda a mi ubicación para recibir información personalizada.                                                       | 2 horas        | Renato         | Done       |
 | **TS01**          | Crear concierto                         | **TSK08**   | API POST de conciertos             | Como developer, quiero un endpoint POST en /api/v1/concerts que permita crear conciertos con toda su información.                                   | 5 horas        | Diego          | Done       |
@@ -4741,6 +4855,8 @@ Para el caso del Landing Page, se hizo el deployment a través de GitHub Pages, 
 **1. Aceptación de los términos**
 
 Al descargar, instalar o utilizar la aplicación móvil, el usuario declara haber leído, entendido y aceptado estos términos y condiciones en su totalidad. En caso de no estar de acuerdo, deberá abstenerse de utilizar la aplicación y proceder a su desinstalación.
+
+Asimismo, el usuario reconoce que la aplicación requiere un dispositivo Android compatible con un nivel de API igual o superior a 36, correspondiente a Android 16 o versiones posteriores, para garantizar el correcto funcionamiento de sus funcionalidades y servicios.
 
 **2. Uso del servicio**
 
@@ -4800,11 +4916,139 @@ Los presentes términos se rigen por las leyes de la República del Perú. Cualq
 
 ### 5.2.6. RESTful API documentation
 
-COMPLETAR
+Enlace al repositorio del Backend: `https://github.com/StayBitsV2/gigmap-api.git`
+
+Enlace al Backend desplegado: `https://gigmap-api.onrender.com/swagger-ui/index.html`
+
+A continuación se presenta la documentación de los endpoints disponibles en la API RESTful de GigMap.
+
+#### Authentication
+
+| Método | Endpoint              | Descripción                                        |
+| ------ | --------------------- | -------------------------------------------------- |
+| POST   | /api/v1/auth/register | Se registra un nuevo usuario.                      |
+| POST   | /api/v1/auth/login    | Se inicia sesión con las credenciales del usuario. |
+
+<p align="center">
+  <img src="assets/images/back/1.png" alt="restfulapi" width="700">
+</p>
+
+#### Concerts
+
+| Método | Endpoint                           | Descripción                                                    |
+| ------ | ---------------------------------- | -------------------------------------------------------------- |
+| GET    | /api/v1/concerts/{concertId}       | Se obtiene un concierto por ID.                                |
+| PUT    | /api/v1/concerts/{concertId}       | Se actualiza un concierto.                                     |
+| DELETE | /api/v1/concerts/{concertId}       | Se elimina un concierto.                                       |
+| GET    | /api/v1/concerts                   | Se obtiene la lista de todos los conciertos.                   |
+| POST   | /api/v1/concerts                   | Se crea un nuevo concierto.                                    |
+| POST   | /api/v1/concerts/attendees         | Se añade un asistente a un concierto.                          |
+| DELETE | /api/v1/concerts/attendees         | Se elimina un asistente de un concierto.                       |
+| GET    | /api/v1/concerts/genre/{genre}     | Se obtienen conciertos por género.                             |
+| GET    | /api/v1/concerts/attended/{userId} | Se obtienen todos los conciertos a los que asistió un usuario. |
+| GET    | /api/v1/concerts/artist/{artistId} | Se obtienen conciertos por artista.                            |
+
+<p align="center">
+  <img src="assets/images/back/2.png" alt="restfulapi" width="700">
+</p>
+
+#### Users
+
+| Método | Endpoint                       | Descripción                                    |
+| ------ | ------------------------------ | ---------------------------------------------- |
+| GET    | /api/v1/users/{userId}         | Se obtiene un usuario por ID.                  |
+| PUT    | /api/v1/users/{userId}         | Se actualiza un usuario.                       |
+| GET    | /api/v1/users                  | Se obtiene la lista de usuarios.               |
+| GET    | /api/v1/users/{userId}/details | Se obtienen los detalles de un usuario por ID. |
+
+<p align="center">
+  <img src="assets/images/back/3.png" alt="restfulapi" width="700">
+</p>
+
+#### Communities
+
+| Método | Endpoint                                | Descripción                                                     |
+| ------ | --------------------------------------- | --------------------------------------------------------------- |
+| PUT    | /api/v1/communities/{id}                | Se actualiza una comunidad.                                     |
+| DELETE | /api/v1/communities/{id}                | Se elimina una comunidad.                                       |
+| GET    | /api/v1/communities                     | Se obtiene la lista de todas las comunidades.                   |
+| POST   | /api/v1/communities                     | Se crea una nueva comunidad.                                    |
+| POST   | /api/v1/communities/{communityId}/join  | Se une a una comunidad.                                         |
+| GET    | /api/v1/communities/{communityId}       | Se obtiene una comunidad por ID.                                |
+| GET    | /api/v1/communities/joined/{userId}     | Se obtienen todas las comunidades a las que se unió un usuario. |
+| DELETE | /api/v1/communities/{communityId}/leave | Se abandona una comunidad.                                      |
+
+<p align="center">
+  <img src="assets/images/back/4.png" alt="restfulapi" width="700">
+</p>
+
+#### Notifications
+
+| Método | Endpoint                            | Descripción                                         |
+| ------ | ----------------------------------- | --------------------------------------------------- |
+| POST   | /api/v1/notifications               | Se crea una nueva notificación.                     |
+| GET    | /api/v1/notifications/user/{userId} | Se obtienen todas las notificaciones de un usuario. |
+
+<p align="center">
+  <img src="assets/images/back/5.png" alt="restfulapi" width="700">
+</p>
+
+#### Posts
+
+| Método | Endpoint                        | Descripción                                                 |
+| ------ | ------------------------------- | ----------------------------------------------------------- |
+| PUT    | /api/v1/posts/{id}              | Se actualiza una publicación.                               |
+| DELETE | /api/v1/posts/{id}              | Se elimina una publicación.                                 |
+| GET    | /api/v1/posts                   | Se obtienen todas las publicaciones.                        |
+| POST   | /api/v1/posts                   | Se crea una nueva publicación.                              |
+| POST   | /api/v1/posts/{postId}/like     | Se da like a una publicación.                               |
+| GET    | /api/v1/posts/{postId}          | Se obtiene una publicación por ID.                          |
+| GET    | /api/v1/posts/liked_by/{userId} | Se obtienen todas las publicaciones con like de un usuario. |
+| DELETE | /api/v1/posts/{postId}/unlike   | Se quita el like de una publicación.                        |
+
+<p align="center">
+  <img src="assets/images/back/6.png" alt="restfulapi" width="700">
+</p>
+
+#### Related Events
+
+| Método | Endpoint                                   | Descripción                                        |
+| ------ | ------------------------------------------ | -------------------------------------------------- |
+| GET    | /api/v1/related-events/{relatedEventId}    | Se obtiene un evento asociado por ID.              |
+| PUT    | /api/v1/related-events/{relatedEventId}    | Se actualiza un evento asociado.                   |
+| DELETE | /api/v1/related-events/{relatedEventId}    | Se elimina un evento asociado.                     |
+| POST   | /api/v1/related-events                     | Se crea un nuevo evento asociado.                  |
+| POST   | /api/v1/related-events/participants        | Se añade un participante a un evento asociado.     |
+| DELETE | /api/v1/related-events/participants        | Se elimina un participante de un evento asociado.  |
+| GET    | /api/v1/related-events/concert/{concertId} | Se obtienen eventos asociados por ID de concierto. |
+
+<p align="center">
+  <img src="assets/images/back/7.png" alt="restfulapi" width="700">
+</p>
+
+#### Device Tokens
+
+| Método | Endpoint              | Descripción                    |
+| ------ | --------------------- | ------------------------------ |
+| POST   | /api/v1/device_tokens | Se crea un nuevo Device Token. |
+
+<p align="center">
+  <img src="assets/images/back/8.png" alt="restfulapi" width="700">
+</p>
 
 ### 5.2.7. Team Collaboration Insights
 
-COMPLETAR
+Front-end Mobile Application:
+
+<p align="center">
+  <img src="assets/images/insights/front.png" alt="front" width="700">
+</p>
+
+Back-end Application:
+
+<p align="center">
+  <img src="assets/images/insights/back.png" alt="front" width="700">
+</p>
 
 ## 5.3. Video About-the-Product
 
@@ -4816,7 +5060,7 @@ COMPLETAR
 | **URL Youtube:**<br> `https://youtu.be/4ypL066T7xk`                                                                                                                                                                                                                                                                                             |
 | **Descripción:**<br>En el video se presenta una demostración del producto dirigida a los visitantes de nuestra landing page, donde se explican las principales funcionalidades de Gigmap.                                                                                                                                                       |
 
-# CAPITULO VI: Product Verification & Validation
+# CAPÍTULO VI: Product Verification & Validation
 
 ## 6.1 Testing suites & validation
 
@@ -4954,49 +5198,49 @@ Esta sección detalla las pruebas unitarias aplicadas a las entidades fundamenta
 | ---- | ------------------------ | --------------------------------------------------------------------------------------------------------------------- |
 
 <p align="center">
-  <img src="assets/images/tests/US31.png" alt="US31" width="700">
+  <img src="assets/images/tests/US31.jpeg" alt="US31" width="700">
 </p>
 
 | US32 | Ver beneficios para artista | **Como** usuario del segmento artista, **quiero** ver cómo la app me ayuda a promocionar mis eventos. |
 | ---- | --------------------------- | ----------------------------------------------------------------------------------------------------- |
 
 <p align="center">
-  <img src="assets/images/tests/US32.png" alt="US32" width="700">
+  <img src="assets/images/tests/US32.jpeg" alt="US32" width="700">
 </p>
 
 | US33 | Acceder a testimonios | **Como** usuario, **quiero** leer testimonios de usuarios reales **para** aumentar mi confianza en la app. |
 | ---- | --------------------- | ---------------------------------------------------------------------------------------------------------- |
 
 <p align="center">
-  <img src="assets/images/tests/US33.png" alt="US33" width="700">
+  <img src="assets/images/tests/US33.jpeg" alt="US33" width="700">
 </p>
 
 | US03 | Personalizar perfil de artista | **Como** artista, **quiero** personalizar mi perfil con mi nombre artístico y fotografía **para** conectar mejor con el público. |
 | ---- | ------------------------------ | -------------------------------------------------------------------------------------------------------------------------------- |
 
 <p align="center">
-  <img src="assets/images/tests/US03.png" alt="US03" width="700">
+  <img src="assets/images/tests/US03.jpeg" alt="US03" width="700">
 </p>
 
 | US06 | Buscar conciertos | **Como** usuario, **quiero** buscar conciertos por nombre o artista **para** encontrarlos fácilmente. |
 | ---- | ----------------- | ----------------------------------------------------------------------------------------------------- |
 
 <p align="center">
-  <img src="assets/images/tests/US06.png" alt="US06" width="700">
+  <img src="assets/images/tests/us06.png" alt="US06" width="700">
 </p>
 
 | US07 | Buscar comunidades | **Como** usuario, **quiero** buscar comunidades por nombre **para** unirme a las que me interesen. |
 | ---- | ------------------ | -------------------------------------------------------------------------------------------------- |
 
 <p align="center">
-  <img src="assets/images/tests/US07.png" alt="US07" width="700">
+  <img src="assets/images/tests/us07.png" alt="US07" width="700">
 </p>
 
 | US18 | Ver comunidades accedidas | **Como** usuario, **quiero** visualizar en el apartado "Comunidades" las comunidades a las que me he unido. |
 | ---- | ------------------------- | ----------------------------------------------------------------------------------------------------------- |
 
 <p align="center">
-  <img src="assets/images/tests/US18.png" alt="US18" width="700">
+  <img src="assets/images/tests/us18.png" alt="US18" width="700">
 </p>
 
 | US19 | Reaccionar a publicaciones en comunidades | **Como** usuario, **quiero** poder reaccionar a publicaciones dentro de las comunidades. |
@@ -5031,28 +5275,44 @@ Esta sección detalla las pruebas unitarias aplicadas a las entidades fundamenta
 | ---- | ------------------------------------- | ---------------------------------------------------------------------------------------------- |
 
 <p align="center">
-  <img src="assets/images/tests/US01.png" alt="US01" width="700">
+  <img src="assets/images/tests/US01-1.PNG" alt="US01" width="700">
+</p>
+
+<p align="center">
+  <img src="assets/images/tests/US01-2.PNG" alt="US01" width="700">
 </p>
 
 | US02 | Publicar nuevo concierto | **Como** artista, **quiero** crear un evento **para** promocionar mi presentación. |
 | ---- | ------------------------ | ---------------------------------------------------------------------------------- |
 
 <p align="center">
-  <img src="assets/images/tests/US02.png" alt="US02" width="700">
+  <img src="assets/images/tests/US02-1.PNG" alt="US02" width="700">
+</p>
+
+<p align="center">
+  <img src="assets/images/tests/US02-2.PNG" alt="US02" width="700">
 </p>
 
 | US04 | Crear comunidad | **Como** usuario, **quiero** crear una comunidad temática **para** reunir a otros usuarios en torno a intereses compartidos. |
 | ---- | --------------- | ---------------------------------------------------------------------------------------------------------------------------- |
 
 <p align="center">
-  <img src="assets/images/tests/US04.png" alt="US04" width="700">
+  <img src="assets/images/tests/US04-1.PNG" alt="US02" width="700">
+</p>
+
+<p align="center">
+  <img src="assets/images/tests/US04-2.PNG" alt="US02" width="700">
 </p>
 
 | US05 | Ver mapa con geolocalización | **Como** fan, **quiero** ver un mapa con mi ubicación y los conciertos cercanos marcados **para** explorar visualmente las opciones disponibles. |
 | ---- | ---------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------ |
 
 <p align="center">
-  <img src="assets/images/tests/US05.png" alt="US05" width="700">
+  <img src="assets/images/tests/US05-1.PNG" alt="US02" width="700">
+</p>
+
+<p align="center">
+  <img src="assets/images/tests/US05-2.PNG" alt="US02" width="700">
 </p>
 
 | US08 | Iniciar sesión en la app mobile | **Como** usuario registrado, **quiero** iniciar sesión desde la aplicación móvil **para** acceder a mi cuenta. |
@@ -5095,32 +5355,15 @@ Esta sección detalla las pruebas unitarias aplicadas a las entidades fundamenta
   <img src="assets/images/tests/US13-2.png" alt="US13" width="700">
 </p>
 
-| US14 | Unirse a una comunidad | **Como** fan, **quiero** unirme a una comunidad musical **para** interactuar con otros usuarios con intereses similares. |
-| ---- | ---------------------- | ------------------------------------------------------------------------------------------------------------------------ |
-
-<p align="center">
-  <img src="assets/images/tests/US14.png" alt="US14" width="700">
-</p>
-
-| US15 | Publicar en la comunidad | **Como** fan, **quiero** crear publicaciones en las comunidades creadas, **para** compartir opiniones, fotos o recomendaciones con otros miembros. |
-| ---- | ------------------------ | -------------------------------------------------------------------------------------------------------------------------------------------------- |
-
-<p align="center">
-  <img src="assets/images/tests/US15.png" alt="US15" width="700">
-</p>
-
-| US17 | Confirmar o marcar asistencia a un concierto | **Como** fan, **quiero** poder marcar un concierto como "Marcar asistencia", **para** llevar un seguimiento de los conciertos que planeo asistir. |
-| ---- | -------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------- |
-
-<p align="center">
-  <img src="assets/images/tests/US17.png" alt="US17" width="700">
-</p>
-
 | US23 | Subir imágenes en comunidades | **Como** usuario, **quiero** subir imágenes en publicaciones de comunidad **para** compartir experiencias visuales. |
 | ---- | ----------------------------- | ------------------------------------------------------------------------------------------------------------------- |
 
 <p align="center">
-  <img src="assets/images/tests/US23.png" alt="US23" width="700">
+  <img src="assets/images/tests/US23-1.PNG" alt="US02" width="700">
+</p>
+
+<p align="center">
+  <img src="assets/images/tests/US23-2.PNG" alt="US02" width="700">
 </p>
 
 | US24 | Ver eventos asociados | **Como** usuario de GigMap, **quiero** ver un apartado de eventos relacionados en el perfil de un concierto, **para** conocer actividades cercanas en tiempo y lugar (pre/after/meetups) que podría realizar. |
@@ -5137,7 +5380,7 @@ Esta sección detalla las pruebas unitarias aplicadas a las entidades fundamenta
 | ---- | --------------------- | -------------------------------------------------------------------------------------------------------------------------------------------- |
 
 <p align="center">
-  <img src="assets/images/tests/US34.png" alt="US34" width="700">
+  <img src="assets/images/tests/US34.jpeg" alt="US34" width="700">
 </p>
 
 ## 6.2. Static testing & Verification
@@ -5311,7 +5554,7 @@ Screenshot de video:
 
 **Resumen**: En esta entrevista, Zaleth Feijóo, conocida artísticamente como Ithli, comentó que la aplicación le resulta funcional para revisar sus próximos eventos y gestionar su perfil como artista. Sin embargo, señaló que las tarjetas de conciertos presentan poca jerarquía visual, lo que le dificulta identificar de inmediato información clave como fecha, venue o tipo de presentación. Mencionó que esto la obliga a detenerse más de lo necesario para confirmar detalles importantes, especialmente cuando revisa varios eventos en secuencia. Aunque pudo navegar por la plataforma sin problemas, consideró que una estructura visual más clara ayudaría tanto a artistas como a usuarios a comprender mejor cada concierto de un solo vistazo.
 
-**URL de entrevistas**: ``
+**URL de entrevistas**: ` `
 
 ### 6.3.3. Evaluaciones según heurísticas
 
@@ -5356,10 +5599,6 @@ El alcance de esta evaluación incluye la revisión de la usabilidad, accesibili
 - Visualizar Información de un Concierto desde el Mapa
 - Editar Perfil de Usuario
 - Acceso a Notificaciones
-
-**No están incluidas en esta versión de la evaluación:**
-
-- Redirección a plataformas de ventas de entradas.
 
 **ESCALA DE SEVERIDAD:**
 
@@ -5463,14 +5702,36 @@ Además, se consideran prácticas como el Desarrollo Orientado por Pruebas (TDD)
 ### 7.1.2. Build & Test Suite Pipeline Components
 
 <p align="center">
-  <img src="assets/images/restful-api/ss1.png" alt="img1" width="700">
-</p>
-
-<p align="center">
-  <img src="assets/images/restful-api/ss2.png" alt="img2" width="700">
+  <img src="assets/images/restful-api/ss1.jpg" alt="img1" width="700">
 </p>
 
 ## 7.2. Continuous Delivery
+
+El objetivo principal para **GigMap** es automatizar los ciclos de integración y pruebas de software, garantizando que el código permanezca siempre en un estado óptimo y listo para ser liberado al mercado en cuanto el equipo de **StayBits** lo decida.
+
+### 7.2.1. Tools and Practices
+
+**Tools (Herramientas)**
+
+- **GitHub Actions:** Utilizamos esta herramienta para orquestar todo el pipeline de CI/CD. En nuestro flujo de Entrega Continua, configuramos las etapas de validación automática, dejando el paso final a producción como una ejecución manual controlada.
+- **Trello:** Actúa como nuestra plataforma de gestión y gobernanza. Los despliegues solo progresan tras una revisión en el tablero de gestión, donde los responsables del proyecto validan los resultados de las pruebas antes de dar el visto bueno al lanzamiento.
+- **Docker:** Empleamos la contenerización para asegurar que la aplicación GigMap se comporte de manera idéntica en el entorno de desarrollo, en staging y en la infraestructura final. Esto elimina inconsistencias técnicas durante la fase de validación.
+
+**Practices (Prácticas)**
+
+- **Feature Branching y Merge Requests:** Cada nueva funcionalidad o corrección se desarrolla en ramas independientes. Una vez superadas las pruebas automáticas, el código se integra a la rama principal, quedando a la espera de una validación humana para su salida a producción.
+- **Pipeline de Validación en Staging:** Implementamos un entorno de pre-producción (Staging) que replica las condiciones reales de uso. Aquí, el equipo de StayBits realiza pruebas de geolocalización y carga antes de autorizar el despliegue definitivo.
+- **Despliegue Semiautomático:** Mantenemos una intervención humana estratégica. El sistema prepara todo el paquete de actualización, pero la ejecución final requiere la activación manual por parte de un administrador o desarrollador senior.
+- **Aprobación Manual:** Establecemos un punto de control obligatorio donde los resultados de calidad son auditados. Esto minimiza el riesgo de introducir errores en la experiencia de usuario de los fans y artistas.
+- **Rollback Manual:** En caso de detectar anomalías tras un lanzamiento, el equipo de operaciones tiene protocolos establecidos para revertir la aplicación a una versión estable previa de forma rápida y controlada.
+
+### 7.2.2. Stages Deployment Pipeline Components
+
+- **Integración Continua (CI):** Cada commit en las ramas de desarrollo activa un pipeline que compila y testea la lógica de la app, asegurando que GigMap sea siempre una solución técnicamente "desplegable".
+- **Validación en Staging:** El código se despliega en un entorno controlado para simular el comportamiento real de los usuarios, permitiendo ejecutar pruebas de seguridad, rendimiento y usabilidad de la interfaz.
+- **Despliegue Manual:** Se habilita la etapa final de lanzamiento bajo supervisión, permitiendo que el equipo elija el momento comercial o técnico más adecuado para actualizar la plataforma sin afectar la disponibilidad del servicio.
+- **Monitoreo y Feedback:** El pipeline incluye herramientas de análisis para observar cómo el nuevo código afecta el rendimiento de la aplicación, obteniendo datos valiosos antes de confirmar el éxito total del despliegue.
+- **Aprobación del Despliegue:** El proceso se detiene en un estado de espera activa hasta que el responsable técnico o el Product Owner confirma que todos los criterios de aceptación se han cumplido satisfactoriamente.
 
 ## 7.3. Continuous Deployment
 
