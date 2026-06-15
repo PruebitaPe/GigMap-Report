@@ -5383,7 +5383,306 @@ Esta sección detalla las pruebas unitarias aplicadas a las entidades fundamenta
   <img src="assets/images/tests/US34.jpeg" alt="US34" width="700">
 </p>
 
-# CAPÍTULO VII: DevOps Practices
+## 6.2. Static testing & Verification
+
+### 6.2.1. Static Code Analysis
+
+#### 6.2.1.1. Coding standard & Code conventions
+
+#### 6.2.1.2. Code Quality & Code Security
+
+### 6.2.2. Reviews
+
+## 6.3. Validation Interviews
+
+### 6.3.1. Diseño de Entrevistas
+
+**Objetivo**: Validar la usabilidad, funcionalidad y percepción general de la aplicación móvil GigMap desde la perspectiva de los fans y artistas, quienes representan nuestos segmentos objetivos.
+
+**SEGMENTO OBJETIVO: FANS**
+
+**Contexto de Validación al segmento FANS:** Se presento el aplicativo a nuestros usuarios fans y se evaluaron:
+
+- Landing Page
+- Página de conciertos
+- Comunidades
+- Perfil (editar perfil, ver conciertos asistidos y por asistir, posts con “like”)
+- Sección de notificaciones
+- Flechas de navegación para regresar de una pantalla a otra
+- Información detallada de conciertos (asistencia, eventos relacionados, asistentes)
+- Unión a comunidades
+
+**User Flows evaluados al segmento FANS:**
+
+- Landing Page
+- Registro e Inicio de Sesión
+- Visualización y Marcado de Asistencia a un Concierto
+- Unión a una Comunidad
+- Creación de una Comunidad
+- Visualizar Perfil de Otro Usuario desde un Concierto
+- Visualizar Información de un Concierto desde el Mapa
+- Crear Evento Relacionado a un Concierto
+- Editar Perfil de Usuario
+- Acceso a Notificaciones
+
+**SEGMENTO OBJETIVO: ARTISTAS**
+
+**Contexto de Validación al segmento ARTISTAS:** Se presento el aplicativo a nuestros usuarios artistas y se evaluaron:
+
+- Landing Page
+- Página de conciertos (creación de conciertos)
+- Comunidades
+- Perfil (editar perfil, ver conciertos asistidos y por asistir, posts con “like”)
+- Sección de notificaciones
+- Flechas de navegación para regresar de una pantalla a otra
+- Información detallada de conciertos (asistencia, eventos relacionados, asistentes)
+- Unión a comunidades
+
+**User Flows evaluados al segmento ARTISTAS:**
+
+- Landing Page
+- Registro e Inicio de Sesión
+- Visualización y Marcado de Asistencia a un Concierto
+- Unión a una Comunidad
+- Creación de una Comunidad
+- Creación de un concierto
+- Visualizar Perfil de Otro Usuario desde un Concierto
+- Visualizar Información de un Concierto desde el Mapa
+- Crear Evento Relacionado a un Concierto
+- Editar Perfil de Usuario
+- Acceso a Notificaciones
+
+### 6.3.2. Registro de Entrevistas
+
+**SEGMENTO OBJETIVO: FANS**
+
+**Entrevista #1**
+
+- **Nombre**: Diego Zúñiga
+- **Edad**: 20 años
+- **Distrito**: Comas
+- **Duración**: 00:07:16
+- **Timing de inicio**: 00:00:00
+
+Screenshot de video:
+
+<p align="center">
+  <img src="assets/images/interviews/fans-validation-1.png" alt="Commits" width="800">
+</p>
+
+**Resumen:** En esta entrevista, Diego Zúñiga, de 20 años, comentó sentirse cómodo usando la aplicación y navegó sin dificultad por las pantallas de comunidades, explorar, editar perfil y demás secciones. Indicó que pudo confirmar asistencia a varios conciertos satisfactoriamente y que, en general, la app sí cumple con lo que promete. Sin embargo, mencionó que al ver las tarjetas de conciertos no podía identificar el tamaño real del evento, ya que no se mostraba la capacidad del venue ni una referencia visual que le ayudara a saber si era un concierto íntimo, mediano o masivo; por ello sugirió añadir un indicador de aforo, como un número o una barra gráfica, para tener más claridad al decidir. Además, comentó que en su perfil le resultaba difícil distinguir qué publicaciones ya había marcado con “like”, porque el diseño no mostraba un cambio visual claro; propuso que un icono resaltado, un color diferente o una pequeña animación ayudaría a que la interacción sea más evidente y satisfactoria
+
+**Entrevista #2**
+
+- **Nombre**: Rodrigo Chavez
+- **Edad**: 19 años
+- **Distrito**: San Martin de Porres
+- **Duración**: 00:03:26
+- **Timing de inicio**: 00:07:16
+
+**Screenshot de video:**
+
+<p align="center">
+  <img src="assets/images/interviews/fans-validation-2.png" alt="Commits" width="800">
+</p>
+
+**Resumen:** En esta entrevista, Rodrigo, de 20 años, se mostró satisfecho con la aplicación mientras navegaba por las pantallas de comunidades, mapa, editar perfil y demás secciones. Logró confirmar asistencia a algunos conciertos sin dificultades y comentó que la app cumple adecuadamente su objetivo. Sin embargo, mencionó que la aplicación no ofrece una guía inicial que explique funciones esenciales como marcar asistencia o unirse a comunidades, lo cual podría dificultar la experiencia de nuevos usuarios.
+
+**Entrevista #3**
+
+- **Nombre**: Danny Peña Luna
+- **Edad**: 19 años
+- **Distrito**: Callao
+- **Duración**: 00:06:51
+- **Timing de inicio**: 00:10:42
+
+**Screenshot de video:**
+
+<p align="center">
+  <img src="assets/images/interviews/fans-validation-3.png" alt="Commits" width="800">
+</p>
+
+**Resumen**: Danny indicó que la aplicación le pareció intuitiva y funcional, y le gustó el enfoque de la aplicación. Sin embargo, sugirió mejorar la jerarquización de la información en la pantalla detallada del concierto para facilitar la lectura. En general, valoró positivamente la experiencia y consideró que estas mejoras la harían más clara y completa para los usuarios.
+
+**SEGMENTO OBJETIVO: ARTISTAS**
+
+**Entrevista #4**
+
+- **Nombre**: Leonardo Núñez
+- **Edad**: 19 años
+- **Distrito**: San Miguel
+- **Duración**: 00:08:33
+- **Timing de inicio**: 00:00:00
+
+Screenshot de video:
+
+<p align="center">
+  <img src="assets/images/interviews/artista-validation-1.png" alt="Commits" width="800">
+</p>
+
+**Resumen:** Durante la entrevista, el artista destacó que GigMap presenta una estructura sólida y una interfaz intuitiva que facilita la gestión y visualización de conciertos, lo que genera una experiencia positiva tanto para artistas como para fans. Valoró especialmente que la aplicación permita acceder rápidamente a información relevante del evento y que sus funcionalidades resulten prácticas para quienes buscan promover o descubrir conciertos. Sin embargo, también señaló una oportunidad importante de mejora: actualmente, las tarjetas de los conciertos no muestran la capacidad total del recinto, un dato clave que permite a los usuarios evaluar la magnitud e importancia del evento. Al no contar con esta información, se dificulta que los asistentes potenciales puedan comparar conciertos, anticipar la demanda de entradas o incluso decidir su participación según el tipo de show que esperan vivir. Añadir este elemento enriquecería la experiencia del usuario y aportaría mayor claridad en la presentación de los eventos dentro de la plataforma.
+
+**Entrevista #5**
+
+- **Nombre**:
+- **Edad**:
+- **Distrito**:
+- **Duración**:
+- **Timing de inicio**:
+
+**Screenshot de video:**
+
+<p align="center">
+  <img src="" alt="Commits" width="800">
+</p>
+
+**Resumen:**
+
+**Entrevista #6**
+
+- **Nombre**: Zaleth Feijóo
+- **Edad**: 19 años
+- **Distrito**: Pueblo Libre
+- **Duración**: 00:06:51
+- **Timing de inicio**: 00:12:59
+
+**Screenshot de video:**
+
+<p align="center">
+  <img src="assets/images/interviews/artista-validation-3.png" alt="Commits" width="800">
+</p>
+
+**Resumen**: En esta entrevista, Zaleth Feijóo, conocida artísticamente como Ithli, comentó que la aplicación le resulta funcional para revisar sus próximos eventos y gestionar su perfil como artista. Sin embargo, señaló que las tarjetas de conciertos presentan poca jerarquía visual, lo que le dificulta identificar de inmediato información clave como fecha, venue o tipo de presentación. Mencionó que esto la obliga a detenerse más de lo necesario para confirmar detalles importantes, especialmente cuando revisa varios eventos en secuencia. Aunque pudo navegar por la plataforma sin problemas, consideró que una estructura visual más clara ayudaría tanto a artistas como a usuarios a comprender mejor cada concierto de un solo vistazo.
+
+**URL de entrevistas**: ` `
+
+### 6.3.3. Evaluaciones según heurísticas
+
+### Anexo E. Formato para Evaluación de User Experience según Heurísticas
+
+**UX Heuristics & Principles Evaluation**
+**Usability – Inclusive Design – Information Architecture**
+
+**CARRERA**: Ingeniería de Software
+**CURSO**: 1ASI0732 – Diseño de Experimentos de Ingeniería de Software
+**SECCIÓN**: 12316
+**PROFESORES**: Julio Manuel Noriega Melendez
+**AUDITOR**: StayBits
+**CLIENTE(S)**: Artistas participantes en la sesión de validación
+
+**SITE o APP A EVALUAR:** GigMap
+
+El alcance de esta evaluación incluye la revisión de la usabilidad, accesibilidad y arquitectura de información de los siguientes User Flows implementados en la aplicación móvil.
+
+**TAREAS A EVALUAR: SEGMENTO OBJETIVO FANS**
+
+- Landing page intuitiva y funcional
+- Registro e Inicio de Sesión
+- Visualización y Marcado de Asistencia a un Concierto
+- Unión a una Comunidad
+- Creación de una Comunidad
+- Visualizar Perfil de Otro Usuario desde un Concierto
+- Visualizar Información de un Concierto desde el Mapa
+- Crear Evento Relacionado a un Concierto
+- Editar Perfil de Usuario
+- Acceso a Notificaciones
+
+**TAREAS A EVALUAR: SEGMENTO OBJETIVO ARTISTAS**
+
+- Landing page intuitiva y funcional
+- Registro e Inicio de Sesión
+- Visualización y Marcado de Asistencia a un Concierto
+- Unión a una Comunidad
+- Creación de una Comunidad
+- Creación de concierto
+- Visualizar Perfil de Otro Usuario desde un Concierto
+- Visualizar Información de un Concierto desde el Mapa
+- Editar Perfil de Usuario
+- Acceso a Notificaciones
+
+**ESCALA DE SEVERIDAD:**
+
+| **Nivel** | **Descripción**                                                                                                                    |
+| --------- | ---------------------------------------------------------------------------------------------------------------------------------- |
+| **1**     | Problema superficial: Puede ser fácilmente superado por el usuario y ocurre con poca frecuencia. No requiere corrección inmediata. |
+| **2**     | Problema menor: Puede ocurrir ocasionalmente y requerir atención en futuras versiones.                                             |
+| **3**     | Problema mayor: Afecta la experiencia de manera frecuente o significativa. Debe corregirse antes del lanzamiento.                  |
+| **4**     | Problema muy grave: Impide la continuidad del flujo de uso. Debe solucionarse de manera inmediata.                                 |
+
+**TABLA RESUMEN:**
+
+| #   | **Problema**                                                                                           | **Escala de severidad** | **Heurística / Principio violado(a)**          |
+| --- | ------------------------------------------------------------------------------------------------------ | ----------------------- | ---------------------------------------------- |
+| 1   | Las tarjetas de conciertos no muestran la capacidad total del venue, dificultando evaluar la magnitud. | 2                       | Information Architecture – Is it complete?     |
+| 3   | La pantalla de Perfil carece de indicadores visuales que diferencien claramente posts con “like”.      | 2                       | Usability – Visibilidad del estado del sistema |
+| 3   | No hay una guía inicial para nuevos usuarios al ingresar por primera vez.                              | 1                       | Usability: Reconocimiento mejor que recuerdo   |
+| 4   | Las tarjetas de conciertos muestran poca jerarquía visual, dificultando escanear información clave.    | 2                       | Information Architecture: Is it usable?        |
+| 6   | No existe una sección que explique las políticas de privacidad o manejo de datos dentro de la app.     | 1                       | Usability: Ayuda y documentación               |
+
+**PROBLEMA #1: Las tarjetas de conciertos no muestran la capacidad total del venue**
+
+**Severidad**: 2  
+**Heurística violada:** Arquitectura de Información – Is it complete?
+
+**Problema**:  
+Durante la validación con fans, varios usuarios mencionaron que no podían identificar la magnitud del evento porque las tarjetas de conciertos no muestran la capacidad total del venue ni una referencia visual del tamaño del concierto. Esta ausencia de información limita la percepción del tipo de experiencia que pueden esperar (intima, mediana, masiva) y afecta la toma de decisiones al seleccionar conciertos a los que podrían asistir.
+
+**Recomendación**:  
+Incorporar en las tarjetas un indicador de capacidad del venue, por ejemplo: “Capacidad: 5,000 personas” o una barra visual que represente el aforo. Esto ayudaría a los fans a evaluar mejor el tipo de evento y aportaría claridad al momento de comparar conciertos.
+
+---
+
+**PROBLEMA #2: La pantalla de Perfil no diferencia claramente los posts con “like”**
+
+**Severidad**: 2  
+**Heurística violada:** Usabilidad – Visibilidad del estado del sistema
+
+**Problema**:  
+Los usuarios indicaron que, al visualizar posts dentro del perfil, no existe un indicador claro para distinguir cuáles publicaciones ya han recibido “like”. Esto genera confusión y los usuarios intentan presionar repetidamente el mismo elemento, sin percibir si su acción tuvo efecto. La falta de contraste visual hace difícil identificar rápidamente el estado de interacción.
+
+**Recomendación**:  
+Añadir un ícono resaltado, cambio de color, pequeño contador o animación ligera cada vez que un post recibe un “like”. Estas mejoras proporcionarían claridad inmediata sobre la acción del usuario y reforzarían la satisfacción dentro de la experiencia social de la aplicación.
+
+---
+
+**PROBLEMA #3: Falta de guía o tutorial inicial (onboarding)**
+
+**Severidad**: 1  
+**Heurística violada:** Usabilidad – Reconocimiento mejor que recuerdo
+
+**Problema**:  
+Los nuevos usuarios, especialmente fans que no están familiarizados con apps sociales de conciertos, expresaron que la aplicación no muestra ninguna guía inicial para explicar funciones esenciales como marcar asistencia o unirse a comunidades. Esto genera una curva de aprendizaje innecesariamente alta, ya que deben descubrir las funcionalidades por sí mismos a través de ensayo y error.
+
+**Recomendación**:  
+Implementar un onboarding breve que muestre pop-ups o pantallas introductorias explicando las funciones principales. También se recomienda añadir una sección de ayuda en el menú para que los usuarios puedan revisarla nuevamente cuando lo necesiten. Esto facilita la adopción temprana y mejora significativamente la primera impresión.
+
+---
+
+**PROBLEMA #4: Poca jerarquía visual en las tarjetas de conciertos**
+
+**Severidad**: 2  
+**Heurística violada:** Arquitectura de Información – Is it usable?
+
+**Problema**:  
+Los fans mencionaron dificultad para escanear rápidamente información clave en las tarjetas de conciertos, ya que los elementos principales —como fecha, nombre del concierto, venue y asistentes— no están claramente jerarquizados. Toda la información aparece visualmente similar, lo que afecta la velocidad de lectura y genera sobrecarga cognitiva.
+
+**Recomendación**:  
+Aplicar jerarquía visual mediante variación de tamaños de texto, pesos tipográficos, colores secundarios y agrupación de información en bloques. Priorizar información primaria (fecha, nombre del concierto y venue) de forma más destacada mejoraría la rápida comprensión del contenido.
+
+---
+
+**PROBLEMA #6: Ausencia de una sección de políticas de privacidad y manejo de datos**
+
+**Severidad:** 1
+**Heurística violada:** Usabilidad – Ayuda y documentación
+
+**Problema:**
+La aplicación no cuenta con una sección visible o accesible que explique cómo se manejan los datos personales de los usuarios, incluyendo información sensible como ubicación, preferencias musicales o interacciones dentro de la plataforma. Esta falta de transparencia puede generar desconfianza, especialmente en usuarios nuevos que desean comprender cómo se usa su información dentro de la app.
+
+**Recomendación:**
+Agregar una sección dedicada a las políticas de privacidad dentro del menú principal o en la configuración del perfil. Esta sección debe explicar de manera clara y sencilla qué datos se recopilan, para qué se utilizan y cómo se protegen. Incluir enlaces a documentos legales completos y resúmenes en lenguaje simple ayuda a mejorar la confianza del usuario y garantiza mayor cumplimiento con estándares de buenas prácticas.
+
+# CAPITULO VII: DevOps Practices
 
 ## 7.1. Continuous Integration
 
