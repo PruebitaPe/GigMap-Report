@@ -5904,6 +5904,65 @@ El objetivo del Continuous Deployment en GigMap es automatizar el flujo de entre
 
 - **Validación funcional:** Se abre la aplicación en el dispositivo y se verifica que las funcionalidades principales operen correctamente, incluyendo la comunicación con el backend en Render y la recepción de notificaciones a través de Firebase.
 
+# CAPÍTULO VIII: Experiment-Driven Development
+
+## 8.1. Experiment Planning
+### 8.1.1. As-Is Summary
+
+Actualmente GigMap busca conectar fanáticos de la música con eventos en vivo mediante geolocalización, permitiendo descubrir conciertos, seguir artistas y registrar asistencia a eventos musicales.
+
+A partir de las entrevistas realizadas y del análisis del problema se identificó que los usuarios suelen utilizar múltiples fuentes para informarse sobre conciertos y eventos musicales. Asimismo, los artistas emergentes enfrentan dificultades para obtener visibilidad frente a artistas más conocidos.
+
+Aunque existe evidencia de que los usuarios tienen interés en descubrir nuevos eventos y artistas, aún no se comprende completamente qué factores influyen en su decisión de asistir a un concierto ni qué funcionalidades aportarían mayor valor dentro de la plataforma.
+
+Por ello, consideramos necesario cuestionarnos sobre las razones y obstáculos que llevan a los usuarios a decidir si asistir o no a un evento, además de cómo se relacionan los fanáticos y los artistas dentro de la plataforma. También nos preguntamos qué funciones serían más útiles para los usuarios, qué podría motivarlos a participar más activamente y cómo la plataforma podría ayudar a que los artistas emergentes ganen más visibilidad.
+
+### 8.1.2. Raw Material: Assumptions, Knowledge Gaps, Ideas, Claims
+
+
+**Assumptions:**
+
+- Creemos que los fanáticos de la música tienen dificultades para descubrir conciertos y eventos cercanos a su ubicación.
+- Creemos que los usuarios estarían interesados en utilizar una única plataforma para encontrar información sobre eventos musicales en lugar de consultar múltiples redes sociales y páginas web.
+- Creemos que los artistas emergentes necesitan herramientas digitales que les permitan aumentar su visibilidad frente a potenciales seguidores.
+- Creemos que la posibilidad de seguir artistas dentro de la aplicación ayudaría a fortalecer la conexión entre artistas y fanáticos.
+- Creemos que la geolocalización facilita el descubrimiento de eventos musicales relevantes para cada usuario.
+- Creemos que la integración de foros podría ayudar a los usuarios a crear comunidades en torno a artistas y eventos, fomentando la interacción entre fanáticos con gustos musicales similares. 
+
+**Knowledge Gaps:**
+
+- No sabemos cuáles son los medios más utilizados actualmente por los usuarios para descubrir conciertos y eventos musicales.
+- No conocemos qué información consideran más importante los usuarios antes de decidir asistir a un evento.
+- No sabemos qué factores influyen más en la decisión de seguir a un artista dentro de una plataforma digital.
+- No conocemos qué tan útil perciben los usuarios la geolocalización para descubrir nuevos eventos.
+- No sabemos cuáles son las principales dificultades que enfrentan los artistas emergentes al promocionar sus eventos.
+- No sabemos si los usuarios utilizaran de manera correcta los foros relacionados a la música.
+  
+**Ideas:**
+
+- Utilizar mapas interactivos para mostrar eventos musicales cercanos.
+- Incorporar mecanismos para que los usuarios puedan seguir a sus artistas favoritos.
+- Mostrar información actualizada sobre conciertos y giras.
+- Permitir que los usuarios registren su asistencia a eventos musicales.
+- Facilitar espacios de interacción entre artistas y fanáticos.
+- Crear foros o espacios de discusión donde los fanáticos puedan compartir opiniones, recomendaciones y experiencias sobre eventos y artistas.
+
+**Claims:**
+
+- Los usuarios tienen dificultades para encontrar información centralizada sobre eventos musicales.
+- La visibilidad digital es un factor importante para el crecimiento de artistas emergentes.
+- La geolocalización puede mejorar el descubrimiento de conciertos y presentaciones en vivo.
+- Una mayor interacción entre artistas y fanáticos fortalece la comunidad musical.
+- La tecnología puede facilitar el acceso a experiencias musicales presenciales.
+- La existencia de espacios de interacción comunitaria, como foros, puede aumentar el tiempo que los usuarios permanecen dentro de la plataforma.
+
+### 8.1.3. Experiment-Ready Questions
+
+### 8.1.4. Question Backlog
+
+### 8.1.5. Experiment Cards
+
+
 # Conclusiones
 
 El desarrollo del proyecto GigMap permitió evidenciar una problemática real en la forma en que los usuarios acceden a conciertos en vivo, especialmente aquellos de menor escala. Se identificó que la falta de información centralizada y en tiempo real limita el descubrimiento de eventos y reduce la participación del público. Esto demuestra la necesidad de soluciones tecnológicas enfocadas en la inmediatez y personalización.
