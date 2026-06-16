@@ -5486,13 +5486,86 @@ Esta sección detalla las pruebas unitarias aplicadas a las entidades fundamenta
 
 ## 6.2. Static testing & Verification
 
+Esta sección se centra en los métodos de prueba estática y verificación aplicados al desarrollo de GigMap, con el propósito de asegurar que el software cumpla con estándares de calidad, mantenibilidad y seguridad antes de su ejecución. Al tratarse de una aplicación móvil orientada al descubrimiento de conciertos, geolocalización, registro de eventos y notificaciones personalizadas, resulta importante identificar posibles defectos en etapas tempranas del ciclo de desarrollo.
+
+Las pruebas estáticas permiten revisar el código fuente sin necesidad de ejecutarlo, mediante herramientas automatizadas y revisiones manuales. Este enfoque ayuda a detectar malas prácticas de programación, código duplicado, vulnerabilidades de seguridad, errores de formato y oportunidades de mejora. De esta manera, el equipo reduce el costo de corrección de errores en etapas posteriores y mantiene una base de código más estable para las funcionalidades principales de GigMap.
+
 ### 6.2.1. Static Code Analysis
+
+El análisis estático de código se utiliza en StayBits para evaluar la calidad del código fuente del frontend móvil, backend y servicios relacionados con GigMap. Este proceso permite revisar la estructura del proyecto, el cumplimiento de convenciones, el manejo de errores, la seguridad de los datos y la correcta separación de responsabilidades.
+
+Para este análisis se consideran herramientas como SonarLint, ESLint, Prettier y las funcionalidades propias del IDE utilizado por el equipo. Estas herramientas permiten detectar problemas en tiempo real, tales como variables no utilizadas, funciones demasiado extensas, imports innecesarios, errores de tipado, posibles vulnerabilidades y código que no sigue las convenciones definidas por el equipo.
 
 #### 6.2.1.1. Coding standard & Code conventions
 
+Las normas de codificación y convenciones utilizadas en GigMap tienen como objetivo garantizar la legibilidad, mantenibilidad y consistencia del código fuente. Para ello, el equipo adopta los siguientes principios:
+
+**Clean Code:**
+
+Se utilizan nombres claros y descriptivos para variables, métodos, clases y componentes, permitiendo una mejor comprensión del sistema y facilitando el mantenimiento del código a largo plazo. Asimismo, las funciones se diseñan con una única responsabilidad, evitando la duplicación de código y promoviendo la reutilización de componentes. También se busca eliminar código muerto, dependencias innecesarias y comentarios redundantes para mantener una base de código limpia y fácil de mantener.
+
+**Domain-Driven Design (DDD):**
+
+La arquitectura del proyecto se basa en conceptos alineados al dominio del negocio de GigMap. Se emplea un lenguaje ubicuo que representa entidades como usuarios, artistas, conciertos, comunidades y notificaciones, permitiendo una comunicación más clara entre los miembros del equipo. Además, la lógica de negocio se organiza mediante entidades, servicios y repositorios, favoreciendo una estructura desacoplada, escalable y alineada con los objetivos de la solución.
+
 #### 6.2.1.2. Code Quality & Code Security
 
+La calidad y seguridad del código son elementos esenciales para GigMap, ya que la aplicación trabaja con información de usuarios, preferencias musicales, ubicación, conciertos guardados, publicaciones y notificaciones. Por ello, el equipo considera buenas prácticas para reducir errores y proteger la información manejada por el sistema.
+
+**Calidad del Código:**
+
+La calidad del código se evalúa mediante métricas como legibilidad, duplicación, complejidad ciclomática, cobertura de pruebas y cumplimiento de convenciones. Para ello, se utilizan herramientas como SonarLint y SonarQube, las cuales permiten identificar code smells, errores potenciales y malas prácticas. Además, herramientas como ESLint y Prettier ayudan a mantener un formato uniforme en el código, reduciendo diferencias innecesarias entre los aportes de cada integrante.
+
+**Seguridad del Código:**
+
+En cuanto a seguridad, se revisa que el sistema valide correctamente las entradas del usuario, especialmente en funcionalidades como inicio de sesión, registro, creación de eventos, comentarios, publicaciones y búsqueda de conciertos. También se busca evitar vulnerabilidades comunes como exposición de datos sensibles, manejo inseguro de tokens o almacenamiento incorrecto de credenciales.
+
+Asimismo, las claves de servicios externos, tokens de autenticación y credenciales de base de datos no deben colocarse directamente en el código fuente. Estos valores deben gestionarse mediante variables de entorno o archivos de configuración excluidos del repositorio. Esto permite reducir riesgos de exposición de información sensible durante el desarrollo y despliegue.
+
+El uso de SonarLint durante el desarrollo permite detectar problemas en tiempo real dentro del IDE. De esta manera, los integrantes pueden corregir advertencias antes de crear un Pull Request, fomentando una cultura de calidad continua y evitando que errores simples lleguen a etapas de revisión o despliegue.
+
 ### 6.2.2. Reviews
+
+Las revisiones de código son parte fundamental del proceso de verificación de StayBits, ya que permiten asegurar que las funcionalidades de GigMap sean desarrolladas de manera correcta, segura y alineada con los estándares definidos por el equipo. Estas revisiones combinan validación manual por parte de los integrantes y validación automática mediante herramientas de análisis.
+
+#### Tipos de Revisiones
+
+**Revisión de Código por Pares:**
+
+Un integrante del equipo revisa el código desarrollado por otro miembro antes de fusionarlo a la rama principal. Esta revisión permite verificar que el código sea entendible, siga las convenciones del proyecto y no afecte funcionalidades existentes.
+
+**Revisión Funcional:**
+
+Se revisa que la funcionalidad implementada responda correctamente a la historia de usuario correspondiente. Por ejemplo, si se desarrolla una función de notificaciones de conciertos cercanos, se valida que esta cumpla con el flujo esperado para fans y artistas.
+
+**Revisión Automática:**
+
+Se utilizan herramientas como SonarLint, ESLint y Prettier para detectar problemas de calidad, formato, duplicación o posibles errores antes de aprobar los cambios.
+
+#### Proceso de Revisión
+
+1. El desarrollador crea un Pull Request con una descripción clara de los cambios realizados.
+2. Se verifica que el código compile correctamente y no genere errores.
+3. Se revisa que el código cumpla con las convenciones definidas por el equipo.
+4. Se valida que la funcionalidad esté relacionada con la historia de usuario o tarea asignada.
+5. Se comprueba que no existan credenciales, tokens o información sensible expuesta.
+6. El revisor deja comentarios o sugerencias cuando encuentra problemas.
+7. El desarrollador corrige las observaciones antes de solicitar una nueva revisión.
+8. El Pull Request es aprobado y fusionado cuando cumple con los criterios establecidos.
+
+#### Criterios de Aceptación
+
+- El código debe ser claro, ordenado y fácil de mantener.
+- No debe introducir errores en funcionalidades existentes.
+- Debe cumplir con las convenciones de nombres y estructura del proyecto.
+- No debe contener credenciales, claves o datos sensibles.
+- Debe manejar errores de forma adecuada.
+- Debe estar alineado con la historia de usuario correspondiente.
+- Debe pasar las validaciones automáticas definidas por el equipo.
+
+#### Frecuencia de Revisiones
+
+Las revisiones se realizan cada vez que un integrante crea un Pull Request y, adicionalmente, al cierre de cada sprint. Esto permite evitar acumulación de errores, mantener una base de código limpia y asegurar que el avance del proyecto sea estable y coherente con los objetivos de GigMap.
 
 ## 6.3. Validation Interviews
 
@@ -5906,6 +5979,69 @@ El objetivo del Continuous Deployment en GigMap es automatizar el flujo de entre
 
 # CAPÍTULO VIII: Experiment-Driven Development
 
+## 7.4. Continuous Monitoring
+
+El monitoreo continuo permite supervisar de manera constante el estado, rendimiento y disponibilidad de los componentes principales de GigMap. Esta práctica resulta importante para StayBits, ya que la aplicación depende de funcionalidades como la búsqueda de conciertos, geolocalización, perfiles de usuario, publicaciones, comunidades y notificaciones.
+
+A través del monitoreo continuo, el equipo puede identificar errores, tiempos de respuesta elevados, fallos en servicios o problemas de disponibilidad antes de que afecten directamente a los usuarios finales. Además, esta práctica contribuye a mantener una experiencia estable y confiable dentro de la aplicación, permitiendo tomar acciones correctivas de manera oportuna.
+
+### 7.4.1. Tools and Practices
+
+Algunas herramientas y prácticas que se emplearán para llevar a cabo un monitoreo continuo y eficaz en nuestra aplicación son las siguientes:
+
+- **Pruebas de Carga y Estrés:**
+
+  JMeter permite simular cargas de usuarios y condiciones extremas, asegurando que la aplicación mantenga un rendimiento adecuado bajo escenarios de alta demanda. Esto resulta útil para validar el comportamiento de GigMap cuando varios usuarios consultan conciertos cercanos, acceden a mapas, revisan publicaciones o reciben notificaciones al mismo tiempo.
+
+- **Monitoreo de Experiencia del Usuario:**
+
+  Para entender la interacción y experiencia de los usuarios dentro de GigMap, herramientas como Google Analytics permiten recopilar datos relacionados con navegación, eventos de uso, pantallas más visitadas y comportamiento general de los usuarios. Esta información ayuda al equipo a mejorar la usabilidad de la aplicación, identificar secciones poco utilizadas y optimizar la experiencia de fans y artistas.
+
+- **Supervisión de APIs:**
+
+  Monitorear la disponibilidad y tiempos de respuesta de las APIs internas es esencial para asegurar el correcto funcionamiento de los servicios de GigMap. Herramientas como Postman y Pingdom permiten verificar periódicamente endpoints relacionados con autenticación, conciertos, usuarios, comunidades, publicaciones y notificaciones. De esta manera, el equipo puede detectar errores o caídas en los servicios antes de que afecten a los usuarios.
+
+- **Auditorías de Calidad Web:**
+
+  Google Lighthouse y Catchpoint permiten auditar la calidad y rendimiento de las aplicaciones web o landing page del proyecto. Lighthouse analiza aspectos como accesibilidad, buenas prácticas, SEO y rendimiento, mientras que Catchpoint permite realizar pruebas desde diferentes ubicaciones y dispositivos. Estas herramientas ayudan a garantizar una experiencia uniforme y eficiente para los usuarios que acceden a la información de GigMap desde distintos entornos.
+
+### 7.4.2. Monitoring Pipeline Components
+
+Un pipeline de monitoreo constante integra diversas etapas que permiten mantener la calidad, disponibilidad y rendimiento de una aplicación. Estas etapas incluyen la recopilación de datos, almacenamiento, análisis y visualización de métricas relevantes.
+
+En el caso de GigMap, el monitoreo se enfoca en los componentes principales de la solución, tales como la aplicación móvil, la landing page, los servicios backend, la base de datos y las APIs. Esto permite observar el comportamiento del sistema de manera integral y detectar posibles problemas durante su operación.
+
+Google Lighthouse cumple un papel importante en la evaluación de la calidad web, ya que proporciona auditorías relacionadas con rendimiento, accesibilidad, SEO y buenas prácticas. Esta herramienta permite identificar problemas que puedan afectar la experiencia del usuario, como tiempos de carga elevados, elementos no optimizados o errores de accesibilidad.
+
+Catchpoint complementa este proceso al permitir monitorear la experiencia digital desde diferentes ubicaciones, dispositivos y condiciones de red. Esto ayuda a evaluar métricas como latencia, tiempo de respuesta, disponibilidad y rendimiento general de la plataforma.
+
+Asimismo, herramientas como Postman y Pingdom permiten supervisar endpoints críticos del backend, verificando que los servicios respondan correctamente. Esto resulta importante para funcionalidades como el inicio de sesión, búsqueda de conciertos, gestión de usuarios, creación de publicaciones y envío de notificaciones.
+
+### 7.4.3. Alerting Pipeline Components
+
+El componente de alertas dentro del pipeline de monitoreo es fundamental para detectar y responder rápidamente ante problemas de rendimiento, disponibilidad o calidad del sistema. Su objetivo es notificar al equipo cuando se presenta una anomalía que requiere atención inmediata.
+
+Para implementar un sistema de alertas eficaz, se consideran herramientas como Prometheus con Alertmanager y Grafana:
+
+- **Prometheus con Alertmanager:**
+
+  Prometheus permite recopilar y almacenar métricas en tiempo real sobre el estado de los servicios. A partir de estas métricas, se pueden definir umbrales relacionados con disponibilidad, uso de recursos, latencia o tiempos de respuesta. Cuando alguno de estos límites es superado, Prometheus genera una alerta que es gestionada por Alertmanager.
+
+  Alertmanager permite organizar, agrupar y distribuir las alertas hacia los canales correspondientes. De esta forma, el equipo puede recibir notificaciones sobre problemas críticos, como caídas del backend, errores en APIs, consumo elevado de recursos o fallos de conectividad con la base de datos.
+
+- **Grafana:**
+
+  Grafana permite visualizar métricas mediante paneles personalizados y configurar alertas visuales en función de eventos críticos o comportamientos anómalos. Su integración con Prometheus facilita la supervisión del estado general de la aplicación y permite al equipo interpretar rápidamente los datos obtenidos.
+
+La integración de Prometheus, Alertmanager y Grafana permite que el equipo de StayBits reciba alertas en tiempo real, facilitando una respuesta proactiva ante incidentes. Esto contribuye a reducir tiempos de inactividad, mejorar la estabilidad del sistema y proteger la experiencia de los usuarios de GigMap.
+
+### 7.4.4. Notification Pipeline Components
+
+El pipeline de notificaciones permite comunicar automáticamente al equipo el estado de los procesos de integración continua ejecutados durante el desarrollo de GigMap. Su objetivo es informar de manera rápida sobre errores, fallos o ejecuciones exitosas dentro del flujo de trabajo.
+
+Para ello, se utiliza GitHub Actions como mecanismo principal de notificación. Cada vez que se ejecuta un pipeline, GitHub Actions registra el resultado de las tareas realizadas, incluyendo compilación, pruebas y despliegues. En caso de que alguna etapa falle, el sistema muestra información detallada del error dentro del repositorio, permitiendo que los integrantes del equipo identifiquen y solucionen el problema oportunamente.
+
+Asimismo, GitHub Actions proporciona un historial completo de ejecuciones, facilitando el seguimiento de incidentes y la validación de los cambios realizados durante cada sprint. De esta manera, el pipeline de notificaciones contribuye a mantener la estabilidad y calidad de la aplicación, permitiendo una respuesta rápida ante posibles fallos.
 ## 8.1. Experiment Planning
 ### 8.1.1. As-Is Summary
 
