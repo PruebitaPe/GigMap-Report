@@ -6110,6 +6110,113 @@ El siguiente conjunto de tarjetas representa el artefacto clave del proceso XDPD
 | **Condiciones** | Eventos con información completa publicada dentro de la plataforma. |
 | **Escala** | Evaluación durante 3 semanas comparando eventos con información completa versus eventos con información incompleta. |
 
+## 8.2. Experiment Design
+
+### 8.2.1. Hypotheses
+
+#### Hypothesis
+
+|  | Hypothesis |
+|---------|---------|
+| **Question** | ¿La geolocalización ayuda a los usuarios a descubrir eventos musicales que de otro modo no conocerían? |
+| **Belief** | La geolocalización facilita que los usuarios encuentren conciertos y eventos cercanos a su ubicación, permitiendo descubrir oportunidades musicales relevantes que podrían pasar desapercibidas utilizando otros medios. |
+| **Hypothesis** | La implementación de geolocalización aumentará en un 30% la cantidad de eventos descubiertos por los usuarios. |
+| **Null Hypothesis** | La implementación de geolocalización no tendrá un efecto significativo en la cantidad de eventos descubiertos por los usuarios. |
+
+|  | Hypothesis |
+|---------|---------|
+| **Question** | ¿Seguir artistas dentro de la aplicación incrementa la frecuencia con la que los usuarios visitan la plataforma? |
+| **Belief** | Los usuarios tienen interés en mantenerse actualizados sobre las actividades y eventos de sus artistas favoritos, por lo que la posibilidad de seguirlos incentivará visitas recurrentes a la plataforma. |
+| **Hypothesis** | La funcionalidad de seguir artistas incrementará en un 25% la frecuencia semanal de visitas de los usuarios. |
+| **Null Hypothesis** | La funcionalidad de seguir artistas no afectará significativamente la frecuencia de visitas de los usuarios. |
+
+|  | Hypothesis |
+|---------|---------|
+| **Question** | ¿La información mostrada sobre los eventos es suficiente para que los usuarios decidan asistir? |
+| **Belief** | Proporcionar información completa y relevante sobre los eventos permitirá a los usuarios tomar decisiones de asistencia con mayor confianza y reducirá la incertidumbre antes de asistir. |
+| **Hypothesis** | La presentación de información detallada sobre los eventos aumentará en un 20% la tasa de registro de asistencia de los usuarios. |
+| **Null Hypothesis** | La cantidad de información mostrada sobre los eventos no afectará significativamente la decisión de asistencia de los usuarios. |
+
+|  | Hypothesis |
+|---------|---------|
+| **Question** | ¿Registrar la asistencia a conciertos dentro de la app genera mayor interacción entre los usuarios de la comunidad? |
+| **Belief** | La posibilidad de registrar asistencia fomentará el sentido de comunidad entre los fanáticos y promoverá la interacción entre usuarios con gustos musicales similares. |
+| **Hypothesis** | La implementación de la funcionalidad de registro de asistencia aumentará en un 20% la interacción entre los usuarios de la comunidad. |
+| **Null Hypothesis** | La funcionalidad de registro de asistencia no tendrá un impacto significativo en la interacción entre usuarios. |
+
+|  | Hypothesis |
+|---------|---------|
+| **Question** | ¿La visibilidad ofrecida por GigMap permite a los artistas emergentes llegar a nuevos seguidores? |
+| **Belief** | Las herramientas de promoción y visibilidad dentro de GigMap ayudarán a que los artistas emergentes alcancen audiencias más amplias y aumenten su base de seguidores dentro de la plataforma. |
+| **Hypothesis** | La implementación de perfiles optimizados y mecanismos de promoción para artistas emergentes incrementará en un 25% la cantidad de nuevos seguidores obtenidos durante las primeras cuatro semanas. |
+| **Null Hypothesis** | La implementación de perfiles optimizados y mecanismos de promoción para artistas emergentes no tendrá un impacto significativo en la cantidad de seguidores obtenidos. |
+
+|  | Hypothesis |
+|---------|---------|
+| **Question** | ¿La integración de foros temáticos fomenta una participación más activa y continua de los usuarios dentro de la plataforma? |
+| **Belief** | Los foros temáticos permitirán a los usuarios compartir opiniones, experiencias y recomendaciones sobre artistas y eventos, fortaleciendo la comunidad musical dentro de GigMap. |
+| **Hypothesis** | La implementación de foros temáticos aumentará en un 30% la participación de los usuarios dentro de la plataforma, medida mediante publicaciones, comentarios e interacciones. |
+| **Null Hypothesis** | La integración de foros temáticos no tendrá un efecto significativo en la participación de los usuarios. |
+
+### 8.2.3. Measures
+
+| Question | ¿La geolocalización ayuda a los usuarios a descubrir eventos musicales que de otro modo no conocerían? |
+|-----------|-----------|
+| Measure | Medir la cantidad de eventos visualizados y descubiertos por usuarios con la geolocalización activada, comparándola con usuarios que no utilizan esta funcionalidad. Esto permitirá determinar si la geolocalización facilita el descubrimiento de eventos musicales relevantes para los usuarios. |
+
+| Question | ¿Seguir artistas dentro de la aplicación incrementa la frecuencia con la que los usuarios visitan la plataforma? |
+|-----------|-----------|
+| Measure | Analizar la frecuencia semanal de visitas de los usuarios que siguen artistas y compararla con la de aquellos que no utilizan esta funcionalidad. Esto permitirá evaluar si seguir artistas incentiva a los usuarios a regresar con mayor frecuencia a la plataforma. |
+
+| Question | ¿La información mostrada sobre los eventos es suficiente para que los usuarios decidan asistir? |
+|-----------|-----------|
+| Measure | Medir la tasa de conversión entre usuarios que visualizan un evento y posteriormente registran su asistencia. Comparar eventos con información completa e incompleta permitirá evaluar la influencia de la información disponible en la decisión de asistencia. |
+
+| Question | ¿Registrar la asistencia a conciertos dentro de la app genera mayor interacción entre los usuarios de la comunidad? |
+|-----------|-----------|
+| Measure | Evaluar la cantidad de registros de asistencia, comentarios, reacciones e interacciones generadas a partir de los eventos marcados como asistidos. Esto permitirá determinar si la funcionalidad fomenta una mayor participación dentro de la comunidad. |
+
+| Question | ¿La visibilidad ofrecida por GigMap permite a los artistas emergentes llegar a nuevos seguidores? |
+|-----------|-----------|
+| Measure | Medir la cantidad de nuevos seguidores obtenidos por artistas emergentes antes y después de implementar herramientas de visibilidad dentro de la plataforma. Comparar estos resultados permitirá evaluar el impacto de GigMap en el crecimiento de la audiencia de los artistas. |
+
+| Question | ¿La integración de foros temáticos fomenta una participación más activa y continua de los usuarios dentro de la plataforma? |
+|-----------|-----------|
+| Measure | Analizar la cantidad de publicaciones, comentarios y usuarios activos dentro de los foros antes y después de su implementación. Esto permitirá evaluar si los foros contribuyen al fortalecimiento de la comunidad y al incremento de la participación de los usuarios. |
+
+### 8.2.4. Conditions
+
+| Question | ¿La geolocalización ayuda a los usuarios a descubrir eventos musicales que de otro modo no conocerían? |
+|-----------|-----------|
+| Condición Experimental | La cantidad de eventos descubiertos por los usuarios aumentará en un 30% tras la implementación de la geolocalización, medido mediante el número de eventos visualizados y descubiertos por usuarios con la ubicación activada. |
+| Condición de Control | No habrá un aumento significativo en la cantidad de eventos descubiertos por los usuarios tras la implementación de la geolocalización. |
+
+| Question | ¿Seguir artistas dentro de la aplicación incrementa la frecuencia con la que los usuarios visitan la plataforma? |
+|-----------|-----------|
+| Condición Experimental | La frecuencia semanal de visitas aumentará en un 25% después de implementar la funcionalidad de seguir artistas, medida mediante el número promedio de visitas realizadas por los usuarios. |
+| Condición de Control | No habrá un aumento significativo en la frecuencia semanal de visitas de los usuarios tras implementar la funcionalidad de seguir artistas. |
+
+| Question | ¿La información mostrada sobre los eventos es suficiente para que los usuarios decidan asistir? |
+|-----------|-----------|
+| Condición Experimental | La tasa de registro de asistencia aumentará en un 20% cuando los eventos incluyan información completa y detallada, medida a través de la conversión entre visualizaciones y registros de asistencia. |
+| Condición de Control | No habrá un aumento significativo en la tasa de registro de asistencia entre eventos con información completa e información limitada. |
+
+| Question | ¿Registrar la asistencia a conciertos dentro de la app genera mayor interacción entre los usuarios de la comunidad? |
+|-----------|-----------|
+| Condición Experimental | La interacción entre usuarios aumentará en un 20% después de implementar la funcionalidad de registro de asistencia, medida mediante comentarios, reacciones y actividades relacionadas con los eventos. |
+| Condición de Control | No habrá un aumento significativo en la interacción entre usuarios tras implementar la funcionalidad de registro de asistencia. |
+
+| Question | ¿La visibilidad ofrecida por GigMap permite a los artistas emergentes llegar a nuevos seguidores? |
+|-----------|-----------|
+| Condición Experimental | La cantidad de seguidores de artistas emergentes aumentará en un 25% después de implementar herramientas de visibilidad dentro de GigMap, medida mediante el número de nuevos seguidores obtenidos durante las primeras cuatro semanas. |
+| Condición de Control | No habrá un aumento significativo en la cantidad de seguidores obtenidos por los artistas emergentes tras la implementación de estas herramientas. |
+
+| Question | ¿La integración de foros temáticos fomenta una participación más activa y continua de los usuarios dentro de la plataforma? |
+|-----------|-----------|
+| Condición Experimental | La participación de los usuarios aumentará en un 30% después de implementar los foros temáticos, medida mediante la cantidad de publicaciones, comentarios e interacciones realizadas dentro de los foros. |
+| Condición de Control | No habrá un aumento significativo en la participación de los usuarios tras la implementación de los foros temáticos. |
+
+
 # Conclusiones
 
 El desarrollo del proyecto GigMap permitió evidenciar una problemática real en la forma en que los usuarios acceden a conciertos en vivo, especialmente aquellos de menor escala. Se identificó que la falta de información centralizada y en tiempo real limita el descubrimiento de eventos y reduce la participación del público. Esto demuestra la necesidad de soluciones tecnológicas enfocadas en la inmediatez y personalización.
