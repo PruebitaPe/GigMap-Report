@@ -6045,6 +6045,7 @@ Asimismo, GitHub Actions proporciona un historial completo de ejecuciones, facil
 
 
 ## 8.1. Experiment Planning
+
 ### 8.1.1. As-Is Summary
 
 Actualmente GigMap busca conectar fanáticos de la música con eventos en vivo mediante geolocalización, permitiendo descubrir conciertos, seguir artistas y registrar asistencia a eventos musicales.
@@ -6057,7 +6058,6 @@ Por ello, consideramos necesario cuestionarnos sobre las razones y obstáculos q
 
 ### 8.1.2. Raw Material: Assumptions, Knowledge Gaps, Ideas, Claims
 
-
 **Assumptions:**
 
 - Creemos que los fanáticos de la música tienen dificultades para descubrir conciertos y eventos cercanos a su ubicación.
@@ -6065,7 +6065,7 @@ Por ello, consideramos necesario cuestionarnos sobre las razones y obstáculos q
 - Creemos que los artistas emergentes necesitan herramientas digitales que les permitan aumentar su visibilidad frente a potenciales seguidores.
 - Creemos que la posibilidad de seguir artistas dentro de la aplicación ayudaría a fortalecer la conexión entre artistas y fanáticos.
 - Creemos que la geolocalización facilita el descubrimiento de eventos musicales relevantes para cada usuario.
-- Creemos que la integración de foros podría ayudar a los usuarios a crear comunidades en torno a artistas y eventos, fomentando la interacción entre fanáticos con gustos musicales similares. 
+- Creemos que la integración de foros podría ayudar a los usuarios a crear comunidades en torno a artistas y eventos, fomentando la interacción entre fanáticos con gustos musicales similares.
 
 **Knowledge Gaps:**
 
@@ -6075,7 +6075,7 @@ Por ello, consideramos necesario cuestionarnos sobre las razones y obstáculos q
 - No conocemos qué tan útil perciben los usuarios la geolocalización para descubrir nuevos eventos.
 - No sabemos cuáles son las principales dificultades que enfrentan los artistas emergentes al promocionar sus eventos.
 - No sabemos si los usuarios utilizaran de manera correcta los foros relacionados a la música.
-  
+
 **Ideas:**
 
 - Utilizar mapas interactivos para mostrar eventos musicales cercanos.
@@ -6095,53 +6095,53 @@ Por ello, consideramos necesario cuestionarnos sobre las razones y obstáculos q
 - La existencia de espacios de interacción comunitaria, como foros, puede aumentar el tiempo que los usuarios permanecen dentro de la plataforma.
 
 ### 8.1.3. Experiment-Ready Questions
+
 En esta sección se presentan las preguntas listas para el experimento, priorizadas mediante una matriz de puntuación que evalúa cuatro criterios del 1 al 10: la confianza, que indica qué tan respaldada está la pregunta en evidencia previa o en las entrevistas realizadas; el riesgo, que refleja la probabilidad de que su implementación genere problemas técnicos o de adopción; el impacto, que mide el efecto potencial en la experiencia del usuario y en el crecimiento de GigMap; y el interés, que considera qué tan relevante es la pregunta para los usuarios identificados. El puntaje total se obtiene sumando los cuatro criterios, priorizando aquellas preguntas que representan mayor valor para el proyecto.
 
-| Question | Confidence | Risk | Impact | Interest | Total Score |
-|----------|------------|------|--------|----------|-------------|
-| ¿La geolocalización ayuda a los usuarios a descubrir eventos musicales que de otro modo no conocerían? | 8 - Alta, es una funcionalidad central de GigMap y ampliamente utilizada en aplicaciones similares de entretenimiento. | 3 - Riesgo bajo, aunque puede verse afectada por la precisión del GPS y la disposición del usuario para compartir su ubicación. | 9 - Puede incrementar significativamente el descubrimiento de eventos cercanos y relevantes para cada usuario. | 8 - Los usuarios muestran interés en encontrar conciertos y eventos próximos a su ubicación. | 28 |
-| ¿Seguir artistas dentro de la aplicación incrementa la frecuencia con la que los usuarios visitan la plataforma? | 7 - Existe evidencia en redes sociales de que los usuarios siguen activamente a sus artistas favoritos para mantenerse informados. | 2 - Riesgo bajo, es una funcionalidad común y bien recibida en plataformas digitales similares. | 8 - Puede incrementar la retención y fidelización de los usuarios dentro de la plataforma. | 8 - Los fanáticos suelen buscar contenido actualizado de sus artistas favoritos de forma frecuente. | 25 |
-| ¿La información mostrada sobre los eventos es suficiente para que los usuarios decidan asistir? | 6 - No existe evidencia clara sobre qué datos son realmente determinantes en la decisión de asistencia. | 4 - Riesgo medio, ya que las preferencias de información varían según el tipo de usuario y evento. | 8 - Impacta directamente en la conversión de usuarios interesados en asistentes reales. | 7 - Los usuarios valoran contar con información clara, completa y actualizada antes de tomar una decisión. | 25 |
-| ¿Registrar la asistencia a conciertos dentro de la app genera mayor interacción entre los usuarios de la comunidad? | 7 - Funcionalidades similares de check-in han mostrado resultados positivos en otras plataformas de entretenimiento. | 3 - Riesgo bajo-medio, existe incertidumbre sobre si los usuarios adoptarán esta funcionalidad de forma habitual. | 8 - Puede aumentar la participación activa y el sentido de pertenencia dentro de la comunidad. | 8 - Los usuarios suelen compartir sus experiencias musicales y eventos a los que asisten. | 26 |
-| ¿La visibilidad ofrecida por GigMap permite a los artistas emergentes llegar a nuevos seguidores? | 8 - Alta, está directamente alineado con uno de los propósitos principales de la plataforma. | 4 - Riesgo medio, ya que la visibilidad también depende de factores externos como la calidad del contenido del artista. | 10 - Alto impacto para el crecimiento de la comunidad artística y la diferenciación de la plataforma. | 8 - Es de interés tanto para artistas que buscan crecer como para fanáticos que desean descubrir nuevos talentos. | 30 |
-| ¿La integración de foros temáticos fomenta una participación más activa y continua de los usuarios dentro de la plataforma? | 7 - Los foros han demostrado generar comunidades activas en otras plataformas de entretenimiento y música. | 5 - Riesgo medio, requiere moderación constante para asegurar un uso adecuado y una experiencia positiva. | 7 - Puede aumentar el tiempo de permanencia en la plataforma y fortalecer el sentido de comunidad. | 8 - Los fanáticos estarían interesados en compartir opiniones, recomendaciones y experiencias sobre eventos y artistas. | 27 |
+| Question                                                                                                                    | Confidence                                                                                                                         | Risk                                                                                                                            | Impact                                                                                                         | Interest                                                                                                                | Total Score |
+| --------------------------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------- | ----------- |
+| ¿La geolocalización ayuda a los usuarios a descubrir eventos musicales que de otro modo no conocerían?                      | 8 - Alta, es una funcionalidad central de GigMap y ampliamente utilizada en aplicaciones similares de entretenimiento.             | 3 - Riesgo bajo, aunque puede verse afectada por la precisión del GPS y la disposición del usuario para compartir su ubicación. | 9 - Puede incrementar significativamente el descubrimiento de eventos cercanos y relevantes para cada usuario. | 8 - Los usuarios muestran interés en encontrar conciertos y eventos próximos a su ubicación.                            | 28          |
+| ¿Seguir artistas dentro de la aplicación incrementa la frecuencia con la que los usuarios visitan la plataforma?            | 7 - Existe evidencia en redes sociales de que los usuarios siguen activamente a sus artistas favoritos para mantenerse informados. | 2 - Riesgo bajo, es una funcionalidad común y bien recibida en plataformas digitales similares.                                 | 8 - Puede incrementar la retención y fidelización de los usuarios dentro de la plataforma.                     | 8 - Los fanáticos suelen buscar contenido actualizado de sus artistas favoritos de forma frecuente.                     | 25          |
+| ¿La información mostrada sobre los eventos es suficiente para que los usuarios decidan asistir?                             | 6 - No existe evidencia clara sobre qué datos son realmente determinantes en la decisión de asistencia.                            | 4 - Riesgo medio, ya que las preferencias de información varían según el tipo de usuario y evento.                              | 8 - Impacta directamente en la conversión de usuarios interesados en asistentes reales.                        | 7 - Los usuarios valoran contar con información clara, completa y actualizada antes de tomar una decisión.              | 25          |
+| ¿Registrar la asistencia a conciertos dentro de la app genera mayor interacción entre los usuarios de la comunidad?         | 7 - Funcionalidades similares de check-in han mostrado resultados positivos en otras plataformas de entretenimiento.               | 3 - Riesgo bajo-medio, existe incertidumbre sobre si los usuarios adoptarán esta funcionalidad de forma habitual.               | 8 - Puede aumentar la participación activa y el sentido de pertenencia dentro de la comunidad.                 | 8 - Los usuarios suelen compartir sus experiencias musicales y eventos a los que asisten.                               | 26          |
+| ¿La visibilidad ofrecida por GigMap permite a los artistas emergentes llegar a nuevos seguidores?                           | 8 - Alta, está directamente alineado con uno de los propósitos principales de la plataforma.                                       | 4 - Riesgo medio, ya que la visibilidad también depende de factores externos como la calidad del contenido del artista.         | 10 - Alto impacto para el crecimiento de la comunidad artística y la diferenciación de la plataforma.          | 8 - Es de interés tanto para artistas que buscan crecer como para fanáticos que desean descubrir nuevos talentos.       | 30          |
+| ¿La integración de foros temáticos fomenta una participación más activa y continua de los usuarios dentro de la plataforma? | 7 - Los foros han demostrado generar comunidades activas en otras plataformas de entretenimiento y música.                         | 5 - Riesgo medio, requiere moderación constante para asegurar un uso adecuado y una experiencia positiva.                       | 7 - Puede aumentar el tiempo de permanencia en la plataforma y fortalecer el sentido de comunidad.             | 8 - Los fanáticos estarían interesados en compartir opiniones, recomendaciones y experiencias sobre eventos y artistas. | 27          |
 
 ### 8.1.4. Question Backlog
 
 Las preguntas experimentales se organizan a continuación según su nivel de prioridad, utilizando la escala de Fibonacci (1, 2, 3, 5, 8), donde 1 representa la menor prioridad y 8 la mayor. Esta escala permite reflejar de forma más natural la incertidumbre y la diferencia de valor entre las preguntas, priorizando aquellas que generan mayor impacto y aprendizaje para el desarrollo de GigMap.
 
-| Prioridad (1, 2, 3, 5, 8) | Pregunta |
-|---------------------------|----------|
-| 8 | ¿La visibilidad ofrecida por GigMap permite a los artistas emergentes llegar a nuevos seguidores? |
-| 8 | ¿La geolocalización ayuda a los usuarios a descubrir eventos musicales que de otro modo no conocerían? |
-| 5 | ¿Registrar la asistencia a conciertos dentro de la app genera mayor interacción entre los usuarios de la comunidad? |
-| 5 | ¿Seguir artistas dentro de la aplicación incrementa la frecuencia con la que los usuarios visitan la plataforma? |
-| 5 | ¿La integración de foros temáticos fomenta una participación más activa y continua de los usuarios dentro de la plataforma? |
-| 3 | ¿La información mostrada sobre los eventos es suficiente para que los usuarios decidan asistir? |
+| Prioridad (1, 2, 3, 5, 8) | Pregunta                                                                                                                    |
+| ------------------------- | --------------------------------------------------------------------------------------------------------------------------- |
+| 8                         | ¿La visibilidad ofrecida por GigMap permite a los artistas emergentes llegar a nuevos seguidores?                           |
+| 8                         | ¿La geolocalización ayuda a los usuarios a descubrir eventos musicales que de otro modo no conocerían?                      |
+| 5                         | ¿Registrar la asistencia a conciertos dentro de la app genera mayor interacción entre los usuarios de la comunidad?         |
+| 5                         | ¿Seguir artistas dentro de la aplicación incrementa la frecuencia con la que los usuarios visitan la plataforma?            |
+| 5                         | ¿La integración de foros temáticos fomenta una participación más activa y continua de los usuarios dentro de la plataforma? |
+| 3                         | ¿La información mostrada sobre los eventos es suficiente para que los usuarios decidan asistir?                             |
 
 ### 8.1.5. Experiment Cards
 
 El siguiente conjunto de tarjetas representa el artefacto clave del proceso XDPD, estructurando la información esencial antes de ejecutar cada experimento. Cada tarjeta se divide en dos lados: el frontal, que captura la pregunta, el motivo, la hipótesis y la acción más simple a implementar; y el posterior, que detalla las medidas, condiciones y escala del experimento.
 
-
 **Tarjeta 1**
 
 **LADO FRONTAL**
 
-| Campo | Descripción |
-|-------|-------------|
-| **Pregunta** | ¿La visibilidad ofrecida por GigMap permite a los artistas emergentes llegar a nuevos seguidores? |
-| **¿Por qué?** | Los artistas emergentes enfrentan dificultades para obtener visibilidad frente a artistas más conocidos, lo cual limita su crecimiento dentro de la plataforma. |
+| Campo         | Descripción                                                                                                                                                                   |
+| ------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| **Pregunta**  | ¿La visibilidad ofrecida por GigMap permite a los artistas emergentes llegar a nuevos seguidores?                                                                             |
+| **¿Por qué?** | Los artistas emergentes enfrentan dificultades para obtener visibilidad frente a artistas más conocidos, lo cual limita su crecimiento dentro de la plataforma.               |
 | **Hipótesis** | Si GigMap ofrece un perfil optimizado y herramientas de visibilidad para artistas emergentes, entonces estos lograrán aumentar su base de seguidores dentro de la plataforma. |
-| **¿Qué?** | Implementar un perfil básico para artistas emergentes con sección de próximos eventos y botón de seguir. |
+| **¿Qué?**     | Implementar un perfil básico para artistas emergentes con sección de próximos eventos y botón de seguir.                                                                      |
 
 **LADO POSTERIOR**
 
-| Campo | Descripción |
-|-------|-------------|
-| **Medidas** | Número de nuevos seguidores obtenidos por artistas emergentes en un período determinado. |
-| **Condiciones** | Artistas emergentes registrados en GigMap con al menos un evento publicado. |
-| **Escala** | Prueba con un grupo reducido de artistas emergentes durante 4 semanas. |
+| Campo           | Descripción                                                                              |
+| --------------- | ---------------------------------------------------------------------------------------- |
+| **Medidas**     | Número de nuevos seguidores obtenidos por artistas emergentes en un período determinado. |
+| **Condiciones** | Artistas emergentes registrados en GigMap con al menos un evento publicado.              |
+| **Escala**      | Prueba con un grupo reducido de artistas emergentes durante 4 semanas.                   |
 
 ---
 
@@ -6149,20 +6149,20 @@ El siguiente conjunto de tarjetas representa el artefacto clave del proceso XDPD
 
 **LADO FRONTAL**
 
-| Campo | Descripción |
-|-------|-------------|
-| **Pregunta** | ¿La geolocalización ayuda a los usuarios a descubrir eventos musicales que de otro modo no conocerían? |
+| Campo         | Descripción                                                                                                                                             |
+| ------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| **Pregunta**  | ¿La geolocalización ayuda a los usuarios a descubrir eventos musicales que de otro modo no conocerían?                                                  |
 | **¿Por qué?** | Los usuarios utilizan múltiples fuentes para informarse sobre eventos, lo que dificulta el descubrimiento de conciertos cercanos de forma centralizada. |
-| **Hipótesis** | Si se implementa un mapa interactivo con geolocalización, entonces los usuarios descubrirán más eventos musicales relevantes en su zona. |
-| **¿Qué?** | Mostrar un mapa con eventos cercanos basado en la ubicación actual del usuario. |
+| **Hipótesis** | Si se implementa un mapa interactivo con geolocalización, entonces los usuarios descubrirán más eventos musicales relevantes en su zona.                |
+| **¿Qué?**     | Mostrar un mapa con eventos cercanos basado en la ubicación actual del usuario.                                                                         |
 
 **LADO POSTERIOR**
 
-| Campo | Descripción |
-|-------|-------------|
-| **Medidas** | Número de eventos visualizados y cantidad de usuarios que activaron la geolocalización. |
-| **Condiciones** | Usuarios con permisos de ubicación activados dentro de la aplicación. |
-| **Escala** | Prueba con usuarios nuevos durante las primeras 2 semanas de uso de la funcionalidad. |
+| Campo           | Descripción                                                                             |
+| --------------- | --------------------------------------------------------------------------------------- |
+| **Medidas**     | Número de eventos visualizados y cantidad de usuarios que activaron la geolocalización. |
+| **Condiciones** | Usuarios con permisos de ubicación activados dentro de la aplicación.                   |
+| **Escala**      | Prueba con usuarios nuevos durante las primeras 2 semanas de uso de la funcionalidad.   |
 
 ---
 
@@ -6170,20 +6170,20 @@ El siguiente conjunto de tarjetas representa el artefacto clave del proceso XDPD
 
 **LADO FRONTAL**
 
-| Campo | Descripción |
-|-------|-------------|
-| **Pregunta** | ¿Registrar la asistencia a conciertos dentro de la app genera mayor interacción entre los usuarios de la comunidad? |
-| **¿Por qué?** | Se busca fomentar el sentido de comunidad entre fanáticos y generar mayor actividad dentro de la plataforma. |
+| Campo         | Descripción                                                                                                                 |
+| ------------- | --------------------------------------------------------------------------------------------------------------------------- |
+| **Pregunta**  | ¿Registrar la asistencia a conciertos dentro de la app genera mayor interacción entre los usuarios de la comunidad?         |
+| **¿Por qué?** | Se busca fomentar el sentido de comunidad entre fanáticos y generar mayor actividad dentro de la plataforma.                |
 | **Hipótesis** | Si los usuarios pueden registrar su asistencia a eventos, entonces aumentará la interacción entre miembros de la comunidad. |
-| **¿Qué?** | Agregar un botón de "Asistiré" en cada evento que sea visible para otros usuarios. |
+| **¿Qué?**     | Agregar un botón de "Asistiré" en cada evento que sea visible para otros usuarios.                                          |
 
 **LADO POSTERIOR**
 
-| Campo | Descripción |
-|-------|-------------|
-| **Medidas** | Número de registros de asistencia y cantidad de interacciones generadas a partir de ellos. |
-| **Condiciones** | Usuarios registrados en GigMap con acceso a eventos publicados. |
-| **Escala** | Prueba durante un mes con eventos activos dentro de la plataforma. |
+| Campo           | Descripción                                                                                |
+| --------------- | ------------------------------------------------------------------------------------------ |
+| **Medidas**     | Número de registros de asistencia y cantidad de interacciones generadas a partir de ellos. |
+| **Condiciones** | Usuarios registrados en GigMap con acceso a eventos publicados.                            |
+| **Escala**      | Prueba durante un mes con eventos activos dentro de la plataforma.                         |
 
 ---
 
@@ -6191,20 +6191,20 @@ El siguiente conjunto de tarjetas representa el artefacto clave del proceso XDPD
 
 **LADO FRONTAL**
 
-| Campo | Descripción |
-|-------|-------------|
-| **Pregunta** | ¿Seguir artistas dentro de la aplicación incrementa la frecuencia con la que los usuarios visitan la plataforma? |
+| Campo         | Descripción                                                                                                                                             |
+| ------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| **Pregunta**  | ¿Seguir artistas dentro de la aplicación incrementa la frecuencia con la que los usuarios visitan la plataforma?                                        |
 | **¿Por qué?** | Se identificó que los fanáticos buscan mantenerse informados sobre sus artistas favoritos, lo que podría convertirse en un motivo recurrente de visita. |
-| **Hipótesis** | Si los usuarios pueden seguir artistas y recibir actualizaciones de ellos, entonces visitarán la plataforma con mayor frecuencia. |
-| **¿Qué?** | Implementar la funcionalidad de seguir artistas con un feed básico de novedades. |
+| **Hipótesis** | Si los usuarios pueden seguir artistas y recibir actualizaciones de ellos, entonces visitarán la plataforma con mayor frecuencia.                       |
+| **¿Qué?**     | Implementar la funcionalidad de seguir artistas con un feed básico de novedades.                                                                        |
 
 **LADO POSTERIOR**
 
-| Campo | Descripción |
-|-------|-------------|
-| **Medidas** | Frecuencia de visitas semanales de usuarios que siguen al menos un artista versus los que no siguen ninguno. |
-| **Condiciones** | Usuarios registrados que hayan seguido al menos un artista dentro de la plataforma. |
-| **Escala** | Seguimiento durante 3 semanas desde que el usuario empieza a seguir su primer artista. |
+| Campo           | Descripción                                                                                                  |
+| --------------- | ------------------------------------------------------------------------------------------------------------ |
+| **Medidas**     | Frecuencia de visitas semanales de usuarios que siguen al menos un artista versus los que no siguen ninguno. |
+| **Condiciones** | Usuarios registrados que hayan seguido al menos un artista dentro de la plataforma.                          |
+| **Escala**      | Seguimiento durante 3 semanas desde que el usuario empieza a seguir su primer artista.                       |
 
 ---
 
@@ -6212,20 +6212,20 @@ El siguiente conjunto de tarjetas representa el artefacto clave del proceso XDPD
 
 **LADO FRONTAL**
 
-| Campo | Descripción |
-|-------|-------------|
-| **Pregunta** | ¿La integración de foros temáticos fomenta una participación más activa y continua de los usuarios dentro de la plataforma? |
-| **¿Por qué?** | Se busca crear espacios de comunidad donde los fanáticos puedan compartir experiencias y opiniones sobre eventos y artistas. |
+| Campo         | Descripción                                                                                                                          |
+| ------------- | ------------------------------------------------------------------------------------------------------------------------------------ |
+| **Pregunta**  | ¿La integración de foros temáticos fomenta una participación más activa y continua de los usuarios dentro de la plataforma?          |
+| **¿Por qué?** | Se busca crear espacios de comunidad donde los fanáticos puedan compartir experiencias y opiniones sobre eventos y artistas.         |
 | **Hipótesis** | Si se integran foros temáticos dentro de GigMap, entonces los usuarios participarán de forma más activa y continua en la plataforma. |
-| **¿Qué?** | Crear un foro básico por género musical donde los usuarios puedan publicar y comentar. |
+| **¿Qué?**     | Crear un foro básico por género musical donde los usuarios puedan publicar y comentar.                                               |
 
 **LADO POSTERIOR**
 
-| Campo | Descripción |
-|-------|-------------|
-| **Medidas** | Número de publicaciones, comentarios y usuarios activos dentro de los foros por semana. |
-| **Condiciones** | Usuarios registrados con acceso a los foros habilitados dentro de la plataforma. |
-| **Escala** | Prueba durante 4 semanas con un grupo de usuarios activos de la plataforma. |
+| Campo           | Descripción                                                                             |
+| --------------- | --------------------------------------------------------------------------------------- |
+| **Medidas**     | Número de publicaciones, comentarios y usuarios activos dentro de los foros por semana. |
+| **Condiciones** | Usuarios registrados con acceso a los foros habilitados dentro de la plataforma.        |
+| **Escala**      | Prueba durante 4 semanas con un grupo de usuarios activos de la plataforma.             |
 
 ---
 
@@ -6233,20 +6233,20 @@ El siguiente conjunto de tarjetas representa el artefacto clave del proceso XDPD
 
 **LADO FRONTAL**
 
-| Campo | Descripción |
-|-------|-------------|
-| **Pregunta** | ¿La información mostrada sobre los eventos es suficiente para que los usuarios decidan asistir? |
-| **¿Por qué?** | No se conoce con claridad qué datos son determinantes para que un usuario tome la decisión de asistir a un evento. |
+| Campo         | Descripción                                                                                                                                    |
+| ------------- | ---------------------------------------------------------------------------------------------------------------------------------------------- |
+| **Pregunta**  | ¿La información mostrada sobre los eventos es suficiente para que los usuarios decidan asistir?                                                |
+| **¿Por qué?** | No se conoce con claridad qué datos son determinantes para que un usuario tome la decisión de asistir a un evento.                             |
 | **Hipótesis** | Si se muestra información detallada y relevante sobre cada evento, entonces los usuarios tomarán decisiones de asistencia con mayor confianza. |
-| **¿Qué?** | Mostrar en la página del evento: artista, fecha, lugar, precio, género musical y mapa de ubicación. |
+| **¿Qué?**     | Mostrar en la página del evento: artista, fecha, lugar, precio, género musical y mapa de ubicación.                                            |
 
 **LADO POSTERIOR**
 
-| Campo | Descripción |
-|-------|-------------|
-| **Medidas** | Tasa de conversión de usuarios que visualizan un evento y luego registran asistencia. |
-| **Condiciones** | Eventos con información completa publicada dentro de la plataforma. |
-| **Escala** | Evaluación durante 3 semanas comparando eventos con información completa versus eventos con información incompleta. |
+| Campo           | Descripción                                                                                                         |
+| --------------- | ------------------------------------------------------------------------------------------------------------------- |
+| **Medidas**     | Tasa de conversión de usuarios que visualizan un evento y luego registran asistencia.                               |
+| **Condiciones** | Eventos con información completa publicada dentro de la plataforma.                                                 |
+| **Escala**      | Evaluación durante 3 semanas comparando eventos con información completa versus eventos con información incompleta. |
 
 ## 8.2. Experiment Design
 
@@ -6254,145 +6254,237 @@ El siguiente conjunto de tarjetas representa el artefacto clave del proceso XDPD
 
 #### Hypothesis
 
-|  | Hypothesis |
-|---------|---------|
-| **Question** | ¿La geolocalización ayuda a los usuarios a descubrir eventos musicales que de otro modo no conocerían? |
-| **Belief** | La geolocalización facilita que los usuarios encuentren conciertos y eventos cercanos a su ubicación, permitiendo descubrir oportunidades musicales relevantes que podrían pasar desapercibidas utilizando otros medios. |
-| **Hypothesis** | La implementación de geolocalización aumentará en un 30% la cantidad de eventos descubiertos por los usuarios. |
-| **Null Hypothesis** | La implementación de geolocalización no tendrá un efecto significativo en la cantidad de eventos descubiertos por los usuarios. |
+|                     | Hypothesis                                                                                                                                                                                                               |
+| ------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
+| **Question**        | ¿La geolocalización ayuda a los usuarios a descubrir eventos musicales que de otro modo no conocerían?                                                                                                                   |
+| **Belief**          | La geolocalización facilita que los usuarios encuentren conciertos y eventos cercanos a su ubicación, permitiendo descubrir oportunidades musicales relevantes que podrían pasar desapercibidas utilizando otros medios. |
+| **Hypothesis**      | La implementación de geolocalización aumentará en un 30% la cantidad de eventos descubiertos por los usuarios.                                                                                                           |
+| **Null Hypothesis** | La implementación de geolocalización no tendrá un efecto significativo en la cantidad de eventos descubiertos por los usuarios.                                                                                          |
 
-|  | Hypothesis |
-|---------|---------|
-| **Question** | ¿Seguir artistas dentro de la aplicación incrementa la frecuencia con la que los usuarios visitan la plataforma? |
-| **Belief** | Los usuarios tienen interés en mantenerse actualizados sobre las actividades y eventos de sus artistas favoritos, por lo que la posibilidad de seguirlos incentivará visitas recurrentes a la plataforma. |
-| **Hypothesis** | La funcionalidad de seguir artistas incrementará en un 25% la frecuencia semanal de visitas de los usuarios. |
-| **Null Hypothesis** | La funcionalidad de seguir artistas no afectará significativamente la frecuencia de visitas de los usuarios. |
+|                     | Hypothesis                                                                                                                                                                                                |
+| ------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| **Question**        | ¿Seguir artistas dentro de la aplicación incrementa la frecuencia con la que los usuarios visitan la plataforma?                                                                                          |
+| **Belief**          | Los usuarios tienen interés en mantenerse actualizados sobre las actividades y eventos de sus artistas favoritos, por lo que la posibilidad de seguirlos incentivará visitas recurrentes a la plataforma. |
+| **Hypothesis**      | La funcionalidad de seguir artistas incrementará en un 25% la frecuencia semanal de visitas de los usuarios.                                                                                              |
+| **Null Hypothesis** | La funcionalidad de seguir artistas no afectará significativamente la frecuencia de visitas de los usuarios.                                                                                              |
 
-|  | Hypothesis |
-|---------|---------|
-| **Question** | ¿La información mostrada sobre los eventos es suficiente para que los usuarios decidan asistir? |
-| **Belief** | Proporcionar información completa y relevante sobre los eventos permitirá a los usuarios tomar decisiones de asistencia con mayor confianza y reducirá la incertidumbre antes de asistir. |
-| **Hypothesis** | La presentación de información detallada sobre los eventos aumentará en un 20% la tasa de registro de asistencia de los usuarios. |
-| **Null Hypothesis** | La cantidad de información mostrada sobre los eventos no afectará significativamente la decisión de asistencia de los usuarios. |
+|                     | Hypothesis                                                                                                                                                                                |
+| ------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| **Question**        | ¿La información mostrada sobre los eventos es suficiente para que los usuarios decidan asistir?                                                                                           |
+| **Belief**          | Proporcionar información completa y relevante sobre los eventos permitirá a los usuarios tomar decisiones de asistencia con mayor confianza y reducirá la incertidumbre antes de asistir. |
+| **Hypothesis**      | La presentación de información detallada sobre los eventos aumentará en un 20% la tasa de registro de asistencia de los usuarios.                                                         |
+| **Null Hypothesis** | La cantidad de información mostrada sobre los eventos no afectará significativamente la decisión de asistencia de los usuarios.                                                           |
 
-|  | Hypothesis |
-|---------|---------|
-| **Question** | ¿Registrar la asistencia a conciertos dentro de la app genera mayor interacción entre los usuarios de la comunidad? |
-| **Belief** | La posibilidad de registrar asistencia fomentará el sentido de comunidad entre los fanáticos y promoverá la interacción entre usuarios con gustos musicales similares. |
-| **Hypothesis** | La implementación de la funcionalidad de registro de asistencia aumentará en un 20% la interacción entre los usuarios de la comunidad. |
-| **Null Hypothesis** | La funcionalidad de registro de asistencia no tendrá un impacto significativo en la interacción entre usuarios. |
+|                     | Hypothesis                                                                                                                                                             |
+| ------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| **Question**        | ¿Registrar la asistencia a conciertos dentro de la app genera mayor interacción entre los usuarios de la comunidad?                                                    |
+| **Belief**          | La posibilidad de registrar asistencia fomentará el sentido de comunidad entre los fanáticos y promoverá la interacción entre usuarios con gustos musicales similares. |
+| **Hypothesis**      | La implementación de la funcionalidad de registro de asistencia aumentará en un 20% la interacción entre los usuarios de la comunidad.                                 |
+| **Null Hypothesis** | La funcionalidad de registro de asistencia no tendrá un impacto significativo en la interacción entre usuarios.                                                        |
 
-|  | Hypothesis |
-|---------|---------|
-| **Question** | ¿La visibilidad ofrecida por GigMap permite a los artistas emergentes llegar a nuevos seguidores? |
-| **Belief** | Las herramientas de promoción y visibilidad dentro de GigMap ayudarán a que los artistas emergentes alcancen audiencias más amplias y aumenten su base de seguidores dentro de la plataforma. |
-| **Hypothesis** | La implementación de perfiles optimizados y mecanismos de promoción para artistas emergentes incrementará en un 25% la cantidad de nuevos seguidores obtenidos durante las primeras cuatro semanas. |
-| **Null Hypothesis** | La implementación de perfiles optimizados y mecanismos de promoción para artistas emergentes no tendrá un impacto significativo en la cantidad de seguidores obtenidos. |
+|                     | Hypothesis                                                                                                                                                                                          |
+| ------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| **Question**        | ¿La visibilidad ofrecida por GigMap permite a los artistas emergentes llegar a nuevos seguidores?                                                                                                   |
+| **Belief**          | Las herramientas de promoción y visibilidad dentro de GigMap ayudarán a que los artistas emergentes alcancen audiencias más amplias y aumenten su base de seguidores dentro de la plataforma.       |
+| **Hypothesis**      | La implementación de perfiles optimizados y mecanismos de promoción para artistas emergentes incrementará en un 25% la cantidad de nuevos seguidores obtenidos durante las primeras cuatro semanas. |
+| **Null Hypothesis** | La implementación de perfiles optimizados y mecanismos de promoción para artistas emergentes no tendrá un impacto significativo en la cantidad de seguidores obtenidos.                             |
 
-|  | Hypothesis |
-|---------|---------|
-| **Question** | ¿La integración de foros temáticos fomenta una participación más activa y continua de los usuarios dentro de la plataforma? |
-| **Belief** | Los foros temáticos permitirán a los usuarios compartir opiniones, experiencias y recomendaciones sobre artistas y eventos, fortaleciendo la comunidad musical dentro de GigMap. |
-| **Hypothesis** | La implementación de foros temáticos aumentará en un 30% la participación de los usuarios dentro de la plataforma, medida mediante publicaciones, comentarios e interacciones. |
-| **Null Hypothesis** | La integración de foros temáticos no tendrá un efecto significativo en la participación de los usuarios. |
+|                     | Hypothesis                                                                                                                                                                       |
+| ------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| **Question**        | ¿La integración de foros temáticos fomenta una participación más activa y continua de los usuarios dentro de la plataforma?                                                      |
+| **Belief**          | Los foros temáticos permitirán a los usuarios compartir opiniones, experiencias y recomendaciones sobre artistas y eventos, fortaleciendo la comunidad musical dentro de GigMap. |
+| **Hypothesis**      | La implementación de foros temáticos aumentará en un 30% la participación de los usuarios dentro de la plataforma, medida mediante publicaciones, comentarios e interacciones.   |
+| **Null Hypothesis** | La integración de foros temáticos no tendrá un efecto significativo en la participación de los usuarios.                                                                         |
+
+### 8.2.2. Domain Business Metrics
+
+| Métrica                                                     | Fórmula de Cálculo                                                                                                                                                                                                        | Técnica de Recolección                                                                                                                                                                                                                                              | Meta Deseada                                                                                                                   |
+| ----------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------ |
+| **Tasa de descubrimiento de eventos**                       | (N° de eventos únicos descubiertos con geolocalización activada ÷ N° total de usuarios con geolocalización activada) / (N° de eventos únicos descubiertos sin geolocalización ÷ N° total de usuarios sin geolocalización) | Eventos de analítica enviados desde la aplicación móvil al backend cada vez que un usuario abre la sección de mapa de conciertos. Se registra el `event_id` y un flag `geolocation_enabled`. Recolección mediante eventos custom en Firebase Analytics / Amplitude. | Aumento del 30% en la tasa de descubrimiento de eventos para el grupo experimental respecto al grupo de control.               |
+| **Frecuencia semanal de visitas**                           | Promedio de sesiones por usuario por semana (usuarios que siguen al menos 1 artista) vs. (usuarios que no siguen ningún artista)                                                                                          | Session start/end events enviados desde la app. Se agrupa por `user_id` y se calcula media semanal. Recolección mediante Firebase Analytics o backend con agente de eventos.                                                                                        | Incremento del 25% en la frecuencia semanal promedio de visitas para usuarios que siguen artistas frente al grupo de control.  |
+| **Tasa de conversión a asistencia**                         | (N° de registros de asistencia ÷ N° de visualizaciones de detalle de evento) para eventos con información completa vs. eventos con información incompleta                                                                 | Evento `event_detail_viewed` y evento `attendance_registered` vinculados por `event_id` y `user_id`. Diferenciación mediante flag `event_info_complete`.                                                                                                            | Aumento del 20% en la tasa de conversión para eventos con información completa.                                                |
+| **Índice de interacción en comunidades**                    | (N° total de comentarios + reacciones + publicaciones en foro por evento) ÷ (N° de usuarios que registraron asistencia a ese evento) para usuarios con la funcionalidad de registro de asistencia vs. usuarios sin ella   | Recolección de eventos de comentario, like/reacción y publicación dentro de la aplicación. Cruce con datos de registro de asistencia mediante `event_id` y `user_id`.                                                                                               | Incremento del 20% en el índice de interacción comunitaria para usuarios que usan el registro de asistencia.                   |
+| **Tasa de crecimiento de seguidores por artista emergente** | ((N° de seguidores al final del período – N° de seguidores al inicio del período) ÷ N° de seguidores al inicio del período) × 100, para artistas con perfil optimizado vs. perfil básico                                  | Consulta programada semanal a la base de datos de relaciones seguidor-artista. Diferenciación por flag `profile_optimized` en la tabla de artistas.                                                                                                                 | Incremento del 25% en la tasa de crecimiento de seguidores para artistas con perfil optimizado durante las primeras 4 semanas. |
+| **Tasa de participación activa en foros**                   | (N° de publicaciones + comentarios + reacciones en foros ÷ N° de usuarios activos en foros) por semana, comparando antes y después de la implementación de foros temáticos                                                | Eventos de interacción en foros (post creado, comentario publicado, reacción registrada) enviados desde la app. Agregación semanal por `user_id`.                                                                                                                   | Incremento del 30% en la tasa de participación activa en foros tras la implementación de foros temáticos.                      |
 
 ### 8.2.3. Measures
 
-| Question | ¿La geolocalización ayuda a los usuarios a descubrir eventos musicales que de otro modo no conocerían? |
-|-----------|-----------|
-| Measure | Medir la cantidad de eventos visualizados y descubiertos por usuarios con la geolocalización activada, comparándola con usuarios que no utilizan esta funcionalidad. Esto permitirá determinar si la geolocalización facilita el descubrimiento de eventos musicales relevantes para los usuarios. |
+| Question | ¿La geolocalización ayuda a los usuarios a descubrir eventos musicales que de otro modo no conocerían?                                                                                                                                                                                             |
+| -------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Measure  | Medir la cantidad de eventos visualizados y descubiertos por usuarios con la geolocalización activada, comparándola con usuarios que no utilizan esta funcionalidad. Esto permitirá determinar si la geolocalización facilita el descubrimiento de eventos musicales relevantes para los usuarios. |
 
-| Question | ¿Seguir artistas dentro de la aplicación incrementa la frecuencia con la que los usuarios visitan la plataforma? |
-|-----------|-----------|
-| Measure | Analizar la frecuencia semanal de visitas de los usuarios que siguen artistas y compararla con la de aquellos que no utilizan esta funcionalidad. Esto permitirá evaluar si seguir artistas incentiva a los usuarios a regresar con mayor frecuencia a la plataforma. |
+| Question | ¿Seguir artistas dentro de la aplicación incrementa la frecuencia con la que los usuarios visitan la plataforma?                                                                                                                                                      |
+| -------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Measure  | Analizar la frecuencia semanal de visitas de los usuarios que siguen artistas y compararla con la de aquellos que no utilizan esta funcionalidad. Esto permitirá evaluar si seguir artistas incentiva a los usuarios a regresar con mayor frecuencia a la plataforma. |
 
-| Question | ¿La información mostrada sobre los eventos es suficiente para que los usuarios decidan asistir? |
-|-----------|-----------|
-| Measure | Medir la tasa de conversión entre usuarios que visualizan un evento y posteriormente registran su asistencia. Comparar eventos con información completa e incompleta permitirá evaluar la influencia de la información disponible en la decisión de asistencia. |
+| Question | ¿La información mostrada sobre los eventos es suficiente para que los usuarios decidan asistir?                                                                                                                                                                 |
+| -------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Measure  | Medir la tasa de conversión entre usuarios que visualizan un evento y posteriormente registran su asistencia. Comparar eventos con información completa e incompleta permitirá evaluar la influencia de la información disponible en la decisión de asistencia. |
 
-| Question | ¿Registrar la asistencia a conciertos dentro de la app genera mayor interacción entre los usuarios de la comunidad? |
-|-----------|-----------|
-| Measure | Evaluar la cantidad de registros de asistencia, comentarios, reacciones e interacciones generadas a partir de los eventos marcados como asistidos. Esto permitirá determinar si la funcionalidad fomenta una mayor participación dentro de la comunidad. |
+| Question | ¿Registrar la asistencia a conciertos dentro de la app genera mayor interacción entre los usuarios de la comunidad?                                                                                                                                      |
+| -------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Measure  | Evaluar la cantidad de registros de asistencia, comentarios, reacciones e interacciones generadas a partir de los eventos marcados como asistidos. Esto permitirá determinar si la funcionalidad fomenta una mayor participación dentro de la comunidad. |
 
-| Question | ¿La visibilidad ofrecida por GigMap permite a los artistas emergentes llegar a nuevos seguidores? |
-|-----------|-----------|
-| Measure | Medir la cantidad de nuevos seguidores obtenidos por artistas emergentes antes y después de implementar herramientas de visibilidad dentro de la plataforma. Comparar estos resultados permitirá evaluar el impacto de GigMap en el crecimiento de la audiencia de los artistas. |
+| Question | ¿La visibilidad ofrecida por GigMap permite a los artistas emergentes llegar a nuevos seguidores?                                                                                                                                                                                |
+| -------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Measure  | Medir la cantidad de nuevos seguidores obtenidos por artistas emergentes antes y después de implementar herramientas de visibilidad dentro de la plataforma. Comparar estos resultados permitirá evaluar el impacto de GigMap en el crecimiento de la audiencia de los artistas. |
 
-| Question | ¿La integración de foros temáticos fomenta una participación más activa y continua de los usuarios dentro de la plataforma? |
-|-----------|-----------|
-| Measure | Analizar la cantidad de publicaciones, comentarios y usuarios activos dentro de los foros antes y después de su implementación. Esto permitirá evaluar si los foros contribuyen al fortalecimiento de la comunidad y al incremento de la participación de los usuarios. |
+| Question | ¿La integración de foros temáticos fomenta una participación más activa y continua de los usuarios dentro de la plataforma?                                                                                                                                             |
+| -------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Measure  | Analizar la cantidad de publicaciones, comentarios y usuarios activos dentro de los foros antes y después de su implementación. Esto permitirá evaluar si los foros contribuyen al fortalecimiento de la comunidad y al incremento de la participación de los usuarios. |
 
 ### 8.2.4. Conditions
 
-| Question | ¿La geolocalización ayuda a los usuarios a descubrir eventos musicales que de otro modo no conocerían? |
-|-----------|-----------|
+| Question               | ¿La geolocalización ayuda a los usuarios a descubrir eventos musicales que de otro modo no conocerían?                                                                                                                          |
+| ---------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | Condición Experimental | La cantidad de eventos descubiertos por los usuarios aumentará en un 30% tras la implementación de la geolocalización, medido mediante el número de eventos visualizados y descubiertos por usuarios con la ubicación activada. |
-| Condición de Control | No habrá un aumento significativo en la cantidad de eventos descubiertos por los usuarios tras la implementación de la geolocalización. |
+| Condición de Control   | No habrá un aumento significativo en la cantidad de eventos descubiertos por los usuarios tras la implementación de la geolocalización.                                                                                         |
 
-| Question | ¿Seguir artistas dentro de la aplicación incrementa la frecuencia con la que los usuarios visitan la plataforma? |
-|-----------|-----------|
+| Question               | ¿Seguir artistas dentro de la aplicación incrementa la frecuencia con la que los usuarios visitan la plataforma?                                                                            |
+| ---------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | Condición Experimental | La frecuencia semanal de visitas aumentará en un 25% después de implementar la funcionalidad de seguir artistas, medida mediante el número promedio de visitas realizadas por los usuarios. |
-| Condición de Control | No habrá un aumento significativo en la frecuencia semanal de visitas de los usuarios tras implementar la funcionalidad de seguir artistas. |
+| Condición de Control   | No habrá un aumento significativo en la frecuencia semanal de visitas de los usuarios tras implementar la funcionalidad de seguir artistas.                                                 |
 
-| Question | ¿La información mostrada sobre los eventos es suficiente para que los usuarios decidan asistir? |
-|-----------|-----------|
+| Question               | ¿La información mostrada sobre los eventos es suficiente para que los usuarios decidan asistir?                                                                                                       |
+| ---------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | Condición Experimental | La tasa de registro de asistencia aumentará en un 20% cuando los eventos incluyan información completa y detallada, medida a través de la conversión entre visualizaciones y registros de asistencia. |
-| Condición de Control | No habrá un aumento significativo en la tasa de registro de asistencia entre eventos con información completa e información limitada. |
+| Condición de Control   | No habrá un aumento significativo en la tasa de registro de asistencia entre eventos con información completa e información limitada.                                                                 |
 
-| Question | ¿Registrar la asistencia a conciertos dentro de la app genera mayor interacción entre los usuarios de la comunidad? |
-|-----------|-----------|
+| Question               | ¿Registrar la asistencia a conciertos dentro de la app genera mayor interacción entre los usuarios de la comunidad?                                                                                      |
+| ---------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | Condición Experimental | La interacción entre usuarios aumentará en un 20% después de implementar la funcionalidad de registro de asistencia, medida mediante comentarios, reacciones y actividades relacionadas con los eventos. |
-| Condición de Control | No habrá un aumento significativo en la interacción entre usuarios tras implementar la funcionalidad de registro de asistencia. |
+| Condición de Control   | No habrá un aumento significativo en la interacción entre usuarios tras implementar la funcionalidad de registro de asistencia.                                                                          |
 
-| Question | ¿La visibilidad ofrecida por GigMap permite a los artistas emergentes llegar a nuevos seguidores? |
-|-----------|-----------|
+| Question               | ¿La visibilidad ofrecida por GigMap permite a los artistas emergentes llegar a nuevos seguidores?                                                                                                                                       |
+| ---------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | Condición Experimental | La cantidad de seguidores de artistas emergentes aumentará en un 25% después de implementar herramientas de visibilidad dentro de GigMap, medida mediante el número de nuevos seguidores obtenidos durante las primeras cuatro semanas. |
-| Condición de Control | No habrá un aumento significativo en la cantidad de seguidores obtenidos por los artistas emergentes tras la implementación de estas herramientas. |
+| Condición de Control   | No habrá un aumento significativo en la cantidad de seguidores obtenidos por los artistas emergentes tras la implementación de estas herramientas.                                                                                      |
 
-| Question | ¿La integración de foros temáticos fomenta una participación más activa y continua de los usuarios dentro de la plataforma? |
-|-----------|-----------|
+| Question               | ¿La integración de foros temáticos fomenta una participación más activa y continua de los usuarios dentro de la plataforma?                                                                                |
+| ---------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | Condición Experimental | La participación de los usuarios aumentará en un 30% después de implementar los foros temáticos, medida mediante la cantidad de publicaciones, comentarios e interacciones realizadas dentro de los foros. |
-| Condición de Control | No habrá un aumento significativo en la participación de los usuarios tras la implementación de los foros temáticos. |
+| Condición de Control   | No habrá un aumento significativo en la participación de los usuarios tras la implementación de los foros temáticos.                                                                                       |
 
 ## 8.2.5. Scale Calculations and Decisions
 
 Este enfoque utiliza métricas para evaluar el cumplimiento de las hipótesis planteadas para GigMap. Cada hipótesis posee un indicador de éxito asociado a una métrica específica. Un resultado será considerado **desfavorable** cuando no alcance el valor mínimo esperado, **aceptable** cuando se aproxime al objetivo establecido, **ideal** cuando cumpla la meta propuesta y **excelente** cuando supere dicha meta en al menos un 25%. Esta clasificación permitirá tomar decisiones fundamentadas para validar, mejorar o replantear las funcionalidades de la plataforma.
 
-| Scale Calculation | Decision | Desfavorable | Aceptable | Ideal | Excelente |
-|---------|---------|---------|---------|---------|---------|
+| Scale Calculation                                                                                                                                                                                                                                                               | Decision                                                                                                        | Desfavorable | Aceptable       | Ideal           | Excelente |
+| ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------- | ------------ | --------------- | --------------- | --------- |
 | Creemos que la implementación de geolocalización permitirá aumentar en un 30% la cantidad de eventos descubiertos por los usuarios. Sabremos que esto es cierto cuando observemos un incremento mínimo del 30% en los eventos visualizados por usuarios con ubicación activada. | Mantener y optimizar la funcionalidad de geolocalización como mecanismo principal de descubrimiento de eventos. | Menos de 15% | Entre 15% y 29% | Entre 30% y 39% | 40% o más |
-| Creemos que la funcionalidad de seguir artistas incrementará en un 25% la frecuencia semanal de visitas de los usuarios. Sabremos que esto es cierto cuando observemos un incremento mínimo del 25% en las visitas recurrentes. | Implementar mejoras en las notificaciones y actualizaciones de artistas seguidos. | Menos de 10% | Entre 10% y 24% | Entre 25% y 34% | 35% o más |
-| Creemos que mostrar información detallada sobre los eventos aumentará en un 20% la tasa de registro de asistencia. Sabremos que esto es cierto cuando observemos una mejora mínima del 20% en la conversión entre visualización y asistencia. | Mantener un estándar de información completa para todos los eventos publicados. | Menos de 10% | Entre 10% y 19% | Entre 20% y 29% | 30% o más |
-| Creemos que la funcionalidad de registrar asistencia aumentará en un 20% la interacción entre los usuarios de la comunidad. Sabremos que esto es cierto cuando observemos un incremento mínimo del 20% en comentarios, reacciones e interacciones relacionadas con eventos. | Ampliar las funcionalidades sociales asociadas a los eventos y asistentes. | Menos de 10% | Entre 10% y 19% | Entre 20% y 29% | 30% o más |
-| Creemos que las herramientas de visibilidad para artistas emergentes aumentarán en un 25% la cantidad de nuevos seguidores obtenidos. Sabremos que esto es cierto cuando observemos un crecimiento mínimo del 25% en seguidores durante las primeras cuatro semanas. | Incorporar nuevas herramientas promocionales para artistas emergentes dentro de GigMap. | Menos de 10% | Entre 10% y 24% | Entre 25% y 34% | 35% o más |
-| Creemos que la integración de foros temáticos aumentará en un 30% la participación de los usuarios dentro de la plataforma. Sabremos que esto es cierto cuando observemos un incremento mínimo del 30% en publicaciones, comentarios e interacciones. | Expandir los foros a más géneros musicales y comunidades específicas. | Menos de 15% | Entre 15% y 29% | Entre 30% y 39% | 40% o más |
+| Creemos que la funcionalidad de seguir artistas incrementará en un 25% la frecuencia semanal de visitas de los usuarios. Sabremos que esto es cierto cuando observemos un incremento mínimo del 25% en las visitas recurrentes.                                                 | Implementar mejoras en las notificaciones y actualizaciones de artistas seguidos.                               | Menos de 10% | Entre 10% y 24% | Entre 25% y 34% | 35% o más |
+| Creemos que mostrar información detallada sobre los eventos aumentará en un 20% la tasa de registro de asistencia. Sabremos que esto es cierto cuando observemos una mejora mínima del 20% en la conversión entre visualización y asistencia.                                   | Mantener un estándar de información completa para todos los eventos publicados.                                 | Menos de 10% | Entre 10% y 19% | Entre 20% y 29% | 30% o más |
+| Creemos que la funcionalidad de registrar asistencia aumentará en un 20% la interacción entre los usuarios de la comunidad. Sabremos que esto es cierto cuando observemos un incremento mínimo del 20% en comentarios, reacciones e interacciones relacionadas con eventos.     | Ampliar las funcionalidades sociales asociadas a los eventos y asistentes.                                      | Menos de 10% | Entre 10% y 19% | Entre 20% y 29% | 30% o más |
+| Creemos que las herramientas de visibilidad para artistas emergentes aumentarán en un 25% la cantidad de nuevos seguidores obtenidos. Sabremos que esto es cierto cuando observemos un crecimiento mínimo del 25% en seguidores durante las primeras cuatro semanas.            | Incorporar nuevas herramientas promocionales para artistas emergentes dentro de GigMap.                         | Menos de 10% | Entre 10% y 24% | Entre 25% y 34% | 35% o más |
+| Creemos que la integración de foros temáticos aumentará en un 30% la participación de los usuarios dentro de la plataforma. Sabremos que esto es cierto cuando observemos un incremento mínimo del 30% en publicaciones, comentarios e interacciones.                           | Expandir los foros a más géneros musicales y comunidades específicas.                                           | Menos de 15% | Entre 15% y 29% | Entre 30% y 39% | 40% o más |
 
 ### Decision Criteria
 
-| Resultado | Acción |
-|---------|---------|
-| **Desfavorable** | Replantear la funcionalidad o realizar cambios significativos antes de una nueva prueba. |
-| **Aceptable** | Mantener la funcionalidad y aplicar mejoras menores basadas en la retroalimentación obtenida. |
-| **Ideal** | Validar la hipótesis y continuar con la implementación completa de la funcionalidad. |
-| **Excelente** | Priorizar la funcionalidad dentro de la estrategia de crecimiento de GigMap y ampliar su alcance. |
+| Resultado        | Acción                                                                                            |
+| ---------------- | ------------------------------------------------------------------------------------------------- |
+| **Desfavorable** | Replantear la funcionalidad o realizar cambios significativos antes de una nueva prueba.          |
+| **Aceptable**    | Mantener la funcionalidad y aplicar mejoras menores basadas en la retroalimentación obtenida.     |
+| **Ideal**        | Validar la hipótesis y continuar con la implementación completa de la funcionalidad.              |
+| **Excelente**    | Priorizar la funcionalidad dentro de la estrategia de crecimiento de GigMap y ampliar su alcance. |
 
 ## 8.2.6. Methods Selection
 
-| Herramienta | Google Analytics | Catchpoint | RedLine13 | Lighthouse |
-|---------|---------|---------|---------|---------|
-| **Precio** | Plan gratuito con opciones premium | Basado en suscripción con pruebas gratuitas | Gratuito con limitaciones | Gratuito |
-| **Capacidad de Análisis** | Análisis de usuarios, eventos, tráfico y retención dentro de la plataforma | Monitoreo del rendimiento y disponibilidad desde distintas ubicaciones geográficas | Pruebas de carga y simulación de múltiples usuarios concurrentes | Evaluación de rendimiento, accesibilidad, SEO y buenas prácticas |
-| **Sencillez** | Fácil integración con aplicaciones web y móviles | Interfaz avanzada orientada al monitoreo profesional | Configuración sencilla para pruebas de estrés y carga | Fácil ejecución desde Chrome DevTools |
-| **Ventajas** | Permite medir descubrimiento de eventos, seguimiento de artistas y participación de usuarios | Detecta problemas de rendimiento que afectan la experiencia de usuarios en distintas regiones | Permite validar la estabilidad de GigMap bajo alta demanda de usuarios | Genera métricas claras para optimizar velocidad y experiencia de usuario |
+| Herramienta               | Google Analytics                                                                             | Catchpoint                                                                                    | RedLine13                                                              | Lighthouse                                                               |
+| ------------------------- | -------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------- | ------------------------------------------------------------------------ |
+| **Precio**                | Plan gratuito con opciones premium                                                           | Basado en suscripción con pruebas gratuitas                                                   | Gratuito con limitaciones                                              | Gratuito                                                                 |
+| **Capacidad de Análisis** | Análisis de usuarios, eventos, tráfico y retención dentro de la plataforma                   | Monitoreo del rendimiento y disponibilidad desde distintas ubicaciones geográficas            | Pruebas de carga y simulación de múltiples usuarios concurrentes       | Evaluación de rendimiento, accesibilidad, SEO y buenas prácticas         |
+| **Sencillez**             | Fácil integración con aplicaciones web y móviles                                             | Interfaz avanzada orientada al monitoreo profesional                                          | Configuración sencilla para pruebas de estrés y carga                  | Fácil ejecución desde Chrome DevTools                                    |
+| **Ventajas**              | Permite medir descubrimiento de eventos, seguimiento de artistas y participación de usuarios | Detecta problemas de rendimiento que afectan la experiencia de usuarios en distintas regiones | Permite validar la estabilidad de GigMap bajo alta demanda de usuarios | Genera métricas claras para optimizar velocidad y experiencia de usuario |
 
 ### Herramientas seleccionadas para GigMap
 
-| Herramienta | Uso en GigMap |
-|---------|---------|
-| **Google Analytics** | Medir descubrimiento de eventos, visitas recurrentes, seguimiento de artistas y conversiones hacia asistencia a conciertos. |
-| **Catchpoint** | Monitorear tiempos de respuesta, disponibilidad y rendimiento del mapa interactivo y de los servicios de eventos en diferentes ubicaciones. |
-| **RedLine13** | Simular grandes cantidades de usuarios consultando eventos, siguiendo artistas y registrando asistencia simultáneamente. |
-| **Lighthouse** | Evaluar rendimiento, accesibilidad y optimización general de la aplicación web. |
+| Herramienta          | Uso en GigMap                                                                                                                               |
+| -------------------- | ------------------------------------------------------------------------------------------------------------------------------------------- |
+| **Google Analytics** | Medir descubrimiento de eventos, visitas recurrentes, seguimiento de artistas y conversiones hacia asistencia a conciertos.                 |
+| **Catchpoint**       | Monitorear tiempos de respuesta, disponibilidad y rendimiento del mapa interactivo y de los servicios de eventos en diferentes ubicaciones. |
+| **RedLine13**        | Simular grandes cantidades de usuarios consultando eventos, siguiendo artistas y registrando asistencia simultáneamente.                    |
+| **Lighthouse**       | Evaluar rendimiento, accesibilidad y optimización general de la aplicación web.                                                             |
+
+### 8.2.7. Data Analytics: Goals, KPIs and Metrics Selection
+
+#### H1 — Geolocalización y descubrimiento de eventos
+
+| Elemento                    | Definición                                                                                                                                                                                                                                                                                                                                                                                                                                                               |
+| --------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
+| **Goal**                    | Incrementar el descubrimiento espontáneo de conciertos mediante la geolocalización en tiempo real.                                                                                                                                                                                                                                                                                                                                                                       |
+| **KPI**                     | **Tasa de descubrimiento geolocalizado (TDG):** Proporción de eventos únicos visualizados desde el mapa interactivo respecto al total de eventos disponibles en el radio de acción del usuario.                                                                                                                                                                                                                                                                          |
+| **Metrics**                 | - `M1.1` — Cantidad de eventos únicos visualizados con geolocalización activada por usuario por sesión.<br>- `M1.2` — Cantidad de eventos únicos visualizados sin geolocalización por usuario por sesión (grupo de control).<br>- `M1.3` — Ratio de clics en marcadores del mapa respecto a visualizaciones de la sección "Explorar" (tasa de interacción con el mapa).<br>- `M1.4` — Distancia promedio (km) entre la ubicación del usuario y los eventos visualizados. |
+| **Justificación analítica** | Las métricas M1.1–M1.2 capturan directamente el efecto de la condición experimental vs. control. M1.3 mide el compromiso activo con el mapa más allá de la exposición pasiva. M1.4 garantiza que los eventos descubiertos sean realmente cercanos y no artefactos de visualización periférica. El KPI compuesto (TDG) permite una comparación normalizada frente al total de eventos disponibles, evitando sesgos por densidad de eventos en distintas zonas.            |
+
+---
+
+#### H2 — Seguimiento de artistas y frecuencia de visitas
+
+| Elemento                    | Definición                                                                                                                                                                                                                                                                                                                                                                                                                                                                   |
+| --------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| **Goal**                    | Aumentar la retención y recurrencia de los usuarios fomentando que sigan a sus artistas favoritos dentro de la plataforma.                                                                                                                                                                                                                                                                                                                                                   |
+| **KPI**                     | **Frecuencia semanal de visitas por seguimiento (FSVS):** Promedio de sesiones semanales por usuario, segmentado entre usuarios que siguen al menos un artista y usuarios que no siguen ninguno.                                                                                                                                                                                                                                                                             |
+| **Metrics**                 | - `M2.1` — Número de sesiones semanales por usuario (usuarios que siguen ≥1 artista).<br>- `M2.2` — Número de sesiones semanales por usuario (usuarios que siguen 0 artistas).<br>- `M2.3` — Tasa de activación de seguimiento: proporción de usuarios que siguen al menos un artista dentro de los primeros 7 días de registro.<br>- `M2.4` — Tiempo promedio entre sesiones consecutivas (días), segmentado por cantidad de artistas seguidos.                             |
+| **Justificación analítica** | M2.1 y M2.2 constituyen la comparación experimental vs. control directamente ligada a la hipótesis. M2.3 mide el "enganche" temprano: si pocos usuarios activan el seguimiento, el KPI no podrá manifestarse. M2.4 complementa la frecuencia semanal con el intervalo entre visitas, ofreciendo una visión más fina de la recurrencia. La segmentación por cantidad de artistas seguidos (M2.4) permite explorar relaciones dosis-respuesta sin añadir métricas redundantes. |
+
+---
+
+#### H3 — Información de eventos y conversión a asistencia
+
+| Elemento                    | Definición                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                          |
+| --------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| **Goal**                    | Maximizar la tasa de conversión entre la visualización de un evento y el registro efectivo de asistencia, asegurando que los usuarios dispongan de información suficiente y relevante para tomar decisiones informadas.                                                                                                                                                                                                                                                                                                                             |
+| **KPI**                     | **Tasa de conversión a asistencia informada (TCAI):** Proporción de visualizaciones de detalle de evento que resultan en un registro de asistencia, diferenciada por nivel de completitud de la información del evento.                                                                                                                                                                                                                                                                                                                             |
+| **Metrics**                 | - `M3.1` — Tasa de conversión (registros ÷ visualizaciones) para eventos con información completa (descripción, artista, fecha, hora, ubicación, precio, género, imágenes).<br>- `M3.2` — Tasa de conversión para eventos con información incompleta (falta al menos uno de los campos anteriores).<br>- `M3.3` — Tiempo promedio de permanencia en la pantalla de detalle de evento, segmentado por nivel de completitud.<br>- `M3.4` — Tasa de clics en enlaces externos (ej. compra de entradas, mapa de ubicación) desde el detalle del evento. |
+| **Justificación analítica** | M3.1 y M3.2 constituyen la medida directa del impacto de la información completa sobre la decisión de asistencia. M3.3 permite distinguir si los usuarios dedican más tiempo a examinar eventos con información completa, indicando mayor involucramiento. M3.4 captura acciones de "exploración profunda" que preceden a la asistencia. No se incluyen métricas de satisfacción subjetiva (encuestas) en esta fase para mantener la economía analítica — se reservan para la etapa de seguimiento cualitativo.                                     |
+
+---
+
+#### H4 — Registro de asistencia e interacción comunitaria
+
+| Elemento                    | Definición                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                          |
+| --------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| **Goal**                    | Fortalecer el sentido de comunidad dentro de GigMap incentivando que los usuarios registren su asistencia a eventos, lo que a su vez incrementa su participación en las comunidades de la aplicación.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                               |
+| **KPI**                     | **Índice de participación post-asistencia (IPA):** Incremento en la frecuencia semanal de interacciones sociales (comentarios + reacciones + publicaciones) en comunidades, comparando usuarios que registraron asistencia a eventos vs. usuarios que no registraron asistencia.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    |
+| **Metrics**                 | - `M4.1` — Frecuencia semanal de interacciones (comentarios + reacciones + publicaciones) en comunidades, para usuarios que registraron al menos una asistencia en la última semana.<br>- `M4.2` — Frecuencia semanal de interacciones en comunidades, para usuarios que registraron cero asistencias en la última semana (grupo de control).<br>- `M4.3` — Proporción de usuarios que, tras registrar su primera asistencia, incrementan su frecuencia de interacción en comunidades respecto a su línea base individual previa al registro.<br>- `M4.4` — Tasa de usuarios que registran asistencia a un evento y que participan en al menos una interacción social en comunidades dentro de las 72 horas posteriores al evento.                                  |
+| **Justificación analítica** | Dado que no existe un vínculo técnico entre las publicaciones comunitarias y los eventos específicos, las métricas se centran en el comportamiento del usuario. M4.1 y M4.2 establecen la comparación experimental vs. control basada en la actividad del usuario en comunidades, segmentado por si registró o no asistencia. M4.3 usa a cada usuario como su propio control (línea base pre-registro vs. post-registro), eliminando sesgos de usuarios inherentemente más activos. M4.4 mide la "activación comunitaria" inmediata post-evento. En conjunto, las cuatro métricas permiten evaluar si el registro de asistencia funciona como catalizador de participación comunitaria, sin requerir un vínculo evento-publicación que la plataforma no implementa. |
+
+---
+
+#### H5 — Visibilidad de artistas emergentes y crecimiento de seguidores
+
+| Elemento                    | Definición                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                   |
+| --------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| **Goal**                    | Impulsar la visibilidad de artistas emergentes proporcionándoles herramientas de perfil optimizado y mecanismos de promoción dentro de GigMap, permitiéndoles alcanzar nuevas audiencias y hacer crecer su base de seguidores.                                                                                                                                                                                                                                                                                               |
+| **KPI**                     | **Tasa de crecimiento de seguidores por perfil optimizado (TCSPO):** Incremento porcentual semanal de seguidores para artistas con perfil optimizado, comparado con artistas con perfil básico, durante las primeras cuatro semanas posteriores a la activación del perfil.                                                                                                                                                                                                                                                  |
+| **Metrics**                 | - `M5.1` — Tasa de crecimiento semanal de seguidores para artistas con perfil optimizado (biografía completa, logo, enlaces a redes sociales, calendario de eventos).<br>- `M5.2` — Tasa de crecimiento semanal de seguidores para artistas con perfil básico (solo nombre y foto).<br>- `M5.3` — Número de visualizaciones del perfil del artista (perfil optimizado vs. básico) durante las primeras cuatro semanas.<br>- `M5.4` — Tasa de clics en enlaces externos del perfil del artista (Spotify, Instagram, YouTube). |
+| **Justificación analítica** | M5.1 y M5.2 miden directamente el efecto de la condición experimental vs. control sobre el crecimiento de seguidores. M5.3 captura la "puerta de entrada" — si el perfil no se visualiza, no puede generar seguidores, lo que permite diagnosticar problemas de alcance vs. problemas de conversión. M5.4 extiende el análisis más allá de GigMap, midiendo si el perfil optimizado genera interés que se materializa en otras plataformas musicales.                                                                        |
+
+---
+
+#### H6 — Foros temáticos y participación activa
+
+| Elemento                    | Definición                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                          |
+| --------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| **Goal**                    | Incrementar la participación activa y sostenida de los usuarios dentro de GigMap mediante la creación de foros temáticos por género musical, artista y región, proporcionando espacios de discusión que fortalezcan la comunidad y generen contenido orgánico.                                                                                                                                                                                                                                                                                                      |
+| **KPI**                     | **Tasa de participación activa en foros (TPAF):** Promedio semanal de publicaciones, comentarios y reacciones por usuario activo en foros, comparado antes y después de la implementación de foros temáticos.                                                                                                                                                                                                                                                                                                                                                       |
+| **Metrics**                 | - `M6.1` — Número de publicaciones nuevas en foros por semana.<br>- `M6.2` — Número de comentarios en publicaciones de foros por semana.<br>- `M6.3` — Número de usuarios únicos que publican o comentan al menos una vez por semana (usuarios activos en foros).<br>- `M6.4` — Tasa de retención semanal de participantes en foros: proporción de usuarios activos en la semana _n_ que vuelven a ser activos en la semana _n+1_.                                                                                                                                  |
+| **Justificación analítica** | M6.1, M6.2 y M6.3 cubren las tres dimensiones de la participación: creación de contenido (publicaciones), reacción al contenido (comentarios) y alcance de la participación (usuarios únicos). M6.4 introduce una métrica de sostenibilidad: si la participación es alta pero volátil (baja retención semanal), el foro genera ruido pero no comunidad duradera. No se incluyen métricas de calidad del contenido (valoraciones, likes por publicación) porque la hipótesis se centra en la cantidad y recurrencia de la participación, no en su calidad percibida. |
+
+---
+
+#### Resumen de la Economía Analítica
+
+La siguiente tabla consolida las métricas seleccionadas, verifica la no redundancia entre hipótesis y confirma que cada métrica tiene un propósito único dentro del diseño experimental:
+
+| Hipótesis                                             | KPI   | Métricas               | ¿Redundante con otra H?                                                                                            | Criterio de minimalidad                                                                                                              |
+| ----------------------------------------------------- | ----- | ---------------------- | ------------------------------------------------------------------------------------------------------------------ | ------------------------------------------------------------------------------------------------------------------------------------ |
+| H1 — Geolocalización                                  | TDG   | M1.1, M1.2, M1.3, M1.4 | No — métricas exclusivas de interacción con mapa y distancia geográfica.                                           | Cada métrica captura un aspecto distinto del descubrimiento: exposición (M1.1/M1.2), interacción (M1.3) y proximidad (M1.4).         |
+| H2 — Seguimiento de artistas                          | FSVS  | M2.1, M2.2, M2.3, M2.4 | No — métricas exclusivas de frecuencia de visitas y activación de seguimiento.                                     | M2.1/M2.2 son el contraste experimental; M2.3 mide adopción; M2.4 captura intervalo entre visitas (diferente de frecuencia semanal). |
+| H3 — Información de eventos                           | TCAI  | M3.1, M3.2, M3.3, M3.4 | No — métricas exclusivas de conversión a asistencia y comportamiento en detalle de evento.                         | M3.1/M3.2 son el contraste experimental; M3.3 captura involucramiento; M3.4 mide exploración profunda.                               |
+| H4 — Registro de asistencia e interacción comunitaria | IPA   | M4.1, M4.2, M4.3, M4.4 | No — métricas exclusivas de comportamiento post-asistencia en comunidades, sin vínculo técnico evento-publicación. | M4.1/M4.2 son el contraste experimental; M4.3 usa línea base individual; M4.4 mide activación comunitaria inmediata.                 |
+| H5 — Visibilidad de artistas                          | TCSPO | M5.1, M5.2, M5.3, M5.4 | No — métricas exclusivas de crecimiento de seguidores y visualización de perfiles.                                 | M5.1/M5.2 son el contraste experimental; M5.3 diagnostica alcance; M5.4 extiende a conversión externa.                               |
+| H6 — Foros temáticos                                  | TPAF  | M6.1, M6.2, M6.3, M6.4 | Comparte M4.4 solo como referencia cruzada, no como métrica principal de H6.                                       | M6.1/M6.2/M6.3 cubren tres dimensiones de participación; M6.4 mide sostenibilidad (única entre todas las hipótesis).                 |
 
 ## 8.2.8. Web and Mobile Tracking Plan
 
@@ -6410,31 +6502,31 @@ Durante esta etapa se desplegarán las nuevas funcionalidades de GigMap y se rec
 
 Se recopilarán métricas relacionadas con el uso de la plataforma, incluyendo:
 
-* Número de usuarios activos diarios y semanales.
-* Cantidad de eventos descubiertos mediante geolocalización.
-* Frecuencia de visitas a la aplicación.
-* Tiempo promedio de permanencia dentro de la plataforma.
-* Número de artistas seguidos por usuario.
+- Número de usuarios activos diarios y semanales.
+- Cantidad de eventos descubiertos mediante geolocalización.
+- Frecuencia de visitas a la aplicación.
+- Tiempo promedio de permanencia dentro de la plataforma.
+- Número de artistas seguidos por usuario.
 
 ##### Interacciones de los Usuarios
 
 Se registrarán las acciones realizadas por los usuarios dentro de GigMap, tales como:
 
-* Uso del mapa interactivo para descubrir eventos.
-* Registros de asistencia a conciertos y festivales.
-* Seguimiento de artistas.
-* Participación en foros y comunidades temáticas.
-* Interacciones con perfiles de artistas emergentes.
+- Uso del mapa interactivo para descubrir eventos.
+- Registros de asistencia a conciertos y festivales.
+- Seguimiento de artistas.
+- Participación en foros y comunidades temáticas.
+- Interacciones con perfiles de artistas emergentes.
 
 ##### Retroalimentación de Usuarios
 
 A través de encuestas, formularios de opinión y mecanismos de feedback integrados en la aplicación, se recopilarán comentarios relacionados con:
 
-* Facilidad para descubrir eventos.
-* Utilidad de la geolocalización.
-* Calidad de la información mostrada en los eventos.
-* Experiencia dentro de la comunidad y los foros.
-* Satisfacción general con la plataforma.
+- Facilidad para descubrir eventos.
+- Utilidad de la geolocalización.
+- Calidad de la información mostrada en los eventos.
+- Experiencia dentro de la comunidad y los foros.
+- Satisfacción general con la plataforma.
 
 #### Análisis Comparativo
 
@@ -6442,12 +6534,11 @@ Los resultados obtenidos durante esta fase serán comparados con los datos hist�
 
 Se analizarán especialmente:
 
-* Incremento en eventos descubiertos.
-* Crecimiento de seguidores para artistas emergentes.
-* Aumento en la frecuencia de visitas.
-* Participación dentro de la comunidad.
-* Conversión de visualizaciones de eventos en registros de asistencia.
-
+- Incremento en eventos descubiertos.
+- Crecimiento de seguidores para artistas emergentes.
+- Aumento en la frecuencia de visitas.
+- Participación dentro de la comunidad.
+- Conversión de visualizaciones de eventos en registros de asistencia.
 
 ### 2. Seguimiento Continuo
 
@@ -6459,20 +6550,20 @@ Una vez finalizada la implementación inicial, se establecerá un proceso perman
 
 Se utilizarán herramientas como Google Analytics, Catchpoint, RedLine13 y Lighthouse para monitorear:
 
-* Comportamiento de navegación de los usuarios.
-* Rendimiento del mapa interactivo.
-* Disponibilidad y tiempos de respuesta de la plataforma.
-* Rendimiento bajo cargas elevadas de usuarios.
-* Indicadores de accesibilidad y experiencia de usuario.
+- Comportamiento de navegación de los usuarios.
+- Rendimiento del mapa interactivo.
+- Disponibilidad y tiempos de respuesta de la plataforma.
+- Rendimiento bajo cargas elevadas de usuarios.
+- Indicadores de accesibilidad y experiencia de usuario.
 
 ##### Segmentación de Usuarios
 
 Los datos recopilados serán segmentados según diferentes perfiles:
 
-* Fanáticos de la música.
-* Usuarios ocasionales.
-* Artistas emergentes.
-* Organizadores de eventos.
+- Fanáticos de la música.
+- Usuarios ocasionales.
+- Artistas emergentes.
+- Organizadores de eventos.
 
 Esta segmentación permitirá comprender cómo cada grupo utiliza GigMap y qué funcionalidades generan mayor valor para cada uno.
 
@@ -6480,11 +6571,10 @@ Esta segmentación permitirá comprender cómo cada grupo utiliza GigMap y qué 
 
 Se medirá la capacidad de la plataforma para mantener usuarios activos a lo largo del tiempo mediante indicadores como:
 
-* Retención a 7 días.
-* Retención a 30 días.
-* Frecuencia de regreso de usuarios que siguen artistas.
-* Participación recurrente en eventos y comunidades.
-
+- Retención a 7 días.
+- Retención a 30 días.
+- Frecuencia de regreso de usuarios que siguen artistas.
+- Participación recurrente en eventos y comunidades.
 
 ### Evaluación y Ajustes
 
@@ -6492,10 +6582,10 @@ Se medirá la capacidad de la plataforma para mantener usuarios activos a lo lar
 
 Se elaborarán informes mensuales que incluirán:
 
-* Cumplimiento de las hipótesis experimentales.
-* Evolución de las métricas clave.
-* Identificación de oportunidades de mejora.
-* Recomendaciones para nuevas funcionalidades o ajustes.
+- Cumplimiento de las hipótesis experimentales.
+- Evolución de las métricas clave.
+- Identificación de oportunidades de mejora.
+- Recomendaciones para nuevas funcionalidades o ajustes.
 
 #### Iteración Basada en Datos
 
@@ -6503,16 +6593,13 @@ Las decisiones de desarrollo se fundamentarán en los resultados obtenidos duran
 
 Entre las posibles acciones se encuentran:
 
-* Optimizar los algoritmos de recomendación de eventos.
-* Mejorar la visibilidad de artistas emergentes.
-* Ajustar las funcionalidades de comunidad y foros.
-* Refinar la experiencia de geolocalización.
-* Mejorar el rendimiento y accesibilidad de la plataforma.
-
-
+- Optimizar los algoritmos de recomendación de eventos.
+- Mejorar la visibilidad de artistas emergentes.
+- Ajustar las funcionalidades de comunidad y foros.
+- Refinar la experiencia de geolocalización.
+- Mejorar el rendimiento y accesibilidad de la plataforma.
 
 Este enfoque permitirá que GigMap evolucione continuamente en función de datos reales de uso y de la retroalimentación de los usuarios, facilitando la toma de decisiones fundamentadas para mejorar la experiencia de descubrimiento musical, fortalecer la comunidad y aumentar la visibilidad de artistas emergentes dentro de la plataforma.
-
 
 # Conclusiones
 
