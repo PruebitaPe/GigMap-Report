@@ -6216,6 +6216,165 @@ El siguiente conjunto de tarjetas representa el artefacto clave del proceso XDPD
 | Condición Experimental | La participación de los usuarios aumentará en un 30% después de implementar los foros temáticos, medida mediante la cantidad de publicaciones, comentarios e interacciones realizadas dentro de los foros. |
 | Condición de Control | No habrá un aumento significativo en la participación de los usuarios tras la implementación de los foros temáticos. |
 
+## 8.2.5. Scale Calculations and Decisions
+
+Este enfoque utiliza métricas para evaluar el cumplimiento de las hipótesis planteadas para GigMap. Cada hipótesis posee un indicador de éxito asociado a una métrica específica. Un resultado será considerado **desfavorable** cuando no alcance el valor mínimo esperado, **aceptable** cuando se aproxime al objetivo establecido, **ideal** cuando cumpla la meta propuesta y **excelente** cuando supere dicha meta en al menos un 25%. Esta clasificación permitirá tomar decisiones fundamentadas para validar, mejorar o replantear las funcionalidades de la plataforma.
+
+| Scale Calculation | Decision | Desfavorable | Aceptable | Ideal | Excelente |
+|---------|---------|---------|---------|---------|---------|
+| Creemos que la implementación de geolocalización permitirá aumentar en un 30% la cantidad de eventos descubiertos por los usuarios. Sabremos que esto es cierto cuando observemos un incremento mínimo del 30% en los eventos visualizados por usuarios con ubicación activada. | Mantener y optimizar la funcionalidad de geolocalización como mecanismo principal de descubrimiento de eventos. | Menos de 15% | Entre 15% y 29% | Entre 30% y 39% | 40% o más |
+| Creemos que la funcionalidad de seguir artistas incrementará en un 25% la frecuencia semanal de visitas de los usuarios. Sabremos que esto es cierto cuando observemos un incremento mínimo del 25% en las visitas recurrentes. | Implementar mejoras en las notificaciones y actualizaciones de artistas seguidos. | Menos de 10% | Entre 10% y 24% | Entre 25% y 34% | 35% o más |
+| Creemos que mostrar información detallada sobre los eventos aumentará en un 20% la tasa de registro de asistencia. Sabremos que esto es cierto cuando observemos una mejora mínima del 20% en la conversión entre visualización y asistencia. | Mantener un estándar de información completa para todos los eventos publicados. | Menos de 10% | Entre 10% y 19% | Entre 20% y 29% | 30% o más |
+| Creemos que la funcionalidad de registrar asistencia aumentará en un 20% la interacción entre los usuarios de la comunidad. Sabremos que esto es cierto cuando observemos un incremento mínimo del 20% en comentarios, reacciones e interacciones relacionadas con eventos. | Ampliar las funcionalidades sociales asociadas a los eventos y asistentes. | Menos de 10% | Entre 10% y 19% | Entre 20% y 29% | 30% o más |
+| Creemos que las herramientas de visibilidad para artistas emergentes aumentarán en un 25% la cantidad de nuevos seguidores obtenidos. Sabremos que esto es cierto cuando observemos un crecimiento mínimo del 25% en seguidores durante las primeras cuatro semanas. | Incorporar nuevas herramientas promocionales para artistas emergentes dentro de GigMap. | Menos de 10% | Entre 10% y 24% | Entre 25% y 34% | 35% o más |
+| Creemos que la integración de foros temáticos aumentará en un 30% la participación de los usuarios dentro de la plataforma. Sabremos que esto es cierto cuando observemos un incremento mínimo del 30% en publicaciones, comentarios e interacciones. | Expandir los foros a más géneros musicales y comunidades específicas. | Menos de 15% | Entre 15% y 29% | Entre 30% y 39% | 40% o más |
+
+### Decision Criteria
+
+| Resultado | Acción |
+|---------|---------|
+| **Desfavorable** | Replantear la funcionalidad o realizar cambios significativos antes de una nueva prueba. |
+| **Aceptable** | Mantener la funcionalidad y aplicar mejoras menores basadas en la retroalimentación obtenida. |
+| **Ideal** | Validar la hipótesis y continuar con la implementación completa de la funcionalidad. |
+| **Excelente** | Priorizar la funcionalidad dentro de la estrategia de crecimiento de GigMap y ampliar su alcance. |
+
+## 8.2.6. Methods Selection
+
+| Herramienta | Google Analytics | Catchpoint | RedLine13 | Lighthouse |
+|---------|---------|---------|---------|---------|
+| **Precio** | Plan gratuito con opciones premium | Basado en suscripción con pruebas gratuitas | Gratuito con limitaciones | Gratuito |
+| **Capacidad de Análisis** | Análisis de usuarios, eventos, tráfico y retención dentro de la plataforma | Monitoreo del rendimiento y disponibilidad desde distintas ubicaciones geográficas | Pruebas de carga y simulación de múltiples usuarios concurrentes | Evaluación de rendimiento, accesibilidad, SEO y buenas prácticas |
+| **Sencillez** | Fácil integración con aplicaciones web y móviles | Interfaz avanzada orientada al monitoreo profesional | Configuración sencilla para pruebas de estrés y carga | Fácil ejecución desde Chrome DevTools |
+| **Ventajas** | Permite medir descubrimiento de eventos, seguimiento de artistas y participación de usuarios | Detecta problemas de rendimiento que afectan la experiencia de usuarios en distintas regiones | Permite validar la estabilidad de GigMap bajo alta demanda de usuarios | Genera métricas claras para optimizar velocidad y experiencia de usuario |
+
+### Herramientas seleccionadas para GigMap
+
+| Herramienta | Uso en GigMap |
+|---------|---------|
+| **Google Analytics** | Medir descubrimiento de eventos, visitas recurrentes, seguimiento de artistas y conversiones hacia asistencia a conciertos. |
+| **Catchpoint** | Monitorear tiempos de respuesta, disponibilidad y rendimiento del mapa interactivo y de los servicios de eventos en diferentes ubicaciones. |
+| **RedLine13** | Simular grandes cantidades de usuarios consultando eventos, siguiendo artistas y registrando asistencia simultáneamente. |
+| **Lighthouse** | Evaluar rendimiento, accesibilidad y optimización general de la aplicación web. |
+
+## 8.2.8. Web and Mobile Tracking Plan
+
+Para GigMap, nuestro objetivo es monitorear y optimizar continuamente la experiencia de descubrimiento de eventos musicales, la interacción entre usuarios y artistas, y la participación dentro de la comunidad. A medida que el proyecto avance hacia sus etapas finales de desarrollo, se implementará un plan de seguimiento integral que permita evaluar el impacto de las funcionalidades experimentales y validar las hipótesis planteadas.
+
+El monitoreo de las funcionalidades experimentales se realizará en dos etapas principales:
+
+### 1. Implementación Inicial
+
+Durante esta etapa se desplegarán las nuevas funcionalidades de GigMap y se recopilarán datos iniciales que servirán como línea base para futuras comparaciones.
+
+#### Recopilación de Datos
+
+##### Métricas de Uso
+
+Se recopilarán métricas relacionadas con el uso de la plataforma, incluyendo:
+
+* Número de usuarios activos diarios y semanales.
+* Cantidad de eventos descubiertos mediante geolocalización.
+* Frecuencia de visitas a la aplicación.
+* Tiempo promedio de permanencia dentro de la plataforma.
+* Número de artistas seguidos por usuario.
+
+##### Interacciones de los Usuarios
+
+Se registrarán las acciones realizadas por los usuarios dentro de GigMap, tales como:
+
+* Uso del mapa interactivo para descubrir eventos.
+* Registros de asistencia a conciertos y festivales.
+* Seguimiento de artistas.
+* Participación en foros y comunidades temáticas.
+* Interacciones con perfiles de artistas emergentes.
+
+##### Retroalimentación de Usuarios
+
+A través de encuestas, formularios de opinión y mecanismos de feedback integrados en la aplicación, se recopilarán comentarios relacionados con:
+
+* Facilidad para descubrir eventos.
+* Utilidad de la geolocalización.
+* Calidad de la información mostrada en los eventos.
+* Experiencia dentro de la comunidad y los foros.
+* Satisfacción general con la plataforma.
+
+#### Análisis Comparativo
+
+Los resultados obtenidos durante esta fase serán comparados con los datos históricos y con los indicadores previos a la implementación de las nuevas funcionalidades para evaluar su impacto inicial.
+
+Se analizarán especialmente:
+
+* Incremento en eventos descubiertos.
+* Crecimiento de seguidores para artistas emergentes.
+* Aumento en la frecuencia de visitas.
+* Participación dentro de la comunidad.
+* Conversión de visualizaciones de eventos en registros de asistencia.
+
+
+### 2. Seguimiento Continuo
+
+Una vez finalizada la implementación inicial, se establecerá un proceso permanente de monitoreo para evaluar el desempeño de la plataforma y realizar mejoras basadas en evidencia.
+
+#### Recopilación de Datos
+
+##### Métricas en Tiempo Real
+
+Se utilizarán herramientas como Google Analytics, Catchpoint, RedLine13 y Lighthouse para monitorear:
+
+* Comportamiento de navegación de los usuarios.
+* Rendimiento del mapa interactivo.
+* Disponibilidad y tiempos de respuesta de la plataforma.
+* Rendimiento bajo cargas elevadas de usuarios.
+* Indicadores de accesibilidad y experiencia de usuario.
+
+##### Segmentación de Usuarios
+
+Los datos recopilados serán segmentados según diferentes perfiles:
+
+* Fanáticos de la música.
+* Usuarios ocasionales.
+* Artistas emergentes.
+* Organizadores de eventos.
+
+Esta segmentación permitirá comprender cómo cada grupo utiliza GigMap y qué funcionalidades generan mayor valor para cada uno.
+
+##### Tasa de Retención
+
+Se medirá la capacidad de la plataforma para mantener usuarios activos a lo largo del tiempo mediante indicadores como:
+
+* Retención a 7 días.
+* Retención a 30 días.
+* Frecuencia de regreso de usuarios que siguen artistas.
+* Participación recurrente en eventos y comunidades.
+
+
+### Evaluación y Ajustes
+
+#### Informes Periódicos
+
+Se elaborarán informes mensuales que incluirán:
+
+* Cumplimiento de las hipótesis experimentales.
+* Evolución de las métricas clave.
+* Identificación de oportunidades de mejora.
+* Recomendaciones para nuevas funcionalidades o ajustes.
+
+#### Iteración Basada en Datos
+
+Las decisiones de desarrollo se fundamentarán en los resultados obtenidos durante el monitoreo.
+
+Entre las posibles acciones se encuentran:
+
+* Optimizar los algoritmos de recomendación de eventos.
+* Mejorar la visibilidad de artistas emergentes.
+* Ajustar las funcionalidades de comunidad y foros.
+* Refinar la experiencia de geolocalización.
+* Mejorar el rendimiento y accesibilidad de la plataforma.
+
+
+
+Este enfoque permitirá que GigMap evolucione continuamente en función de datos reales de uso y de la retroalimentación de los usuarios, facilitando la toma de decisiones fundamentadas para mejorar la experiencia de descubrimiento musical, fortalecer la comunidad y aumentar la visibilidad de artistas emergentes dentro de la plataforma.
+
 
 # Conclusiones
 
