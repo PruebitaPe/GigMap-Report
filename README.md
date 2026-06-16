@@ -5977,8 +5977,6 @@ El objetivo del Continuous Deployment en GigMap es automatizar el flujo de entre
 
 - **Validación funcional:** Se abre la aplicación en el dispositivo y se verifica que las funcionalidades principales operen correctamente, incluyendo la comunicación con el backend en Render y la recepción de notificaciones a través de Firebase.
 
-# CAPÍTULO VIII: Experiment-Driven Development
-
 ## 7.4. Continuous Monitoring
 
 El monitoreo continuo permite supervisar de manera constante el estado, rendimiento y disponibilidad de los componentes principales de GigMap. Esta práctica resulta importante para StayBits, ya que la aplicación depende de funcionalidades como la búsqueda de conciertos, geolocalización, perfiles de usuario, publicaciones, comunidades y notificaciones.
@@ -6042,6 +6040,10 @@ El pipeline de notificaciones permite comunicar automáticamente al equipo el es
 Para ello, se utiliza GitHub Actions como mecanismo principal de notificación. Cada vez que se ejecuta un pipeline, GitHub Actions registra el resultado de las tareas realizadas, incluyendo compilación, pruebas y despliegues. En caso de que alguna etapa falle, el sistema muestra información detallada del error dentro del repositorio, permitiendo que los integrantes del equipo identifiquen y solucionen el problema oportunamente.
 
 Asimismo, GitHub Actions proporciona un historial completo de ejecuciones, facilitando el seguimiento de incidentes y la validación de los cambios realizados durante cada sprint. De esta manera, el pipeline de notificaciones contribuye a mantener la estabilidad y calidad de la aplicación, permitiendo una respuesta rápida ante posibles fallos.
+
+# CAPÍTULO VIII: Experiment-Driven Development
+
+
 ## 8.1. Experiment Planning
 ### 8.1.1. As-Is Summary
 
