@@ -5698,19 +5698,20 @@ Screenshot de video:
 
 **Entrevista #5**
 
-- **Nombre**:
-- **Edad**:
-- **Distrito**:
-- **Duración**:
-- **Timing de inicio**:
+- **Nombre**: Mathias Carlos Medina Posito
+- **Edad**: 20 años
+- **Distrito**: La Molina
+- **Duración**: 00:06:42
+- **Timing de inicio**: 00:00:00
 
-**Screenshot de video:**
+**Screenshot de video:** 
 
 <p align="center">
-  <img src="" alt="Commits" width="800">
+  <img src="assets/images/interviews/validation_interviewMathi.PNG" alt="Commits" width="800">
 </p>
 
-**Resumen:**
+**Resumen:** En la entrevista , el artista indicó que la funcionalidad que más le gustó fue la de eventos asociados, ya que nunca había visto algo similar en otras aplicaciones. Comentó que, como fan de otros artistas, siempre le resultó difícil coordinar este tipo de actividades. Además, señaló que le gustaría que la aplicación permitiera contactar directamente con otros artistas. Considera que esto le ayudaría a ampliar su red de contactos y conocer más personas del rubro.
+
 
 **Entrevista #6**
 
