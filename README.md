@@ -6601,6 +6601,512 @@ Entre las posibles acciones se encuentran:
 
 Este enfoque permitirá que GigMap evolucione continuamente en función de datos reales de uso y de la retroalimentación de los usuarios, facilitando la toma de decisiones fundamentadas para mejorar la experiencia de descubrimiento musical, fortalecer la comunidad y aumentar la visibilidad de artistas emergentes dentro de la plataforma.
 
+## 8.3. Experimentation
+
+### 8.3.1. To-Be User Stories
+
+**To-Be User Stories:**
+
+<table>
+  <thead>
+    <tr>
+      <th>Story ID</th>
+      <th>User</th>
+      <th>Priority</th>
+      <th>Epic</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>US35</td>
+      <td>Fan</td>
+      <td>5</td>
+      <td>EP01</td>
+    </tr>
+    <tr>
+      <td><strong>Title</strong></td>
+      <td colspan="3">Explorar mapa interactivo con eventos geolocalizados</td>
+    </tr>
+    <tr>
+      <td colspan="4"><strong>Description</strong></td>
+    </tr>
+    <tr>
+      <td colspan="4">Como fan, quiero explorar un mapa interactivo que muestre los conciertos cercanos a mi ubicación para descubrir eventos musicales que de otro modo no conocería.</td>
+    </tr>
+    <tr>
+      <td colspan="4"><strong>Acceptance Criteria</strong></td>
+    </tr>
+    <tr>
+      <td colspan="4">
+        <strong>Escenario 1: Visualización del mapa con eventos cercanos</strong><br>
+        Dado que el usuario ha activado los permisos de ubicación<br>
+        Cuando accede a la sección de mapa interactivo<br>
+        Entonces ve marcadores de conciertos cercanos en un radio de visualización basado en su ubicación actual.<br><br>
+        <strong>Escenario 2: Interacción con marcador de evento</strong><br>
+        Dado que el usuario visualiza el mapa con marcadores de conciertos<br>
+        Cuando hace clic en un marcador<br>
+        Entonces se muestra un resumen del evento con nombre, artista, fecha y distancia desde su ubicación.<br><br>
+        <strong>Escenario 3: Geolocalización desactivada</strong><br>
+        Dado que el usuario no ha activado los permisos de ubicación<br>
+        Cuando accede a la sección de mapa<br>
+        Entonces se muestra un mensaje solicitando activar la geolocalización para ver eventos cercanos.
+      </td>
+    </tr>
+  </tbody>
+</table>
+
+<table>
+  <thead>
+    <tr>
+      <th>Story ID</th>
+      <th>User</th>
+      <th>Priority</th>
+      <th>Epic</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>US36</td>
+      <td>Fan</td>
+      <td>3</td>
+      <td>EP01</td>
+    </tr>
+    <tr>
+      <td><strong>Title</strong></td>
+      <td colspan="3">Seguir artista y recibir actualizaciones</td>
+    </tr>
+    <tr>
+      <td colspan="4"><strong>Description</strong></td>
+    </tr>
+    <tr>
+      <td colspan="4">Como fan, quiero seguir a mis artistas favoritos dentro de GigMap y recibir actualizaciones sobre sus nuevos eventos para mantenerme informado y visitar la plataforma con mayor frecuencia.</td>
+    </tr>
+    <tr>
+      <td colspan="4"><strong>Acceptance Criteria</strong></td>
+    </tr>
+    <tr>
+      <td colspan="4">
+        <strong>Escenario 1: Seguir a un artista desde su perfil</strong><br>
+        Dado que el usuario visualiza el perfil de un artista<br>
+        Cuando presiona el botón "Seguir"<br>
+        Entonces el artista se agrega a su lista de seguidos y el botón cambia a "Siguiendo".<br><br>
+        <strong>Escenario 2: Dejar de seguir a un artista</strong><br>
+        Dado que el usuario ya sigue al artista<br>
+        Cuando presiona el botón "Siguiendo"<br>
+        Entonces el artista se elimina de su lista de seguidos y el botón vuelve a "Seguir".<br><br>
+        <strong>Escenario 3: Ver feed de novedades de artistas seguidos</strong><br>
+        Dado que el usuario sigue al menos un artista<br>
+        Cuando accede a la sección de novedades<br>
+        Entonces visualiza las actualizaciones recientes de los artistas que sigue (nuevos eventos, cambios de fechas, publicaciones).
+      </td>
+    </tr>
+  </tbody>
+</table>
+
+<table>
+  <thead>
+    <tr>
+      <th>Story ID</th>
+      <th>User</th>
+      <th>Priority</th>
+      <th>Epic</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>US37</td>
+      <td>Fan</td>
+      <td>3</td>
+      <td>EP01</td>
+    </tr>
+    <tr>
+      <td><strong>Title</strong></td>
+      <td colspan="3">Visualizar información detallada del evento para decidir asistencia</td>
+    </tr>
+    <tr>
+      <td colspan="4"><strong>Description</strong></td>
+    </tr>
+    <tr>
+      <td colspan="4">Como fan, quiero visualizar información completa y detallada de cada evento (artista, fecha, hora, lugar, precio, género, imágenes y mapa de ubicación) para poder decidir con confianza si asistir o no.</td>
+    </tr>
+    <tr>
+      <td colspan="4"><strong>Acceptance Criteria</strong></td>
+    </tr>
+    <tr>
+      <td colspan="4">
+        <strong>Escenario 1: Visualización de evento con información completa</strong><br>
+        Dado que el usuario accede al detalle de un evento con información completa<br>
+        Cuando la pantalla de detalle se carga<br>
+        Entonces visualiza todos los campos: artista, fecha, hora, lugar, precio, género musical, imágenes y mapa de ubicación.<br><br>
+        <strong>Escenario 2: Visualización de evento con información incompleta</strong><br>
+        Dado que el usuario accede al detalle de un evento con información incompleta<br>
+        Cuando la pantalla de detalle se carga<br>
+        Entonces se muestran los campos disponibles y se indica con un mensaje que falta información relevante.<br><br>
+        <strong>Escenario 3: Registro de asistencia desde el detalle</strong><br>
+        Dado que el usuario visualiza el detalle completo de un evento<br>
+        Cuando presiona el botón "Asistiré"<br>
+        Entonces se registra su asistencia y el evento se agrega a su GigList.
+      </td>
+    </tr>
+  </tbody>
+</table>
+
+<table>
+  <thead>
+    <tr>
+      <th>Story ID</th>
+      <th>User</th>
+      <th>Priority</th>
+      <th>Epic</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>US38</td>
+      <td>Fan</td>
+      <td>3</td>
+      <td>EP03</td>
+    </tr>
+    <tr>
+      <td><strong>Title</strong></td>
+      <td colspan="3">Registrar asistencia a conciertos y compartir experiencia en comunidad</td>
+    </tr>
+    <tr>
+      <td colspan="4"><strong>Description</strong></td>
+    </tr>
+    <tr>
+      <td colspan="4">Como fan, quiero registrar mi asistencia a un concierto para que otros usuarios de la comunidad puedan ver mi participación y generar interacciones como comentarios y reacciones.</td>
+    </tr>
+    <tr>
+      <td colspan="4"><strong>Acceptance Criteria</strong></td>
+    </tr>
+    <tr>
+      <td colspan="4">
+        <strong>Escenario 1: Registrar asistencia a un evento</strong><br>
+        Dado que el usuario se encuentra en el detalle de un evento<br>
+        Cuando presiona el botón "Asistiré"<br>
+        Entonces su asistencia queda registrada en la plataforma y puede ser vista por otros usuarios de la comunidad.<br><br>
+        <strong>Escenario 2: Ver lista de asistentes a un evento</strong><br>
+        Dado que el usuario ha confirmado asistencia a un evento<br>
+        Cuando accede a la sección de asistentes del evento<br>
+        Entonces puede ver una lista de otros usuarios que también asistirán.<br><br>
+        <strong>Escenario 3: Interactuar con otros asistentes</strong><br>
+        Dado que el usuario visualiza la lista de asistentes a un evento<br>
+        Cuando hace clic en el perfil de otro asistente<br>
+        Entonces puede ver su perfil público y enviarle una solicitud de amistad o mensaje (según configuración de privacidad).
+      </td>
+    </tr>
+  </tbody>
+</table>
+
+<table>
+  <thead>
+    <tr>
+      <th>Story ID</th>
+      <th>User</th>
+      <th>Priority</th>
+      <th>Epic</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>US39</td>
+      <td>Artista</td>
+      <td>3</td>
+      <td>EP01</td>
+    </tr>
+    <tr>
+      <td><strong>Title</strong></td>
+      <td colspan="3">Acceder a perfil optimizado con herramientas de visibilidad</td>
+    </tr>
+    <tr>
+      <td colspan="4"><strong>Description</strong></td>
+    </tr>
+    <tr>
+      <td colspan="4">Como artista emergente, quiero acceder a un perfil optimizado con herramientas de visibilidad (biografía completa, logo, enlaces a redes sociales, calendario de eventos y estadísticas) para aumentar mi base de seguidores dentro de GigMap.</td>
+    </tr>
+    <tr>
+      <td colspan="4"><strong>Acceptance Criteria</strong></td>
+    </tr>
+    <tr>
+      <td colspan="4">
+        <strong>Escenario 1: Configurar perfil optimizado</strong><br>
+        Dado que el artista ha iniciado sesión<br>
+        Cuando accede a la configuración de su perfil<br>
+        Entonces puede completar los campos de biografía, subir logo o foto de portada, agregar enlaces a redes sociales (Spotify, Instagram, YouTube) y gestionar su calendario de eventos.<br><br>
+        <strong>Escenario 2: Visualizar estadísticas de perfil</strong><br>
+        Dado que el artista tiene un perfil optimizado<br>
+        Cuando accede a la sección de estadísticas<br>
+        Entonces puede visualizar el número de seguidores, visualizaciones de perfil y clics en enlaces externos durante las últimas cuatro semanas.<br><br>
+        <strong>Escenario 3: Comparar perfil optimizado vs. básico</strong><br>
+        Dado que el sistema registra datos de visibilidad<br>
+        Cuando se genera un reporte semanal<br>
+        Entonces el artista puede ver la diferencia en alcance entre su perfil optimizado y un perfil básico de referencia.
+      </td>
+    </tr>
+  </tbody>
+</table>
+
+<table>
+  <thead>
+    <tr>
+      <th>Story ID</th>
+      <th>User</th>
+      <th>Priority</th>
+      <th>Epic</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>US40</td>
+      <td>Usuario</td>
+      <td>5</td>
+      <td>EP03</td>
+    </tr>
+    <tr>
+      <td><strong>Title</strong></td>
+      <td colspan="3">Participar en foros temáticos por género musical</td>
+    </tr>
+    <tr>
+      <td colspan="4"><strong>Description</strong></td>
+    </tr>
+    <tr>
+      <td colspan="4">Como usuario, quiero participar en foros temáticos organizados por género musical para compartir opiniones, experiencias y recomendaciones sobre eventos y artistas, y así mantenerme activo dentro de la plataforma.</td>
+    </tr>
+    <tr>
+      <td colspan="4"><strong>Acceptance Criteria</strong></td>
+    </tr>
+    <tr>
+      <td colspan="4">
+        <strong>Escenario 1: Acceder a foros por género musical</strong><br>
+        Dado que el usuario está autenticado<br>
+        Cuando accede a la sección de foros<br>
+        Entonces puede seleccionar un género musical y ver los hilos de discusión activos en ese foro.<br><br>
+        <strong>Escenario 2: Crear un nuevo hilo de discusión</strong><br>
+        Dado que el usuario se encuentra dentro de un foro de género musical<br>
+        Cuando presiona el botón "Nuevo hilo"<br>
+        Entonces puede escribir un título y contenido para iniciar una discusión, y el hilo queda visible para otros usuarios del foro.<br><br>
+        <strong>Escenario 3: Comentar y reaccionar en un hilo</strong><br>
+        Dado que el usuario visualiza un hilo de discusión<br>
+        Cuando escribe un comentario o reacciona con un emoji<br>
+        Entonces su interacción queda registrada y visible para los demás participantes del foro.<br><br>
+        <strong>Escenario 4: Moderación de contenido</strong><br>
+        Dado que un usuario publica contenido inapropiado en un foro<br>
+        Cuando otro usuario reporta la publicación<br>
+        Entonces el sistema notifica a los administradores para que tomen las medidas correspondientes.
+      </td>
+    </tr>
+  </tbody>
+</table>
+
+**Technical Stories:**
+
+<table>
+  <thead>
+    <tr>
+      <th>Story ID</th>
+      <th>User</th>
+      <th>Priority</th>
+      <th>Epic</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>TS-24</td>
+      <td>Developer</td>
+      <td>1</td>
+      <td>EP06</td>
+    </tr>
+    <tr>
+      <td><strong>Title</strong></td>
+      <td colspan="3">Registrar eventos de analítica experimental</td>
+    </tr>
+    <tr>
+      <td colspan="4"><strong>Description</strong></td>
+    </tr>
+    <tr>
+      <td colspan="4">
+        Como developer, quiero un endpoint POST en /api/v1/analytics/events que registre eventos de analítica experimental (map_viewed, event_marker_clicked, geolocation_enabled, artist_followed, attendance_registered, forum_post_created, forum_comment_added) para calcular los KPIs definidos en el diseño experimental (TDG, FSVS, TCAI, IPA, TCSPO, TPAF).
+      </td>
+    </tr>
+    <tr>
+      <td colspan="4"><strong>Acceptance Criteria</strong></td>
+    </tr>
+    <tr>
+      <td colspan="4">
+        <strong>Escenario: Registro exitoso de evento de analítica</strong><br>
+        Dado que un usuario realiza una acción experimental en la aplicación<br>
+        Cuando el frontend envía un POST a /api/v1/analytics/events con event_type y metadatos contextuales<br>
+        Entonces el sistema registra el evento con timestamp, user_id, event_type y metadatos adicionales<br>
+        Y responde con un código 201 Created<br><br>
+        <strong>Escenario: Error por tipo de evento inválido</strong><br>
+        Dado que el frontend envía un event_type no reconocido<br>
+        Cuando el sistema procesa la solicitud<br>
+        Entonces responde con un código 400 Bad Request
+      </td>
+    </tr>
+  </tbody>
+</table>
+
+<table>
+  <thead>
+    <tr>
+      <th>Story ID</th>
+      <th>User</th>
+      <th>Priority</th>
+      <th>Epic</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>TS-25</td>
+      <td>Developer</td>
+      <td>1</td>
+      <td>EP06</td>
+    </tr>
+    <tr>
+      <td><strong>Title</strong></td>
+      <td colspan="3">Gestionar seguimiento de artistas (follow/unfollow)</td>
+    </tr>
+    <tr>
+      <td colspan="4"><strong>Description</strong></td>
+    </tr>
+    <tr>
+      <td colspan="4">
+        Como developer, quiero un endpoint POST en /api/v1/artists/{artistId}/follow y un endpoint DELETE en /api/v1/artists/{artistId}/unfollow para gestionar el seguimiento de artistas por parte de los usuarios.
+      </td>
+    </tr>
+    <tr>
+      <td colspan="4"><strong>Acceptance Criteria</strong></td>
+    </tr>
+    <tr>
+      <td colspan="4">
+        <strong>Escenario: Seguir artista exitosamente</strong><br>
+        Dado que el usuario está autenticado y el artista existe<br>
+        Cuando realiza POST a /api/v1/artists/{artistId}/follow<br>
+        Entonces queda registrado como seguidor del artista<br>
+        Y el contador de seguidores del artista se incrementa.<br><br>
+        <strong>Escenario: Dejar de seguir artista</strong><br>
+        Dado que el usuario sigue al artista<br>
+        Cuando realiza DELETE a /api/v1/artists/{artistId}/unfollow<br>
+        Entonces se elimina la relación de seguimiento<br>
+        Y el contador de seguidores se decrementa.
+      </td>
+    </tr>
+  </tbody>
+</table>
+
+<table>
+  <thead>
+    <tr>
+      <th>Story ID</th>
+      <th>User</th>
+      <th>Priority</th>
+      <th>Epic</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>TS-26</td>
+      <td>Developer</td>
+      <td>1</td>
+      <td>EP06</td>
+    </tr>
+    <tr>
+      <td><strong>Title</strong></td>
+      <td colspan="3">Obtener estadísticas de perfil de artista</td>
+    </tr>
+    <tr>
+      <td colspan="4"><strong>Description</strong></td>
+    </tr>
+    <tr>
+      <td colspan="4">
+        Como developer, quiero un endpoint GET en /api/v1/artists/{artistId}/stats que devuelva métricas de visibilidad del perfil del artista: número de seguidores, visualizaciones del perfil y clics en enlaces externos, segmentado por semana durante las últimas cuatro semanas.
+      </td>
+    </tr>
+    <tr>
+      <td colspan="4"><strong>Acceptance Criteria</strong></td>
+    </tr>
+    <tr>
+      <td colspan="4">
+        <strong>Escenario: Estadísticas obtenidas correctamente</strong><br>
+        Dado que el artista tiene un perfil registrado en GigMap<br>
+        Cuando se realiza GET a /api/v1/artists/{artistId}/stats<br>
+        Entonces se devuelven métricas semanales de: seguidores nuevos, visualizaciones de perfil, clics en enlaces externos (Spotify, Instagram, YouTube).<br><br>
+        <strong>Escenario: Sin datos de estadísticas</strong><br>
+        Dado que el perfil del artista es nuevo o no tiene actividad registrada<br>
+        Cuando se realiza GET al endpoint<br>
+        Entonces se devuelven valores en cero con un indicador de "sin datos históricos".
+      </td>
+    </tr>
+  </tbody>
+</table>
+
+<table>
+  <thead>
+    <tr>
+      <th>Story ID</th>
+      <th>User</th>
+      <th>Priority</th>
+      <th>Epic</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>TS-27</td>
+      <td>Developer</td>
+      <td>1</td>
+      <td>EP06</td>
+    </tr>
+    <tr>
+      <td><strong>Title</strong></td>
+      <td colspan="3">Gestionar foros temáticos (foros, hilos y comentarios)</td>
+    </tr>
+    <tr>
+      <td colspan="4"><strong>Description</strong></td>
+    </tr>
+    <tr>
+      <td colspan="4">
+        Como developer, quiero endpoints para crear foros temáticos por género musical (POST /api/v1/forums), crear hilos dentro de foros (POST /api/v1/forums/{forumId}/threads) y agregar comentarios a hilos (POST /api/v1/forums/threads/{threadId}/comments).
+      </td>
+    </tr>
+    <tr>
+      <td colspan="4"><strong>Acceptance Criteria</strong></td>
+    </tr>
+    <tr>
+      <td colspan="4">
+        <strong>Escenario: Crear foro temático</strong><br>
+        Dado que el administrador envía datos válidos (nombre del foro, género musical asociado, descripción)<br>
+        Cuando se realiza POST a /api/v1/forums<br>
+        Entonces se crea el foro y queda disponible para los usuarios.<br><br>
+        <strong>Escenario: Crear hilo en foro</strong><br>
+        Dado que el usuario está autenticado y el foro existe<br>
+        Cuando realiza POST a /api/v1/forums/{forumId}/threads con título y contenido<br>
+        Entonces el hilo se publica y es visible en el foro.<br><br>
+        <strong>Escenario: Comentar en hilo</strong><br>
+        Dado que el usuario está autenticado y el hilo existe<br>
+        Cuando realiza POST a /api/v1/forums/threads/{threadId}/comments con contenido<br>
+        Entonces el comentario se agrega al hilo.
+      </td>
+    </tr>
+  </tbody>
+</table>
+
+### 8.3.2. To-Be Product Backlog
+
+| # Orden | User Story Id | Título                                                                 | Descripción                                                                                                                                                                                                                                    | Story Points (1 / 2 / 3 / 5 / 8) |
+| ------- | ------------- | ---------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | -------------------------------- |
+| 1       | US35          | Explorar mapa interactivo con eventos geolocalizados                   | Como fan, quiero explorar un mapa interactivo que muestre los conciertos cercanos a mi ubicación para descubrir eventos musicales que de otro modo no conocería.                                                                               | 8                                |
+| 2       | US40          | Participar en foros temáticos por género musical                       | Como usuario, quiero participar en foros temáticos organizados por género musical para compartir opiniones, experiencias y recomendaciones sobre eventos y artistas.                                                                           | 5                                |
+| 3       | US36          | Seguir artista y recibir actualizaciones                               | Como fan, quiero seguir a mis artistas favoritos dentro de GigMap y recibir actualizaciones sobre sus nuevos eventos para mantenerme informado y visitar la plataforma con mayor frecuencia.                                                   | 5                                |
+| 4       | US39          | Acceder a perfil optimizado con herramientas de visibilidad            | Como artista emergente, quiero acceder a un perfil optimizado con herramientas de visibilidad (biografía completa, logo, enlaces a redes sociales, calendario de eventos y estadísticas) para aumentar mi base de seguidores dentro de GigMap. | 5                                |
+| 5       | US37          | Visualizar información detallada del evento para decidir asistencia    | Como fan, quiero visualizar información completa y detallada de cada evento (artista, fecha, hora, lugar, precio, género, imágenes y mapa de ubicación) para poder decidir con confianza si asistir o no.                                      | 5                                |
+| 6       | US38          | Registrar asistencia a conciertos y compartir experiencia en comunidad | Como fan, quiero registrar mi asistencia a un concierto para que otros usuarios de la comunidad puedan ver mi participación y generar interacciones como comentarios y reacciones.                                                             | 5                                |
+| 7       | TS-24         | Registrar eventos de analítica experimental                            | Como developer, quiero un endpoint POST en /api/v1/analytics/events que registre eventos de analítica experimental para calcular los KPIs definidos en el diseño experimental.                                                                 | 3                                |
+| 8       | TS-25         | Gestionar seguimiento de artistas (follow/unfollow)                    | Como developer, quiero endpoints POST/DELETE para gestionar el seguimiento de artistas por parte de los usuarios.                                                                                                                              | 3                                |
+| 9       | TS-26         | Obtener estadísticas de perfil de artista                              | Como developer, quiero un endpoint GET en /api/v1/artists/{artistId}/stats que devuelva métricas de visibilidad del perfil del artista.                                                                                                        | 3                                |
+| 10      | TS-27         | Gestionar foros temáticos (foros, hilos y comentarios)                 | Como developer, quiero endpoints para crear foros temáticos por género musical, hilos y comentarios.                                                                                                                                           | 3                                |
+
 # Conclusiones
 
 El desarrollo del proyecto GigMap permitió evidenciar una problemática real en la forma en que los usuarios acceden a conciertos en vivo, especialmente aquellos de menor escala. Se identificó que la falta de información centralizada y en tiempo real limita el descubrimiento de eventos y reduce la participación del público. Esto demuestra la necesidad de soluciones tecnológicas enfocadas en la inmediatez y personalización.
