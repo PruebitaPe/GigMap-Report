@@ -5743,7 +5743,7 @@ Screenshot de video:
 
 **Resumen**: En esta entrevista, Zaleth Feijóo, conocida artísticamente como Ithli, comentó que la aplicación le resulta funcional para revisar sus próximos eventos y gestionar su perfil como artista. Sin embargo, señaló que las tarjetas de conciertos presentan poca jerarquía visual, lo que le dificulta identificar de inmediato información clave como fecha, venue o tipo de presentación. Mencionó que esto la obliga a detenerse más de lo necesario para confirmar detalles importantes, especialmente cuando revisa varios eventos en secuencia. Aunque pudo navegar por la plataforma sin problemas, consideró que una estructura visual más clara ayudaría tanto a artistas como a usuarios a comprender mejor cada concierto de un solo vistazo.
 
-**URL de entrevistas**: ` `
+**URL de entrevistas**: `https://upcedupe-my.sharepoint.com/:v:/g/personal/u202311823_upc_edu_pe/IQDVRQAOtNXgRppYzk8A9znKAZcx1M83w27smekj8lvGQFA?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=LdQSLC`
 
 ### 6.3.3. Evaluaciones según heurísticas
 
