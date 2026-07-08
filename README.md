@@ -151,7 +151,7 @@ Zegarra Lopez, Renato Sebastian Rubber (u202311558)
   - 5.2. Product Implementation & Deployment<br>
   - 5.2.1. Sprint Backlogs<br>
   - 5.2.2. Implemented Landing Page Evidence<br>
-  - 5.2.3. Implemented Frontend-Web Application Evidence<br>
+  - 5.2.3. Implemented Native-Mobile Application Evidence<br>
   - 5.2.4. Acuerdo de Servicio - SaaS<br>
   - 5.2.5. Implemented Native-Mobile Application Evidence<br>
   - 5.2.6. Implemented RESTful API and/or Serverless Backend Evidence<br>
@@ -358,7 +358,7 @@ URL de repositorio del reporte del proyecto: `https://github.com/StayBitsV2/GigM
   - [5.2. Product Implementation \& Deployment](#52-product-implementation--deployment)
     - [5.2.1. Sprint Backlogs](#521-sprint-backlogs)
     - [5.2.2. Implemented Landing Page Evidence](#522-implemented-landing-page-evidence)
-    - [5.2.3. Implemented Frontend-Web Application Evidence](#523-implemented-frontend-web-application-evidence)
+    - [5.2.3. Implemented Native-Mobile Application Evidence](#523-implemented-native-mobile-application-evidence)
     - [5.2.4. Acuerdo de Servicio - SaaS](#524-acuerdo-de-servicio---saas)
     - [5.2.5. Implemented RESTful API and/or Serverless Backend Evidence](#525-implemented-restful-api-andor-serverless-backend-evidence)
     - [5.2.6. RESTful API documentation](#526-restful-api-documentation)
@@ -4963,7 +4963,13 @@ Para el caso del Landing Page, se hizo el deployment a través de GitHub Pages, 
   <img src="assets/images/landing-page/landing5.png" alt="landingpage5" width="700">
 </p>
 
-### 5.2.3. Implemented Frontend-Web Application Evidence
+### 5.2.3. Implemented Native-Mobile Application Evidence
+<p align="center">
+  <img src="assets/images/mobile/front_page.jpeg" alt="restfulapi" width="700">
+</p>
+<p align="center">
+  <img src="assets/images/mobile/login.jpeg" alt="restfulapi" width="700">
+</p>
 
 ### 5.2.4. Acuerdo de Servicio - SaaS
 
