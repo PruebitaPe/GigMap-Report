@@ -7199,6 +7199,20 @@ Para el caso del Landing Page, se hizo el deployment a través de GitHub Pages, 
 
 ### 8.5.1. Shareback Session Artifacts: Learning Workflow
 
+El prototipo interactivo desarrollado en Figma representa las interfaces y funcionalidades propuestas para GigMap, diseñadas a partir de las necesidades y preferencias identificadas en los usuarios durante la etapa de investigación. Este artefacto permite visualizar el flujo de navegación de la aplicación, incluyendo la exploración de conciertos mediante mapas interactivos, las recomendaciones personalizadas, los perfiles de usuarios y artistas, y las principales funcionalidades de descubrimiento musical. Asimismo, evidencia el proceso iterativo de diseño realizado por el equipo, incorporando mejoras basadas en la retroalimentación obtenida durante las sesiones de validación con los usuarios.
+
+<p align="center">
+<img src="assets/images/product-desing/landing-page-ui-desing/figmas.png" alt="figmas" style="width: 700px">
+</p>
+
+Se utilizó una encuesta desarrollada en Google Forms para recopilar la retroalimentación de los usuarios luego de interactuar con el prototipo de GigMap. El propósito de esta encuesta fue validar las hipótesis planteadas durante el proceso Lean UX, conocer el nivel de satisfacción de los participantes e identificar oportunidades de mejora relacionadas con la experiencia de uso, la utilidad de las funcionalidades y el valor percibido de la aplicación. La información obtenida permitió respaldar las decisiones de diseño y orientar futuras iteraciones del producto.
+
+Enlace de la Encuesta: ´https://forms.gle/VqDjtBAgMeaWuVQD6´
+
+<p align="center">
+<img src="assets/images/product-desing/forms.png" alt="forms" style="width: 700px">
+</p>
+
 ## 8.6. To-Be Software Platform Pre-launch
 
 ### 8.6.1. About-the-Product Intro Video
