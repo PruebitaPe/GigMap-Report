@@ -4964,6 +4964,7 @@ Para el caso del Landing Page, se hizo el deployment a través de GitHub Pages, 
 </p>
 
 ### 5.2.3. Implemented Native-Mobile Application Evidence
+
 <p align="center">
   <img src="assets/images/mobile/front_page.jpeg" alt="restfulapi" width="700">
 </p>
@@ -5724,14 +5725,13 @@ Screenshot de video:
 - **Duración**: 00:06:42
 - **Timing de inicio**: 00:00:00
 
-**Screenshot de video:** 
+**Screenshot de video:**
 
 <p align="center">
   <img src="assets/images/interviews/validation_interviewMathi.PNG" alt="Commits" width="800">
 </p>
 
 **Resumen:** En la entrevista , el artista indicó que la funcionalidad que más le gustó fue la de eventos asociados, ya que nunca había visto algo similar en otras aplicaciones. Comentó que, como fan de otros artistas, siempre le resultó difícil coordinar este tipo de actividades. Además, señaló que le gustaría que la aplicación permitiera contactar directamente con otros artistas. Considera que esto le ayudaría a ampliar su red de contactos y conocer más personas del rubro.
-
 
 **Entrevista #6**
 
@@ -6064,7 +6064,6 @@ Asimismo, GitHub Actions proporciona un historial completo de ejecuciones, facil
 
 # CAPÍTULO VIII: Experiment-Driven Development
 
-
 ## 8.1. Experiment Planning
 
 ### 8.1.1. As-Is Summary
@@ -6149,12 +6148,12 @@ El siguiente conjunto de tarjetas representa el artefacto clave del proceso XDPD
 
 **LADO FRONTAL**
 
-| Campo         | Descripción                                                                                                                                                                   |
-| ------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| **Pregunta**  | ¿La visibilidad ofrecida por GigMap permite a los artistas emergentes llegar a nuevos seguidores?                                                                             |
-| **¿Por qué?** | Los artistas emergentes enfrentan dificultades para obtener visibilidad frente a artistas más conocidos, lo cual limita su crecimiento dentro de la plataforma.               |
+| Campo         | Descripción                                                                                                                                                                                                       |
+| ------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| **Pregunta**  | ¿La visibilidad ofrecida por GigMap permite a los artistas emergentes llegar a nuevos seguidores?                                                                                                                 |
+| **¿Por qué?** | Los artistas emergentes enfrentan dificultades para obtener visibilidad frente a artistas más conocidos, lo cual limita su crecimiento dentro de la plataforma.                                                   |
 | **Hipótesis** | Creemos que implementar perfiles optimizados y herramientas de visibilidad para artistas emergentes incrementará en un 30% la cantidad de nuevos seguidores obtenidos durante las primeras cuatro semanas de uso. |
-| **¿Qué?**     | Implementar un perfil básico para artistas emergentes con sección de próximos eventos y botón de seguir.                                                                      |
+| **¿Qué?**     | Implementar un perfil básico para artistas emergentes con sección de próximos eventos y botón de seguir.                                                                                                          |
 
 **LADO POSTERIOR**
 
@@ -6170,12 +6169,12 @@ El siguiente conjunto de tarjetas representa el artefacto clave del proceso XDPD
 
 **LADO FRONTAL**
 
-| Campo         | Descripción                                                                                                                                             |
-| ------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| **Pregunta**  | ¿La geolocalización ayuda a los usuarios a descubrir eventos musicales que de otro modo no conocerían?                                                  |
-| **¿Por qué?** | Los usuarios utilizan múltiples fuentes para informarse sobre eventos, lo que dificulta el descubrimiento de conciertos cercanos de forma centralizada. |
-| **Hipótesis** | Creemos que implementar un mapa interactivo con geolocalización aumentará en un 25% la cantidad de eventos descubiertos por los usuarios durante las primeras dos semanas de uso de la funcionalidad.               |
-| **¿Qué?**     | Mostrar un mapa con eventos cercanos basado en la ubicación actual del usuario.                                                                         |
+| Campo         | Descripción                                                                                                                                                                                           |
+| ------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| **Pregunta**  | ¿La geolocalización ayuda a los usuarios a descubrir eventos musicales que de otro modo no conocerían?                                                                                                |
+| **¿Por qué?** | Los usuarios utilizan múltiples fuentes para informarse sobre eventos, lo que dificulta el descubrimiento de conciertos cercanos de forma centralizada.                                               |
+| **Hipótesis** | Creemos que implementar un mapa interactivo con geolocalización aumentará en un 25% la cantidad de eventos descubiertos por los usuarios durante las primeras dos semanas de uso de la funcionalidad. |
+| **¿Qué?**     | Mostrar un mapa con eventos cercanos basado en la ubicación actual del usuario.                                                                                                                       |
 
 **LADO POSTERIOR**
 
@@ -6191,12 +6190,12 @@ El siguiente conjunto de tarjetas representa el artefacto clave del proceso XDPD
 
 **LADO FRONTAL**
 
-| Campo         | Descripción                                                                                                                 |
-| ------------- | --------------------------------------------------------------------------------------------------------------------------- |
-| **Pregunta**  | ¿Registrar la asistencia a conciertos dentro de la app genera mayor interacción entre los usuarios de la comunidad?         |
-| **¿Por qué?** | Se busca fomentar el sentido de comunidad entre fanáticos y generar mayor actividad dentro de la plataforma.                |
+| Campo         | Descripción                                                                                                                                                                  |
+| ------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| **Pregunta**  | ¿Registrar la asistencia a conciertos dentro de la app genera mayor interacción entre los usuarios de la comunidad?                                                          |
+| **¿Por qué?** | Se busca fomentar el sentido de comunidad entre fanáticos y generar mayor actividad dentro de la plataforma.                                                                 |
 | **Hipótesis** | Creemos que implementar la funcionalidad de registro de asistencia a eventos aumentará en un 20% la interacción entre usuarios de la comunidad durante el primer mes de uso. |
-| **¿Qué?**     | Agregar un botón de "Asistiré" en cada evento que sea visible para otros usuarios.                                          |
+| **¿Qué?**     | Agregar un botón de "Asistiré" en cada evento que sea visible para otros usuarios.                                                                                           |
 
 **LADO POSTERIOR**
 
@@ -6212,12 +6211,12 @@ El siguiente conjunto de tarjetas representa el artefacto clave del proceso XDPD
 
 **LADO FRONTAL**
 
-| Campo         | Descripción                                                                                                                                             |
-| ------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| **Pregunta**  | ¿Seguir artistas dentro de la aplicación incrementa la frecuencia con la que los usuarios visitan la plataforma?                                        |
-| **¿Por qué?** | Se identificó que los fanáticos buscan mantenerse informados sobre sus artistas favoritos, lo que podría convertirse en un motivo recurrente de visita. |
-| **Hipótesis** | Creemos que implementar la funcionalidad de seguir artistas y recibir actualizaciones incrementará en un 20% la frecuencia semanal de visitas de los usuarios durante las primeras tres semanas desde que siguen a su primer artista.                      |
-| **¿Qué?**     | Implementar la funcionalidad de seguir artistas con un feed básico de novedades.                                                                        |
+| Campo         | Descripción                                                                                                                                                                                                                           |
+| ------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| **Pregunta**  | ¿Seguir artistas dentro de la aplicación incrementa la frecuencia con la que los usuarios visitan la plataforma?                                                                                                                      |
+| **¿Por qué?** | Se identificó que los fanáticos buscan mantenerse informados sobre sus artistas favoritos, lo que podría convertirse en un motivo recurrente de visita.                                                                               |
+| **Hipótesis** | Creemos que implementar la funcionalidad de seguir artistas y recibir actualizaciones incrementará en un 20% la frecuencia semanal de visitas de los usuarios durante las primeras tres semanas desde que siguen a su primer artista. |
+| **¿Qué?**     | Implementar la funcionalidad de seguir artistas con un feed básico de novedades.                                                                                                                                                      |
 
 **LADO POSTERIOR**
 
@@ -6233,12 +6232,12 @@ El siguiente conjunto de tarjetas representa el artefacto clave del proceso XDPD
 
 **LADO FRONTAL**
 
-| Campo         | Descripción                                                                                                                          |
-| ------------- | ------------------------------------------------------------------------------------------------------------------------------------ |
-| **Pregunta**  | ¿La integración de foros temáticos fomenta una participación más activa y continua de los usuarios dentro de la plataforma?          |
-| **¿Por qué?** | Se busca crear espacios de comunidad donde los fanáticos puedan compartir experiencias y opiniones sobre eventos y artistas.         |
+| Campo         | Descripción                                                                                                                                                                                                                   |
+| ------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| **Pregunta**  | ¿La integración de foros temáticos fomenta una participación más activa y continua de los usuarios dentro de la plataforma?                                                                                                   |
+| **¿Por qué?** | Se busca crear espacios de comunidad donde los fanáticos puedan compartir experiencias y opiniones sobre eventos y artistas.                                                                                                  |
 | **Hipótesis** | Creemos que implementar foros temáticos dentro de GigMap aumentará en un 25% la participación semanal de los usuarios, medida mediante publicaciones, comentarios e interacciones durante las primeras cuatro semanas de uso. |
-| **¿Qué?**     | Crear un foro básico por género musical donde los usuarios puedan publicar y comentar.                                               |
+| **¿Qué?**     | Crear un foro básico por género musical donde los usuarios puedan publicar y comentar.                                                                                                                                        |
 
 **LADO POSTERIOR**
 
@@ -6254,12 +6253,12 @@ El siguiente conjunto de tarjetas representa el artefacto clave del proceso XDPD
 
 **LADO FRONTAL**
 
-| Campo         | Descripción                                                                                                                                    |
-| ------------- | ---------------------------------------------------------------------------------------------------------------------------------------------- |
-| **Pregunta**  | ¿La información mostrada sobre los eventos es suficiente para que los usuarios decidan asistir?                                                |
-| **¿Por qué?** | No se conoce con claridad qué datos son determinantes para que un usuario tome la decisión de asistir a un evento.                             |
+| Campo         | Descripción                                                                                                                                                                                    |
+| ------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| **Pregunta**  | ¿La información mostrada sobre los eventos es suficiente para que los usuarios decidan asistir?                                                                                                |
+| **¿Por qué?** | No se conoce con claridad qué datos son determinantes para que un usuario tome la decisión de asistir a un evento.                                                                             |
 | **Hipótesis** | Creemos que mostrar información detallada y relevante sobre cada evento aumentará en un 30% la tasa de registro de asistencia de los usuarios durante las primeras tres semanas de evaluación. |
-| **¿Qué?**     | Mostrar en la página del evento: artista, fecha, lugar, precio, género musical y mapa de ubicación.                                            |
+| **¿Qué?**     | Mostrar en la página del evento: artista, fecha, lugar, precio, género musical y mapa de ubicación.                                                                                            |
 
 **LADO POSTERIOR**
 
@@ -6933,7 +6932,7 @@ Este enfoque permitirá que GigMap evolucione continuamente en función de datos
   </thead>
   <tbody>
     <tr>
-      <td>TS-24</td>
+      <td>TS24</td>
       <td>Developer</td>
       <td>1</td>
       <td>EP06</td>
@@ -6980,7 +6979,7 @@ Este enfoque permitirá que GigMap evolucione continuamente en función de datos
   </thead>
   <tbody>
     <tr>
-      <td>TS-25</td>
+      <td>TS25</td>
       <td>Developer</td>
       <td>1</td>
       <td>EP06</td>
@@ -7028,7 +7027,7 @@ Este enfoque permitirá que GigMap evolucione continuamente en función de datos
   </thead>
   <tbody>
     <tr>
-      <td>TS-26</td>
+      <td>TS26</td>
       <td>Developer</td>
       <td>1</td>
       <td>EP06</td>
@@ -7074,7 +7073,7 @@ Este enfoque permitirá que GigMap evolucione continuamente en función de datos
   </thead>
   <tbody>
     <tr>
-      <td>TS-27</td>
+      <td>TS27</td>
       <td>Developer</td>
       <td>1</td>
       <td>EP06</td>
@@ -7123,10 +7122,86 @@ Este enfoque permitirá que GigMap evolucione continuamente en función de datos
 | 4       | US39          | Acceder a perfil optimizado con herramientas de visibilidad            | Como artista emergente, quiero acceder a un perfil optimizado con herramientas de visibilidad (biografía completa, logo, enlaces a redes sociales, calendario de eventos y estadísticas) para aumentar mi base de seguidores dentro de GigMap. | 5                                |
 | 5       | US37          | Visualizar información detallada del evento para decidir asistencia    | Como fan, quiero visualizar información completa y detallada de cada evento (artista, fecha, hora, lugar, precio, género, imágenes y mapa de ubicación) para poder decidir con confianza si asistir o no.                                      | 5                                |
 | 6       | US38          | Registrar asistencia a conciertos y compartir experiencia en comunidad | Como fan, quiero registrar mi asistencia a un concierto para que otros usuarios de la comunidad puedan ver mi participación y generar interacciones como comentarios y reacciones.                                                             | 5                                |
-| 7       | TS-24         | Registrar eventos de analítica experimental                            | Como developer, quiero un endpoint POST en /api/v1/analytics/events que registre eventos de analítica experimental para calcular los KPIs definidos en el diseño experimental.                                                                 | 3                                |
-| 8       | TS-25         | Gestionar seguimiento de artistas (follow/unfollow)                    | Como developer, quiero endpoints POST/DELETE para gestionar el seguimiento de artistas por parte de los usuarios.                                                                                                                              | 3                                |
-| 9       | TS-26         | Obtener estadísticas de perfil de artista                              | Como developer, quiero un endpoint GET en /api/v1/artists/{artistId}/stats que devuelva métricas de visibilidad del perfil del artista.                                                                                                        | 3                                |
-| 10      | TS-27         | Gestionar foros temáticos (foros, hilos y comentarios)                 | Como developer, quiero endpoints para crear foros temáticos por género musical, hilos y comentarios.                                                                                                                                           | 3                                |
+| 7       | TS24          | Registrar eventos de analítica experimental                            | Como developer, quiero un endpoint POST en /api/v1/analytics/events que registre eventos de analítica experimental para calcular los KPIs definidos en el diseño experimental.                                                                 | 3                                |
+| 8       | TS25          | Gestionar seguimiento de artistas (follow/unfollow)                    | Como developer, quiero endpoints POST/DELETE para gestionar el seguimiento de artistas por parte de los usuarios.                                                                                                                              | 3                                |
+| 9       | TS26          | Obtener estadísticas de perfil de artista                              | Como developer, quiero un endpoint GET en /api/v1/artists/{artistId}/stats que devuelva métricas de visibilidad del perfil del artista.                                                                                                        | 3                                |
+| 10      | TS27          | Gestionar foros temáticos (foros, hilos y comentarios)                 | Como developer, quiero endpoints para crear foros temáticos por género musical, hilos y comentarios.                                                                                                                                           | 3                                |
+
+### 8.3.3. Pipeline-supported, Experiment-Driven To-Be Software Platform Lifecycle
+
+#### 8.3.3.1. To-Be Sprint Backlogs
+
+**To-Be Sprint Backlog 1:**
+
+| **User Story ID** | **Título (User Story)**                                               | **Task ID** | **Título (Task)**                  | **Descripción**                                                                                                                                                                                                                                | **Estimación** | **Asignado a** | **Estado** |
+| ----------------- | --------------------------------------------------------------------- | ----------- | ---------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | -------------- | -------------- | ---------- |
+| **US35**          | Explorar mapa interactivo con eventos geolocalizados                  | **TSK01**   | Explorar mapa interactivo          | Como fan, quiero explorar un mapa interactivo que muestre los conciertos cercanos a mi ubicación para descubrir eventos musicales que de otro modo no conocería.                                                                               | 4 horas        | Ariana         | Done       |
+| **US40**          | Participar en foros temáticos por género musical                      | **TSK02**   | Participar en foros temáticos      | Como usuario, quiero participar en foros temáticos organizados por género musical para compartir opiniones, experiencias y recomendaciones sobre eventos y artistas.                                                                           | 3 horas        | Diego          | Done       |
+| **US36**          | Seguir artista y recibir actualizaciones                              | **TSK03**   | Seguir artista                     | Como fan, quiero seguir a mis artistas favoritos dentro de GigMap y recibir actualizaciones sobre sus nuevos eventos para mantenerme informado y visitar la plataforma con mayor frecuencia.                                                   | 4 horas        | Renato         | Done       |
+| **US39**          | Acceder a perfil optimizado con herramientas de visibilidad           | **TSK04**   | Perfil optimizado de artista       | Como artista emergente, quiero acceder a un perfil optimizado con herramientas de visibilidad (biografía completa, logo, enlaces a redes sociales, calendario de eventos y estadísticas) para aumentar mi base de seguidores dentro de GigMap. | 3 horas        | Antuanete      | Done       |
+| **US37**          | Visualizar información detallada del evento para decidir asistencia   | **TSK06**   | Detalle de concierto               | Como fan, quiero visualizar información completa y detallada de cada evento (artista, fecha, hora, lugar, precio, género, imágenes y mapa de ubicación) para poder decidir con confianza si asistir o no.                                      | 3 horas        | Álvaro         | Done       |
+| **US38**          | Registrar asistencia a conciertos y compartir experiencia en comunida | **TSK07**   | Registrar asistencia               | Como fan, quiero registrar mi asistencia a un concierto para que otros usuarios de la comunidad puedan ver mi participación y generar interacciones como comentarios y reacciones.                                                             | 2 horas        | Renato         | Done       |
+| **TS24**          | Registrar eventos de analítica experimental                           | **TSK08**   | API POST de analítica experimental | Como developer, quiero un endpoint POST en /api/v1/analytics/events que registre eventos de analítica experimental para calcular los KPIs definidos en el diseño experimental.                                                                 | 5 horas        | Diego          | Done       |
+| **TS25**          | Gestionar seguimiento de artistas (follow/unfollow)                   | **TSK09**   | API de follow/unfollow             | Como developer, quiero endpoints POST/DELETE para gestionar el seguimiento de artistas por parte de los usuarios.                                                                                                                              | 4 horas        | Antuanete      | Done       |
+| **TS26**          | Obtener estadísticas de perfil de artista                             | **TSK10**   | API GET de estadísticas de artista | Como developer, quiero un endpoint GET en /api/v1/artists/{artistId}/stats que devuelva métricas de visibilidad del perfil del artista.                                                                                                        | 3 horas        | Ariana         | Done       |
+| **TS27**          | Gestionar foros temáticos (foros, hilos y comentarios)                | **TSK11**   | API de foros temáticos             | Como developer, quiero endpoints para crear foros temáticos por género musical, hilos y comentarios.                                                                                                                                           | 3 horas        | Ariana         | Done       |
+
+#### 8.3.3.2. Implemented To-Be Landing Page Evidence
+
+Para el caso del Landing Page, se hizo el deployment a través de GitHub Pages, y se accede a esta a través del siguiente enlace: https://staybits.github.io/GigMap-LandingPage-V2/
+
+<p align="center">
+  <img src="assets/images/landing-page/landing1.png" alt="landingpage1" width="700">
+</p>
+<p align="center">
+  <img src="assets/images/landing-page/landing2.png" alt="landingpage2" width="700">
+</p>
+<p align="center">
+  <img src="assets/images/landing-page/landing3.png" alt="landingpage3" width="700">
+</p>
+<p align="center">
+  <img src="assets/images/landing-page/landing4.png" alt="landingpage4" width="700">
+</p>
+<p align="center">
+  <img src="assets/images/landing-page/landing5.png" alt="landingpage5" width="700">
+</p>
+
+#### 8.3.3.3. Implemented To-Be Native-Mobile Application Evidence
+
+<p align="center">
+  <img src="assets/images/mobile/front_page.jpeg" alt="restfulapi" width="700">
+</p>
+<p align="center">
+  <img src="assets/images/mobile/login.jpeg" alt="restfulapi" width="700">
+</p>
+
+#### 8.3.3.4. Implemented To-Be RESTful API and/or Serverless Backend Evidence
+
+<p align="center">
+  <img src="assets/images/restful-api/restful-api.png" alt="restfulapi" width="700">
+</p>
+
+#### 8.3.3.5. Team Collaboration Insights
+
+### 8.3.4. To-Be Validation Interviews
+
+#### 8.3.4.1. Diseño de Entrevistas.
+
+#### 8.3.4.2. Registro de Entrevistas.
+
+## 8.4. Experiment Aftermath & Analysis
+
+### 8.4.1. Analysis and Interpretation of Results
+
+### 8.4.2. Re-scored and Re-prioritized Question Backlog
+
+## 8.5. Continuous Learning
+
+### 8.5.1. Shareback Session Artifacts: Learning Workflow
+
+## 8.6. To-Be Software Platform Pre-launch
+
+### 8.6.1. About-the-Product Intro Video
 
 # Conclusiones
 
