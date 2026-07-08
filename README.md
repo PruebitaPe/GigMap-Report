@@ -6153,7 +6153,7 @@ El siguiente conjunto de tarjetas representa el artefacto clave del proceso XDPD
 | ------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | **Pregunta**  | ¿La visibilidad ofrecida por GigMap permite a los artistas emergentes llegar a nuevos seguidores?                                                                             |
 | **¿Por qué?** | Los artistas emergentes enfrentan dificultades para obtener visibilidad frente a artistas más conocidos, lo cual limita su crecimiento dentro de la plataforma.               |
-| **Hipótesis** | Si GigMap ofrece un perfil optimizado y herramientas de visibilidad para artistas emergentes, entonces estos lograrán aumentar su base de seguidores dentro de la plataforma. |
+| **Hipótesis** | Creemos que implementar perfiles optimizados y herramientas de visibilidad para artistas emergentes incrementará en un 30% la cantidad de nuevos seguidores obtenidos durante las primeras cuatro semanas de uso. |
 | **¿Qué?**     | Implementar un perfil básico para artistas emergentes con sección de próximos eventos y botón de seguir.                                                                      |
 
 **LADO POSTERIOR**
@@ -6174,7 +6174,7 @@ El siguiente conjunto de tarjetas representa el artefacto clave del proceso XDPD
 | ------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | **Pregunta**  | ¿La geolocalización ayuda a los usuarios a descubrir eventos musicales que de otro modo no conocerían?                                                  |
 | **¿Por qué?** | Los usuarios utilizan múltiples fuentes para informarse sobre eventos, lo que dificulta el descubrimiento de conciertos cercanos de forma centralizada. |
-| **Hipótesis** | Si se implementa un mapa interactivo con geolocalización, entonces los usuarios descubrirán más eventos musicales relevantes en su zona.                |
+| **Hipótesis** | Creemos que implementar un mapa interactivo con geolocalización aumentará en un 25% la cantidad de eventos descubiertos por los usuarios durante las primeras dos semanas de uso de la funcionalidad.               |
 | **¿Qué?**     | Mostrar un mapa con eventos cercanos basado en la ubicación actual del usuario.                                                                         |
 
 **LADO POSTERIOR**
@@ -6195,7 +6195,7 @@ El siguiente conjunto de tarjetas representa el artefacto clave del proceso XDPD
 | ------------- | --------------------------------------------------------------------------------------------------------------------------- |
 | **Pregunta**  | ¿Registrar la asistencia a conciertos dentro de la app genera mayor interacción entre los usuarios de la comunidad?         |
 | **¿Por qué?** | Se busca fomentar el sentido de comunidad entre fanáticos y generar mayor actividad dentro de la plataforma.                |
-| **Hipótesis** | Si los usuarios pueden registrar su asistencia a eventos, entonces aumentará la interacción entre miembros de la comunidad. |
+| **Hipótesis** | Creemos que implementar la funcionalidad de registro de asistencia a eventos aumentará en un 20% la interacción entre usuarios de la comunidad durante el primer mes de uso. |
 | **¿Qué?**     | Agregar un botón de "Asistiré" en cada evento que sea visible para otros usuarios.                                          |
 
 **LADO POSTERIOR**
@@ -6216,7 +6216,7 @@ El siguiente conjunto de tarjetas representa el artefacto clave del proceso XDPD
 | ------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | **Pregunta**  | ¿Seguir artistas dentro de la aplicación incrementa la frecuencia con la que los usuarios visitan la plataforma?                                        |
 | **¿Por qué?** | Se identificó que los fanáticos buscan mantenerse informados sobre sus artistas favoritos, lo que podría convertirse en un motivo recurrente de visita. |
-| **Hipótesis** | Si los usuarios pueden seguir artistas y recibir actualizaciones de ellos, entonces visitarán la plataforma con mayor frecuencia.                       |
+| **Hipótesis** | Creemos que implementar la funcionalidad de seguir artistas y recibir actualizaciones incrementará en un 20% la frecuencia semanal de visitas de los usuarios durante las primeras tres semanas desde que siguen a su primer artista.                      |
 | **¿Qué?**     | Implementar la funcionalidad de seguir artistas con un feed básico de novedades.                                                                        |
 
 **LADO POSTERIOR**
@@ -6237,7 +6237,7 @@ El siguiente conjunto de tarjetas representa el artefacto clave del proceso XDPD
 | ------------- | ------------------------------------------------------------------------------------------------------------------------------------ |
 | **Pregunta**  | ¿La integración de foros temáticos fomenta una participación más activa y continua de los usuarios dentro de la plataforma?          |
 | **¿Por qué?** | Se busca crear espacios de comunidad donde los fanáticos puedan compartir experiencias y opiniones sobre eventos y artistas.         |
-| **Hipótesis** | Si se integran foros temáticos dentro de GigMap, entonces los usuarios participarán de forma más activa y continua en la plataforma. |
+| **Hipótesis** | Creemos que implementar foros temáticos dentro de GigMap aumentará en un 25% la participación semanal de los usuarios, medida mediante publicaciones, comentarios e interacciones durante las primeras cuatro semanas de uso. |
 | **¿Qué?**     | Crear un foro básico por género musical donde los usuarios puedan publicar y comentar.                                               |
 
 **LADO POSTERIOR**
@@ -6258,7 +6258,7 @@ El siguiente conjunto de tarjetas representa el artefacto clave del proceso XDPD
 | ------------- | ---------------------------------------------------------------------------------------------------------------------------------------------- |
 | **Pregunta**  | ¿La información mostrada sobre los eventos es suficiente para que los usuarios decidan asistir?                                                |
 | **¿Por qué?** | No se conoce con claridad qué datos son determinantes para que un usuario tome la decisión de asistir a un evento.                             |
-| **Hipótesis** | Si se muestra información detallada y relevante sobre cada evento, entonces los usuarios tomarán decisiones de asistencia con mayor confianza. |
+| **Hipótesis** | Creemos que mostrar información detallada y relevante sobre cada evento aumentará en un 30% la tasa de registro de asistencia de los usuarios durante las primeras tres semanas de evaluación. |
 | **¿Qué?**     | Mostrar en la página del evento: artista, fecha, lugar, precio, género musical y mapa de ubicación.                                            |
 
 **LADO POSTERIOR**
