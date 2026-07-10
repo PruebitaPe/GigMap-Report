@@ -7187,6 +7187,33 @@ Para el caso del Landing Page, se hizo el deployment a través de GitHub Pages, 
 
 #### 8.3.4.1. Diseño de Entrevistas.
 
+
+### Segmento objetivo #1: Fans de la música (16 a 35 años)
+
+1. ¿El Landing Page te permitió comprender qué es GigMap y qué beneficios ofrece para los fans?
+2. ¿Qué tan fácil te resultó registrarte o iniciar sesión en la aplicación?
+3. ¿Pudiste buscar y filtrar conciertos por nombre o género musical sin dificultad?
+4. ¿Te resultó claro cómo utilizar el mapa para encontrar conciertos cercanos?
+5. ¿La información mostrada en el detalle del concierto fue suficiente para decidir si asistirías?
+6. ¿Comprendiste qué son los eventos asociados, como reuniones o after parties?
+7. ¿Qué tan fácil fue buscar, unirte y visualizar una comunidad?
+8. ¿Te parecieron útiles las reacciones, los perfiles de otros usuarios y la lista de publicaciones con “like”?
+9. ¿Cuál de las funcionalidades utilizarías con mayor frecuencia?
+10. ¿Qué aspecto de GigMap mejorarías antes de utilizarlo regularmente?
+
+### Segmento objetivo #2: Artistas emergentes y bandas independientes (18 a 40 años)
+
+1. ¿El Landing Page te permitió comprender cómo GigMap puede ayudarte como artista?
+2. ¿Qué tan claro te resultó el proceso de registro e inicio de sesión como artista?
+3. ¿Fue sencillo personalizar tu perfil con tu nombre artístico y fotografía?
+4. ¿La información disponible en el perfil te parece suficiente para presentarte ante nuevos fans?
+5. ¿Qué tan fácil te resultó crear y publicar un concierto?
+6. ¿Los campos solicitados para registrar el concierto fueron claros y suficientes?
+7. ¿Consideras útil crear una comunidad para interactuar con tus seguidores?
+8. ¿Comprendiste cómo crear un evento asociado a un concierto?
+9. ¿Crees que GigMap podría ayudarte a aumentar la visibilidad de tus presentaciones?
+10. ¿Qué aspecto de GigMap mejorarías para utilizarlo regularmente?
+
 #### 8.3.4.2. Registro de Entrevistas.
 
 ## 8.4. Experiment Aftermath & Analysis
