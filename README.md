@@ -7699,7 +7699,7 @@ El prototipo interactivo desarrollado en Figma representa las interfaces y funci
 
 Se utilizó una encuesta desarrollada en Google Forms para recopilar la retroalimentación de los usuarios luego de interactuar con el prototipo de GigMap. El propósito de esta encuesta fue validar las hipótesis planteadas durante el proceso Lean UX, conocer el nivel de satisfacción de los participantes e identificar oportunidades de mejora relacionadas con la experiencia de uso, la utilidad de las funcionalidades y el valor percibido de la aplicación. La información obtenida permitió respaldar las decisiones de diseño y orientar futuras iteraciones del producto.
 
-Enlace de la Encuesta: https://forms.gle/VqDjtBAgMeaWuVQD6
+Enlace de la Encuesta: https://forms.gle/3RRN4M6Mqir6q72W6
 
 <p align="center">
 <img src="assets/images/product-desing/forms.png" alt="forms" style="width: 700px">
