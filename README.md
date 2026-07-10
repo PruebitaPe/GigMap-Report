@@ -19,7 +19,7 @@ NRC: 12316
 <br><br>
 Docente: Julio Manuel Noriega Melendez
 <br><br>
-<strong>Informe de TB2</strong>  
+<strong>Informe de TF</strong>  
 <br><br>
 Startup: 
 <br><br>
@@ -41,7 +41,7 @@ Zegarra Lopez, Renato Sebastian Rubber (u202311558)
 <br><br>
 <br>
 
-**Abril, 2026**
+**Julio, 2026**
 
 </h3>
 </div>
@@ -248,6 +248,38 @@ Zegarra Lopez, Renato Sebastian Rubber (u202311558)
     - 8.3.2. To-Be Product Backlog
       </td>
     </tr>
+	  <tr>
+      <td>TF</td>
+      <td>09/07/2026</td>
+      <td>
+        - Bejarano Martinez, Alvaro Leandro <br>
+        - Collantes Carrillo, Diego Mateo <br>
+        - Lizarbe Alvarez, Ariana Nickole <br>
+        - Ortiz Cardenas, Johanna Antuanete <br>
+        - Sarmiento Medina, Loreley <br>
+        - Zegarra López, Renato Sebastián Rubber
+      </td>
+      <td>
+     En esta entrega se avanzaron los siguientes puntos:<br><br>
+    8.3.3. Pipeline-supported, Experiment-Driven To-Be Software Platform Lifecycle<br>
+	8.3.3.1. To-Be Sprint Backlogs<br>
+	8.3.3.2. Implemented To-Be Landing Page Evidence<br>
+	8.3.3.3. Implemented To-Be Frontend-Web Application Evidence<br>
+	8.3.3.4. Implemented To-Be Native-Mobile Application Evidence<br>
+	8.3.3.5. Implemented To-Be RESTful API and/or Serverless Backend Evidence<br>
+	8.3.3.6. Team Collaboration Insights<br>
+	8.3.4. To-Be Validation Interviews<br>
+	8.3.4.1. Diseño de Entrevistas.<br>
+	8.3.4.2. Registro de Entrevistas.<br>
+	8.4. Experiment Aftermath & Analysis<br>
+	8.4.1. Analysis and Interpretation of Results<br>
+	8.4.2. Re-scored and Re-prioritized Question Backlog<br>
+	8.5. Continuous Learning<br>
+	8.5.1. Shareback Session Artifacts: Learning Workflow<br>
+	8.6. To-Be Software Platform Pre-launch<br>
+	8.6.1. About-the-Product Intro Video<br>
+      </td>
+    </tr>
   </tbody>
 </table>
 </div>
@@ -266,6 +298,18 @@ URL de repositorio del reporte del proyecto: `https://github.com/StayBitsV2/GigM
 
 <p align="center">
   <img src="assets/project2.png" alt="INSIGHTS2" width="700">
+</p>
+
+**TB2 (16/06/2026):**
+
+<p align="center">
+  <img src="assets/project3.png" alt="INSIGHTS2" width="700">
+</p>
+
+**TP1 (09/07/2026):**
+
+<p align="center">
+  <img src="assets/project4.png" alt="INSIGHTS2" width="700">
 </p>
 
 ## **Contenido**
@@ -446,31 +490,38 @@ La capacidad de reconocer responsabilidades éticas y profesionales en situacion
         TB1: <br> Se encargó de organizar la estructura del capítulo 3, manteniendo un enfoque ordenado y coherente en el desarrollo del contenido. Además, promovió un ambiente de trabajo colaborativo, asegurando que cada integrante pueda aportar sus ideas y que estas se integren adecuadamente en la revisión de las historias de usuario. <br><br>
         TP1: <br> Desarrolló la sección de Continuous Delivery y las pruebas del sistema (Core System Tests) para las US21, US22, US23 y US24. Aseguró que el pipeline de entrega sea robusto y que las funcionalidades críticas del sistema estén validadas para garantizar un producto seguro y confiable para el usuario final. <br><br>
         TB2: <br> Desarrolló las secciones de Static Testing & Verification (Coding Standard & Code Conventions, Code Quality & Code Security, Reviews) y Continuous Monitoring (Tools and Practices, Monitoring Pipeline Components, Alerting Pipeline Components, Notification Pipeline Components). Implementó análisis estático de código para garantizar estándares de calidad y seguridad, y configuró pipelines de monitoreo, alertas y notificaciones para asegurar la estabilidad operativa de la plataforma. <br><br>
+		TF:  <br><br>
         Collantes Carrillo, Diego Mateo <br><br>
         TB1: <br> Participó en el desarrollo del capítulo 4, aportando principalmente en la redacción del contenido para que sea claro, entendible y bien estructurado. Asimismo, colaboró en la revisión de las historias de usuario, buscando que estas comuniquen correctamente las necesidades del usuario.<br><br>
         TP1: <br><br>
         TB2: <br> Participó en el diseño de experimentos (Experiment Design) contribuyendo en la definición de hipótesis, métricas de dominio, medidas, condiciones, cálculos de escala, selección de métodos, analítica de datos y plan de tracking. Además, desarrolló las secciones de Experimentation (To-Be User Stories, To-Be Product Backlog), asegurando que las historias de usuario y el backlog reflejen un enfoque basado en evidencia y responsabilidad profesional. <br><br>
+		TF:  <br><br>
         Lizarbe Alvarez, Ariana Nickole <br><br>
         TB1: <br>Contribuyó en el desarrollo del capítulo 3, aplicando pensamiento crítico y habilidades de trabajo en equipo. Participó en la mejora de las historias de usuario, procurando que estén bien definidas y considerando siempre la experiencia del usuario final.<br><br>
         TP1: <br> Desarrolló la sección de Core Behavior-Driven Development, utilizando Gherkin para analizar distintas historias de usuario <br><br>
         TB2: <br> Participó en el diseño de experimentos (Experiment Design), contribuyendo en la definición de hipótesis, métricas de dominio, medidas, condiciones y la selección de métodos de experimentación. Su trabajo garantizó que el diseño experimental sea riguroso y éticamente responsable, considerando el impacto en los usuarios finales y artistas emergentes. <br><br>
+		TF:  <br><br>
         Ortiz Cardenas, Johanna Antuanete <br><br>
         TB1: <br>
         Desarrolló el capítulo 4 con un enfoque en la calidad y cumplimiento de los entregables. Además, investigó información relevante y aportó ideas que ayudaron a fortalecer las historias de usuario y el contenido del informe.<br><br>
         TP1: Desarrolló la sección de Continuous Deployment, documentando las herramientas, prácticas y componentes del pipeline de despliegue a producción. Además, se aseguró de seguir buenas prácticas que garanticen la estabilidad del producto.<br><br>
         TB2: <br> Desarrolló conjuntamente la sección de Experiment Planning, incluyendo el As-Is Summary, Raw Material (assumptions, knowledge gaps, ideas, claims), Experiment-Ready Questions, Question Backlog y Experiment Cards. Su trabajo reflejó una planificación cuidadosa y responsable del proceso experimental, asegurando que los experimentos respondan a necesidades auténticas del ecosistema musical. <br><br>
+		TF:  Apoyó en el desarrollo de las Experiment Cards, así como en completar y consolidar la documentación correspondiente a la sección de Experiment Planning, asegurando que la información esté completa, ordenada y sea consistente con el resto del capítulo. <br><br>
         Sarmiento Medina, Loreley <br><br>
         TB1: <br> Se encargó del desarrollo del capítulo 1, asegurando una base sólida y bien estructurada para el proyecto. También realizó una revisión general del informe y de las historias de usuario, verificando la coherencia, organización y alineación con los objetivos planteados.<br><br>
         TP1: <br> Desarrolló las pruebas unitarias de las entidades principales (Core Entities Unit Tests) y las pruebas del sistema para las historias de usuario US01, US02, US04 y US05. Su trabajo garantizó que la lógica de negocio base sea sólida y que los procesos de registro y búsqueda funcionen correctamente bajo estándares de calidad profesional. <br><br>
         TB2: <br> Desarrolló conjuntamente la sección de Experiment Planning, cubriendo el As-Is Summary, Raw Material, Experiment-Ready Questions, Question Backlog y Experiment Cards. Demostró responsabilidad profesional al estructurar el plan experimental de manera organizada y alineada con los objetivos del producto y las necesidades de los usuarios. <br><br>
+		TF:  <br><br>
         Zegarra López, Renato Sebastián Rubber <br><br>
         TB1: <br> Desarrolló el capítulo 2 aplicando sus habilidades de análisis y creatividad, aportando ideas que enriquecieron la propuesta. Asimismo, participó en la revisión de las historias de usuario, mejorando su claridad y consistencia.<br><br>
         TP1: <br>Aplique informacion de pruebas automatizadas con herramientas como JUnit, Mockito y Selenium para asegurar la calidad y correcto funcionamiento del software, demostrando responsabilidad profesional y compromiso con buenas prácticas de desarrollo.<br>
         TB2: <br> Participó en el diseño de experimentos (Experiment Design), contribuyendo a la definición de hipótesis, métricas de dominio, medidas, condiciones, cálculos de escala, selección de métodos, analítica de datos y plan de tracking web y móvil. Su trabajo aseguró un enfoque experimental riguroso basado en evidencia y responsabilidad profesional. <br>
+		TF:  <br><br>
       </td>
       <td> TB1: A lo largo del desarrollo del trabajo, el equipo demostró una adecuada comprensión de sus responsabilidades éticas y profesionales, reflejada en la forma en que organizaron sus tareas y colaboraron entre sí. Cada integrante asumió su rol con compromiso, asegurando la calidad del contenido y el cumplimiento de los objetivos establecidos. Además, se priorizó la comunicación y el respeto por las ideas de todos, lo que permitió integrar diferentes aportes de manera ordenada. Esto evidencia una práctica responsable dentro del proceso de desarrollo del proyecto. <br><br>
       TP1: Durante esta entrega, el equipo demostró responsabilidad ética y profesional al implementar prácticas rigurosas de verificación, validación y DevOps. La elaboración de pruebas unitarias (Entities), de integración, BDD y de sistema (US01-US24) refleja un compromiso con la integridad de los datos y la fiabilidad de las funciones core. Asimismo, la configuración de pipelines de CI/CD evidencia una práctica profesional orientada a proteger la experiencia del usuario y mantener la estabilidad del producto.<br><br>
       TB2: En esta entrega, el equipo reforzó su compromiso ético y profesional mediante la implementación de pruebas estáticas de código (análisis de estándares, calidad y seguridad) y la configuración de un sistema de monitoreo continuo con alertas y notificaciones, garantizando la estabilidad operativa de la plataforma. Asimismo, la planificación y diseño de experimentos (Experiment Planning, Experiment Design y Experimentation) se realizó con rigor metodológico, asegurando que las decisiones sobre el producto se basen en evidencia y consideren el impacto en los usuarios finales y artistas emergentes.<br><br>
+		TF: Durante esta entrega, el equipo demostró responsabilidad ética y profesional al implementar el ciclo de vida experimental soportado por pipelines (Pipeline-supported, Experiment-Driven To-Be Software Platform Lifecycle), asegurando que el desarrollo de los Sprint Backlogs y la implementación de la landing page, la aplicación web, la aplicación móvil y el backend RESTful se realicen de manera ordenada, trazable y alineada con las buenas prácticas de ingeniería de software. Asimismo, la ejecución de entrevistas de validación (To-Be Validation Interviews) reflejó un compromiso con la obtención de retroalimentación honesta por parte de los usuarios reales, mientras que el análisis e interpretación de resultados, junto con la reprocesamiento del Question Backlog, evidenciaron rigurosidad en la toma de decisiones basada en evidencia. Finalmente, el equipo atendió de manera responsable las correcciones señaladas en la auditoría, incorporando las mejoras necesarias para garantizar la calidad y consistencia del informe. <br><br>
       </td>
     </tr>
     <tr>
@@ -480,18 +531,22 @@ La capacidad de reconocer responsabilidades éticas y profesionales en situacion
         TB1: <br> Se aseguró de que las decisiones tomadas dentro del equipo sigan un enfoque organizado y responsable, considerando la importancia de mantener un trabajo estructurado que permita un desarrollo sostenible del proyecto.<br><br>
         TP1: <br> Evaluó el impacto de la Entrega Continua y las pruebas del sistema en la estabilidad operativa de la plataforma, asegurando que la automatización de procesos minimice fallos técnicos que podrían afectar negativamente la experiencia social de los usuarios. <br><br>
         TB2: <br> Evaluó el impacto del análisis estático de código y del monitoreo continuo en la estabilidad y seguridad de la plataforma. Implementó herramientas de análisis que garantizan que el código cumpla con estándares de calidad y seguridad, considerando cómo estas prácticas contribuyen a un entorno digital confiable para los usuarios y artistas emergentes. <br><br>
+		TF:  <br><br>
         Collantes Carrillo, Diego Mateo <br><br>
         TB1: <br>Aportó a que el contenido del proyecto sea comprensible y accesible, considerando el impacto social de la solución en la forma en que las personas descubren y acceden a la música en vivo.<br><br>
         TP1: <br><br>
         TB2: <br> Emitió juicios informados al diseñar los experimentos (Experiment Design) y la fase de Experimentación, considerando cómo las hipótesis, métricas y condiciones definidas impactan en la toma de decisiones del producto. Las To-Be User Stories y el Product Backlog reflejan una comprensión del contexto social y económico de los usuarios y artistas emergentes. <br><br>
+		TF:  <br><br>
         Lizarbe Alvarez, Ariana Nickole <br><br>
         TB1: <br> Incorporó una perspectiva empática en el desarrollo del proyecto, analizando cómo la solución puede mejorar la experiencia del usuario y fortalecer la conexión entre los fans y la comunidad musical.<br><br>
         TP1: <br> Aportó para que el contenido del proyecto sea organizado y analítico, considerando plenamente las importancia de las pruebas funcionales en el código fuente <br><br>
         TB2: <br> Aportó una perspectiva analítica en el diseño experimental, evaluando cómo las hipótesis, métricas y condiciones seleccionadas impactan en la experiencia del usuario y en la efectividad de las soluciones propuestas, asegurando que el diseño de experimentos esté alineado con las necesidades reales del público objetivo. <br><br>
+		TF:  <br><br>
         Ortiz Cardenas, Johanna Antuanete <br><br>
         TB1: Investigó y consideró tendencias tecnológicas actuales, con el objetivo de asegurar que la solución propuesta sea viable y tenga un impacto positivo tanto en el entorno digital como en el ámbito cultural.<br><br>
         TP1: Investigó y seleccionó herramientas de despliegue continuo, con el objetivo de asegurar que la solución sea escalable y tenga un impacto positivo en la disponibilidad del servicio para los usuarios. <br><br>
         TB2: <br> Investigó y documentó el plan experimental (Experiment Planning), evaluando cómo las preguntas de investigación y las Experiment Cards impactan en la dirección del producto. Consideró el contexto social de los usuarios para asegurar que los experimentos respondan a necesidades auténticas del ecosistema musical. <br><br>
+		TF:  Contribuyó en la revisión y complementación de las Experiment Cards, evaluando que las preguntas e hipótesis planteadas respondan a necesidades reales del ecosistema musical, y aseguró que la documentación final refleje adecuadamente el impacto esperado de los experimentos en los usuarios y artistas emergentes. <br><br>
         Sarmiento Medina, Loreley <br><br>
         TB1: <br> Analizó la problemática considerando su impacto en el contexto social y cultural, asegurando que la propuesta esté alineada con necesidades reales y aporte valor tanto a los usuarios como a los artistas.<br><br>
         TP1: <br> Analizó la importancia de las pruebas unitarias y de sistema iniciales para garantizar que el acceso a la plataforma (US01-US05) sea inclusivo y eficiente, permitiendo que artistas emergentes tengan una puerta de entrada confiable a la visibilidad digital. <br><br>
@@ -500,16 +555,17 @@ La capacidad de reconocer responsabilidades éticas y profesionales en situacion
         TB1: <br>Evaluó la solución desde un enfoque analítico y creativo, considerando su impacto en la difusión de artistas emergentes y en la mejora de la experiencia de los usuarios dentro del ecosistema musical.<br>
         TP1: <br>Utilice pruebas automatizadas para garantizar un software más confiable y eficiente, reduciendo errores y mejorando la experiencia del usuario, lo que contribuye positivamente al impacto social y tecnológico de la aplicación.<br>
         TB2: <br> Evaluó el diseño experimental desde un enfoque analítico, considerando cómo las hipótesis, métricas, condiciones y el plan de tracking impactan en la validación de la solución y en la generación de valor para los usuarios y artistas dentro del ecosistema musical.<br>
+		TF:  <br><br>
       </td>
       <td>El equipo logró considerar el impacto de la solución propuesta desde una perspectiva más amplia, tomando en cuenta aspectos sociales, culturales y tecnológicos. A través del análisis de la problemática, se evidenció una intención clara de generar valor tanto para los usuarios como para los artistas emergentes. Asimismo, se evaluó cómo la solución puede influir en la forma en que las personas acceden a la música en vivo y participan en la escena local. Esto demuestra una capacidad para tomar decisiones informadas, alineadas con el contexto y las necesidades reales del entorno.<br><br>
       TP1: El equipo emitió juicios informados al diseñar las suites de testing (unitarias y de sistema) y los pipelines de DevOps, considerando cómo la robustez técnica se traduce en confianza social. La validación rigurosa de las entidades y flujos de usuario asegura que la plataforma sea una herramienta sostenible económicamente para los artistas y socialmente valiosa para los fans. La automatización garantiza que los cambios lleguen al usuario de forma rápida, segura y con un uso eficiente de recursos tecnológicos. <br><br>
       TB2: El equipo emitió juicios informados al integrar prácticas de verificación estática y monitoreo continuo que protegen la experiencia del usuario y la sostenibilidad del servicio. Además, el enfoque de Experiment-Driven Development permitió evaluar críticamente el impacto de las soluciones propuestas, considerando aspectos sociales (conexión entre fans y artistas), económicos (visibilidad de artistas emergentes) y tecnológicos (eficiencia de la plataforma), demostrando una comprensión integral del contexto en el que opera GigMap.<br><br>
+		TF: El equipo emitió juicios informados al analizar los resultados obtenidos durante el ciclo experimental, evaluando cómo la implementación de la plataforma (landing page, aplicación web, aplicación móvil y backend) impacta en la accesibilidad y experiencia de los usuarios y artistas emergentes dentro del ecosistema musical. Las entrevistas de validación y el análisis de resultados permitieron identificar hallazgos relevantes que fueron utilizados para reprocesar el Question Backlog, demostrando una toma de decisiones fundamentada en evidencia real. Asimismo, la sesión de Shareback y los artefactos de aprendizaje continuo reflejaron una capacidad de reflexión crítica sobre el proceso seguido, mientras que la elaboración del video introductorio para la etapa de pre-lanzamiento evidenció un juicio informado sobre la importancia de comunicar de manera clara y responsable las funcionalidades del producto a los futuros usuarios. Las correcciones derivadas de la auditoría fortalecieron la calidad global del entregable, reflejando un compromiso constante del equipo con la mejora continua y la responsabilidad profesional. <br><br>
       </td>
     </tr>
   </tbody>
 </table>
 
-# Part I: As-Is Software Project
 
 # Part I: As-Is Software Project
 
@@ -7256,22 +7312,17 @@ Como parte de la estrategia de pre-lanzamiento, se elaboró un video introductor
 
 # Conclusiones
 
-El desarrollo del proyecto GigMap permitió evidenciar una problemática real en la forma en que los usuarios acceden a conciertos en vivo, especialmente aquellos de menor escala. Se identificó que la falta de información centralizada y en tiempo real limita el descubrimiento de eventos y reduce la participación del público. Esto demuestra la necesidad de soluciones tecnológicas enfocadas en la inmediatez y personalización.
-Mediante el uso del enfoque Lean UX y el análisis de entrevistas, se logró validar las principales necesidades tanto de los fans como de los artistas emergentes. Ambos segmentos coinciden en la dificultad de difusión y acceso a eventos, lo que respalda la propuesta de valor de GigMap. Este proceso permitió tomar decisiones más informadas y centradas en el usuario.
-
-El trabajo colaborativo del equipo fue clave para el desarrollo integral del informe, permitiendo abordar distintas áreas como análisis, diseño y propuesta de solución. La división de responsabilidades y la constante revisión conjunta garantizaron coherencia y calidad en los entregables. Además, se fomentó un ambiente de respeto y aporte continuo entre los integrantes.
-
-GigMap se posiciona como una solución con alto potencial de impacto en el ámbito cultural, social y tecnológico. No solo facilita el descubrimiento de conciertos, sino que también impulsa la visibilidad de artistas independientes y fortalece la conexión con su audiencia. De esta manera, contribuye al crecimiento de la escena musical local y a la generación de experiencias significativas para los usuarios.
+El desarrollo de esta entrega final permitió llevar a GigMap desde una propuesta validada conceptualmente hacia una plataforma funcional, implementando de manera integrada la landing page, la aplicación web, la aplicación móvil y el backend RESTful bajo un enfoque de desarrollo soportado por pipelines y guiado por experimentación. Esto evidencia la capacidad del equipo para transformar hallazgos de investigación en soluciones técnicas concretas y desplegables.
+La ejecución de las entrevistas de validación (To-Be Validation Interviews) permitió contrastar las funcionalidades implementadas con las expectativas reales de los usuarios, confirmando que el enfoque Experiment-Driven Development aporta valor al reducir la incertidumbre en la toma de decisiones. El análisis e interpretación de resultados, junto con el re-priorizado del Question Backlog, demostraron que el equipo supo ajustar su rumbo en función de la evidencia recogida, en lugar de asumir supuestos sin sustento.
+La sesión de Shareback y los artefactos de aprendizaje continuo evidenciaron la importancia de institucionalizar el conocimiento generado durante el proyecto, permitiendo que los hallazgos y aprendizajes no se pierdan al finalizar cada ciclo experimental, sino que se conviertan en insumos para futuras iteraciones del producto.
+Finalmente, la elaboración del video introductorio y la preparación de la plataforma para su pre-lanzamiento marcan el cierre de un ciclo que va desde la identificación de una problemática real hasta la entrega de un producto listo para ser presentado a sus primeros usuarios, consolidando a GigMap como una solución viable dentro del ecosistema musical.
 
 # Recomendaciones
 
-Se recomienda continuar con la validación del producto mediante pruebas con usuarios reales, utilizando prototipos funcionales que permitan recoger retroalimentación directa. Esto ayudará a identificar mejoras en la usabilidad, funcionalidades clave y experiencia general, asegurando que GigMap responda efectivamente a las necesidades detectadas en el análisis inicial.
-
-Es importante fortalecer las estrategias de adquisición de usuarios, especialmente en etapas tempranas, mediante alianzas con artistas emergentes, locales y organizadores de eventos. Estas colaboraciones permitirán incrementar la base de datos de conciertos y generar mayor visibilidad, consolidando la propuesta de valor de la plataforma en el mercado.
-
-Se recomienda incorporar funcionalidades analíticas tanto para usuarios como para artistas, como métricas de asistencia, preferencias musicales y comportamiento dentro de la app. Esto no solo mejorará la personalización del servicio, sino que también brindará información valiosa para la toma de decisiones y la mejora continua del producto.
-
-Finalmente, se sugiere planificar la escalabilidad del sistema desde etapas tempranas, considerando su posible expansión a nuevas ciudades o países. Para ello, será clave diseñar una arquitectura flexible y adaptable que permita integrar nuevas fuentes de datos y mantener un rendimiento óptimo a medida que crezca la cantidad de usuarios y eventos.
+Se recomienda dar continuidad al ciclo experimental una vez lanzada la plataforma, manteniendo activo el registro y análisis de nuevas hipótesis a partir del comportamiento real de los usuarios en producción, de modo que el Question Backlog siga actualizándose con evidencia post-lanzamiento.
+Es importante consolidar y automatizar en mayor medida el pipeline de despliegue continuo, de manera que las mejoras derivadas de los aprendizajes obtenidos en las sesiones de Shareback puedan integrarse rápidamente a la landing page, la aplicación web, la móvil y el backend, reduciendo el tiempo entre el aprendizaje y la implementación.
+Se sugiere ampliar las entrevistas de validación a una muestra más diversa de usuarios y artistas emergentes tras el pre-lanzamiento, con el fin de robustecer los hallazgos obtenidos hasta el momento y detectar oportunidades de mejora no identificadas en las primeras iteraciones.
+Finalmente, se recomienda dar seguimiento al impacto del video introductorio y demás materiales de pre-lanzamiento, midiendo su efectividad en la conversión de visitantes de la landing page en usuarios activos de la aplicación, de manera que esta información retroalimente futuras estrategias de comunicación y adquisición de usuarios.
 
 # Bibliografía
 
