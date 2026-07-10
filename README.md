@@ -526,7 +526,8 @@ La capacidad de reconocer responsabilidades éticas y profesionales en situacion
         TB1: <br> Se encargó del desarrollo del capítulo 1, asegurando una base sólida y bien estructurada para el proyecto. También realizó una revisión general del informe y de las historias de usuario, verificando la coherencia, organización y alineación con los objetivos planteados.<br><br>
         TP1: <br> Desarrolló las pruebas unitarias de las entidades principales (Core Entities Unit Tests) y las pruebas del sistema para las historias de usuario US01, US02, US04 y US05. Su trabajo garantizó que la lógica de negocio base sea sólida y que los procesos de registro y búsqueda funcionen correctamente bajo estándares de calidad profesional. <br><br>
         TB2: <br> Desarrolló conjuntamente la sección de Experiment Planning, cubriendo el As-Is Summary, Raw Material, Experiment-Ready Questions, Question Backlog y Experiment Cards. Demostró responsabilidad profesional al estructurar el plan experimental de manera organizada y alineada con los objetivos del producto y las necesidades de los usuarios. <br><br>
-		TF:  <br><br>
+		TF: <br>
+Se encargó de la elaboración y consolidación de la sección Experiment Aftermath & Analysis, incluyendo el análisis e interpretación de los resultados obtenidos mediante el formulario de validación aplicado a fans de la música y artistas emergentes. Organizó las evidencias estadísticas, interpretó los resultados de cada funcionalidad y desarrolló el Re-scored and Re-prioritized Question Backlog. Su trabajo evidenció responsabilidad ética y profesional al presentar los resultados de manera transparente, reconocer las limitaciones de la muestra y evitar afirmar como comprobados aquellos incrementos que todavía requieren datos longitudinales de analítica. <br><br>
         Zegarra López, Renato Sebastián Rubber <br><br>
         TB1: <br> Desarrolló el capítulo 2 aplicando sus habilidades de análisis y creatividad, aportando ideas que enriquecieron la propuesta. Asimismo, participó en la revisión de las historias de usuario, mejorando su claridad y consistencia.<br><br>
         TP1: <br>Aplique informacion de pruebas automatizadas con herramientas como JUnit, Mockito y Selenium para asegurar la calidad y correcto funcionamiento del software, demostrando responsabilidad profesional y compromiso con buenas prácticas de desarrollo.<br>
@@ -566,6 +567,8 @@ La capacidad de reconocer responsabilidades éticas y profesionales en situacion
         TB1: <br> Analizó la problemática considerando su impacto en el contexto social y cultural, asegurando que la propuesta esté alineada con necesidades reales y aporte valor tanto a los usuarios como a los artistas.<br><br>
         TP1: <br> Analizó la importancia de las pruebas unitarias y de sistema iniciales para garantizar que el acceso a la plataforma (US01-US05) sea inclusivo y eficiente, permitiendo que artistas emergentes tengan una puerta de entrada confiable a la visibilidad digital. <br><br>
         TB2: <br> Analizó la problemática actual (As-Is Summary) e identificó los materiales base para la experimentación, evaluando cómo las preguntas experimentales y el backlog pueden guiar decisiones informadas que mejoren la experiencia de los usuarios y la visibilidad de los artistas emergentes en la plataforma. <br><br>
+		  TF: <br>
+Analizó los resultados de la validación considerando el impacto de GigMap en sus dos segmentos objetivo. Identificó que el mapa interactivo y las comunidades generan valor para los fans, mientras que los perfiles, la publicación de conciertos y las herramientas de visibilidad representan beneficios relevantes para los artistas emergentes. A partir de la evidencia recopilada, formuló juicios informados sobre las mejoras necesarias en la información de los conciertos, los perfiles artísticos y la creación de eventos asociados, contribuyendo a orientar las siguientes iteraciones de la plataforma desde una perspectiva social, cultural, económica y tecnológica. <br><br>
         Zegarra López, Renato Sebastián Rubber <br><br>
         TB1: <br>Evaluó la solución desde un enfoque analítico y creativo, considerando su impacto en la difusión de artistas emergentes y en la mejora de la experiencia de los usuarios dentro del ecosistema musical.<br>
         TP1: <br>Utilice pruebas automatizadas para garantizar un software más confiable y eficiente, reduciendo errores y mejorando la experiencia del usuario, lo que contribuye positivamente al impacto social y tecnológico de la aplicación.<br>
@@ -7289,9 +7292,389 @@ Para el caso del Landing Page, se hizo el deployment a través de GitHub Pages, 
 
 ## 8.4. Experiment Aftermath & Analysis
 
+En esta sección se presentan los resultados obtenidos después de realizar las entrevistas de validación y aplicar los formularios a representantes de los segmentos objetivo de GigMap. La información recopilada permite analizar la experiencia de los participantes con las funcionalidades implementadas, identificar dificultades de uso y conocer su percepción sobre el valor que la plataforma ofrece tanto a los fans de la música como a los artistas emergentes.El análisis se realizará tomando como referencia las preguntas, hipótesis, métricas y condiciones definidas previamente en las etapas de Experiment Planning y Experiment Design. Asimismo, los resultados obtenidos permitirán determinar qué funcionalidades fueron comprendidas y valoradas positivamente, cuáles requieren mejoras y qué nuevas preguntas deberán ser consideradas en futuras iteraciones del producto. Para facilitar el procesamiento de la información, las preguntas de las entrevistas fueron adaptadas a un formulario compuesto principalmente por preguntas cerradas, escalas de valoración y una pregunta abierta por cada segmento. De esta manera, será posible obtener resultados cuantificables mediante frecuencias, cantidades y porcentajes.
+
+### 8.4.1. Analysis and Interpretation of Results
 ### 8.4.1. Analysis and Interpretation of Results
 
+Para evaluar la experiencia de los usuarios con las funcionalidades implementadas en GigMap, se aplicó un formulario de validación posterior a la interacción con el prototipo. El formulario estuvo dirigido a los dos segmentos objetivo del producto: fans de la música y artistas emergentes o integrantes de bandas independientes.
+
+Las preguntas permitieron recopilar información sobre la comprensión de la propuesta de valor, la facilidad de uso, la utilidad percibida de las funcionalidades y la intención de uso de la plataforma. Los resultados fueron analizados mediante cantidades y porcentajes, diferenciando las respuestas de cada segmento debido a que los fans y los artistas utilizan GigMap con objetivos distintos.
+
+Se registraron 20 respuestas en las preguntas generales. En las preguntas específicas se obtuvieron 13 respuestas del segmento de fans y 8 respuestas en la sección de artistas. Debido a esta diferencia entre el total general y las respuestas segmentadas, los resultados de cada pregunta se interpretan según la cantidad de respuestas indicada en cada gráfico.
+
+
+
+#### Distribución de los participantes por segmento
+
+La distribución general de los participantes muestra que el 65% indicó pertenecer al segmento de fans de la música, mientras que el 35% se identificó como artista emergente o integrante de una banda independiente. Esto demuestra que la muestra incluyó representantes de los dos segmentos objetivo de GigMap, aunque se contó con una mayor participación de fans.
+
+<p align="center">
+  <img src="assets/images/estadisticas/segmento.PNG" alt="Distribución de participantes por segmento" width="700">
+</p>
+
+
+#### Distribución de edades
+
+El 65% de los participantes se encontró en el rango de 18 a 24 años, constituyendo el grupo de edad predominante de la validación. Asimismo, el 15% tenía entre 25 y 30 años, otro 15% se encontraba entre los 31 y 35 años y el 5% tenía más de 40 años.
+
+Los resultados evidencian que la mayoría de los participantes pertenece a un público joven, lo cual es coherente con el segmento principal de GigMap y con el perfil de usuarios que utiliza herramientas digitales para descubrir conciertos, seguir artistas e interactuar en comunidades musicales.
+
+<p align="center">
+  <img src="assets/images/estadisticas/edad.PNG" alt="Distribución de edades de los participantes" width="700">
+</p>
+
+
+#### Tiempo de exploración de GigMap
+
+Respecto al tiempo dedicado a la validación, el 50% de los participantes utilizó o exploró GigMap durante más de 20 minutos. El 25% interactuó con la plataforma entre 16 y 20 minutos, mientras que el 10% lo hizo entre 11 y 15 minutos y otro 10% entre 5 y 10 minutos. Solo el 5% exploró la aplicación durante menos de 5 minutos.
+
+Estos resultados indican que el 75% de los participantes dedicó por lo menos 16 minutos a revisar el producto, lo cual permitió que la mayoría tuviera tiempo suficiente para conocer las principales funcionalidades antes de responder el formulario.
+
+<p align="center">
+  <img src="assets/images/estadisticas/tiempo.PNG" alt="Tiempo de exploración de GigMap" width="700">
+</p>
+
+
+## Resultados del segmento de fans de la música
+
+Para el segmento de fans se registraron 13 respuestas. Las preguntas evaluaron la comprensión de la propuesta de GigMap, la facilidad para utilizar sus funciones principales y la utilidad percibida de las características sociales y de descubrimiento de conciertos.
+
+
+
+#### Comprensión del Landing Page
+
+El 84.6% de los fans indicó que comprendió completamente qué es GigMap y qué beneficios ofrece para los aficionados a la música. El 15.4% señaló que lo comprendió parcialmente. No se registraron respuestas que indicaran falta de comprensión o que el participante no hubiera revisado el Landing Page.
+
+El resultado demuestra que el Landing Page comunica de manera adecuada la propuesta de valor de GigMap. Sin embargo, la existencia de un 15.4% de comprensión parcial indica que algunos mensajes o beneficios podrían explicarse con mayor claridad.
+
+<p align="center">
+  <img src="assets/images/estadisticas/fans_beneficiolanding.PNG" alt="Comprensión del Landing Page por parte de los fans" width="700">
+</p>
+
+
+#### Facilidad del registro e inicio de sesión
+
+El 84.6% de los participantes calificó con el valor máximo de 5 la facilidad para registrarse o iniciar sesión en GigMap. El 15.4% restante otorgó una calificación de 4. No se obtuvieron calificaciones entre 1 y 3.
+
+La valoración promedio fue aproximadamente de **4.85 sobre 5**, lo cual evidencia que el proceso de acceso fue percibido como sencillo y comprensible por los fans.
+
+<p align="center">
+  <img src="assets/images/estadisticas/fans_facilidadiniciosesion.PNG" alt="Facilidad de registro e inicio de sesión para fans" width="700">
+</p>
+
+
+#### Búsqueda y filtrado de conciertos
+
+El 92.3% de los fans afirmó que pudo buscar y filtrar conciertos por nombre o género musical sin ninguna dificultad. El 7.7% pudo completar la búsqueda, aunque presentó algunas dificultades.
+
+Ningún participante indicó que no pudo completar el proceso o que no probó la funcionalidad. Por ello, se considera que el sistema de búsqueda y filtrado fue comprendido satisfactoriamente por la mayoría de los usuarios.
+
+![Búsqueda y filtrado de conciertos](../assets/images/estadisticas/fans_filtrar.PNG)
+
+
+
+#### Claridad del mapa para encontrar conciertos cercanos
+
+El 76.9% de los fans calificó con 5 la claridad de uso del mapa, mientras que el 23.1% le otorgó una calificación de 4. No se registraron valoraciones inferiores.
+
+La calificación promedio fue aproximadamente de **4.77 sobre 5**. Esto demuestra que el mapa interactivo fue entendido con facilidad y representa una funcionalidad relevante para el descubrimiento de conciertos cercanos.
+
+<p align="center">
+  <img src="assets/images/estadisticas/fans_filtrar.PNG" alt="Búsqueda y filtrado de conciertos" width="700">
+</p>
+
+
+#### Información mostrada en el detalle del concierto
+
+El 69.2% de los participantes consideró que la información presentada en el detalle del concierto fue completamente suficiente para decidir si asistiría. El 30.8% indicó que la información era útil, pero que todavía faltaban algunos datos.
+
+Ningún participante consideró que la información fuera insuficiente en su totalidad. No obstante, casi una tercera parte de los fans identificó la necesidad de incorporar información adicional. Este resultado evidencia que la pantalla de detalle cumple su propósito principal, pero todavía existe una oportunidad de mejora en la completitud de los datos mostrados.
+
+<p align="center">
+  <img src="assets/images/estadisticas/fans_facilidadmapa.PNG" alt="Claridad del mapa para encontrar conciertos cercanos" width="700">
+</p>
+
+
+#### Comprensión de los eventos asociados
+
+El 92.3% de los fans comprendió completamente el propósito de los eventos asociados, como reuniones o after parties. El 7.7% señaló que lo comprendió parcialmente.
+
+No se registraron participantes que no entendieran el concepto o que no hubieran visualizado la funcionalidad. Esto demuestra que la relación entre un concierto y sus actividades asociadas fue comunicada de manera clara.
+
+<p align="center">
+  <img src="assets/images/estadisticas/fans_afterparty.PNG" alt="Comprensión de eventos asociados y after parties" width="700">
+</p>
+
+
+#### Facilidad para buscar, unirse y visualizar una comunidad
+
+El 61.5% de los participantes calificó con 5 la facilidad para buscar, unirse y visualizar una comunidad. El 38.5% otorgó una calificación de 4. No se registraron valores inferiores.
+
+La valoración promedio fue aproximadamente de **4.62 sobre 5**, lo que indica que el flujo de interacción con las comunidades fue percibido como fácil. Sin embargo, el porcentaje de calificaciones de 4 sugiere que todavía pueden realizarse mejoras menores en la navegación o presentación de estas secciones.
+
+<p align="center">
+  <img src="assets/images/estadisticas/fans_comunidad.PNG" alt="Facilidad para buscar unirse y visualizar una comunidad" width="700">
+</p>
+
+
+#### Utilidad de las funcionalidades sociales
+
+El 61.5% de los fans calificó con 5 la utilidad de las reacciones, los perfiles de otros usuarios y la lista de publicaciones con “like”. El 38.5% otorgó una calificación de 4.
+
+La valoración promedio fue aproximadamente de **4.62 sobre 5**. La ausencia de calificaciones negativas demuestra que las funcionalidades sociales fueron consideradas relevantes para fortalecer la interacción y el sentido de comunidad dentro de GigMap.
+
+<p align="center">
+  <img src="assets/images/estadisticas/fans_like.PNG" alt="Utilidad de las funcionalidades sociales de las comunidades" width="700">
+</p>
+
+
+#### Funcionalidad que se utilizaría con mayor frecuencia
+
+La funcionalidad seleccionada con mayor frecuencia fue la exploración de conciertos mediante el mapa, con el 53.8% de las respuestas. En segundo lugar, el 23.1% indicó que utilizaría principalmente las comunidades.
+
+Las demás preferencias se distribuyeron en porcentajes de 7.7% entre la búsqueda de conciertos por nombre o género, la revisión de eventos asociados y otra funcionalidad seleccionada por un participante.
+
+El predominio del mapa confirma que el descubrimiento geolocalizado representa una de las propuestas de mayor valor para los fans. Asimismo, el interés por las comunidades evidencia que los usuarios no solo desean encontrar conciertos, sino también interactuar con otras personas con intereses musicales similares.
+
+<p align="center">
+  <img src="assets/images/estadisticas/fans_mayorfrecuencia.PNG" alt="Funcionalidades que los fans utilizarían con mayor frecuencia" width="700">
+</p>
+
+
+## Resultados del segmento de artistas emergentes y bandas independientes
+
+En la sección correspondiente a artistas se registraron 8 respuestas. Las preguntas estuvieron orientadas a evaluar la comprensión del valor ofrecido por GigMap, la facilidad para administrar el perfil, la claridad del registro de conciertos y la utilidad de las herramientas de interacción y visibilidad.
+
+
+
+#### Comprensión del Landing Page para artistas
+
+El 100% de los participantes indicó que comprendió completamente cómo GigMap puede ayudarlos como artistas emergentes o integrantes de una banda independiente.
+
+Este resultado demuestra que el Landing Page presenta de manera clara la propuesta de valor dirigida al segmento artístico, especialmente en relación con la publicación de conciertos, la interacción con seguidores y el aumento de visibilidad.
+
+<p align="center">
+  <img src="assets/images/estadisticas/artistas_landing.PNG" alt="Comprensión del Landing Page por parte de los artistas" width="700">
+</p>
+
+
+#### Claridad del registro e inicio de sesión como artista
+
+Los 8 participantes, equivalentes al 100%, calificaron con 5 la claridad del proceso de registro e inicio de sesión como artista.
+
+La valoración promedio fue de **5 sobre 5**, lo cual evidencia que el flujo fue completamente comprendido por los participantes y no presentó dificultades perceptibles durante la validación.
+
+<p align="center">
+  <img src="assets/images/estadisticas/artistas_iniciosesion.PNG" alt="Claridad del registro e inicio de sesión como artista" width="700">
+</p>
+
+
+#### Facilidad para personalizar el perfil artístico
+
+El 87.5% de los participantes calificó con 5 la facilidad para personalizar su perfil mediante el nombre artístico y la fotografía. El 12.5% otorgó una calificación de 3.
+
+La valoración promedio fue de **4.75 sobre 5**. Aunque la mayoría encontró el proceso muy sencillo, la calificación intermedia registrada por un participante sugiere que algún elemento del flujo de personalización podría requerir mayor claridad o asistencia.
+
+<p align="center">
+  <img src="assets/images/estadisticas/artistas_perfil.PNG" alt="Facilidad para personalizar el perfil artístico" width="700">
+</p>
+
+
+#### Suficiencia de la información del perfil
+
+El 62.5% de los artistas consideró que la información disponible en el perfil era completamente suficiente para presentarse ante nuevos fans. El 37.5% señaló que la información era suficiente, pero que agregaría más datos.
+
+No se registraron respuestas que calificaran el perfil como insuficiente. Sin embargo, más de una tercera parte de los participantes manifestó interés en incorporar información adicional. Por ello, puede considerarse la inclusión de campos complementarios como descripción musical, trayectoria, próximos lanzamientos, integrantes de la banda o contenido multimedia.
+
+<p align="center">
+  <img src="assets/images/estadisticas/artistas_perfilinformacion.PNG" alt="Suficiencia de la información del perfil artístico" width="700">
+</p>
+
+
+#### Facilidad para crear y publicar un concierto
+
+Los resultados correspondientes a la creación y publicación de conciertos muestran una valoración positiva del proceso. Esta funcionalidad permite que los artistas registren sus presentaciones dentro de GigMap y las hagan visibles para potenciales asistentes.
+
+<p align="center">
+  <img src="assets/images/estadisticas/artistas_crearconcierto.PNG" alt="Facilidad para crear y publicar un concierto" width="700">
+</p>
+Los datos obtenidos deben interpretarse conjuntamente con la evaluación de los campos solicitados durante el registro, debido a que la claridad de estos datos influye directamente en la facilidad general del proceso.
+
+
+
+#### Claridad y suficiencia de los campos para registrar un concierto
+
+El 75% de los artistas consideró que los campos solicitados para registrar un concierto fueron claros y suficientes. El 25% indicó que los campos eran claros, pero que faltaban algunos datos.
+
+No se registraron respuestas que señalaran campos confusos o imposibilidad para completar el registro. El resultado indica que el formulario de creación de conciertos es comprensible, aunque podría ampliarse con campos adicionales según las necesidades de los artistas.
+
+<p align="center">
+  <img src="assets/images/estadisticas/artistas_detalleconcierto.PNG" alt="Claridad y suficiencia de los campos para registrar un concierto" width="700">
+</p>
+
+
+#### Utilidad de crear una comunidad para interactuar con seguidores
+
+El 87.5% de los artistas calificó con 5 la utilidad de crear una comunidad para interactuar con sus seguidores. El 12.5% le otorgó una calificación de 4.
+
+La valoración promedio fue de **4.88 sobre 5**. Esto evidencia que las comunidades son percibidas como una herramienta valiosa para fortalecer la relación entre los artistas y sus fans.
+
+<p align="center">
+  <img src="assets/images/estadisticas/artistas_crearcomunidad.PNG" alt="Utilidad de crear una comunidad para interactuar con seguidores" width="700">
+</p>
+
+
+#### Comprensión del proceso para crear un evento asociado
+
+El 75% de los participantes comprendió completamente cómo crear un evento asociado a un concierto. El 25% señaló que comprendió el proceso parcialmente.
+
+Ningún participante indicó que no comprendiera cómo hacerlo o que no hubiera probado la funcionalidad. A pesar del resultado positivo, el porcentaje de comprensión parcial sugiere la conveniencia de incluir ayudas visuales, descripciones breves o ejemplos que diferencien un concierto de una actividad asociada.
+
+<p align="center">
+  <img src="assets/images/estadisticas/artistas_creareventoasociado.PNG" alt="Comprensión del proceso para crear eventos asociados" width="700">
+</p>
+
+
+#### Capacidad de GigMap para aumentar la visibilidad de los artistas
+
+El 87.5% de los participantes consideró que GigMap definitivamente podría ayudar a aumentar la visibilidad de sus presentaciones. El 12.5% indicó que probablemente sí contribuiría a este objetivo.
+
+No se registraron respuestas neutrales o negativas. Por ello, la percepción de los artistas respalda preliminarmente la propuesta de valor de GigMap como medio de promoción y conexión con nuevos fans.
+
+<p align="center">
+  <img src="assets/images/estadisticas/artista_visibilidad.PNG" alt="Percepción de los artistas sobre el aumento de visibilidad" width="700">
+</p>
+
+
+#### Interpretación general de los resultados
+
+Los resultados muestran una percepción favorable de GigMap en ambos segmentos objetivo. Los fans comprendieron la propuesta de la plataforma y valoraron principalmente el mapa interactivo, el sistema de búsqueda y las comunidades. Por su parte, los artistas comprendieron el valor promocional de la solución y evaluaron positivamente la personalización de perfiles, la publicación de conciertos y la creación de comunidades.
+
+Entre los resultados más relevantes se encuentran los siguientes:
+
+- El mapa fue la funcionalidad que los fans indicaron que utilizarían con mayor frecuencia.
+- El 92.3% de los fans pudo buscar y filtrar conciertos sin dificultad.
+- El 69.2% consideró completamente suficiente la información del concierto, aunque el 30.8% solicitó datos adicionales.
+- El 100% de los artistas comprendió la propuesta de valor del Landing Page.
+- El 87.5% de los artistas consideró que GigMap definitivamente podría aumentar la visibilidad de sus presentaciones.
+- El 87.5% calificó con la máxima valoración la utilidad de crear comunidades para interactuar con sus seguidores.
+- El 37.5% de los artistas agregaría más información a su perfil.
+- El 25% de los artistas identificó la necesidad de añadir campos al registro de conciertos.
+- El 25% comprendió solo parcialmente el proceso para crear eventos asociados.
+
+Estos resultados proporcionan evidencia preliminar favorable sobre la comprensión, facilidad de uso y utilidad percibida de las funcionalidades. Sin embargo, el formulario mide principalmente la percepción e intención de uso de los participantes. Por tanto, los incrementos planteados en las hipótesis —como el crecimiento real de seguidores, el aumento de visitas semanales o la participación recurrente en comunidades— deberán complementarse posteriormente con datos registrados por las herramientas de analítica de la plataforma.
+
+#### Conclusión del análisis
+
+La validación permitió identificar que GigMap presenta una propuesta de valor comprensible y funcionalidades que resultan relevantes para sus segmentos objetivo. Para los fans, el mapa representa el principal elemento diferenciador, ya que facilita el descubrimiento de conciertos cercanos. Para los artistas, las herramientas de visibilidad, los perfiles y las comunidades constituyen los principales beneficios de la plataforma.
+
+A partir de los resultados, se determina que las funcionalidades evaluadas deben mantenerse y continuar desarrollándose. No obstante, se deberán incorporar mejoras en la cantidad de información mostrada en los detalles de conciertos y perfiles artísticos, así como ayudas adicionales para explicar la creación de eventos asociados. Estos hallazgos servirán como base para actualizar la prioridad de las preguntas experimentales y orientar las siguientes iteraciones de GigMap.
+
 ### 8.4.2. Re-scored and Re-prioritized Question Backlog
+
+Después de analizar los resultados obtenidos mediante el formulario de validación, se realizó una nueva evaluación de las preguntas experimentales definidas inicialmente en el Question Backlog.
+
+La repriorización considera la evidencia recopilada durante la interacción con el prototipo, el nivel de incertidumbre que aún permanece, el riesgo asociado a cada funcionalidad, su impacto potencial en la experiencia de los usuarios y el interés manifestado por los participantes.
+
+Para esta nueva evaluación se utilizaron nuevamente los siguientes criterios:
+
+- **Confidence:** grado en que la pregunta cuenta con evidencia obtenida mediante la validación.
+- **Risk:** nivel de incertidumbre o posibilidad de que la funcionalidad no produzca el comportamiento esperado.
+- **Impact:** efecto potencial de la funcionalidad sobre el crecimiento y la experiencia de GigMap.
+- **Interest:** nivel de interés mostrado por los participantes.
+- **Total Score:** suma de los cuatro criterios.
+
+Es importante precisar que los resultados del formulario representan principalmente evidencia sobre comprensión, facilidad de uso, utilidad percibida e intención de uso. Por ello, las preguntas relacionadas con cambios de comportamiento a lo largo del tiempo todavía requieren experimentos respaldados por datos de analítica.
+
+| Nueva prioridad | Pregunta experimental | Confidence | Risk | Impact | Interest | Total Score | Estado |
+|---:|---|---:|---:|---:|---:|---:|---|
+| 8 | ¿Registrar la asistencia a conciertos dentro de la aplicación genera mayor interacción entre los usuarios de la comunidad? | 5 | 7 | 8 | 7 | 27 | Requiere nuevo experimento |
+| 8 | ¿Seguir artistas dentro de la aplicación incrementa la frecuencia con la que los usuarios visitan la plataforma? | 5 | 6 | 8 | 8 | 27 | Requiere nuevo experimento |
+| 5 | ¿La información mostrada sobre los eventos es suficiente para que los usuarios decidan asistir? | 8 | 5 | 8 | 8 | 29 | Parcialmente respondida |
+| 5 | ¿La visibilidad ofrecida por GigMap permite a los artistas emergentes llegar a nuevos seguidores? | 9 | 4 | 10 | 9 | 32 | Parcialmente respondida |
+| 3 | ¿La integración de foros temáticos fomenta una participación más activa y continua de los usuarios dentro de la plataforma? | 8 | 4 | 8 | 9 | 29 | Parcialmente respondida |
+| 3 | ¿La geolocalización ayuda a los usuarios a descubrir eventos musicales que de otro modo no conocerían? | 9 | 3 | 9 | 10 | 31 | Respondida preliminarmente |
+
+#### Análisis de la nueva priorización
+
+##### Registro de asistencia e interacción comunitaria
+
+La pregunta relacionada con el registro de asistencia recibió una prioridad de **8**, debido a que el formulario aplicado no evaluó directamente si registrar la asistencia produce un incremento real en los comentarios, reacciones o publicaciones de los usuarios.
+
+Aunque los participantes valoraron favorablemente las comunidades y sus funcionalidades sociales, todavía no existe evidencia suficiente para establecer una relación entre registrar la asistencia a un concierto y participar posteriormente en la comunidad.
+
+Por esta razón, será necesario realizar un nuevo experimento que compare el comportamiento de usuarios que utilizan el botón “Asistiré” frente a usuarios que no registran asistencia.
+
+##### Seguimiento de artistas y frecuencia de visitas
+
+Esta pregunta también recibió una prioridad de **8**, debido a que la validación no permitió medir el incremento de visitas semanales después de seguir a un artista.
+
+El formulario permitió conocer el interés general de los fans por las funcionalidades de GigMap, pero no recopiló datos longitudinales sobre la frecuencia con la que regresarían a la plataforma. Para responder esta pregunta será necesario registrar sesiones semanales y comparar usuarios que siguen artistas con usuarios que no siguen ninguno.
+
+##### Información mostrada en los eventos
+
+La pregunta relacionada con la suficiencia de la información recibió una prioridad de **5** y fue clasificada como parcialmente respondida.
+
+El 69.2% de los fans consideró que la información mostrada en el detalle del concierto era completamente suficiente para decidir si asistiría. Sin embargo, el 30.8% indicó que todavía faltaban algunos datos.
+
+Estos resultados muestran que la funcionalidad cumple su objetivo principal, pero requiere identificar qué información adicional necesitan los usuarios. En una siguiente iteración podría evaluarse la incorporación de enlaces de compra, recomendaciones, restricciones de ingreso, duración estimada, información de accesibilidad u opiniones de otros asistentes.
+
+##### Visibilidad de artistas emergentes
+
+La pregunta sobre la visibilidad de los artistas recibió una prioridad de **5** y fue clasificada como parcialmente respondida.
+
+El 87.5% de los artistas indicó que GigMap definitivamente podría aumentar la visibilidad de sus presentaciones, mientras que el 12.5% consideró que probablemente sí. Esto representa una percepción favorable de la propuesta de valor.
+
+No obstante, el formulario evaluó la intención y percepción de los artistas, pero no el crecimiento efectivo de seguidores durante un periodo determinado. Será necesario utilizar las métricas del perfil artístico para comparar el número de seguidores y visualizaciones antes y después de implementar las herramientas de visibilidad.
+
+##### Foros y comunidades temáticas
+
+La pregunta relacionada con los foros recibió una prioridad de **3**, debido a que los resultados obtenidos fueron favorables.
+
+Entre los fans, el 61.5% calificó con 5 la utilidad de las funcionalidades sociales y el 38.5% otorgó una valoración de 4. Además, el 23.1% indicó que las comunidades serían la funcionalidad que utilizaría con mayor frecuencia.
+
+En el segmento de artistas, el 87.5% calificó con 5 la utilidad de crear una comunidad para interactuar con seguidores y el 12.5% la calificó con 4.
+
+Estos resultados evidencian interés y utilidad percibida. Sin embargo, todavía será necesario comprobar si la participación se mantiene de manera continua mediante el registro semanal de publicaciones, comentarios, reacciones y usuarios activos.
+
+##### Geolocalización y descubrimiento de conciertos
+
+La pregunta sobre geolocalización recibió una prioridad de **3** y fue clasificada como respondida preliminarmente.
+
+El 76.9% de los fans calificó con 5 la claridad del mapa y el 23.1% le otorgó una valoración de 4. Asimismo, el 53.8% seleccionó la exploración de conciertos mediante el mapa como la funcionalidad que utilizaría con mayor frecuencia.
+
+Esta evidencia respalda la utilidad y aceptación del mapa como mecanismo de descubrimiento. No obstante, la hipótesis que plantea un incremento del 30% en los eventos descubiertos deberá verificarse posteriormente mediante datos de analítica obtenidos del grupo experimental y del grupo de control.
+
+#### Nuevas preguntas 
+
+A partir de los resultados se identificaron nuevas preguntas que pueden incorporarse al Question Backlog para futuras iteraciones:
+
+| Prioridad | Nueva pregunta | Motivo |
+|---:|---|---|
+| 8 | ¿Qué información adicional necesitan los fans en el detalle de un concierto para tomar la decisión de asistir? | El 30.8% indicó que faltaban algunos datos. |
+| 5 | ¿Qué campos adicionales necesitan los artistas en su perfil para presentarse adecuadamente ante nuevos fans? | El 37.5% indicó que agregaría más información al perfil. |
+| 5 | ¿Qué campos adicionales deberían incluirse durante la publicación de un concierto? | El 25% señaló que faltaban algunos campos. |
+| 3 | ¿Las ayudas visuales mejorarían la comprensión del proceso para crear eventos asociados? | El 25% comprendió parcialmente el proceso. |
+
+#### Question Backlog re-priorizado
+
+De acuerdo con el nivel de incertidumbre restante y el aprendizaje obtenido, el Question Backlog actualizado queda organizado de la siguiente manera:
+
+| Prioridad (1, 2, 3, 5, 8) | Pregunta |
+|---:|---|
+| 8 | ¿Registrar la asistencia a conciertos dentro de la aplicación genera mayor interacción entre los usuarios de la comunidad? |
+| 8 | ¿Seguir artistas dentro de la aplicación incrementa la frecuencia con la que los usuarios visitan la plataforma? |
+| 8 | ¿Qué información adicional necesitan los fans en el detalle de un concierto para tomar la decisión de asistir? |
+| 5 | ¿La información mostrada sobre los eventos es suficiente para que los usuarios decidan asistir? |
+| 5 | ¿La visibilidad ofrecida por GigMap permite a los artistas emergentes llegar a nuevos seguidores? |
+| 5 | ¿Qué campos adicionales necesitan los artistas en su perfil para presentarse adecuadamente ante nuevos fans? |
+| 5 | ¿Qué campos adicionales deberían incluirse durante la publicación de un concierto? |
+| 3 | ¿La integración de foros temáticos fomenta una participación más activa y continua de los usuarios dentro de la plataforma? |
+| 3 | ¿La geolocalización ayuda a los usuarios a descubrir eventos musicales que de otro modo no conocerían? |
+| 3 | ¿Las ayudas visuales mejorarían la comprensión del proceso para crear eventos asociados? |
+
+
 
 ## 8.5. Continuous Learning
 
