@@ -7217,6 +7217,16 @@ Enlace de la Encuesta: https://forms.gle/VqDjtBAgMeaWuVQD6
 
 ### 8.6.1. About-the-Product Intro Video
 
+Como parte de la estrategia de pre-lanzamiento, se elaboró un video introductorio en el que se muestran las principales funcionalidades de Gigmap.
+
+| **Video About-the-Product** |
+|-----------------------------|
+| **Screenshot:**<br>![Screenshot del video](assets/images/ss-video-about-the-product2.png) |
+| **Duración:**<br>2:32 |
+| **URL OneDrive:**<br>  `https://upcedupe-my.sharepoint.com/:v:/g/personal/u202311558_upc_edu_pe/IQAxvpLO7-vpSJ49qANyaf1qAbXJmMEOUdZM4wnkiwU-wTg?e=EcaAi8&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D`  |
+| **URL Youtube:**<br>  `https://youtu.be/4ypL066T7xk`  |
+| **Descripción:**<br>En el video se presenta una demostración del producto dirigida a los visitantes de nuestra landing page, donde se explican las principales funcionalidades de Gigmap. |
+
 # Conclusiones
 
 El desarrollo del proyecto GigMap permitió evidenciar una problemática real en la forma en que los usuarios acceden a conciertos en vivo, especialmente aquellos de menor escala. Se identificó que la falta de información centralizada y en tiempo real limita el descubrimiento de eventos y reduce la participación del público. Esto demuestra la necesidad de soluciones tecnológicas enfocadas en la inmediatez y personalización.
