@@ -452,6 +452,7 @@ URL de repositorio del reporte del proyecto: `https://github.com/StayBitsV2/GigM
     - [8.1.3. Experiment-Ready Questions](#813-experiment-ready-questions)
     - [8.1.4. Question Backlog](#814-question-backlog)
     - [8.1.5. Experiment Cards](#815-experiment-cards)
+
   - [8.2. Experiment Design](#82-experiment-design)
     - [8.2.1. Hypotheses](#821-hypotheses)
     - [8.2.2. Domain Business Metrics](#822-domain-business-metrics)
@@ -461,25 +462,32 @@ URL de repositorio del reporte del proyecto: `https://github.com/StayBitsV2/GigM
     - [8.2.6. Methods Selection](#826-methods-selection)
     - [8.2.7. Data Analytics: Goals, KPIs and Metrics Selection](#827-data-analytics-goals-kpis-and-metrics-selection)
     - [8.2.8. Web and Mobile Tracking Plan](#828-web-and-mobile-tracking-plan)
+
   - [8.3. Experimentation](#83-experimentation)
     - [8.3.1. To-Be User Stories](#831-to-be-user-stories)
     - [8.3.2. To-Be Product Backlog](#832-to-be-product-backlog)
     - [8.3.3. Pipeline-supported, Experiment-Driven To-Be Software Platform Lifecycle](#833-pipeline-supported-experiment-driven-to-be-software-platform-lifecycle)
       - [8.3.3.1. To-Be Sprint Backlogs](#8331-to-be-sprint-backlogs)
       - [8.3.3.2. Implemented To-Be Landing Page Evidence](#8332-implemented-to-be-landing-page-evidence)
-      - [8.3.3.3. Implemented To-Be Native-Mobile Application Evidence](#8333-implemented-to-be-native-mobile-application-evidence)
-      - [8.3.3.4. Implemented To-Be RESTful API and/or Serverless Backend Evidence](#8335-implemented-to-be-restful-api-andor-serverless-backend-evidence)
-      - [8.3.3.5. Team Collaboration Insights](#8336-team-collaboration-insights)
+      - [8.3.3.3. Implemented To-Be Frontend-Web Application Evidence](#8333-implemented-to-be-frontend-web-application-evidence)
+      - [8.3.3.4. Implemented To-Be Native-Mobile Application Evidence](#8334-implemented-to-be-native-mobile-application-evidence)
+      - [8.3.3.5. Implemented To-Be RESTful API and/or Serverless Backend Evidence](#8335-implemented-to-be-restful-api-andor-serverless-backend-evidence)
+      - [8.3.3.6. Team Collaboration Insights](#8336-team-collaboration-insights)
+
     - [8.3.4. To-Be Validation Interviews](#834-to-be-validation-interviews)
       - [8.3.4.1. Diseño de Entrevistas](#8341-diseño-de-entrevistas)
       - [8.3.4.2. Registro de Entrevistas](#8342-registro-de-entrevistas)
+
   - [8.4. Experiment Aftermath & Analysis](#84-experiment-aftermath--analysis)
     - [8.4.1. Analysis and Interpretation of Results](#841-analysis-and-interpretation-of-results)
     - [8.4.2. Re-scored and Re-prioritized Question Backlog](#842-re-scored-and-re-prioritized-question-backlog)
+
   - [8.5. Continuous Learning](#85-continuous-learning)
     - [8.5.1. Shareback Session Artifacts: Learning Workflow](#851-shareback-session-artifacts-learning-workflow)
+
   - [8.6. To-Be Software Platform Pre-launch](#86-to-be-software-platform-pre-launch)
     - [8.6.1. About-the-Product Intro Video](#861-about-the-product-intro-video)
+
 - [Conclusiones](#conclusiones)
 - [Recomendaciones](#recomendaciones)
 - [Bibliografía](#bibliografía)
@@ -7357,7 +7365,7 @@ El resultado demuestra que el Landing Page comunica de manera adecuada la propue
 
 El 84.6% de los participantes calificó con el valor máximo de 5 la facilidad para registrarse o iniciar sesión en GigMap. El 15.4% restante otorgó una calificación de 4. No se obtuvieron calificaciones entre 1 y 3.
 
-La valoración promedio fue aproximadamente de **4.85 sobre 5**, lo cual evidencia que el proceso de acceso fue percibido como sencillo y comprensible por los fans.
+La valoración promedio fue aproximadamente de 4.85 sobre 5, lo cual evidencia que el proceso de acceso fue percibido como sencillo y comprensible por los fans.
 
 <p align="center">
   <img src="assets/images/estadisticas/fans_facilidadiniciosesion.PNG" alt="Facilidad de registro e inicio de sesión para fans" width="700">
@@ -7370,20 +7378,20 @@ El 92.3% de los fans afirmó que pudo buscar y filtrar conciertos por nombre o g
 
 Ningún participante indicó que no pudo completar el proceso o que no probó la funcionalidad. Por ello, se considera que el sistema de búsqueda y filtrado fue comprendido satisfactoriamente por la mayoría de los usuarios.
 
-![Búsqueda y filtrado de conciertos](../assets/images/estadisticas/fans_filtrar.PNG)
-
+<p align="center">
+  <img src="assets/images/estadisticas/fans_filtrar.PNG" alt="Búsqueda y filtrado de conciertos" width="700">
+</p>
 
 
 #### Claridad del mapa para encontrar conciertos cercanos
 
 El 76.9% de los fans calificó con 5 la claridad de uso del mapa, mientras que el 23.1% le otorgó una calificación de 4. No se registraron valoraciones inferiores.
 
-La calificación promedio fue aproximadamente de **4.77 sobre 5**. Esto demuestra que el mapa interactivo fue entendido con facilidad y representa una funcionalidad relevante para el descubrimiento de conciertos cercanos.
+La calificación promedio fue aproximadamente de 4.77 sobre 5. Esto demuestra que el mapa interactivo fue entendido con facilidad y representa una funcionalidad relevante para el descubrimiento de conciertos cercanos.
 
 <p align="center">
-  <img src="assets/images/estadisticas/fans_filtrar.PNG" alt="Búsqueda y filtrado de conciertos" width="700">
+  <img src="assets/images/estadisticas/fans_facilidadmapa.PNG" alt="Claridad del mapa para encontrar conciertos cercanos" width="700">
 </p>
-
 
 #### Información mostrada en el detalle del concierto
 
@@ -7392,9 +7400,8 @@ El 69.2% de los participantes consideró que la información presentada en el de
 Ningún participante consideró que la información fuera insuficiente en su totalidad. No obstante, casi una tercera parte de los fans identificó la necesidad de incorporar información adicional. Este resultado evidencia que la pantalla de detalle cumple su propósito principal, pero todavía existe una oportunidad de mejora en la completitud de los datos mostrados.
 
 <p align="center">
-  <img src="assets/images/estadisticas/fans_facilidadmapa.PNG" alt="Claridad del mapa para encontrar conciertos cercanos" width="700">
+  <img src="assets/images/estadisticas/fans_detalles.PNG" alt="Información mostrada en el detalle del concierto" width="700">
 </p>
-
 
 #### Comprensión de los eventos asociados
 
@@ -7411,7 +7418,7 @@ No se registraron participantes que no entendieran el concepto o que no hubieran
 
 El 61.5% de los participantes calificó con 5 la facilidad para buscar, unirse y visualizar una comunidad. El 38.5% otorgó una calificación de 4. No se registraron valores inferiores.
 
-La valoración promedio fue aproximadamente de **4.62 sobre 5**, lo que indica que el flujo de interacción con las comunidades fue percibido como fácil. Sin embargo, el porcentaje de calificaciones de 4 sugiere que todavía pueden realizarse mejoras menores en la navegación o presentación de estas secciones.
+La valoración promedio fue aproximadamente de 4.62 sobre 5, lo que indica que el flujo de interacción con las comunidades fue percibido como fácil. Sin embargo, el porcentaje de calificaciones de 4 sugiere que todavía pueden realizarse mejoras menores en la navegación o presentación de estas secciones.
 
 <p align="center">
   <img src="assets/images/estadisticas/fans_comunidad.PNG" alt="Facilidad para buscar unirse y visualizar una comunidad" width="700">
@@ -7422,7 +7429,7 @@ La valoración promedio fue aproximadamente de **4.62 sobre 5**, lo que indica q
 
 El 61.5% de los fans calificó con 5 la utilidad de las reacciones, los perfiles de otros usuarios y la lista de publicaciones con “like”. El 38.5% otorgó una calificación de 4.
 
-La valoración promedio fue aproximadamente de **4.62 sobre 5**. La ausencia de calificaciones negativas demuestra que las funcionalidades sociales fueron consideradas relevantes para fortalecer la interacción y el sentido de comunidad dentro de GigMap.
+La valoración promedio fue aproximadamente de 4.62 sobre 5. La ausencia de calificaciones negativas demuestra que las funcionalidades sociales fueron consideradas relevantes para fortalecer la interacción y el sentido de comunidad dentro de GigMap.
 
 <p align="center">
   <img src="assets/images/estadisticas/fans_like.PNG" alt="Utilidad de las funcionalidades sociales de las comunidades" width="700">
@@ -7463,7 +7470,7 @@ Este resultado demuestra que el Landing Page presenta de manera clara la propues
 
 Los 8 participantes, equivalentes al 100%, calificaron con 5 la claridad del proceso de registro e inicio de sesión como artista.
 
-La valoración promedio fue de **5 sobre 5**, lo cual evidencia que el flujo fue completamente comprendido por los participantes y no presentó dificultades perceptibles durante la validación.
+La valoración promedio fue de 5 sobre 5, lo cual evidencia que el flujo fue completamente comprendido por los participantes y no presentó dificultades perceptibles durante la validación.
 
 <p align="center">
   <img src="assets/images/estadisticas/artistas_iniciosesion.PNG" alt="Claridad del registro e inicio de sesión como artista" width="700">
@@ -7474,7 +7481,7 @@ La valoración promedio fue de **5 sobre 5**, lo cual evidencia que el flujo fue
 
 El 87.5% de los participantes calificó con 5 la facilidad para personalizar su perfil mediante el nombre artístico y la fotografía. El 12.5% otorgó una calificación de 3.
 
-La valoración promedio fue de **4.75 sobre 5**. Aunque la mayoría encontró el proceso muy sencillo, la calificación intermedia registrada por un participante sugiere que algún elemento del flujo de personalización podría requerir mayor claridad o asistencia.
+La valoración promedio fue de 4.75 sobre 5. Aunque la mayoría encontró el proceso muy sencillo, la calificación intermedia registrada por un participante sugiere que algún elemento del flujo de personalización podría requerir mayor claridad o asistencia.
 
 <p align="center">
   <img src="assets/images/estadisticas/artistas_perfil.PNG" alt="Facilidad para personalizar el perfil artístico" width="700">
@@ -7518,7 +7525,7 @@ No se registraron respuestas que señalaran campos confusos o imposibilidad para
 
 El 87.5% de los artistas calificó con 5 la utilidad de crear una comunidad para interactuar con sus seguidores. El 12.5% le otorgó una calificación de 4.
 
-La valoración promedio fue de **4.88 sobre 5**. Esto evidencia que las comunidades son percibidas como una herramienta valiosa para fortalecer la relación entre los artistas y sus fans.
+La valoración promedio fue de 4.88 sobre 5. Esto evidencia que las comunidades son percibidas como una herramienta valiosa para fortalecer la relación entre los artistas y sus fans.
 
 <p align="center">
   <img src="assets/images/estadisticas/artistas_crearcomunidad.PNG" alt="Utilidad de crear una comunidad para interactuar con seguidores" width="700">
